@@ -1,0 +1,1001 @@
+id_staff,id_user,name_staff,position_staff,speciality,license_number,years_experience,id_service
+1,3,Dr. Ines Hammami,Dr.,Cardiologist,LIC-10001,12,2
+2,8,Dr. Ali Khelifi,Dr.,Oncologist,LIC-10002,16,1
+3,14,Maryem Ghannouchi,Nurse,Cardiovascular Nursing,LIC-10003,3,2
+4,17,Dr. Rania Mathlouthi,Dr.,Dermatologist,LIC-10004,10,3
+5,18,Anis Mejri,Intern,General Medicine,LIC-10005,18,1
+6,19,Dr. Sami Bouazizi,Dr.,Cardiac Surgeon,LIC-10006,15,2
+7,22,Dr. Nizar Souissi,Dr.,Neurologist,LIC-10007,6,4
+8,24,Ridha Jebali,Technician,Nuclear Medicine Specialist,LIC-10008,16,11
+9,26,Dr. Tarek Souissi,Dr.,Nuclear Medicine Specialist,LIC-10009,6,11
+10,29,Dr. Amine Jelassi,Dr.,Cosmetic Dermatologist,LIC-10010,25,3
+11,31,Dr. Sabah Rahali,Dr.,Family Medicine,LIC-10011,31,12
+12,32,Dr. Sawsen Jebali,Dr.,Thoracic Surgeon,LIC-10012,32,9
+13,34,Hamza Ben Mansour,Intern,Clinical Neurophysiologist,LIC-10013,0,4
+14,39,Radhia Ferchichi,Resident,Internal Medicine,LIC-10014,25,12
+15,40,Rayen Douzi,Resident,Neurologist,LIC-10015,17,4
+16,43,Dr. Sirine Oueslati,Dr.,Cardiologist,LIC-10016,22,2
+17,44,Dr. Bechir Chérif,Dr.,General Practitioner,LIC-10017,24,12
+18,46,Karim Karray,Intern,Glaucoma Specialist,LIC-10018,0,7
+19,47,Dr. Lobna Chaabane,Dr.,Retinal Specialist,LIC-10019,21,7
+20,49,Dr. Sabah Ben Salah,Dr.,Thoracic Surgeon,LIC-10020,15,9
+21,50,Dr. Amine Haddad,Dr.,Respiratory Therapist,LIC-10021,21,9
+22,51,Maryem Meddeb,Nurse,Neurosurgeon,LIC-10022,30,4
+23,53,Maryem Belhaj,Nurse,Dermatopathologist,LIC-10023,3,3
+24,54,Zaineb Hamrouni,Nurse,Thoracic Surgeon,LIC-10024,8,9
+25,60,Rim Karray,Technician,Radiologist,LIC-10025,32,11
+26,63,Amel Mansouri,Resident,Surgical Oncologist,LIC-10026,10,1
+27,65,Dr. Oussama Souissi,Dr.,Internal Medicine,LIC-10027,4,12
+28,66,Habib Mathlouthi,Technician,Family Medicine,LIC-10028,20,12
+29,70,Dr. Elyès Boughdiri,Dr.,Hematologist,LIC-10029,22,1
+30,74,Mondher Zouari,Technician,Physiotherapist,LIC-10030,26,6
+31,75,Nour Nefzi,Nurse,Pediatric Surgeon,LIC-10031,13,5
+32,78,Khadija Karray,Resident,Cardiac Surgeon,LIC-10032,21,2
+33,82,Dr. Ferida Ben Mansour,Dr.,Family Medicine,LIC-10033,30,12
+34,83,Dr. Radhia Khelifi,Dr.,Thyroid Specialist,LIC-10034,31,8
+35,90,Dr. Amel Azaiez,Dr.,Neurologist,LIC-10035,13,4
+36,91,Dr. Bechir Douzi,Dr.,Rheumatologist,LIC-10036,7,6
+37,92,Dr. Wassim Ben Mansour,Dr.,Retinal Specialist,LIC-10037,11,7
+38,93,Rania Sfar,Intern,Endocrinologist,LIC-10038,0,8
+39,96,Sami Saidi,Intern,Trauma Surgeon,LIC-10039,1,10
+40,100,Ghofrane Brik,Resident,Neurologist,LIC-10040,8,4
+41,101,Nesrine Haddad,Technician,Pediatric Surgeon,LIC-10041,12,5
+42,102,Radhia Kraiem,Resident,Internal Medicine,LIC-10042,6,12
+43,103,Sabah Chebbi,Resident,Pediatric Surgeon,LIC-10043,29,5
+44,104,Dr. Sara Ben Ali,Dr.,Cardiologist,LIC-10044,8,2
+45,108,Dr. Faten Douzi,Dr.,Hematologist,LIC-10045,18,1
+46,115,Dr. Houssem Kraiem,Dr.,Emergency Physician,LIC-10046,25,10
+47,118,Adel Douzi,Resident,Pediatric Surgeon,LIC-10047,9,5
+48,123,Dr. Amine Hamrouni,Dr.,Internal Medicine,LIC-10048,12,12
+49,126,Dr. Nabil Meddeb,Dr.,Glaucoma Specialist,LIC-10049,35,7
+50,128,Dr. Khaled Boukadida,Dr.,Thoracic Surgeon,LIC-10050,35,9
+51,129,Dr. Oussama Meddeb,Dr.,Clinical Neurophysiologist,LIC-10051,8,4
+52,131,Dr. Hana Sellami,Dr.,Hematologist,LIC-10052,21,1
+53,132,Dr. Sirine Hammami,Dr.,Emergency Physician,LIC-10053,11,10
+54,135,Hamza Bahri,Nurse,Oncologist,LIC-10054,8,1
+55,136,Emna Tlili,Intern,Pulmonologist,LIC-10055,3,9
+56,137,Dr. Sawsen Ben Ali,Dr.,Pediatrician,LIC-10056,34,5
+57,139,Bassem Fakhfakh,Technician,Dermatopathologist,LIC-10057,32,3
+58,144,Khadija Hamrouni,Intern,Critical Care Specialist,LIC-10058,1,10
+59,146,Dr. Khadija Sfar,Dr.,Neurologist,LIC-10059,13,4
+60,147,Dr. Maryem Tlili,Dr.,Dermatopathologist,LIC-10060,14,3
+61,148,Ibtissem Mbarki,Nurse,Dermatopathologist,LIC-10061,28,3
+62,149,Nour Bahri,Nurse,Neonatologist,LIC-10062,11,5
+63,150,Dr. Zohra Chebbi,Dr.,Pediatric Surgeon,LIC-10063,28,5
+64,153,Dr. Houssem Mzoughi,Dr.,Cardiovascular Nurse,LIC-10064,13,2
+65,155,Dr. Intissar Ben Salah,Dr.,Ophthalmologist,LIC-10065,21,7
+66,158,Dr. Mondher Ben Youssef,Dr.,Emergency Physician,LIC-10066,5,10
+67,170,Dr. Rim Jebali,Dr.,Nuclear Medicine Specialist,LIC-10067,27,11
+68,175,Dr. Nour Ferchichi,Dr.,Physiotherapist,LIC-10068,18,6
+69,176,Dr. Bilel Sellami,Dr.,Pediatrician,LIC-10069,7,5
+70,177,Zied Dridi,Resident,Cardiologist,LIC-10070,12,2
+71,181,Cyrine Brik,Nurse,Trauma Surgeon,LIC-10071,7,10
+72,183,Khaled Mbarki,Nurse,Respiratory Therapist,LIC-10072,7,9
+73,185,Omar Khelifi,Intern,Ophthalmologist,LIC-10073,2,7
+74,187,Mouna Zouari,Resident,Thyroid Specialist,LIC-10074,9,8
+75,188,Dr. Mehdi Ben Ali,Dr.,Radiologist,LIC-10075,10,11
+76,190,Zied Missaoui,Nurse,Surgical Oncologist,LIC-10076,16,1
+77,193,Thouraya Belhaj,Resident,Family Medicine,LIC-10077,12,12
+78,199,Ridha Mbarki,Technician,Respiratory Therapist,LIC-10078,18,9
+79,201,Dr. Houda Nefzi,Dr.,Pediatric Surgeon,LIC-10079,6,5
+80,205,Lobna Turki,Intern,Cardiologist,LIC-10080,0,2
+81,207,Dr. Baya Bouzid,Dr.,Dermatopathologist,LIC-10081,4,3
+82,208,Hamza Kraiem,Nurse,Respiratory Therapist,LIC-10082,1,9
+83,209,Dr. Houda Zouari,Dr.,Diabetologist,LIC-10083,33,8
+84,211,Dr. Wassim Zouari,Dr.,Ophthalmologist,LIC-10084,13,7
+85,213,Mouna Ben Ali,Resident,Internal Medicine,LIC-10085,23,12
+86,218,Dr. Tarek Kraiem,Dr.,Trauma Surgeon,LIC-10086,11,10
+87,219,Dr. Wassim Boughanmi,Dr.,Dermatologist,LIC-10087,24,3
+88,223,Yasmine Saidi,Intern,Hematologist,LIC-10088,3,1
+89,224,Naima Khelifi,Intern,Cardiovascular Nurse,LIC-10089,1,2
+90,227,Dr. Issam Karray,Dr.,Neonatologist,LIC-10090,31,5
+91,229,Dr. Amel Nasri,Dr.,Hematologist,LIC-10091,14,1
+92,230,Dr. Lobna Douzi,Dr.,Thyroid Specialist,LIC-10092,32,8
+93,233,Dr. Omar Mbarki,Dr.,Trauma Surgeon,LIC-10093,22,10
+94,238,Dr. Maher Mbarki,Dr.,Surgical Oncologist,LIC-10094,12,1
+95,241,Dr. Nabil Mbarki,Dr.,Electrophysiologist,LIC-10095,32,2
+96,243,Dr. Walid Maaloul,Dr.,Ophthalmologist,LIC-10096,32,7
+97,244,Mohamed Mzoughi,Nurse,Neurosurgeon,LIC-10097,26,4
+98,247,Sara Tlili,Intern,Ophthalmologist,LIC-10098,2,7
+99,249,Amira Ayari,Technician,Dermatologist,LIC-10099,23,3
+100,250,Dr. Mouna Jelassi,Dr.,Rheumatologist,LIC-10100,13,6
+101,254,Sirine Mejri,Nurse,Radiation Oncologist,LIC-10101,26,1
+102,264,Soumaya Kraiem,Intern,Radiation Oncologist,LIC-10102,1,1
+103,267,Adel Fakhfakh,Nurse,Electrophysiologist,LIC-10103,32,2
+104,268,Dr. Nadia Boukadida,Dr.,Physiotherapist,LIC-10104,33,6
+105,273,Baya Kraiem,Resident,Dermatologist,LIC-10105,7,3
+106,274,Dr. Ines Ghannouchi,Dr.,Rheumatologist,LIC-10106,1,6
+107,275,Dr. Habib Zouari,Dr.,Surgical Oncologist,LIC-10107,28,1
+108,276,Dr. Zaineb Kraiem,Dr.,Retinal Specialist,LIC-10108,19,7
+109,277,Dr. Amel Boukadida,Dr.,Ophthalmologist,LIC-10109,10,7
+110,280,Dr. Aziz Saidi,Dr.,Neurosurgeon,LIC-10110,8,4
+111,281,Dr. Mehdi Hamouda,Dr.,Interventional Radiologist,LIC-10111,13,11
+112,283,Dr. Adel Mansouri,Dr.,Internal Medicine,LIC-10112,33,12
+113,284,Dr. Sofien Mathlouthi,Dr.,Critical Care Specialist,LIC-10113,10,10
+114,286,Dr. Olfa Jebali,Dr.,Ophthalmologist,LIC-10114,18,7
+115,291,Walid Mzoughi,Resident,Radiation Oncologist,LIC-10115,6,1
+116,293,Rania Ben Youssef,Resident,Respiratory Therapist,LIC-10116,15,9
+117,298,Fares Ferchichi,Resident,Endocrinologist,LIC-10117,33,8
+118,299,Dr. Mondher Douzi,Dr.,Pediatrician,LIC-10118,18,5
+119,303,Sara Rahali,Intern,Family Medicine,LIC-10119,1,12
+120,305,Dr. Hedi Azaiez,Dr.,Dermatologist,LIC-10120,1,3
+121,306,Omar Fakhfakh,Intern,Neurosurgeon,LIC-10121,3,4
+122,309,Dr. Rim Boughdiri,Dr.,Ophthalmologist,LIC-10122,17,7
+123,312,Faten Ben Salah,Intern,Pediatrician,LIC-10123,0,5
+124,318,Dr. Sawsen Ben Ali,Dr.,Physiotherapist,LIC-10124,24,6
+125,320,Mouna Hachani,Intern,Clinical Neurophysiologist,LIC-10125,2,4
+126,321,Rami Chérif,Resident,Cardiologist,LIC-10126,9,2
+127,323,Dr. Ghofrane Kraiem,Dr.,Radiation Oncologist,LIC-10127,13,1
+128,330,Dr. Intissar Ayari,Dr.,Cardiovascular Nurse,LIC-10128,20,2
+129,332,Dr. Aziz Lassoued,Dr.,Thoracic Surgeon,LIC-10129,10,9
+130,333,Dr. Leila Ghannouchi,Dr.,Glaucoma Specialist,LIC-10130,17,7
+131,340,Fethi Karray,Intern,Physiotherapist,LIC-10131,0,6
+132,343,Houda Bouazizi,Technician,Glaucoma Specialist,LIC-10132,33,7
+133,344,Ahmed Khelifi,Nurse,General Practitioner,LIC-10133,19,12
+134,348,Dr. Ali Missaoui,Dr.,General Practitioner,LIC-10134,26,12
+135,349,Dr. Mounir Zouari,Dr.,Cosmetic Dermatologist,LIC-10135,33,3
+136,350,Naima Bahri,Resident,Glaucoma Specialist,LIC-10136,18,7
+137,353,Dr. Rami Mathlouthi,Dr.,Dermatopathologist,LIC-10137,14,3
+138,356,Dr. Aymen Hamouda,Dr.,Respiratory Therapist,LIC-10138,33,9
+139,359,Intissar Brik,Nurse,Pediatrician,LIC-10139,19,5
+140,362,Dr. Intissar Rahali,Dr.,Dermatologist,LIC-10140,3,3
+141,363,Issam Bouzid,Nurse,Radiation Oncologist,LIC-10141,18,1
+142,364,Dr. Karim Rahali,Dr.,Radiologist,LIC-10142,14,11
+143,366,Dr. Issam Jebali,Dr.,Interventional Radiologist,LIC-10143,24,11
+144,367,Asma Maaloul,Nurse,General Practitioner,LIC-10144,27,12
+145,369,Imen Oueslati,Intern,Oncologist,LIC-10145,2,1
+146,371,Fares Brik,Nurse,Cosmetic Dermatologist,LIC-10146,2,3
+147,379,Dr. Meriam Fakhfakh,Dr.,Internal Medicine,LIC-10147,25,12
+148,380,Dr. Rayen Nasri,Dr.,Endocrinologist,LIC-10148,21,8
+149,383,Rim Souissi,Resident,Cosmetic Dermatologist,LIC-10149,15,3
+150,384,Aziz Brik,Resident,Orthopedic Surgeon,LIC-10150,31,6
+151,387,Dr. Salma Boukadida,Dr.,Endocrinologist,LIC-10151,12,8
+152,388,Walid Missaoui,Technician,General Practitioner,LIC-10152,19,12
+153,389,Dr. Ahmed Tlili,Dr.,Cosmetic Dermatologist,LIC-10153,13,3
+154,392,Dr. Youssef Mzoughi,Dr.,Ophthalmologist,LIC-10154,30,7
+155,395,Dr. Radhia Haddad,Dr.,Internal Medicine,LIC-10155,9,12
+156,397,Dr. Aziz Rhouma,Dr.,Emergency Physician,LIC-10156,25,10
+157,398,Dr. Naima Trabelsi,Dr.,Oncologist,LIC-10157,9,1
+158,401,Dr. Tarek Hachani,Dr.,Pediatrician,LIC-10158,1,5
+159,403,Dr. Mohamed Ben Mansour,Dr.,Thoracic Surgeon,LIC-10159,22,9
+160,406,Dr. Intissar Maaloul,Dr.,Cosmetic Dermatologist,LIC-10160,29,3
+161,407,Anis Tlili,Intern,Endocrinologist,LIC-10161,1,8
+162,409,Rania Zghal,Nurse,Nuclear Medicine Specialist,LIC-10162,8,11
+163,411,Dr. Ines Meddeb,Dr.,Cardiovascular Nurse,LIC-10163,7,2
+164,413,Samir Boughanmi,Resident,Dermatologist,LIC-10164,15,3
+165,414,Ahmed Dridi,Resident,Ophthalmologist,LIC-10165,23,7
+166,417,Dr. Rayen Oueslati,Dr.,Interventional Radiologist,LIC-10166,8,11
+167,418,Dr. Mounir Khelifi,Dr.,Neurologist,LIC-10167,19,4
+168,419,Lotfi Bouazizi,Intern,Cardiovascular Nurse,LIC-10168,0,2
+169,422,Dr. Ali Belhaj,Dr.,Cosmetic Dermatologist,LIC-10169,34,3
+170,423,Dr. Khaoula Belhaj,Dr.,Interventional Radiologist,LIC-10170,10,11
+171,426,Sawsen Zouari,Nurse,Trauma Surgeon,LIC-10171,23,10
+172,429,Amine Rahali,Technician,Interventional Radiologist,LIC-10172,17,11
+173,432,Dr. Oussama Ghribi,Dr.,Radiation Oncologist,LIC-10173,10,1
+174,433,Hedi Mzoughi,Resident,Thyroid Specialist,LIC-10174,31,8
+175,435,Youssef Jebali,Resident,Family Medicine,LIC-10175,10,12
+176,436,Dr. Hamza Hamrouni,Dr.,Cosmetic Dermatologist,LIC-10176,23,3
+177,439,Hedi Boukadida,Resident,Thyroid Specialist,LIC-10177,27,8
+178,441,Mourad Ben Mansour,Intern,Dermatopathologist,LIC-10178,1,3
+179,447,Naima Turki,Technician,Thoracic Surgeon,LIC-10179,32,9
+180,449,Dr. Meriam Zghal,Dr.,Ophthalmologist,LIC-10180,27,7
+181,452,Dr. Cyrine Missaoui,Dr.,General Practitioner,LIC-10181,16,12
+182,457,Dr. Hatem Ben Ali,Dr.,Surgical Oncologist,LIC-10182,31,1
+183,465,Dr. Yasmine Boughdiri,Dr.,Surgical Oncologist,LIC-10183,24,1
+184,466,Dr. Habib Meddeb,Dr.,Neonatologist,LIC-10184,10,5
+185,468,Nadia Boughdiri,Resident,Neurologist,LIC-10185,15,4
+186,469,Dr. Omar Kraiem,Dr.,Cardiac Surgeon,LIC-10186,25,2
+187,471,Baya Trabelsi,Resident,Orthopedic Surgeon,LIC-10187,7,6
+188,474,Dr. Elyès Chérif,Dr.,Thyroid Specialist,LIC-10188,11,8
+189,477,Ahmed Mzoughi,Intern,Dermatologist,LIC-10189,1,3
+190,478,Youssef Ben Ali,Resident,Dermatologist,LIC-10190,31,3
+191,479,Mouna Ghannouchi,Nurse,Diabetologist,LIC-10191,22,8
+192,482,Dr. Ridha Ben Mansour,Dr.,Pediatrician,LIC-10192,10,5
+193,490,Dr. Rania Boughanmi,Dr.,Emergency Physician,LIC-10193,33,10
+194,493,Anis Ben Ali,Resident,Glaucoma Specialist,LIC-10194,30,7
+195,500,Makram Mansouri,Nurse,Critical Care Specialist,LIC-10195,20,10
+196,501,Intissar Dridi,Resident,Cosmetic Dermatologist,LIC-10196,6,3
+197,503,Dr. Cyrine Ben Youssef,Dr.,General Practitioner,LIC-10197,26,12
+198,506,Dr. Imen Chaabane,Dr.,Ophthalmologist,LIC-10198,5,7
+199,507,Khadija Chebbi,Technician,Rheumatologist,LIC-10199,26,6
+200,509,Dr. Zied Khelifi,Dr.,Rheumatologist,LIC-10200,28,6
+201,511,Dr. Wafa Rahali,Dr.,Cardiologist,LIC-10201,24,2
+202,512,Zaineb Hachani,Intern,Radiation Oncologist,LIC-10202,2,1
+203,514,Dr. Sana Zghal,Dr.,Cardiac Surgeon,LIC-10203,1,2
+204,519,Ferida Boughdiri,Nurse,Clinical Neurophysiologist,LIC-10204,13,4
+205,523,Dr. Ghofrane Hammami,Dr.,Pediatrician,LIC-10205,3,5
+206,524,Hela Ben Mansour,Technician,Oncologist,LIC-10206,21,1
+207,525,Dr. Salma Tlili,Dr.,Physiotherapist,LIC-10207,26,6
+208,529,Emna Mejri,Intern,Glaucoma Specialist,LIC-10208,2,7
+209,533,Dr. Yasmine Hamouda,Dr.,Physiotherapist,LIC-10209,33,6
+210,536,Dr. Amira Saidi,Dr.,Hematologist,LIC-10210,31,1
+211,539,Dr. Ibtissem Sellami,Dr.,Pediatrician,LIC-10211,10,5
+212,541,Dr. Thouraya Chebbi,Dr.,Radiologist,LIC-10212,15,11
+213,542,Dr. Rami Ghribi,Dr.,General Practitioner,LIC-10213,33,12
+214,544,Khaled Brik,Intern,Endocrinologist,LIC-10214,2,8
+215,551,Bassem Ben Salah,Resident,Hematologist,LIC-10215,16,1
+216,558,Dr. Rami Labidi,Dr.,Dermatopathologist,LIC-10216,32,3
+217,565,Dr. Amira Ghribi,Dr.,Cosmetic Dermatologist,LIC-10217,6,3
+218,568,Mounir Sfar,Technician,Orthopedic Surgeon,LIC-10218,19,6
+219,569,Anis Bouazizi,Nurse,Trauma Surgeon,LIC-10219,23,10
+220,573,Dr. Salma Bouazizi,Dr.,Family Medicine,LIC-10220,17,12
+221,578,Samia Nasri,Technician,Radiologist,LIC-10221,8,11
+222,579,Dr. Hela Boukadida,Dr.,Physiotherapist,LIC-10222,26,6
+223,581,Dr. Chokri Karray,Dr.,Diabetologist,LIC-10223,33,8
+224,582,Imen Hamrouni,Intern,Electrophysiologist,LIC-10224,3,2
+225,583,Dr. Mehdi Boughanmi,Dr.,Critical Care Specialist,LIC-10225,4,10
+226,588,Dr. Bechir Ben Mansour,Dr.,Internal Medicine,LIC-10226,1,12
+227,589,Dr. Maryem Karray,Dr.,Neonatologist,LIC-10227,11,5
+228,590,Dr. Hela Haddad,Dr.,Neurosurgeon,LIC-10228,30,4
+229,591,Elyès Maaloul,Intern,Diabetologist,LIC-10229,3,8
+230,593,Dr. Amine Maaloul,Dr.,General Practitioner,LIC-10230,26,12
+231,594,Dr. Sabah Jelassi,Dr.,Retinal Specialist,LIC-10231,5,7
+232,595,Hedi Ferchichi,Technician,Clinical Neurophysiologist,LIC-10232,31,4
+233,599,Sami Rahali,Technician,Radiation Oncologist,LIC-10233,31,1
+234,602,Dr. Maryem Rezgui,Dr.,Rheumatologist,LIC-10234,3,6
+235,605,Mourad Hachani,Resident,Surgical Oncologist,LIC-10235,28,1
+236,606,Dr. Samia Souissi,Dr.,Neurologist,LIC-10236,28,4
+237,609,Dr. Skander Nasri,Dr.,Cardiac Surgeon,LIC-10237,5,2
+238,614,Dr. Rim Haddad,Dr.,Pediatric Surgeon,LIC-10238,29,5
+239,616,Dr. Soumaya Nefzi,Dr.,Interventional Radiologist,LIC-10239,12,11
+240,617,Rania Maaloul,Resident,Physiotherapist,LIC-10240,11,6
+241,621,Wafa Mbarki,Resident,Diabetologist,LIC-10241,35,8
+242,623,Dr. Khadija Ben Mansour,Dr.,Family Medicine,LIC-10242,23,12
+243,627,Houssem Missaoui,Resident,Radiation Oncologist,LIC-10243,5,1
+244,628,Dr. Baya Fakhfakh,Dr.,Rheumatologist,LIC-10244,21,6
+245,629,Fatma Mzoughi,Technician,Cosmetic Dermatologist,LIC-10245,21,3
+246,631,Sirine Ben Mansour,Resident,Pediatric Surgeon,LIC-10246,1,5
+247,633,Dr. Latifa Sassi,Dr.,Interventional Radiologist,LIC-10247,7,11
+248,635,Dr. Leila Souissi,Dr.,Glaucoma Specialist,LIC-10248,35,7
+249,639,Habib Khelifi,Resident,Neurosurgeon,LIC-10249,14,4
+250,640,Dr. Walid Zouari,Dr.,Physiotherapist,LIC-10250,2,6
+251,643,Lobna Azaiez,Nurse,Pulmonologist,LIC-10251,32,9
+252,653,Rayen Chebbi,Resident,Retinal Specialist,LIC-10252,23,7
+253,659,Meriam Jelassi,Intern,Cardiac Surgeon,LIC-10253,3,2
+254,660,Dr. Mondher Ben Salah,Dr.,Thoracic Surgeon,LIC-10254,11,9
+255,661,Issam Jelassi,Resident,Pediatric Surgeon,LIC-10255,28,5
+256,663,Dr. Ghofrane Oueslati,Dr.,Cardiologist,LIC-10256,6,2
+257,664,Radhia Trabelsi,Resident,Electrophysiologist,LIC-10257,35,2
+258,667,Amira Rezgui,Technician,Thoracic Surgeon,LIC-10258,3,9
+259,668,Elyès Oueslati,Resident,Neurologist,LIC-10259,30,4
+260,669,Dr. Makram Ben Youssef,Dr.,Neurosurgeon,LIC-10260,8,4
+261,678,Mariem Ben Mansour,Technician,Glaucoma Specialist,LIC-10261,26,7
+262,679,Dr. Fatma Ben Salah,Dr.,Respiratory Therapist,LIC-10262,18,9
+263,682,Sawsen Nasri,Nurse,Glaucoma Specialist,LIC-10263,16,7
+264,683,Fatma Azaiez,Resident,Oncologist,LIC-10264,2,1
+265,686,Bilel Ben Mansour,Intern,Thoracic Surgeon,LIC-10265,2,9
+266,691,Slim Khelifi,Resident,Clinical Neurophysiologist,LIC-10266,26,4
+267,693,Walid Labidi,Resident,Hematologist,LIC-10267,9,1
+268,694,Dr. Ghassen Ben Youssef,Dr.,Retinal Specialist,LIC-10268,34,7
+269,695,Dr. Sana Jelassi,Dr.,Cardiac Surgeon,LIC-10269,33,2
+270,696,Sirine Rezgui,Resident,Interventional Radiologist,LIC-10270,11,11
+271,698,Dr. Asma Souissi,Dr.,Cardiologist,LIC-10271,28,2
+272,705,Dr. Mohamed Rezgui,Dr.,Oncologist,LIC-10272,25,1
+273,706,Dr. Ines Kraiem,Dr.,Thyroid Specialist,LIC-10273,23,8
+274,707,Dr. Hana Bouzid,Dr.,Pediatrician,LIC-10274,35,5
+275,709,Nesrine Brik,Resident,Pediatric Surgeon,LIC-10275,4,5
+276,710,Dr. Skander Maaloul,Dr.,Radiologist,LIC-10276,7,11
+277,712,Dr. Sami Chebbi,Dr.,Cardiac Surgeon,LIC-10277,19,2
+278,716,Dr. Mehdi Azaiez,Dr.,Cardiologist,LIC-10278,32,2
+279,721,Dr. Sara Boughdiri,Dr.,Ophthalmologist,LIC-10279,32,7
+280,722,Dr. Ahmed Turki,Dr.,Thyroid Specialist,LIC-10280,5,8
+281,725,Rami Zouari,Resident,Retinal Specialist,LIC-10281,29,7
+282,726,Anis Mathlouthi,Nurse,Radiation Oncologist,LIC-10282,3,1
+283,743,Sami Ferchichi,Intern,Thyroid Specialist,LIC-10283,0,8
+284,747,Sana Nefzi,Nurse,Cardiac Surgeon,LIC-10284,2,2
+285,751,Dr. Meriam Trabelsi,Dr.,Neurosurgeon,LIC-10285,8,4
+286,754,Rami Trabelsi,Intern,Dermatologist,LIC-10286,0,3
+287,755,Dr. Aziz Hamouda,Dr.,Neonatologist,LIC-10287,31,5
+288,758,Walid Maaloul,Intern,Internal Medicine,LIC-10288,2,12
+289,759,Raja Kraiem,Technician,Glaucoma Specialist,LIC-10289,26,7
+290,762,Dr. Walid Nasri,Dr.,Clinical Neurophysiologist,LIC-10290,18,4
+291,769,Nabil Sfar,Nurse,Dermatologist,LIC-10291,32,3
+292,771,Houda Boughanmi,Technician,Glaucoma Specialist,LIC-10292,18,7
+293,778,Dr. Hedi Labidi,Dr.,Trauma Surgeon,LIC-10293,28,10
+294,780,Walid Missaoui,Intern,Rheumatologist,LIC-10294,0,6
+295,784,Dr. Ridha Khelifi,Dr.,Respiratory Therapist,LIC-10295,27,9
+296,785,Amel Belhaj,Intern,Ophthalmologist,LIC-10296,0,7
+297,789,Hana Ghribi,Intern,Ophthalmologist,LIC-10297,2,7
+298,793,Dr. Nesrine Bouazizi,Dr.,Interventional Radiologist,LIC-10298,24,11
+299,795,Bilel Hachani,Intern,Cardiologist,LIC-10299,2,2
+300,796,Houssem Ben Ali,Intern,Neurosurgeon,LIC-10300,2,4
+301,799,Dr. Fares Bahri,Dr.,Retinal Specialist,LIC-10301,14,7
+302,802,Dr. Cyrine Souissi,Dr.,Respiratory Therapist,LIC-10302,5,9
+303,807,Hela Azaiez,Resident,Interventional Radiologist,LIC-10303,21,11
+304,811,Dr. Hedi Mejri,Dr.,Hematologist,LIC-10304,32,1
+305,812,Leila Rahali,Resident,Cardiologist,LIC-10305,29,2
+306,813,Anis Belhaj,Intern,Trauma Surgeon,LIC-10306,1,10
+307,816,Wissem Trabelsi,Nurse,Oncologist,LIC-10307,30,1
+308,819,Amel Ghannouchi,Resident,Oncologist,LIC-10308,22,1
+309,821,Dr. Radhia Trabelsi,Dr.,Endocrinologist,LIC-10309,27,8
+310,824,Baya Tlili,Nurse,Physiotherapist,LIC-10310,26,6
+311,831,Salma Bahri,Intern,Thyroid Specialist,LIC-10311,0,8
+312,833,Zohra Tlili,Technician,Thyroid Specialist,LIC-10312,8,8
+313,840,Dr. Sara Labidi,Dr.,Radiation Oncologist,LIC-10313,4,1
+314,843,Dr. Fatma Ghannouchi,Dr.,Rheumatologist,LIC-10314,28,6
+315,845,Dr. Olfa Khelifi,Dr.,Clinical Neurophysiologist,LIC-10315,24,4
+316,848,Dr. Meriam Ben Ali,Dr.,Pediatrician,LIC-10316,8,5
+317,851,Dr. Omar Tlili,Dr.,Neonatologist,LIC-10317,25,5
+318,855,Dr. Rim Hamouda,Dr.,Dermatopathologist,LIC-10318,30,3
+319,857,Sami Ghannouchi,Intern,Dermatopathologist,LIC-10319,3,3
+320,858,Dr. Ghassen Ayari,Dr.,Thoracic Surgeon,LIC-10320,16,9
+321,860,Hela Lassoued,Technician,Neonatologist,LIC-10321,31,5
+322,866,Olfa Maaloul,Nurse,Pediatric Surgeon,LIC-10322,6,5
+323,869,Dr. Lotfi Bahri,Dr.,Nuclear Medicine Specialist,LIC-10323,14,11
+324,870,Dr. Khadija Bouazizi,Dr.,Endocrinologist,LIC-10324,14,8
+325,871,Dr. Fatma Fakhfakh,Dr.,Diabetologist,LIC-10325,13,8
+326,877,Faten Sfar,Intern,Clinical Neurophysiologist,LIC-10326,2,4
+327,879,Ferida Tlili,Technician,Radiologist,LIC-10327,33,11
+328,880,Dr. Amira Boughdiri,Dr.,Neurosurgeon,LIC-10328,25,4
+329,881,Dr. Latifa Sellami,Dr.,Ophthalmologist,LIC-10329,5,7
+330,882,Dr. Skander Jelassi,Dr.,Interventional Radiologist,LIC-10330,7,11
+331,884,Dr. Bilel Chebbi,Dr.,General Practitioner,LIC-10331,16,12
+332,889,Ahmed Azaiez,Technician,Cosmetic Dermatologist,LIC-10332,2,3
+333,894,Adel Fakhfakh,Technician,Physiotherapist,LIC-10333,8,6
+334,906,Nadia Maaloul,Intern,Ophthalmologist,LIC-10334,1,7
+335,909,Zohra Saidi,Resident,Respiratory Therapist,LIC-10335,4,9
+336,910,Ridha Rahali,Intern,Cardiologist,LIC-10336,3,2
+337,912,Dr. Baya Jelassi,Dr.,Pediatrician,LIC-10337,26,5
+338,913,Nizar Belhaj,Nurse,Thoracic Surgeon,LIC-10338,32,9
+339,919,Dr. Khaled Jelassi,Dr.,Radiologist,LIC-10339,16,11
+340,922,Dr. Sami Dridi,Dr.,Oncologist,LIC-10340,18,1
+341,930,Dr. Tarek Bouazizi,Dr.,Pediatrician,LIC-10341,26,5
+342,932,Dr. Nabil Haddad,Dr.,Clinical Neurophysiologist,LIC-10342,18,4
+343,933,Dr. Faten Souissi,Dr.,Neurosurgeon,LIC-10343,19,4
+344,934,Oussama Belhaj,Nurse,General Practitioner,LIC-10344,7,12
+345,935,Nizar Saidi,Technician,Family Medicine,LIC-10345,16,12
+346,937,Dr. Sana Hamrouni,Dr.,Dermatologist,LIC-10346,22,3
+347,939,Dr. Raja Mzoughi,Dr.,Interventional Radiologist,LIC-10347,28,11
+348,940,Dr. Khaoula Trabelsi,Dr.,Pediatrician,LIC-10348,11,5
+349,947,Dr. Thouraya Rhouma,Dr.,Trauma Surgeon,LIC-10349,31,10
+350,949,Ibtissem Ben Ali,Technician,Neurosurgeon,LIC-10350,8,4
+351,952,Dr. Leila Meddeb,Dr.,Critical Care Specialist,LIC-10351,19,10
+352,953,Dr. Olfa Nefzi,Dr.,Dermatologist,LIC-10352,7,3
+353,956,Maher Ghribi,Intern,Diabetologist,LIC-10353,2,8
+354,957,Meriam Nasri,Technician,Neonatologist,LIC-10354,30,5
+355,958,Mohamed Meddeb,Intern,Pediatric Surgeon,LIC-10355,2,5
+356,961,Khaled Hachani,Technician,Cardiovascular Nurse,LIC-10356,34,2
+357,964,Dr. Baya Rezgui,Dr.,Cosmetic Dermatologist,LIC-10357,15,3
+358,966,Elyès Mzoughi,Intern,Endocrinologist,LIC-10358,1,8
+359,967,Wissem Kraiem,Resident,Orthopedic Surgeon,LIC-10359,6,6
+360,969,Wafa Boughdiri,Resident,Radiologist,LIC-10360,18,11
+361,972,Ghassen Zouari,Technician,Pulmonologist,LIC-10361,17,9
+362,973,Wassim Mbarki,Intern,Glaucoma Specialist,LIC-10362,3,7
+363,974,Dr. Rim Tlili,Dr.,Surgical Oncologist,LIC-10363,8,1
+364,976,Mondher Ben Mansour,Technician,Trauma Surgeon,LIC-10364,19,10
+365,978,Sirine Ben Ali,Technician,Radiologist,LIC-10365,30,11
+366,982,Wassim Mzoughi,Nurse,Critical Care Specialist,LIC-10366,11,10
+367,986,Maher Boukadida,Nurse,Cardiovascular Nurse,LIC-10367,1,2
+368,987,Dr. Raja Hammami,Dr.,Pediatric Surgeon,LIC-10368,8,5
+369,989,Omar Boukadida,Nurse,Hematologist,LIC-10369,23,1
+370,995,Dr. Elyès Sassi,Dr.,Surgical Oncologist,LIC-10370,9,1
+371,997,Lotfi Boughanmi,Nurse,Thoracic Surgeon,LIC-10371,10,9
+372,998,Salma Mansouri,Nurse,Dermatopathologist,LIC-10372,13,3
+373,1001,Dr. Mondher Chérif,Dr.,Pediatrician,LIC-10373,3,5
+374,1006,Dr. Samia Mbarki,Dr.,Nuclear Medicine Specialist,LIC-10374,25,11
+375,1009,Dr. Houda Haddad,Dr.,Neonatologist,LIC-10375,20,5
+376,1010,Nizar Missaoui,Resident,Interventional Radiologist,LIC-10376,9,11
+377,1011,Dr. Wassim Hachani,Dr.,Pediatrician,LIC-10377,27,5
+378,1016,Nadia Mejri,Nurse,Pediatrician,LIC-10378,20,5
+379,1018,Wissem Rezgui,Technician,Pulmonologist,LIC-10379,25,9
+380,1019,Dr. Mondher Sfar,Dr.,Respiratory Therapist,LIC-10380,21,9
+381,1020,Samir Zouari,Intern,Diabetologist,LIC-10381,3,8
+382,1024,Raja Turki,Resident,Endocrinologist,LIC-10382,2,8
+383,1027,Dr. Habib Turki,Dr.,Dermatopathologist,LIC-10383,20,3
+384,1035,Nesrine Chérif,Intern,Dermatopathologist,LIC-10384,2,3
+385,1043,Omar Rhouma,Resident,Cosmetic Dermatologist,LIC-10385,1,3
+386,1044,Taoufik Ghribi,Technician,Oncologist,LIC-10386,4,1
+387,1045,Dr. Rim Sassi,Dr.,Rheumatologist,LIC-10387,7,6
+388,1046,Amel Missaoui,Technician,Family Medicine,LIC-10388,4,12
+389,1050,Dr. Sirine Kraiem,Dr.,General Practitioner,LIC-10389,34,12
+390,1051,Maryem Bahri,Technician,Dermatologist,LIC-10390,10,3
+391,1059,Lobna Rezgui,Nurse,General Practitioner,LIC-10391,32,12
+392,1064,Dr. Sofien Hamouda,Dr.,Cardiologist,LIC-10392,1,2
+393,1067,Dr. Maryem Belhaj,Dr.,Pulmonologist,LIC-10393,16,9
+394,1071,Rami Sfar,Technician,Hematologist,LIC-10394,26,1
+395,1072,Omar Jebali,Nurse,Retinal Specialist,LIC-10395,12,7
+396,1073,Nesrine Sassi,Nurse,Critical Care Specialist,LIC-10396,29,10
+397,1074,Dr. Sawsen Labidi,Dr.,Ophthalmologist,LIC-10397,2,7
+398,1077,Dr. Nizar Mzoughi,Dr.,Dermatopathologist,LIC-10398,35,3
+399,1079,Wafa Lassoued,Technician,Neonatologist,LIC-10399,7,5
+400,1082,Ibtissem Boukadida,Intern,Interventional Radiologist,LIC-10400,3,11
+401,1084,Dr. Naima Hamouda,Dr.,Diabetologist,LIC-10401,28,8
+402,1086,Bilel Trabelsi,Nurse,Endocrinologist,LIC-10402,25,8
+403,1087,Fatma Chérif,Nurse,Hematologist,LIC-10403,3,1
+404,1088,Mariem Ghannouchi,Technician,Family Medicine,LIC-10404,18,12
+405,1092,Fatma Khelifi,Intern,Thoracic Surgeon,LIC-10405,1,9
+406,1094,Mariem Azaiez,Resident,Pulmonologist,LIC-10406,12,9
+407,1095,Rayen Mzoughi,Intern,Nuclear Medicine Specialist,LIC-10407,2,11
+408,1097,Dr. Taoufik Mansouri,Dr.,Pediatric Surgeon,LIC-10408,20,5
+409,1103,Zohra Bouazizi,Technician,Retinal Specialist,LIC-10409,12,7
+410,1104,Hela Mansouri,Nurse,Dermatopathologist,LIC-10410,21,3
+411,1106,Ibtissem Chérif,Intern,Critical Care Specialist,LIC-10411,3,10
+412,1107,Dr. Youssef Hammami,Dr.,General Practitioner,LIC-10412,15,12
+413,1108,Dr. Amira Fakhfakh,Dr.,Thyroid Specialist,LIC-10413,31,8
+414,1109,Dr. Asma Rhouma,Dr.,General Practitioner,LIC-10414,7,12
+415,1111,Nizar Brik,Resident,Ophthalmologist,LIC-10415,4,7
+416,1113,Dr. Sofien Nasri,Dr.,Oncologist,LIC-10416,29,1
+417,1116,Dr. Ferida Ben Salah,Dr.,Cosmetic Dermatologist,LIC-10417,7,3
+418,1117,Houssem Ayari,Resident,Dermatopathologist,LIC-10418,13,3
+419,1118,Walid Nasri,Technician,Thyroid Specialist,LIC-10419,19,8
+420,1124,Dr. Fares Mejri,Dr.,Glaucoma Specialist,LIC-10420,13,7
+421,1126,Dr. Hamza Chérif,Dr.,Nuclear Medicine Specialist,LIC-10421,7,11
+422,1132,Dr. Hajer Hammami,Dr.,Surgical Oncologist,LIC-10422,27,1
+423,1133,Dr. Wissem Zghal,Dr.,Orthopedic Surgeon,LIC-10423,34,6
+424,1135,Dr. Faten Mejri,Dr.,Trauma Surgeon,LIC-10424,33,10
+425,1136,Dr. Mariem Mbarki,Dr.,Electrophysiologist,LIC-10425,28,2
+426,1141,Dr. Ghofrane Ben Youssef,Dr.,Emergency Physician,LIC-10426,9,10
+427,1142,Dr. Khaled Tlili,Dr.,Electrophysiologist,LIC-10427,15,2
+428,1144,Omar Belhaj,Intern,Radiation Oncologist,LIC-10428,2,1
+429,1145,Mehdi Ben Youssef,Intern,Cardiac Surgeon,LIC-10429,2,2
+430,1146,Dr. Nour Zghal,Dr.,Thoracic Surgeon,LIC-10430,33,9
+431,1147,Dr. Lobna Haddad,Dr.,Thoracic Surgeon,LIC-10431,8,9
+432,1149,Ibtissem Lassoued,Nurse,Radiologist,LIC-10432,3,11
+433,1156,Slim Turki,Nurse,Neurosurgeon,LIC-10433,4,4
+434,1158,Yasmine Souissi,Intern,Radiologist,LIC-10434,1,11
+435,1160,Dr. Mounir Bouazizi,Dr.,Orthopedic Surgeon,LIC-10435,27,6
+436,1162,Dr. Mourad Kraiem,Dr.,Respiratory Therapist,LIC-10436,9,9
+437,1163,Dr. Skander Brik,Dr.,Cardiologist,LIC-10437,32,2
+438,1166,Samir Dridi,Intern,Retinal Specialist,LIC-10438,2,7
+439,1167,Dr. Olfa Trabelsi,Dr.,Radiation Oncologist,LIC-10439,35,1
+440,1169,Zaineb Sellami,Resident,Nuclear Medicine Specialist,LIC-10440,2,11
+441,1171,Dr. Makram Lassoued,Dr.,Retinal Specialist,LIC-10441,9,7
+442,1175,Mondher Hamouda,Resident,Pulmonologist,LIC-10442,8,9
+443,1177,Latifa Jebali,Intern,Orthopedic Surgeon,LIC-10443,2,6
+444,1181,Dr. Mondher Boughdiri,Dr.,Neurologist,LIC-10444,6,4
+445,1183,Dr. Ibtissem Ben Ali,Dr.,Glaucoma Specialist,LIC-10445,35,7
+446,1184,Dr. Wissem Hammami,Dr.,General Practitioner,LIC-10446,4,12
+447,1186,Dr. Youssef Chaabane,Dr.,Endocrinologist,LIC-10447,19,8
+448,1188,Ali Hamrouni,Intern,Critical Care Specialist,LIC-10448,1,10
+449,1194,Amel Ghannouchi,Resident,Thyroid Specialist,LIC-10449,8,8
+450,1196,Dr. Elyès Bouazizi,Dr.,Pediatric Surgeon,LIC-10450,14,5
+451,3,Faten Mansouri,Intern,Neurosurgeon,LIC-10451,2,4
+452,5,Sara Hachani,Nurse,Radiologist,LIC-10452,34,11
+453,8,Dr. Rim Hamrouni,Dr.,Surgical Oncologist,LIC-10453,27,1
+454,14,Intissar Labidi,Technician,Pediatrician,LIC-10454,14,5
+455,17,Dr. Yasmine Sassi,Dr.,Pediatric Surgeon,LIC-10455,14,5
+456,18,Dr. Sirine Ben Salah,Dr.,Radiation Oncologist,LIC-10456,29,1
+457,19,Radhia Rhouma,Technician,Cardiologist,LIC-10457,32,2
+458,22,Leila Rahali,Nurse,Trauma Surgeon,LIC-10458,20,10
+459,24,Hamza Chaabane,Nurse,Trauma Surgeon,LIC-10459,32,10
+460,26,Ahmed Sellami,Resident,Retinal Specialist,LIC-10460,3,7
+461,29,Fares Souissi,Resident,Dermatopathologist,LIC-10461,28,3
+462,31,Meriam Chaabane,Nurse,Surgical Oncologist,LIC-10462,2,1
+463,32,Zaineb Rhouma,Intern,Pediatric Surgeon,LIC-10463,1,5
+464,34,Fethi Trabelsi,Intern,Internal Medicine,LIC-10464,3,12
+465,39,Dr. Houda Ben Mansour,Dr.,Electrophysiologist,LIC-10465,19,2
+466,40,Issam Chebbi,Resident,Critical Care Specialist,LIC-10466,34,10
+467,43,Dorra Khelifi,Resident,Thyroid Specialist,LIC-10467,16,8
+468,44,Dr. Karim Boughdiri,Dr.,Pediatric Surgeon,LIC-10468,18,5
+469,46,Hamza Bouzid,Nurse,Rheumatologist,LIC-10469,26,6
+470,47,Leila Labidi,Nurse,Physiotherapist,LIC-10470,17,6
+471,49,Dr. Radhia Ghribi,Dr.,Cardiovascular Nurse,LIC-10471,21,2
+472,50,Dr. Mehdi Karray,Dr.,Diabetologist,LIC-10472,2,8
+473,51,Latifa Ben Ali,Technician,Surgical Oncologist,LIC-10473,31,1
+474,53,Dr. Ghofrane Karray,Dr.,Ophthalmologist,LIC-10474,6,7
+475,54,Rim Azaiez,Intern,Electrophysiologist,LIC-10475,1,2
+476,60,Dorra Hachani,Nurse,Neonatologist,LIC-10476,9,5
+477,63,Dr. Olfa Rezgui,Dr.,Dermatopathologist,LIC-10477,4,3
+478,65,Dr. Fares Jebali,Dr.,Dermatopathologist,LIC-10478,33,3
+479,66,Ridha Chérif,Intern,Radiation Oncologist,LIC-10479,0,1
+480,70,Oussama Nasri,Nurse,Surgical Oncologist,LIC-10480,35,1
+481,74,Dr. Oussama Hammami,Dr.,Orthopedic Surgeon,LIC-10481,5,6
+482,75,Dr. Emna Ayari,Dr.,Pulmonologist,LIC-10482,16,9
+483,78,Hajer Hamrouni,Intern,Interventional Radiologist,LIC-10483,0,11
+484,82,Radhia Jelassi,Nurse,Dermatologist,LIC-10484,21,3
+485,83,Zaineb Ben Mansour,Intern,Physiotherapist,LIC-10485,2,6
+486,90,Dr. Samia Oueslati,Dr.,Cosmetic Dermatologist,LIC-10486,3,3
+487,91,Dr. Bassem Mzoughi,Dr.,Cardiac Surgeon,LIC-10487,21,2
+488,92,Samir Mansouri,Intern,Neurosurgeon,LIC-10488,0,4
+489,93,Dr. Sawsen Brik,Dr.,Glaucoma Specialist,LIC-10489,6,7
+490,96,Youssef Dridi,Resident,Thoracic Surgeon,LIC-10490,8,9
+491,100,Dr. Cyrine Ghribi,Dr.,Trauma Surgeon,LIC-10491,34,10
+492,101,Cyrine Ayari,Intern,Pediatrician,LIC-10492,2,5
+493,102,Dr. Nesrine Ferchichi,Dr.,Orthopedic Surgeon,LIC-10493,30,6
+494,103,Dr. Asma Kraiem,Dr.,General Practitioner,LIC-10494,29,12
+495,104,Baya Boughanmi,Resident,Orthopedic Surgeon,LIC-10495,23,6
+496,108,Dr. Nadia Saidi,Dr.,Rheumatologist,LIC-10496,31,6
+497,115,Mourad Dridi,Technician,Ophthalmologist,LIC-10497,9,7
+498,118,Issam Bouzid,Resident,Nuclear Medicine Specialist,LIC-10498,9,11
+499,123,Mourad Nasri,Nurse,Physiotherapist,LIC-10499,8,6
+500,126,Hamza Turki,Resident,Pulmonologist,LIC-10500,32,9
+501,128,Dr. Ghassen Boughanmi,Dr.,Cosmetic Dermatologist,LIC-10501,1,3
+502,129,Anis Jebali,Resident,Pediatric Surgeon,LIC-10502,31,5
+503,131,Dr. Mouna Sfar,Dr.,Hematologist,LIC-10503,2,1
+504,132,Dr. Khadija Khelifi,Dr.,Dermatopathologist,LIC-10504,34,3
+505,135,Zied Azaiez,Resident,Orthopedic Surgeon,LIC-10505,26,6
+506,136,Dr. Khadija Bahri,Dr.,Family Medicine,LIC-10506,8,12
+507,137,Khaoula Azaiez,Intern,Critical Care Specialist,LIC-10507,0,10
+508,139,Dr. Aziz Hammami,Dr.,Family Medicine,LIC-10508,29,12
+509,144,Soumaya Rezgui,Technician,Family Medicine,LIC-10509,19,12
+510,146,Dr. Ferida Lassoued,Dr.,General Practitioner,LIC-10510,33,12
+511,147,Dr. Salma Mzoughi,Dr.,Critical Care Specialist,LIC-10511,24,10
+512,148,Thouraya Douzi,Technician,Retinal Specialist,LIC-10512,29,7
+513,149,Hana Saidi,Nurse,Cardiac Surgeon,LIC-10513,20,2
+514,150,Dr. Faten Ferchichi,Dr.,Critical Care Specialist,LIC-10514,34,10
+515,153,Aymen Saidi,Resident,Neonatologist,LIC-10515,25,5
+516,155,Dr. Asma Rhouma,Dr.,Dermatologist,LIC-10516,14,3
+517,158,Mondher Nefzi,Nurse,Critical Care Specialist,LIC-10517,21,10
+518,170,Amira Mbarki,Nurse,Dermatologist,LIC-10518,19,3
+519,175,Rim Boukadida,Technician,Neurologist,LIC-10519,19,4
+520,176,Dr. Mehdi Belhaj,Dr.,Clinical Neurophysiologist,LIC-10520,18,4
+521,177,Dr. Bilel Sfar,Dr.,Thoracic Surgeon,LIC-10521,11,9
+522,181,Dr. Ines Belhaj,Dr.,Thoracic Surgeon,LIC-10522,13,9
+523,183,Dr. Mohamed Boukadida,Dr.,Orthopedic Surgeon,LIC-10523,19,6
+524,185,Wissem Jelassi,Technician,Pulmonologist,LIC-10524,30,9
+525,187,Dr. Amel Boughdiri,Dr.,Internal Medicine,LIC-10525,8,12
+526,188,Ridha Boughanmi,Resident,Diabetologist,LIC-10526,6,8
+527,190,Dr. Karim Rahali,Dr.,Orthopedic Surgeon,LIC-10527,15,6
+528,193,Baya Bouazizi,Intern,Dermatopathologist,LIC-10528,2,3
+529,199,Dr. Skander Chebbi,Dr.,Internal Medicine,LIC-10529,21,12
+530,201,Dr. Leila Jelassi,Dr.,Internal Medicine,LIC-10530,21,12
+531,205,Dr. Wafa Sassi,Dr.,Nuclear Medicine Specialist,LIC-10531,1,11
+532,207,Nesrine Ghannouchi,Resident,Clinical Neurophysiologist,LIC-10532,13,4
+533,208,Dr. Mehdi Lassoued,Dr.,Endocrinologist,LIC-10533,32,8
+534,209,Dr. Amel Ghannouchi,Dr.,Radiologist,LIC-10534,34,11
+535,211,Dr. Aziz Kraiem,Dr.,Hematologist,LIC-10535,5,1
+536,213,Dr. Faten Bahri,Dr.,General Practitioner,LIC-10536,3,12
+537,218,Chokri Hamouda,Nurse,Trauma Surgeon,LIC-10537,16,10
+538,219,Ghassen Mbarki,Technician,Thoracic Surgeon,LIC-10538,12,9
+539,223,Dr. Lobna Sassi,Dr.,Pediatric Surgeon,LIC-10539,32,5
+540,224,Faten Ben Mansour,Resident,Trauma Surgeon,LIC-10540,35,10
+541,227,Dr. Adel Oueslati,Dr.,Neurologist,LIC-10541,19,4
+542,229,Soumaya Ayari,Intern,Clinical Neurophysiologist,LIC-10542,3,4
+543,230,Sirine Mathlouthi,Technician,Rheumatologist,LIC-10543,8,6
+544,233,Lotfi Hamouda,Resident,General Practitioner,LIC-10544,31,12
+545,238,Mounir Belhaj,Resident,Radiologist,LIC-10545,2,11
+546,241,Dr. Bassem Rahali,Dr.,Ophthalmologist,LIC-10546,21,7
+547,243,Mehdi Zouari,Intern,Retinal Specialist,LIC-10547,3,7
+548,244,Mondher Haddad,Nurse,Surgical Oncologist,LIC-10548,32,1
+549,247,Baya Dridi,Intern,Radiologist,LIC-10549,2,11
+550,249,Dr. Latifa Turki,Dr.,Emergency Physician,LIC-10550,35,10
+551,250,Dr. Hajer Hachani,Dr.,Critical Care Specialist,LIC-10551,22,10
+552,254,Dr. Yasmine Belhaj,Dr.,General Practitioner,LIC-10552,25,12
+553,264,Salma Hachani,Intern,Rheumatologist,LIC-10553,0,6
+554,267,Dr. Rayen Chaabane,Dr.,Rheumatologist,LIC-10554,13,6
+555,268,Sana Sassi,Resident,General Practitioner,LIC-10555,19,12
+556,273,Sana Boughdiri,Intern,Physiotherapist,LIC-10556,1,6
+557,274,Dr. Nadia Brik,Dr.,Oncologist,LIC-10557,2,1
+558,275,Dr. Fethi Nefzi,Dr.,Respiratory Therapist,LIC-10558,32,9
+559,276,Leila Khelifi,Nurse,Pediatrician,LIC-10559,15,5
+560,277,Dr. Ghofrane Hachani,Dr.,Surgical Oncologist,LIC-10560,8,1
+561,280,Zied Douzi,Resident,Dermatopathologist,LIC-10561,18,3
+562,281,Dr. Hamza Bouazizi,Dr.,Thoracic Surgeon,LIC-10562,27,9
+563,283,Dr. Ahmed Ben Ali,Dr.,Electrophysiologist,LIC-10563,13,2
+564,284,Mourad Karray,Nurse,Physiotherapist,LIC-10564,33,6
+565,286,Mouna Trabelsi,Nurse,Neonatologist,LIC-10565,13,5
+566,291,Amine Nasri,Technician,Retinal Specialist,LIC-10566,28,7
+567,293,Salma Dridi,Resident,Respiratory Therapist,LIC-10567,31,9
+568,298,Dr. Bassem Boughdiri,Dr.,Ophthalmologist,LIC-10568,32,7
+569,299,Aziz Haddad,Intern,Thoracic Surgeon,LIC-10569,0,9
+570,303,Dr. Latifa Dridi,Dr.,Ophthalmologist,LIC-10570,29,7
+571,305,Dr. Hatem Lassoued,Dr.,Interventional Radiologist,LIC-10571,22,11
+572,306,Dr. Bilel Ghribi,Dr.,Cardiac Surgeon,LIC-10572,14,2
+573,309,Dr. Faten Chérif,Dr.,Cardiac Surgeon,LIC-10573,26,2
+574,312,Imen Sassi,Technician,Thoracic Surgeon,LIC-10574,15,9
+575,318,Rania Hachani,Technician,Neonatologist,LIC-10575,20,5
+576,320,Dr. Mouna Ferchichi,Dr.,Surgical Oncologist,LIC-10576,27,1
+577,321,Dr. Mohamed Rahali,Dr.,Respiratory Therapist,LIC-10577,35,9
+578,323,Dr. Faten Hamrouni,Dr.,Physiotherapist,LIC-10578,31,6
+579,330,Dr. Emna Bahri,Dr.,Electrophysiologist,LIC-10579,5,2
+580,332,Dr. Zied Ghannouchi,Dr.,Dermatopathologist,LIC-10580,8,3
+581,333,Sana Mejri,Technician,Cardiologist,LIC-10581,28,2
+582,340,Mounir Khelifi,Technician,Dermatopathologist,LIC-10582,27,3
+583,343,Zohra Ben Ali,Nurse,Electrophysiologist,LIC-10583,19,2
+584,344,Aziz Boughanmi,Nurse,Respiratory Therapist,LIC-10584,24,9
+585,348,Dr. Wissem Douzi,Dr.,Cosmetic Dermatologist,LIC-10585,34,3
+586,349,Wassim Souissi,Intern,Thoracic Surgeon,LIC-10586,2,9
+587,350,Dr. Samia Chebbi,Dr.,Rheumatologist,LIC-10587,9,6
+588,353,Anis Nefzi,Technician,Surgical Oncologist,LIC-10588,27,1
+589,356,Nizar Mzoughi,Technician,Cardiologist,LIC-10589,20,2
+590,359,Dr. Khadija Mejri,Dr.,General Practitioner,LIC-10590,35,12
+591,362,Dr. Raja Ferchichi,Dr.,Hematologist,LIC-10591,11,1
+592,363,Dr. Youssef Mbarki,Dr.,Rheumatologist,LIC-10592,1,6
+593,364,Walid Rahali,Nurse,Glaucoma Specialist,LIC-10593,20,7
+594,366,Hatem Labidi,Resident,Pediatric Surgeon,LIC-10594,35,5
+595,367,Dr. Radhia Fakhfakh,Dr.,Cardiac Surgeon,LIC-10595,7,2
+596,369,Baya Souissi,Nurse,Cosmetic Dermatologist,LIC-10596,7,3
+597,371,Karim Ghribi,Resident,Rheumatologist,LIC-10597,18,6
+598,379,Mouna Sellami,Technician,Neurologist,LIC-10598,1,4
+599,380,Dr. Fares Souissi,Dr.,Emergency Physician,LIC-10599,10,10
+600,383,Dr. Sana Lassoued,Dr.,Orthopedic Surgeon,LIC-10600,4,6
+601,384,Karim Saidi,Technician,Glaucoma Specialist,LIC-10601,31,7
+602,387,Dr. Asma Tlili,Dr.,Clinical Neurophysiologist,LIC-10602,26,4
+603,388,Zied Hachani,Resident,Family Medicine,LIC-10603,23,12
+604,389,Maher Sassi,Intern,Pulmonologist,LIC-10604,1,9
+605,392,Anis Rezgui,Nurse,General Practitioner,LIC-10605,28,12
+606,395,Nadia Ayari,Technician,Family Medicine,LIC-10606,8,12
+607,397,Makram Azaiez,Resident,Interventional Radiologist,LIC-10607,12,11
+608,398,Ines Sellami,Intern,Thyroid Specialist,LIC-10608,2,8
+609,401,Dr. Aziz Jelassi,Dr.,Critical Care Specialist,LIC-10609,13,10
+610,403,Dr. Zied Ben Salah,Dr.,General Practitioner,LIC-10610,13,12
+611,406,Dr. Latifa Ben Salah,Dr.,Surgical Oncologist,LIC-10611,22,1
+612,407,Amine Boughdiri,Intern,Pediatric Surgeon,LIC-10612,0,5
+613,409,Dr. Zaineb Rahali,Dr.,Interventional Radiologist,LIC-10613,31,11
+614,411,Zohra Hammami,Nurse,Pediatric Surgeon,LIC-10614,4,5
+615,413,Dr. Wissem Meddeb,Dr.,Family Medicine,LIC-10615,30,12
+616,414,Mounir Mathlouthi,Technician,Internal Medicine,LIC-10616,35,12
+617,417,Amine Hammami,Intern,Radiation Oncologist,LIC-10617,1,1
+618,418,Karim Maaloul,Resident,Cardiologist,LIC-10618,29,2
+619,419,Dr. Ghassen Mansouri,Dr.,Orthopedic Surgeon,LIC-10619,35,6
+620,422,Dr. Skander Karray,Dr.,Nuclear Medicine Specialist,LIC-10620,2,11
+621,423,Khaoula Sassi,Intern,General Practitioner,LIC-10621,2,12
+622,426,Cyrine Ben Ali,Resident,Glaucoma Specialist,LIC-10622,4,7
+623,429,Dr. Youssef Mejri,Dr.,Family Medicine,LIC-10623,6,12
+624,432,Dr. Nizar Ayari,Dr.,Pediatric Surgeon,LIC-10624,13,5
+625,433,Houssem Saidi,Resident,Dermatopathologist,LIC-10625,1,3
+626,435,Maher Rahali,Intern,Cardiovascular Nurse,LIC-10626,3,2
+627,436,Dr. Wissem Sassi,Dr.,Trauma Surgeon,LIC-10627,6,10
+628,439,Dr. Sami Boughdiri,Dr.,Dermatopathologist,LIC-10628,6,3
+629,441,Dr. Nizar Hamrouni,Dr.,Dermatologist,LIC-10629,14,3
+630,447,Ghofrane Ben Salah,Technician,Cardiac Surgeon,LIC-10630,20,2
+631,449,Dr. Thouraya Douzi,Dr.,Internal Medicine,LIC-10631,9,12
+632,452,Lobna Chaabane,Resident,Family Medicine,LIC-10632,12,12
+633,457,Skander Ghannouchi,Intern,Ophthalmologist,LIC-10633,1,7
+634,465,Dr. Rim Boughanmi,Dr.,Cosmetic Dermatologist,LIC-10634,17,3
+635,466,Houssem Ayari,Nurse,Electrophysiologist,LIC-10635,23,2
+636,468,Ibtissem Ben Salah,Intern,Nuclear Medicine Specialist,LIC-10636,3,11
+637,469,Dr. Ghassen Zouari,Dr.,Hematologist,LIC-10637,10,1
+638,471,Dr. Meriam Missaoui,Dr.,Family Medicine,LIC-10638,23,12
+639,474,Rayen Ghribi,Nurse,Neurosurgeon,LIC-10639,33,4
+640,477,Makram Sassi,Nurse,Cardiac Surgeon,LIC-10640,17,2
+641,478,Rami Chebbi,Nurse,Oncologist,LIC-10641,34,1
+642,479,Dr. Sawsen Rezgui,Dr.,Endocrinologist,LIC-10642,30,8
+643,482,Aymen Hamrouni,Intern,Trauma Surgeon,LIC-10643,0,10
+644,490,Dr. Asma Hamouda,Dr.,Interventional Radiologist,LIC-10644,1,11
+645,493,Anis Turki,Technician,Physiotherapist,LIC-10645,7,6
+646,500,Nizar Boughdiri,Intern,Pediatrician,LIC-10646,3,5
+647,501,Dr. Meriam Mathlouthi,Dr.,Thyroid Specialist,LIC-10647,30,8
+648,503,Ibtissem Missaoui,Resident,Family Medicine,LIC-10648,31,12
+649,506,Nesrine Nasri,Intern,Trauma Surgeon,LIC-10649,3,10
+650,507,Thouraya Haddad,Nurse,Radiation Oncologist,LIC-10650,33,1
+651,509,Amine Turki,Resident,Pediatric Surgeon,LIC-10651,26,5
+652,511,Dr. Ibtissem Trabelsi,Dr.,Pulmonologist,LIC-10652,20,9
+653,512,Dr. Zaineb Hamouda,Dr.,Emergency Physician,LIC-10653,9,10
+654,514,Dr. Sawsen Ferchichi,Dr.,Cardiovascular Nurse,LIC-10654,10,2
+655,519,Mariem Chebbi,Resident,Cosmetic Dermatologist,LIC-10655,1,3
+656,523,Dr. Sawsen Mzoughi,Dr.,Cosmetic Dermatologist,LIC-10656,20,3
+657,524,Dr. Salma Mathlouthi,Dr.,Neurosurgeon,LIC-10657,6,4
+658,525,Dr. Baya Bouzid,Dr.,Nuclear Medicine Specialist,LIC-10658,24,11
+659,529,Dr. Fatma Lassoued,Dr.,Orthopedic Surgeon,LIC-10659,31,6
+660,533,Nadia Zouari,Resident,General Practitioner,LIC-10660,31,12
+661,536,Sawsen Ben Youssef,Technician,General Practitioner,LIC-10661,7,12
+662,539,Naima Ghannouchi,Intern,Cosmetic Dermatologist,LIC-10662,2,3
+663,541,Amel Meddeb,Resident,Trauma Surgeon,LIC-10663,35,10
+664,542,Youssef Mbarki,Technician,Nuclear Medicine Specialist,LIC-10664,2,11
+665,544,Dr. Fares Boughanmi,Dr.,Neurosurgeon,LIC-10665,24,4
+666,551,Dr. Slim Saidi,Dr.,Critical Care Specialist,LIC-10666,26,10
+667,558,Dr. Youssef Douzi,Dr.,Cosmetic Dermatologist,LIC-10667,13,3
+668,565,Leila Souissi,Nurse,Ophthalmologist,LIC-10668,22,7
+669,568,Dr. Zied Douzi,Dr.,Ophthalmologist,LIC-10669,19,7
+670,569,Maher Ben Youssef,Technician,Surgical Oncologist,LIC-10670,27,1
+671,573,Hana Khelifi,Resident,Nuclear Medicine Specialist,LIC-10671,7,11
+672,578,Dr. Raja Ghribi,Dr.,Rheumatologist,LIC-10672,7,6
+673,579,Radhia Sellami,Resident,Radiation Oncologist,LIC-10673,21,1
+674,581,Karim Missaoui,Resident,Interventional Radiologist,LIC-10674,1,11
+675,582,Faten Douzi,Resident,Ophthalmologist,LIC-10675,20,7
+676,583,Dr. Mondher Nasri,Dr.,Trauma Surgeon,LIC-10676,33,10
+677,588,Hatem Hachani,Technician,Family Medicine,LIC-10677,35,12
+678,589,Dr. Sara Jebali,Dr.,Glaucoma Specialist,LIC-10678,25,7
+679,590,Dr. Thouraya Maaloul,Dr.,Surgical Oncologist,LIC-10679,17,1
+680,591,Walid Saidi,Technician,Ophthalmologist,LIC-10680,30,7
+681,593,Dr. Bassem Hammami,Dr.,Diabetologist,LIC-10681,24,8
+682,594,Rania Boughanmi,Intern,Neonatologist,LIC-10682,2,5
+683,595,Dr. Wassim Oueslati,Dr.,Respiratory Therapist,LIC-10683,12,9
+684,599,Bassem Mbarki,Resident,Hematologist,LIC-10684,21,1
+685,602,Dr. Lobna Rezgui,Dr.,Emergency Physician,LIC-10685,23,10
+686,605,Aziz Hammami,Resident,Neurologist,LIC-10686,6,4
+687,606,Dr. Meriam Sfar,Dr.,General Practitioner,LIC-10687,32,12
+688,609,Mondher Azaiez,Nurse,Physiotherapist,LIC-10688,16,6
+689,614,Baya Meddeb,Technician,Oncologist,LIC-10689,21,1
+690,616,Dr. Sara Hammami,Dr.,Critical Care Specialist,LIC-10690,7,10
+691,617,Dr. Naima Saidi,Dr.,Rheumatologist,LIC-10691,20,6
+692,621,Dr. Houda Haddad,Dr.,Dermatopathologist,LIC-10692,17,3
+693,623,Dr. Baya Douzi,Dr.,Ophthalmologist,LIC-10693,13,7
+694,627,Wissem Nasri,Nurse,Critical Care Specialist,LIC-10694,35,10
+695,628,Dr. Nesrine Hamouda,Dr.,Rheumatologist,LIC-10695,31,6
+696,629,Hajer Rhouma,Resident,Pediatric Surgeon,LIC-10696,12,5
+697,631,Dr. Rim Saidi,Dr.,Trauma Surgeon,LIC-10697,12,10
+698,633,Thouraya Oueslati,Nurse,Hematologist,LIC-10698,14,1
+699,635,Ines Ben Mansour,Resident,Radiologist,LIC-10699,18,11
+700,639,Skander Chebbi,Intern,Cardiac Surgeon,LIC-10700,1,2
+701,640,Ahmed Mansouri,Intern,Neurologist,LIC-10701,2,4
+702,643,Baya Mansouri,Technician,Trauma Surgeon,LIC-10702,22,10
+703,653,Issam Ben Youssef,Technician,Pulmonologist,LIC-10703,22,9
+704,659,Khaoula Hamrouni,Intern,Endocrinologist,LIC-10704,3,8
+705,660,Dr. Bechir Boukadida,Dr.,Thoracic Surgeon,LIC-10705,11,9
+706,661,Wassim Ben Youssef,Nurse,Ophthalmologist,LIC-10706,6,7
+707,663,Ghofrane Boukadida,Intern,Cardiac Surgeon,LIC-10707,2,2
+708,664,Lobna Oueslati,Intern,Thyroid Specialist,LIC-10708,3,8
+709,667,Dr. Ines Mzoughi,Dr.,Trauma Surgeon,LIC-10709,28,10
+710,668,Dr. Chokri Rhouma,Dr.,Pediatric Surgeon,LIC-10710,32,5
+711,669,Dr. Tarek Ben Youssef,Dr.,Glaucoma Specialist,LIC-10711,8,7
+712,678,Dr. Amira Haddad,Dr.,Neurologist,LIC-10712,19,4
+713,679,Dr. Hana Sellami,Dr.,Family Medicine,LIC-10713,27,12
+714,682,Dr. Mariem Rhouma,Dr.,Glaucoma Specialist,LIC-10714,18,7
+715,683,Asma Hachani,Intern,Radiologist,LIC-10715,2,11
+716,686,Samir Zghal,Resident,Neurosurgeon,LIC-10716,32,4
+717,691,Fethi Chebbi,Nurse,Endocrinologist,LIC-10717,12,8
+718,693,Dr. Nabil Oueslati,Dr.,Respiratory Therapist,LIC-10718,30,9
+719,694,Dr. Rayen Mathlouthi,Dr.,Glaucoma Specialist,LIC-10719,27,7
+720,695,Dr. Soumaya Turki,Dr.,Radiologist,LIC-10720,15,11
+721,696,Dr. Yasmine Labidi,Dr.,Critical Care Specialist,LIC-10721,27,10
+722,698,Dr. Ines Hamrouni,Dr.,Dermatopathologist,LIC-10722,31,3
+723,705,Wassim Maaloul,Intern,Hematologist,LIC-10723,1,1
+724,706,Sana Chebbi,Intern,General Practitioner,LIC-10724,1,12
+725,707,Dr. Samia Mansouri,Dr.,Orthopedic Surgeon,LIC-10725,19,6
+726,709,Dr. Nour Azaiez,Dr.,Clinical Neurophysiologist,LIC-10726,30,4
+727,710,Taoufik Bouzid,Technician,Neurologist,LIC-10727,30,4
+728,712,Dr. Samir Douzi,Dr.,Trauma Surgeon,LIC-10728,11,10
+729,716,Dr. Tarek Chebbi,Dr.,Oncologist,LIC-10729,27,1
+730,721,Cyrine Lassoued,Resident,Electrophysiologist,LIC-10730,17,2
+731,722,Dr. Oussama Zghal,Dr.,Internal Medicine,LIC-10731,35,12
+732,725,Oussama Trabelsi,Technician,Thyroid Specialist,LIC-10732,4,8
+733,726,Bassem Ghribi,Resident,General Practitioner,LIC-10733,24,12
+734,743,Nabil Mansouri,Technician,Ophthalmologist,LIC-10734,7,7
+735,747,Maryem Karray,Nurse,Emergency Physician,LIC-10735,11,10
+736,751,Sara Turki,Intern,Dermatologist,LIC-10736,3,3
+737,754,Dr. Rami Nasri,Dr.,Rheumatologist,LIC-10737,5,6
+738,755,Taoufik Azaiez,Technician,Neurosurgeon,LIC-10738,22,4
+739,758,Bassem Hamouda,Technician,Physiotherapist,LIC-10739,17,6
+740,759,Dr. Hela Rahali,Dr.,Dermatologist,LIC-10740,34,3
+741,762,Dr. Bassem Trabelsi,Dr.,Rheumatologist,LIC-10741,24,6
+742,769,Oussama Oueslati,Nurse,General Practitioner,LIC-10742,20,12
+743,771,Samia Mansouri,Technician,Interventional Radiologist,LIC-10743,10,11
+744,778,Dr. Bechir Ghribi,Dr.,Dermatopathologist,LIC-10744,19,3
+745,780,Dr. Zied Nasri,Dr.,Radiation Oncologist,LIC-10745,20,1
+746,784,Dr. Bilel Chérif,Dr.,Neonatologist,LIC-10746,33,5
+747,785,Mouna Sellami,Resident,Thyroid Specialist,LIC-10747,11,8
+748,789,Dr. Mariem Douzi,Dr.,Critical Care Specialist,LIC-10748,21,10
+749,793,Cyrine Ben Salah,Resident,Thyroid Specialist,LIC-10749,11,8
+750,795,Dr. Khaled Lassoued,Dr.,Diabetologist,LIC-10750,1,8
+751,796,Elyès Bouazizi,Intern,Neurosurgeon,LIC-10751,1,4
+752,799,Fares Mzoughi,Nurse,Critical Care Specialist,LIC-10752,8,10
+753,802,Radhia Mejri,Intern,Diabetologist,LIC-10753,0,8
+754,807,Dr. Mouna Karray,Dr.,General Practitioner,LIC-10754,24,12
+755,811,Elyès Hammami,Resident,Radiologist,LIC-10755,22,11
+756,812,Emna Bouazizi,Nurse,Thoracic Surgeon,LIC-10756,35,9
+757,813,Dr. Hamza Ghribi,Dr.,Thyroid Specialist,LIC-10757,34,8
+758,816,Tarek Bouzid,Nurse,General Practitioner,LIC-10758,16,12
+759,819,Olfa Hamouda,Technician,Dermatologist,LIC-10759,18,3
+760,821,Dr. Nadia Rahali,Dr.,General Practitioner,LIC-10760,5,12
+761,824,Yasmine Nefzi,Nurse,Radiation Oncologist,LIC-10761,15,1
+762,831,Nesrine Chérif,Technician,Endocrinologist,LIC-10762,35,8
+763,833,Dr. Rania Hamrouni,Dr.,Neurosurgeon,LIC-10763,8,4
+764,840,Latifa Maaloul,Technician,Neurologist,LIC-10764,35,4
+765,843,Ibtissem Souissi,Technician,Pediatric Surgeon,LIC-10765,1,5
+766,845,Dr. Ibtissem Jelassi,Dr.,Family Medicine,LIC-10766,13,12
+767,848,Ibtissem Ghribi,Technician,Surgical Oncologist,LIC-10767,27,1
+768,851,Mourad Rahali,Technician,Radiologist,LIC-10768,22,11
+769,855,Emna Lassoued,Nurse,Interventional Radiologist,LIC-10769,17,11
+770,857,Issam Bouzid,Intern,Pediatric Surgeon,LIC-10770,2,5
+771,858,Dr. Ghassen Ayari,Dr.,Cosmetic Dermatologist,LIC-10771,1,3
+772,860,Asma Azaiez,Technician,Endocrinologist,LIC-10772,12,8
+773,866,Nour Rhouma,Resident,Interventional Radiologist,LIC-10773,7,11
+774,869,Dr. Ridha Ferchichi,Dr.,Neurologist,LIC-10774,15,4
+775,870,Hajer Tlili,Nurse,Rheumatologist,LIC-10775,31,6
+776,871,Amira Zouari,Nurse,Emergency Physician,LIC-10776,10,10
+777,877,Dr. Asma Khelifi,Dr.,Ophthalmologist,LIC-10777,11,7
+778,879,Dr. Imen Fakhfakh,Dr.,Rheumatologist,LIC-10778,31,6
+779,880,Radhia Belhaj,Resident,Family Medicine,LIC-10779,15,12
+780,881,Dorra Lassoued,Nurse,Orthopedic Surgeon,LIC-10780,20,6
+781,882,Slim Brik,Intern,Family Medicine,LIC-10781,3,12
+782,884,Maher Jelassi,Resident,Ophthalmologist,LIC-10782,26,7
+783,889,Omar Turki,Intern,Radiologist,LIC-10783,3,11
+784,894,Dr. Habib Rahali,Dr.,General Practitioner,LIC-10784,14,12
+785,906,Sawsen Mansouri,Nurse,Neonatologist,LIC-10785,2,5
+786,909,Asma Jelassi,Resident,Rheumatologist,LIC-10786,13,6
+787,910,Rami Labidi,Technician,Pediatrician,LIC-10787,5,5
+788,912,Nesrine Khelifi,Intern,Family Medicine,LIC-10788,3,12
+789,913,Ali Hachani,Resident,Internal Medicine,LIC-10789,32,12
+790,919,Tarek Rahali,Resident,Oncologist,LIC-10790,4,1
+791,922,Ghassen Ferchichi,Nurse,Respiratory Therapist,LIC-10791,29,9
+792,930,Bassem Jebali,Technician,Dermatopathologist,LIC-10792,5,3
+793,932,Hedi Hachani,Resident,Dermatologist,LIC-10793,20,3
+794,933,Dr. Hela Mejri,Dr.,Endocrinologist,LIC-10794,21,8
+795,934,Wissem Zghal,Nurse,Thoracic Surgeon,LIC-10795,19,9
+796,935,Dr. Houssem Trabelsi,Dr.,Cardiovascular Nurse,LIC-10796,24,2
+797,937,Dr. Sabah Ayari,Dr.,Cosmetic Dermatologist,LIC-10797,30,3
+798,939,Olfa Chebbi,Intern,Orthopedic Surgeon,LIC-10798,2,6
+799,940,Dr. Dorra Belhaj,Dr.,Dermatologist,LIC-10799,27,3
+800,947,Houda Haddad,Technician,Oncologist,LIC-10800,33,1
+801,949,Sara Trabelsi,Resident,Surgical Oncologist,LIC-10801,35,1
+802,952,Faten Oueslati,Intern,Radiologist,LIC-10802,0,11
+803,953,Dr. Hela Maaloul,Dr.,Pulmonologist,LIC-10803,33,9
+804,956,Hamza Missaoui,Technician,Critical Care Specialist,LIC-10804,13,10
+805,957,Ferida Bouazizi,Resident,Neonatologist,LIC-10805,29,5
+806,958,Bechir Mzoughi,Intern,Cardiac Surgeon,LIC-10806,2,2
+807,961,Taoufik Nefzi,Resident,Hematologist,LIC-10807,19,1
+808,964,Fatma Labidi,Resident,Oncologist,LIC-10808,15,1
+809,966,Dr. Hedi Jelassi,Dr.,Pediatrician,LIC-10809,21,5
+810,967,Dr. Issam Chebbi,Dr.,Trauma Surgeon,LIC-10810,10,10
+811,969,Dr. Wafa Hachani,Dr.,Neurosurgeon,LIC-10811,12,4
+812,972,Dr. Amine Trabelsi,Dr.,Dermatopathologist,LIC-10812,23,3
+813,973,Youssef Hamrouni,Intern,Clinical Neurophysiologist,LIC-10813,1,4
+814,974,Dr. Wafa Tlili,Dr.,Retinal Specialist,LIC-10814,15,7
+815,976,Rami Hachani,Intern,Radiation Oncologist,LIC-10815,3,1
+816,978,Sirine Sassi,Resident,Hematologist,LIC-10816,14,1
+817,982,Zied Chaabane,Technician,Diabetologist,LIC-10817,13,8
+818,986,Rami Hachani,Resident,Emergency Physician,LIC-10818,6,10
+819,987,Dr. Hana Saidi,Dr.,Dermatologist,LIC-10819,8,3
+820,989,Mounir Kraiem,Intern,Family Medicine,LIC-10820,3,12
+821,995,Dr. Walid Souissi,Dr.,Respiratory Therapist,LIC-10821,31,9
+822,997,Dr. Mehdi Saidi,Dr.,Endocrinologist,LIC-10822,1,8
+823,998,Naima Ghribi,Resident,Ophthalmologist,LIC-10823,23,7
+824,1001,Dr. Hatem Tlili,Dr.,Glaucoma Specialist,LIC-10824,20,7
+825,1006,Dr. Olfa Hamouda,Dr.,Nuclear Medicine Specialist,LIC-10825,25,11
+826,1009,Samia Trabelsi,Nurse,Internal Medicine,LIC-10826,21,12
+827,1010,Dr. Ali Mzoughi,Dr.,Dermatopathologist,LIC-10827,1,3
+828,1011,Dr. Karim Nefzi,Dr.,Dermatopathologist,LIC-10828,31,3
+829,1016,Dr. Ferida Hammami,Dr.,Emergency Physician,LIC-10829,19,10
+830,1018,Hatem Labidi,Resident,Cosmetic Dermatologist,LIC-10830,12,3
+831,1019,Dr. Nizar Nefzi,Dr.,Internal Medicine,LIC-10831,12,12
+832,1020,Dr. Hatem Boughanmi,Dr.,Dermatologist,LIC-10832,32,3
+833,1024,Hajer Tlili,Resident,Interventional Radiologist,LIC-10833,17,11
+834,1027,Dr. Sofien Hamrouni,Dr.,Surgical Oncologist,LIC-10834,2,1
+835,1035,Dr. Samia Hammami,Dr.,Ophthalmologist,LIC-10835,35,7
+836,1043,Dr. Zied Rhouma,Dr.,Dermatologist,LIC-10836,1,3
+837,1044,Dr. Lotfi Azaiez,Dr.,Electrophysiologist,LIC-10837,5,2
+838,1045,Sirine Lassoued,Technician,Glaucoma Specialist,LIC-10838,29,7
+839,1046,Dr. Yasmine Karray,Dr.,Neonatologist,LIC-10839,31,5
+840,1050,Dorra Ghannouchi,Intern,Nuclear Medicine Specialist,LIC-10840,2,11
+841,1051,Dr. Imen Fakhfakh,Dr.,Diabetologist,LIC-10841,13,8
+842,1059,Dr. Yasmine Dridi,Dr.,Dermatologist,LIC-10842,6,3
+843,1064,Bechir Sfar,Resident,Pediatric Surgeon,LIC-10843,7,5
+844,1067,Nesrine Dridi,Nurse,Dermatopathologist,LIC-10844,20,3
+845,1071,Slim Mansouri,Technician,Nuclear Medicine Specialist,LIC-10845,34,11
+846,1072,Khaled Missaoui,Nurse,Cosmetic Dermatologist,LIC-10846,28,3
+847,1073,Dr. Sara Fakhfakh,Dr.,Critical Care Specialist,LIC-10847,3,10
+848,1074,Mouna Azaiez,Resident,Radiologist,LIC-10848,13,11
+849,1077,Dr. Nizar Ben Ali,Dr.,Radiologist,LIC-10849,16,11
+850,1079,Sana Haddad,Intern,Hematologist,LIC-10850,3,1
+851,1082,Mariem Mejri,Resident,Endocrinologist,LIC-10851,30,8
+852,1084,Imen Nasri,Technician,Cardiovascular Nurse,LIC-10852,33,2
+853,1086,Dr. Slim Ferchichi,Dr.,Neonatologist,LIC-10853,32,5
+854,1087,Sabah Bahri,Technician,Radiologist,LIC-10854,22,11
+855,1088,Ferida Nefzi,Nurse,Cardiovascular Nurse,LIC-10855,28,2
+856,1092,Dr. Radhia Trabelsi,Dr.,Cardiac Surgeon,LIC-10856,30,2
+857,1094,Sirine Jebali,Nurse,Cosmetic Dermatologist,LIC-10857,20,3
+858,1095,Dr. Ridha Jelassi,Dr.,Pulmonologist,LIC-10858,26,9
+859,1097,Dr. Samir Mejri,Dr.,Radiologist,LIC-10859,2,11
+860,1103,Wafa Brik,Intern,Thoracic Surgeon,LIC-10860,1,9
+861,1104,Dr. Hela Sellami,Dr.,Respiratory Therapist,LIC-10861,35,9
+862,1106,Dr. Olfa Hamouda,Dr.,Orthopedic Surgeon,LIC-10862,7,6
+863,1107,Dr. Wassim Khelifi,Dr.,General Practitioner,LIC-10863,35,12
+864,1108,Dr. Imen Jelassi,Dr.,Pediatrician,LIC-10864,26,5
+865,1109,Amel Ben Youssef,Resident,Diabetologist,LIC-10865,21,8
+866,1111,Karim Brik,Nurse,Oncologist,LIC-10866,17,1
+867,1113,Oussama Bahri,Nurse,Clinical Neurophysiologist,LIC-10867,5,4
+868,1116,Rania Rhouma,Resident,Dermatologist,LIC-10868,31,3
+869,1117,Dr. Anis Rhouma,Dr.,Ophthalmologist,LIC-10869,27,7
+870,1118,Dr. Nabil Chérif,Dr.,Neurosurgeon,LIC-10870,5,4
+871,1124,Dr. Fares Rahali,Dr.,Ophthalmologist,LIC-10871,10,7
+872,1126,Dr. Rami Ayari,Dr.,Interventional Radiologist,LIC-10872,21,11
+873,1132,Dr. Fatma Rezgui,Dr.,Respiratory Therapist,LIC-10873,34,9
+874,1133,Amine Hachani,Technician,Clinical Neurophysiologist,LIC-10874,29,4
+875,1135,Dr. Lobna Meddeb,Dr.,Thoracic Surgeon,LIC-10875,30,9
+876,1136,Maryem Bouazizi,Intern,Pediatrician,LIC-10876,3,5
+877,1141,Dorra Jebali,Technician,Glaucoma Specialist,LIC-10877,11,7
+878,1142,Oussama Hamouda,Technician,Pediatrician,LIC-10878,34,5
+879,1144,Amine Maaloul,Intern,Clinical Neurophysiologist,LIC-10879,3,4
+880,1145,Houssem Jelassi,Resident,Oncologist,LIC-10880,18,1
+881,1146,Baya Brik,Nurse,Pediatric Surgeon,LIC-10881,33,5
+882,1147,Khaoula Turki,Nurse,Orthopedic Surgeon,LIC-10882,1,6
+883,1149,Amira Mansouri,Technician,Clinical Neurophysiologist,LIC-10883,32,4
+884,1156,Fares Chérif,Resident,Interventional Radiologist,LIC-10884,7,11
+885,1158,Sabah Meddeb,Technician,Thoracic Surgeon,LIC-10885,25,9
+886,1160,Mourad Nefzi,Resident,Oncologist,LIC-10886,7,1
+887,1162,Dr. Wissem Sfar,Dr.,Neurosurgeon,LIC-10887,27,4
+888,1163,Dr. Nabil Mansouri,Dr.,Rheumatologist,LIC-10888,29,6
+889,1166,Dr. Taoufik Missaoui,Dr.,Glaucoma Specialist,LIC-10889,28,7
+890,1167,Dr. Sawsen Boughdiri,Dr.,Clinical Neurophysiologist,LIC-10890,12,4
+891,1169,Ines Rezgui,Intern,Cardiovascular Nurse,LIC-10891,3,2
+892,1171,Ahmed Brik,Technician,Neonatologist,LIC-10892,23,5
+893,1175,Lotfi Bouzid,Nurse,Endocrinologist,LIC-10893,21,8
+894,1177,Raja Hamouda,Nurse,Dermatologist,LIC-10894,21,3
+895,1181,Bechir Haddad,Intern,Cosmetic Dermatologist,LIC-10895,0,3
+896,1183,Dr. Khaoula Mbarki,Dr.,Physiotherapist,LIC-10896,7,6
+897,1184,Aziz Maaloul,Resident,Rheumatologist,LIC-10897,32,6
+898,1186,Ghassen Mathlouthi,Resident,Neurosurgeon,LIC-10898,32,4
+899,1188,Lotfi Ferchichi,Technician,Orthopedic Surgeon,LIC-10899,11,6
+900,1194,Dr. Asma Trabelsi,Dr.,Clinical Neurophysiologist,LIC-10900,20,4
+901,1196,Samir Hamouda,Nurse,Thoracic Surgeon,LIC-10901,12,9
+902,3,Dr. Zohra Labidi,Dr.,Neurologist,LIC-10902,6,4
+903,5,Intissar Belhaj,Resident,Pediatrician,LIC-10903,22,5
+904,8,Meriam Mbarki,Resident,Cosmetic Dermatologist,LIC-10904,7,3
+905,14,Mouna Meddeb,Nurse,Critical Care Specialist,LIC-10905,6,10
+906,17,Asma Dridi,Technician,Radiation Oncologist,LIC-10906,10,1
+907,18,Dr. Sawsen Rahali,Dr.,Endocrinologist,LIC-10907,15,8
+908,19,Dr. Nesrine Boughanmi,Dr.,Thyroid Specialist,LIC-10908,14,8
+909,22,Maryem Ben Ali,Nurse,Neurologist,LIC-10909,31,4
+910,24,Dr. Ridha Turki,Dr.,Ophthalmologist,LIC-10910,34,7
+911,26,Aymen Haddad,Resident,Family Medicine,LIC-10911,24,12
+912,29,Mehdi Jelassi,Intern,Orthopedic Surgeon,LIC-10912,2,6
+913,31,Dr. Meriam Mbarki,Dr.,General Practitioner,LIC-10913,21,12
+914,32,Dr. Khadija Bouzid,Dr.,Electrophysiologist,LIC-10914,35,2
+915,34,Dr. Hedi Sfar,Dr.,Family Medicine,LIC-10915,15,12
+916,39,Dr. Raja Rahali,Dr.,Thyroid Specialist,LIC-10916,29,8
+917,40,Mounir Chérif,Resident,Cardiac Surgeon,LIC-10917,2,2
+918,43,Dr. Nadia Ayari,Dr.,Physiotherapist,LIC-10918,10,6
+919,44,Youssef Zouari,Intern,Cardiovascular Nurse,LIC-10919,2,2
+920,46,Aziz Trabelsi,Technician,Glaucoma Specialist,LIC-10920,9,7
+921,47,Zohra Souissi,Technician,Pediatric Surgeon,LIC-10921,20,5
+922,49,Khaoula Dridi,Resident,Dermatopathologist,LIC-10922,21,3
+923,50,Dr. Mohamed Labidi,Dr.,Family Medicine,LIC-10923,8,12
+924,51,Dr. Sabah Bouazizi,Dr.,Respiratory Therapist,LIC-10924,11,9
+925,53,Dr. Baya Mejri,Dr.,Emergency Physician,LIC-10925,12,10
+926,54,Ines Douzi,Technician,General Practitioner,LIC-10926,22,12
+927,60,Salma Sfar,Resident,Critical Care Specialist,LIC-10927,25,10
+928,63,Soumaya Ben Youssef,Technician,Cosmetic Dermatologist,LIC-10928,12,3
+929,65,Amine Tlili,Intern,Dermatopathologist,LIC-10929,3,3
+930,66,Dr. Mehdi Boukadida,Dr.,Cosmetic Dermatologist,LIC-10930,26,3
+931,70,Walid Dridi,Intern,Nuclear Medicine Specialist,LIC-10931,0,11
+932,74,Dr. Slim Ayari,Dr.,Respiratory Therapist,LIC-10932,2,9
+933,75,Dr. Zaineb Chaabane,Dr.,Interventional Radiologist,LIC-10933,7,11
+934,78,Dr. Sana Ben Ali,Dr.,Surgical Oncologist,LIC-10934,25,1
+935,82,Lobna Trabelsi,Intern,Cardiac Surgeon,LIC-10935,1,2
+936,83,Ghofrane Labidi,Technician,Dermatopathologist,LIC-10936,14,3
+937,90,Dr. Mariem Sfar,Dr.,Trauma Surgeon,LIC-10937,12,10
+938,91,Dr. Ridha Mansouri,Dr.,Pulmonologist,LIC-10938,29,9
+939,92,Dr. Ahmed Labidi,Dr.,Pulmonologist,LIC-10939,20,9
+940,93,Amel Sfar,Intern,Radiologist,LIC-10940,1,11
+941,96,Dr. Amine Boukadida,Dr.,Emergency Physician,LIC-10941,22,10
+942,100,Raja Fakhfakh,Resident,Endocrinologist,LIC-10942,5,8
+943,101,Khaoula Bouzid,Intern,Dermatologist,LIC-10943,3,3
+944,102,Wafa Ben Mansour,Resident,Surgical Oncologist,LIC-10944,4,1
+945,103,Dr. Samia Ghribi,Dr.,Pulmonologist,LIC-10945,21,9
+946,104,Cyrine Missaoui,Resident,Thoracic Surgeon,LIC-10946,13,9
+947,108,Dr. Amel Hamrouni,Dr.,Endocrinologist,LIC-10947,19,8
+948,115,Ghassen Jelassi,Resident,Retinal Specialist,LIC-10948,6,7
+949,118,Mounir Trabelsi,Technician,Cardiovascular Nurse,LIC-10949,31,2
+950,123,Sofien Ben Youssef,Nurse,Diabetologist,LIC-10950,4,8
+951,126,Dr. Khaled Sassi,Dr.,Neurologist,LIC-10951,20,4
+952,128,Dr. Aymen Kraiem,Dr.,Interventional Radiologist,LIC-10952,4,11
+953,129,Dr. Issam Trabelsi,Dr.,Neonatologist,LIC-10953,13,5
+954,131,Dr. Mariem Zghal,Dr.,Interventional Radiologist,LIC-10954,33,11
+955,132,Dr. Cyrine Karray,Dr.,Respiratory Therapist,LIC-10955,3,9
+956,135,Rami Sfar,Technician,Dermatologist,LIC-10956,21,3
+957,136,Dr. Nour Mansouri,Dr.,Endocrinologist,LIC-10957,1,8
+958,137,Dr. Leila Ben Youssef,Dr.,General Practitioner,LIC-10958,19,12
+959,139,Dr. Mohamed Azaiez,Dr.,Interventional Radiologist,LIC-10959,12,11
+960,144,Dr. Naima Meddeb,Dr.,Physiotherapist,LIC-10960,3,6
+961,146,Dr. Maryem Mzoughi,Dr.,Critical Care Specialist,LIC-10961,17,10
+962,147,Houda Zouari,Nurse,Clinical Neurophysiologist,LIC-10962,18,4
+963,148,Dr. Soumaya Hamouda,Dr.,Retinal Specialist,LIC-10963,25,7
+964,149,Dr. Rim Sassi,Dr.,Diabetologist,LIC-10964,1,8
+965,150,Ghofrane Hamouda,Resident,Hematologist,LIC-10965,9,1
+966,153,Dr. Elyès Hamouda,Dr.,Cardiologist,LIC-10966,8,2
+967,155,Sana Azaiez,Technician,Cardiac Surgeon,LIC-10967,35,2
+968,158,Hedi Khelifi,Nurse,Nuclear Medicine Specialist,LIC-10968,26,11
+969,170,Amel Zghal,Nurse,Pediatric Surgeon,LIC-10969,17,5
+970,175,Dr. Amira Rhouma,Dr.,Ophthalmologist,LIC-10970,6,7
+971,176,Makram Karray,Technician,Neurologist,LIC-10971,34,4
+972,177,Ali Lassoued,Technician,Cardiologist,LIC-10972,15,2
+973,181,Leila Sassi,Resident,Dermatologist,LIC-10973,5,3
+974,183,Tarek Jelassi,Intern,Thyroid Specialist,LIC-10974,1,8
+975,185,Dr. Ridha Belhaj,Dr.,Nuclear Medicine Specialist,LIC-10975,13,11
+976,187,Sabah Souissi,Intern,Oncologist,LIC-10976,1,1
+977,188,Slim Sellami,Nurse,Cosmetic Dermatologist,LIC-10977,30,3
+978,190,Dr. Walid Azaiez,Dr.,Retinal Specialist,LIC-10978,10,7
+979,193,Dr. Amel Saidi,Dr.,Neurologist,LIC-10979,13,4
+980,199,Slim Fakhfakh,Technician,Hematologist,LIC-10980,5,1
+981,201,Nesrine Belhaj,Nurse,Pulmonologist,LIC-10981,10,9
+982,205,Dr. Nadia Hamrouni,Dr.,Cardiologist,LIC-10982,27,2
+983,207,Dr. Cyrine Zghal,Dr.,Critical Care Specialist,LIC-10983,11,10
+984,208,Aziz Hamrouni,Intern,Radiation Oncologist,LIC-10984,0,1
+985,209,Dr. Thouraya Dridi,Dr.,Ophthalmologist,LIC-10985,4,7
+986,211,Dr. Zied Hachani,Dr.,Clinical Neurophysiologist,LIC-10986,3,4
+987,213,Dr. Hela Zghal,Dr.,Hematologist,LIC-10987,25,1
+988,218,Bassem Zouari,Resident,Thyroid Specialist,LIC-10988,16,8
+989,219,Wassim Boukadida,Nurse,Rheumatologist,LIC-10989,30,6
+990,223,Dr. Samia Boughdiri,Dr.,Thyroid Specialist,LIC-10990,24,8
+991,224,Olfa Mzoughi,Nurse,Nuclear Medicine Specialist,LIC-10991,12,11
+992,227,Dr. Zied Nasri,Dr.,Rheumatologist,LIC-10992,2,6
+993,229,Houda Ghribi,Nurse,Dermatologist,LIC-10993,30,3
+994,230,Dr. Soumaya Mansouri,Dr.,Ophthalmologist,LIC-10994,23,7
+995,233,Rami Haddad,Resident,Retinal Specialist,LIC-10995,29,7
+996,238,Ridha Ben Youssef,Technician,Physiotherapist,LIC-10996,21,6
+997,241,Dr. Elyès Haddad,Dr.,Internal Medicine,LIC-10997,14,12
+998,243,Dr. Tarek Souissi,Dr.,Emergency Physician,LIC-10998,24,10
+999,244,Taoufik Bahri,Resident,Rheumatologist,LIC-10999,20,6
+1000,3,Dr. Hajer Haddad,Dr.,Endocrinologist,LIC-11000,35,8

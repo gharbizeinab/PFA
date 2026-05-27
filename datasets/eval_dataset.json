@@ -1,0 +1,17 @@
+[
+  {"id":"Q001","question":"Combien de patients dans la base ?",
+   "expected_table":"patients","expected_intent":"SELECT",
+   "expected_sql":"SELECT COUNT(*) FROM patients"},
+  {"id":"Q002","question":"Consultations de ce mois",
+   "expected_table":"consultations","expected_intent":"SELECT",
+   "expected_sql":"SELECT * FROM consultations WHERE EXTRACT(MONTH FROM consultation_date)=EXTRACT(MONTH FROM NOW())"},
+  {"id":"Q003","question":"Score IA moyen des diagnostics",
+   "expected_table":"ai_diagnosis","expected_intent":"SELECT",
+   "expected_sql":"SELECT AVG(confidence_score) FROM ai_diagnosis"},
+  {"id":"Q004","question":"Patients masculins de plus de 50 ans",
+   "expected_table":"patients","expected_intent":"SELECT",
+   "expected_sql":"SELECT * FROM patients WHERE gender='Male' AND age>50"},
+  {"id":"Q005","question":"Rendez-vous d aujourd hui",
+   "expected_table":"appointments","expected_intent":"SELECT",
+   "expected_sql":"SELECT * FROM appointments WHERE appointment_date=CURRENT_DATE"}
+]

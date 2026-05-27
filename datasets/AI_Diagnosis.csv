@@ -1,0 +1,1001 @@
+id_ai_diagnosis,id_consultation,symptoms_analysis,predicted_disease,confidence_score,ai_recommendation,generated_at
+1,1127,"Detected: muscle weakness, back pain, skin itching, swelling",Atrial Fibrillation,0.68,Recommend further tests; confidence 68.0%.,2024-08-14
+2,253,"Detected: rash, numbness, loss of appetite, skin itching",Osteoarthritis,0.69,Recommend further tests; confidence 69.0%.,2022-07-31
+3,48,"Detected: dry mouth, fatigue, insomnia, rash",Migraine,0.77,Recommend further tests; confidence 77.0%.,2023-07-21
+4,62,"Detected: hair loss, joint pain, back pain, skin itching",Multiple Sclerosis,0.88,Recommend further tests; confidence 88.0%.,2023-02-04
+5,200,"Detected: night sweats, frequent urination, loss of appetite",Anemia,0.76,Recommend further tests; confidence 76.0%.,2023-09-20
+6,524,"Detected: skin itching, palpitations, vomiting, frequent urination, joint pain",COPD,0.78,Recommend further tests; confidence 78.0%.,2025-01-13
+7,365,"Detected: leg cramps, night sweats, blurred vision, swelling",Angina Pectoris,0.65,Recommend further tests; confidence 65.0%.,2024-01-18
+8,1034,"Detected: skin itching, insomnia, frequent urination, fatigue, fever",Gastritis,0.7,Recommend further tests; confidence 70.0%.,2025-06-03
+9,836,"Detected: insomnia, memory loss, excessive thirst, anxiety",Atrial Fibrillation,0.89,Recommend further tests; confidence 89.0%.,2024-10-13
+10,853,"Detected: numbness, night sweats, fever",Angina Pectoris,0.89,Recommend further tests; confidence 89.0%.,2024-07-29
+11,119,"Detected: joint pain, weight gain, numbness, fatigue, back pain",Hypertension,0.93,Recommend further tests; confidence 93.0%.,2023-03-05
+12,810,"Detected: frequent urination, excessive thirst, swelling, weight gain",Acne Vulgaris,0.84,Recommend further tests; confidence 84.0%.,2024-06-06
+13,374,"Detected: night sweats, blurred vision, weight gain",Hypothyroidism,0.66,Recommend further tests; confidence 66.0%.,2023-07-07
+14,655,"Detected: cough, dry mouth, frequent urination",Pending diagnosis,0.83,Recommend further tests; confidence 83.0%.,2026-01-13
+15,176,"Detected: fever, back pain, dizziness, loss of appetite, rash",Kidney Stones,0.93,Recommend further tests; confidence 93.0%.,2023-05-18
+16,660,"Detected: numbness, weight gain, muscle weakness",Lung Cancer,0.82,Recommend further tests; confidence 82.0%.,2026-01-21
+17,1001,"Detected: rash, back pain",Cholecystitis,0.92,Recommend further tests; confidence 92.0%.,2024-09-20
+18,663,"Detected: numbness, memory loss",Epilepsy,0.73,Recommend further tests; confidence 73.0%.,2024-05-13
+19,697,"Detected: blurred vision, shortness of breath",Gastritis,0.86,Recommend further tests; confidence 86.0%.,2024-07-23
+20,221,"Detected: excessive thirst, abdominal pain, headache, confusion",Urinary Tract Infection,0.85,Recommend further tests; confidence 85.0%.,2023-03-09
+21,519,"Detected: memory loss, swelling, confusion, tingling sensation",Bronchitis,0.57,Recommend further tests; confidence 57.0%.,2025-04-28
+22,88,"Detected: dizziness, chest pain, nausea, abdominal pain, numbness",Atrial Fibrillation,0.57,Recommend further tests; confidence 57.0%.,2023-09-29
+23,1158,"Detected: vomiting, blurred vision",Breast Cancer,0.57,Recommend further tests; confidence 57.0%.,2025-08-06
+24,815,"Detected: skin itching, shortness of breath",Atrial Fibrillation,0.71,Recommend further tests; confidence 71.0%.,2024-11-09
+25,912,"Detected: headache, fever, abdominal pain, excessive thirst",Colorectal Cancer,0.81,Recommend further tests; confidence 81.0%.,2025-08-01
+26,202,"Detected: confusion, anxiety",Glaucoma,0.97,Recommend further tests; confidence 97.0%.,2023-04-14
+27,29,"Detected: nausea, palpitations, insomnia, hair loss, fatigue",Melanoma,0.79,Recommend further tests; confidence 79.0%.,2022-07-29
+28,1048,"Detected: numbness, frequent urination",Routine checkup,0.67,Recommend further tests; confidence 67.0%.,2024-06-15
+29,17,"Detected: confusion, frequent urination",Lymphoma,0.98,Recommend further tests; confidence 98.0%.,2023-02-25
+30,4,"Detected: numbness, swelling, cough",Pending diagnosis,0.95,Recommend further tests; confidence 95.0%.,2023-02-09
+31,544,"Detected: hair loss, night sweats",Cataracts,0.79,Recommend further tests; confidence 79.0%.,2025-12-28
+32,724,"Detected: swelling, confusion, palpitations, difficulty breathing, joint pain",Routine checkup,0.88,Recommend further tests; confidence 88.0%.,2025-12-07
+33,1055,"Detected: anxiety, joint pain, loss of appetite, rash, chest pain",Pending diagnosis,0.9,Recommend further tests; confidence 90.0%.,2025-02-10
+34,991,"Detected: fever, anxiety, muscle weakness, headache",Acne Vulgaris,0.73,Recommend further tests; confidence 73.0%.,2025-03-19
+35,376,"Detected: blurred vision, loss of appetite, fever, palpitations, weight loss",Diabetes Type 1,0.83,Recommend further tests; confidence 83.0%.,2022-09-03
+36,559,"Detected: dizziness, nausea, palpitations, rash",Under observation,0.92,Recommend further tests; confidence 92.0%.,2025-01-20
+37,321,"Detected: headache, chest pain, dry mouth, abdominal pain",Diabetes Type 1,0.6,Recommend further tests; confidence 60.0%.,2023-04-25
+38,358,"Detected: anxiety, tingling sensation, cough",Hypertension,0.55,Recommend further tests; confidence 55.0%.,2024-01-19
+39,1167,"Detected: leg cramps, abdominal pain, back pain",Parkinson's Disease,0.8,Recommend further tests; confidence 80.0%.,2026-05-05
+40,601,"Detected: loss of appetite, weight gain, skin itching, difficulty breathing",Angina Pectoris,0.6,Recommend further tests; confidence 60.0%.,2024-07-03
+41,808,"Detected: vomiting, joint pain, abdominal pain",Osteoarthritis,0.74,Recommend further tests; confidence 74.0%.,2026-01-07
+42,868,"Detected: abdominal pain, confusion, headache, numbness, difficulty breathing",Seasonal Flu,0.8,Recommend further tests; confidence 80.0%.,2024-10-11
+43,716,"Detected: night sweats, weight gain, confusion, rash, palpitations",Myocardial Infarction,0.77,Recommend further tests; confidence 77.0%.,2024-11-28
+44,264,"Detected: rash, frequent urination, weight loss",Kidney Stones,0.75,Recommend further tests; confidence 75.0%.,2022-01-10
+45,610,"Detected: confusion, weight loss, weight gain, tingling sensation, cough",Seasonal Flu,0.58,Recommend further tests; confidence 58.0%.,2026-03-13
+46,1058,"Detected: swelling, hair loss, shortness of breath",Common Cold,0.91,Recommend further tests; confidence 91.0%.,2026-03-12
+47,407,"Detected: shortness of breath, difficulty breathing, memory loss",Glaucoma,0.97,Recommend further tests; confidence 97.0%.,2024-05-21
+48,92,"Detected: skin itching, weight gain, excessive thirst, confusion, numbness",Colorectal Cancer,0.77,Recommend further tests; confidence 77.0%.,2023-06-26
+49,708,"Detected: weight gain, nausea, palpitations",Epilepsy,0.6,Recommend further tests; confidence 60.0%.,2024-12-22
+50,236,"Detected: blurred vision, night sweats, nausea",Addison's Disease,0.73,Recommend further tests; confidence 73.0%.,2023-04-05
+51,936,"Detected: numbness, nausea, fever, dizziness, leg cramps",Diabetes Type 2,0.73,Recommend further tests; confidence 73.0%.,2025-04-08
+52,255,"Detected: skin itching, difficulty breathing, memory loss, dry mouth",Pending diagnosis,0.78,Recommend further tests; confidence 78.0%.,2023-03-18
+53,952,"Detected: nausea, insomnia, dizziness, weight gain, rash",Cancer,0.8,Recommend further tests; confidence 80.0%.,2025-11-19
+54,319,"Detected: dizziness, joint pain, excessive thirst",Cholecystitis,0.65,Recommend further tests; confidence 65.0%.,2022-05-08
+55,680,"Detected: difficulty breathing, loss of appetite",Common Cold,0.56,Recommend further tests; confidence 56.0%.,2024-04-17
+56,131,"Detected: nausea, abdominal pain",Anemia,0.93,Recommend further tests; confidence 93.0%.,2022-02-17
+57,369,"Detected: frequent urination, dizziness, shortness of breath, rash, dry mouth",Lung Cancer,0.79,Recommend further tests; confidence 79.0%.,2022-10-14
+58,445,"Detected: loss of appetite, skin itching, muscle weakness",Urinary Tract Infection,0.72,Recommend further tests; confidence 72.0%.,2025-01-15
+59,525,"Detected: abdominal pain, back pain, tingling sensation, confusion, weight loss",Cholecystitis,0.6,Recommend further tests; confidence 60.0%.,2025-05-07
+60,422,"Detected: vomiting, blurred vision, headache",Under observation,0.63,Recommend further tests; confidence 63.0%.,2024-11-21
+61,482,"Detected: nausea, memory loss, chest pain, insomnia",Common Cold,0.59,Recommend further tests; confidence 59.0%.,2024-04-27
+62,671,"Detected: abdominal pain, headache, fever",Cataracts,0.57,Recommend further tests; confidence 57.0%.,2026-04-08
+63,476,"Detected: joint pain, palpitations",Appendicitis,0.72,Recommend further tests; confidence 72.0%.,2025-01-23
+64,885,"Detected: tingling sensation, leg cramps",Migraine,0.69,Recommend further tests; confidence 69.0%.,2026-01-06
+65,949,"Detected: loss of appetite, weight gain",Leukemia,0.96,Recommend further tests; confidence 96.0%.,2025-02-27
+66,765,"Detected: leg cramps, confusion, numbness, night sweats, blurred vision",Osteoporosis,0.72,Recommend further tests; confidence 72.0%.,2024-04-05
+67,917,"Detected: shortness of breath, leg cramps",Heart Failure,0.62,Recommend further tests; confidence 62.0%.,2026-03-29
+68,992,"Detected: fever, hair loss, swelling",Diabetes Type 1,0.74,Recommend further tests; confidence 74.0%.,2026-02-26
+69,1020,"Detected: headache, loss of appetite, palpitations",Heart Failure,0.6,Recommend further tests; confidence 60.0%.,2025-06-06
+70,910,"Detected: skin itching, tingling sensation",Cancer,0.93,Recommend further tests; confidence 93.0%.,2024-05-27
+71,436,"Detected: difficulty breathing, memory loss, back pain, insomnia",Lung Cancer,0.65,Recommend further tests; confidence 65.0%.,2025-04-02
+72,514,"Detected: joint pain, memory loss, vomiting, leg cramps",Dermatitis,0.6,Recommend further tests; confidence 60.0%.,2024-07-21
+73,267,"Detected: back pain, numbness, muscle weakness",Lymphoma,0.74,Recommend further tests; confidence 74.0%.,2022-04-01
+74,795,"Detected: joint pain, muscle weakness, excessive thirst, frequent urination, rash",Common Cold,0.81,Recommend further tests; confidence 81.0%.,2025-03-26
+75,686,"Detected: fever, fatigue, blurred vision, leg cramps, hair loss",Stroke,0.75,Recommend further tests; confidence 75.0%.,2025-10-10
+76,1090,"Detected: confusion, fatigue, fever",Renal Failure,0.63,Recommend further tests; confidence 63.0%.,2026-02-04
+77,988,"Detected: nausea, leg cramps",Angina Pectoris,0.93,Recommend further tests; confidence 93.0%.,2025-04-05
+78,661,"Detected: chest pain, dry mouth, hair loss, confusion, muscle weakness",Hypertension,0.9,Recommend further tests; confidence 90.0%.,2025-02-19
+79,99,"Detected: fever, cough, numbness, excessive thirst",COPD,0.97,Recommend further tests; confidence 97.0%.,2023-10-02
+80,424,"Detected: fatigue, back pain, vomiting, abdominal pain",Peptic Ulcer,0.81,Recommend further tests; confidence 81.0%.,2024-08-03
+81,143,"Detected: joint pain, skin itching, vomiting, tingling sensation, loss of appetite",Epilepsy,0.96,Recommend further tests; confidence 96.0%.,2024-02-05
+82,19,"Detected: excessive thirst, night sweats, skin itching, headache",Eczema,0.9,Recommend further tests; confidence 90.0%.,2023-11-07
+83,614,"Detected: blurred vision, night sweats, confusion",Hypertension,0.83,Recommend further tests; confidence 83.0%.,2025-02-08
+84,897,"Detected: fatigue, joint pain, back pain, swelling, chest pain",Pending diagnosis,0.96,Recommend further tests; confidence 96.0%.,2025-07-09
+85,189,"Detected: palpitations, shortness of breath",COPD,0.76,Recommend further tests; confidence 76.0%.,2022-03-28
+86,526,"Detected: night sweats, palpitations, shortness of breath, insomnia, muscle weakness",Osteoporosis,0.71,Recommend further tests; confidence 71.0%.,2026-05-06
+87,3,"Detected: rash, muscle weakness, weight loss",Diabetes Type 2,0.79,Recommend further tests; confidence 79.0%.,2026-03-15
+88,964,"Detected: skin itching, weight gain, dizziness, cough, difficulty breathing",Lymphoma,0.83,Recommend further tests; confidence 83.0%.,2026-01-07
+89,978,"Detected: memory loss, dizziness",Macular Degeneration,0.83,Recommend further tests; confidence 83.0%.,2025-07-29
+90,154,"Detected: dry mouth, leg cramps",Appendicitis,0.82,Recommend further tests; confidence 82.0%.,2022-01-27
+91,1188,"Detected: memory loss, weight loss, rash, difficulty breathing, back pain",Rheumatoid Arthritis,0.75,Recommend further tests; confidence 75.0%.,2025-06-02
+92,1045,"Detected: confusion, vomiting, muscle weakness, numbness",Rheumatoid Arthritis,0.76,Recommend further tests; confidence 76.0%.,2025-04-30
+93,1197,"Detected: nausea, weight loss, numbness, difficulty breathing, joint pain",Angina Pectoris,0.65,Recommend further tests; confidence 65.0%.,2025-05-20
+94,846,"Detected: fever, confusion, fatigue",Heart Failure,0.65,Recommend further tests; confidence 65.0%.,2026-01-18
+95,175,"Detected: cough, skin itching, dizziness, numbness",Osteoporosis,0.88,Recommend further tests; confidence 88.0%.,2023-04-20
+96,73,"Detected: night sweats, vomiting",Colorectal Cancer,0.89,Recommend further tests; confidence 89.0%.,2022-04-16
+97,986,"Detected: cough, memory loss, nausea",Eczema,0.59,Recommend further tests; confidence 59.0%.,2024-09-27
+98,542,"Detected: excessive thirst, muscle weakness, blurred vision",Multiple Sclerosis,0.74,Recommend further tests; confidence 74.0%.,2025-07-07
+99,1160,"Detected: night sweats, muscle weakness, abdominal pain",Parkinson's Disease,0.94,Recommend further tests; confidence 94.0%.,2026-01-05
+100,805,"Detected: dry mouth, skin itching",Pending diagnosis,0.63,Recommend further tests; confidence 63.0%.,2025-03-07
+101,845,"Detected: rash, confusion",Colorectal Cancer,0.96,Recommend further tests; confidence 96.0%.,2024-07-26
+102,1019,"Detected: excessive thirst, dry mouth, hair loss",Follow-up examination,0.91,Recommend further tests; confidence 91.0%.,2024-12-20
+103,560,"Detected: frequent urination, excessive thirst, swelling, cough, dry mouth",Pending diagnosis,0.67,Recommend further tests; confidence 67.0%.,2025-07-27
+104,972,"Detected: fatigue, abdominal pain, muscle weakness, insomnia",Gastritis,0.95,Recommend further tests; confidence 95.0%.,2025-11-05
+105,311,"Detected: difficulty breathing, joint pain, nausea, hair loss",Dermatitis,0.66,Recommend further tests; confidence 66.0%.,2023-02-01
+106,185,"Detected: headache, anxiety, frequent urination, fatigue, tingling sensation",Heart Failure,0.59,Recommend further tests; confidence 59.0%.,2022-12-16
+107,941,"Detected: tingling sensation, headache, fever",Retinal Detachment,0.73,Recommend further tests; confidence 73.0%.,2026-03-16
+108,246,"Detected: difficulty breathing, tingling sensation, memory loss",Peptic Ulcer,0.57,Recommend further tests; confidence 57.0%.,2022-03-14
+109,349,"Detected: abdominal pain, hair loss, excessive thirst, insomnia",Sleep Apnea,0.67,Recommend further tests; confidence 67.0%.,2023-10-20
+110,594,"Detected: headache, abdominal pain, frequent urination, leg cramps, shortness of breath",Cholecystitis,0.89,Recommend further tests; confidence 89.0%.,2025-12-08
+111,472,"Detected: leg cramps, insomnia, hair loss, difficulty breathing",Heart Failure,0.71,Recommend further tests; confidence 71.0%.,2025-06-30
+112,755,"Detected: excessive thirst, fatigue, joint pain, weight gain",Pending diagnosis,0.74,Recommend further tests; confidence 74.0%.,2025-12-20
+113,799,"Detected: memory loss, back pain, loss of appetite, vomiting",Peptic Ulcer,0.67,Recommend further tests; confidence 67.0%.,2024-07-16
+114,867,"Detected: insomnia, tingling sensation, swelling, cough, difficulty breathing",Lung Cancer,0.7,Recommend further tests; confidence 70.0%.,2026-04-07
+115,1025,"Detected: insomnia, abdominal pain, numbness, skin itching",Anemia,0.84,Recommend further tests; confidence 84.0%.,2024-06-02
+116,502,"Detected: palpitations, blurred vision, fatigue, numbness",Hypothyroidism,0.88,Recommend further tests; confidence 88.0%.,2025-12-01
+117,104,"Detected: blurred vision, insomnia",Leukemia,0.61,Recommend further tests; confidence 61.0%.,2023-12-06
+118,447,"Detected: chest pain, night sweats, insomnia, joint pain, fever",Retinal Detachment,0.95,Recommend further tests; confidence 95.0%.,2026-04-21
+119,315,"Detected: dizziness, nausea",Lung Cancer,0.73,Recommend further tests; confidence 73.0%.,2024-01-06
+120,714,"Detected: dry mouth, vomiting",Eczema,0.81,Recommend further tests; confidence 81.0%.,2024-03-30
+121,404,"Detected: palpitations, blurred vision, memory loss, shortness of breath",Dermatitis,0.87,Recommend further tests; confidence 87.0%.,2022-10-07
+122,793,"Detected: back pain, fever, chest pain, frequent urination",Kidney Stones,0.71,Recommend further tests; confidence 71.0%.,2025-01-02
+123,762,"Detected: tingling sensation, vomiting, abdominal pain, difficulty breathing, joint pain",Hypothyroidism,0.59,Recommend further tests; confidence 59.0%.,2024-08-31
+124,296,"Detected: fatigue, loss of appetite, weight loss",Lung Cancer,0.85,Recommend further tests; confidence 85.0%.,2024-02-25
+125,743,"Detected: fever, anxiety, joint pain, night sweats",Pneumonia,0.8,Recommend further tests; confidence 80.0%.,2025-02-11
+126,668,"Detected: back pain, weight gain, palpitations, joint pain, excessive thirst",Epilepsy,0.94,Recommend further tests; confidence 94.0%.,2025-07-18
+127,913,"Detected: difficulty breathing, cough, leg cramps, night sweats, palpitations",Parkinson's Disease,0.92,Recommend further tests; confidence 92.0%.,2024-08-26
+128,778,"Detected: fatigue, dizziness, blurred vision, nausea, dry mouth",Epilepsy,0.96,Recommend further tests; confidence 96.0%.,2024-11-02
+129,1003,"Detected: dizziness, skin itching, headache, joint pain, loss of appetite",Hypothyroidism,0.91,Recommend further tests; confidence 91.0%.,2025-04-18
+130,1121,"Detected: fever, palpitations, headache, loss of appetite",Hypothyroidism,0.8,Recommend further tests; confidence 80.0%.,2025-08-30
+131,656,"Detected: weight loss, vomiting, fever",Peptic Ulcer,0.66,Recommend further tests; confidence 66.0%.,2025-01-22
+132,22,"Detected: swelling, fatigue",Hyperthyroidism,0.77,Recommend further tests; confidence 77.0%.,2023-06-10
+133,1097,"Detected: hair loss, palpitations",Asthma,0.91,Recommend further tests; confidence 91.0%.,2024-06-17
+134,192,"Detected: night sweats, insomnia, back pain, difficulty breathing",Dermatitis,0.61,Recommend further tests; confidence 61.0%.,2022-08-19
+135,114,"Detected: weight loss, frequent urination, memory loss, difficulty breathing, back pain",Myocardial Infarction,0.82,Recommend further tests; confidence 82.0%.,2022-03-27
+136,1023,"Detected: frequent urination, excessive thirst, joint pain",Common Cold,0.91,Recommend further tests; confidence 91.0%.,2025-10-26
+137,361,"Detected: memory loss, numbness, difficulty breathing",Hypertension,0.91,Recommend further tests; confidence 91.0%.,2022-10-23
+138,459,"Detected: headache, swelling, muscle weakness, nausea, dry mouth",Psoriasis,0.75,Recommend further tests; confidence 75.0%.,2024-10-02
+139,1156,"Detected: loss of appetite, blurred vision",Melanoma,0.81,Recommend further tests; confidence 81.0%.,2024-12-02
+140,945,"Detected: dizziness, palpitations",Osteoporosis,0.96,Recommend further tests; confidence 96.0%.,2024-04-09
+141,791,"Detected: frequent urination, muscle weakness, tingling sensation",Chronic headache,0.87,Recommend further tests; confidence 87.0%.,2025-02-15
+142,549,"Detected: blurred vision, insomnia, dry mouth",Epilepsy,0.69,Recommend further tests; confidence 69.0%.,2024-07-29
+143,851,"Detected: shortness of breath, anxiety, numbness, tingling sensation",Under observation,0.63,Recommend further tests; confidence 63.0%.,2024-08-11
+144,148,"Detected: joint pain, insomnia, tingling sensation, difficulty breathing, weight loss",Kidney Stones,0.76,Recommend further tests; confidence 76.0%.,2022-06-24
+145,1166,"Detected: shortness of breath, joint pain, headache, fever, difficulty breathing",Glaucoma,0.73,Recommend further tests; confidence 73.0%.,2025-10-05
+146,776,"Detected: frequent urination, blurred vision, night sweats, shortness of breath",Lymphoma,0.86,Recommend further tests; confidence 86.0%.,2024-09-11
+147,181,"Detected: night sweats, chest pain",Parkinson's Disease,0.76,Recommend further tests; confidence 76.0%.,2023-07-04
+148,534,"Detected: headache, excessive thirst, fatigue",Anemia,0.84,Recommend further tests; confidence 84.0%.,2024-04-18
+149,420,"Detected: tingling sensation, weight loss",Melanoma,0.6,Recommend further tests; confidence 60.0%.,2025-03-17
+150,830,"Detected: skin itching, back pain",Hypertension,0.74,Recommend further tests; confidence 74.0%.,2026-02-24
+151,485,"Detected: frequent urination, fatigue, weight gain, swelling, joint pain",Peptic Ulcer,0.92,Recommend further tests; confidence 92.0%.,2024-11-29
+152,220,"Detected: blurred vision, anxiety, difficulty breathing",Colorectal Cancer,0.94,Recommend further tests; confidence 94.0%.,2022-01-28
+153,809,"Detected: insomnia, fever, muscle weakness, blurred vision",Multiple Sclerosis,0.55,Recommend further tests; confidence 55.0%.,2025-12-11
+154,1064,"Detected: frequent urination, hair loss, rash",Hypothyroidism,0.62,Recommend further tests; confidence 62.0%.,2024-08-11
+155,904,"Detected: tingling sensation, weight loss, weight gain",Rheumatoid Arthritis,0.86,Recommend further tests; confidence 86.0%.,2024-08-08
+156,684,"Detected: skin itching, dry mouth, frequent urination, hair loss, night sweats",Renal Failure,0.63,Recommend further tests; confidence 63.0%.,2025-11-06
+157,1102,"Detected: hair loss, palpitations, vomiting, back pain",Anemia,0.63,Recommend further tests; confidence 63.0%.,2024-04-30
+158,611,"Detected: dry mouth, palpitations, hair loss, leg cramps",Gastritis,0.62,Recommend further tests; confidence 62.0%.,2025-11-04
+159,1195,"Detected: weight gain, joint pain, dizziness, back pain",Hyperthyroidism,0.71,Recommend further tests; confidence 71.0%.,2024-08-30
+160,457,"Detected: vomiting, swelling, excessive thirst",Renal Failure,0.72,Recommend further tests; confidence 72.0%.,2025-10-10
+161,79,"Detected: frequent urination, back pain, blurred vision, leg cramps",Angina Pectoris,0.8,Recommend further tests; confidence 80.0%.,2023-04-11
+162,653,"Detected: shortness of breath, dry mouth",Chronic headache,0.61,Recommend further tests; confidence 61.0%.,2025-03-16
+163,1145,"Detected: excessive thirst, blurred vision",Appendicitis,0.97,Recommend further tests; confidence 97.0%.,2025-12-04
+164,690,"Detected: vomiting, numbness, weight gain",Macular Degeneration,0.87,Recommend further tests; confidence 87.0%.,2025-08-06
+165,806,"Detected: nausea, chest pain",Follow-up examination,0.92,Recommend further tests; confidence 92.0%.,2026-03-16
+166,822,"Detected: vomiting, swelling",Retinal Detachment,0.64,Recommend further tests; confidence 64.0%.,2024-05-11
+167,446,"Detected: skin itching, shortness of breath",Parkinson's Disease,0.66,Recommend further tests; confidence 66.0%.,2025-07-23
+168,34,"Detected: vomiting, fever, excessive thirst, confusion, difficulty breathing",Peptic Ulcer,0.6,Recommend further tests; confidence 60.0%.,2023-05-23
+169,127,"Detected: excessive thirst, vomiting",Cataracts,0.85,Recommend further tests; confidence 85.0%.,2022-01-07
+170,807,"Detected: numbness, joint pain",Renal Failure,0.7,Recommend further tests; confidence 70.0%.,2025-11-13
+171,412,"Detected: insomnia, joint pain",Lung Cancer,0.92,Recommend further tests; confidence 92.0%.,2025-04-03
+172,1088,"Detected: fever, tingling sensation, fatigue, numbness, dizziness",Melanoma,0.8,Recommend further tests; confidence 80.0%.,2024-08-10
+173,298,"Detected: blurred vision, palpitations",Breast Cancer,0.7,Recommend further tests; confidence 70.0%.,2023-06-10
+174,242,"Detected: night sweats, skin itching, fatigue",Gastritis,0.96,Recommend further tests; confidence 96.0%.,2023-12-19
+175,111,"Detected: fatigue, confusion",Seasonal Flu,0.93,Recommend further tests; confidence 93.0%.,2022-02-01
+176,735,"Detected: excessive thirst, palpitations, tingling sensation, muscle weakness",Pneumonia,0.83,Recommend further tests; confidence 83.0%.,2025-07-26
+177,159,"Detected: frequent urination, tingling sensation, fatigue, weight gain",Cancer,0.89,Recommend further tests; confidence 89.0%.,2023-05-14
+178,399,"Detected: joint pain, dizziness, frequent urination, back pain, weight loss",Hypothyroidism,0.93,Recommend further tests; confidence 93.0%.,2024-02-03
+179,266,"Detected: shortness of breath, difficulty breathing",Cataracts,0.7,Recommend further tests; confidence 70.0%.,2023-08-09
+180,58,"Detected: nausea, weight loss, fever, numbness",Hypertension,0.71,Recommend further tests; confidence 71.0%.,2022-11-16
+181,1041,"Detected: joint pain, fatigue, weight loss",Cancer,0.95,Recommend further tests; confidence 95.0%.,2025-07-20
+182,523,"Detected: difficulty breathing, tingling sensation",Fracture,0.77,Recommend further tests; confidence 77.0%.,2024-03-19
+183,474,"Detected: loss of appetite, palpitations, tingling sensation, anxiety",Dermatitis,0.58,Recommend further tests; confidence 58.0%.,2026-01-04
+184,892,"Detected: fever, palpitations",Cholecystitis,0.95,Recommend further tests; confidence 95.0%.,2025-12-07
+185,759,"Detected: dry mouth, memory loss, anxiety, numbness, tingling sensation",Osteoporosis,0.83,Recommend further tests; confidence 83.0%.,2024-04-19
+186,989,"Detected: memory loss, weight loss, insomnia, chest pain",Diabetes Type 2,0.78,Recommend further tests; confidence 78.0%.,2025-12-29
+187,984,"Detected: dry mouth, muscle weakness, anxiety, hair loss, leg cramps",Addison's Disease,0.63,Recommend further tests; confidence 63.0%.,2025-01-15
+188,1051,"Detected: weight loss, palpitations",Angina Pectoris,0.56,Recommend further tests; confidence 56.0%.,2026-03-24
+189,730,"Detected: rash, frequent urination, fatigue, nausea",Parkinson's Disease,0.62,Recommend further tests; confidence 62.0%.,2025-03-06
+190,1159,"Detected: blurred vision, fatigue",Osteoporosis,0.58,Recommend further tests; confidence 58.0%.,2026-03-09
+191,664,"Detected: memory loss, blurred vision, fever, confusion",Addison's Disease,0.72,Recommend further tests; confidence 72.0%.,2024-11-20
+192,57,"Detected: anxiety, vomiting",Renal Failure,0.64,Recommend further tests; confidence 64.0%.,2022-07-22
+193,893,"Detected: muscle weakness, nausea, weight gain, anxiety",Diabetes Type 2,0.56,Recommend further tests; confidence 56.0%.,2025-11-10
+194,308,"Detected: shortness of breath, weight gain, blurred vision, anxiety",Melanoma,0.84,Recommend further tests; confidence 84.0%.,2022-07-13
+195,860,"Detected: excessive thirst, headache, joint pain, swelling, dry mouth",Multiple Sclerosis,0.84,Recommend further tests; confidence 84.0%.,2024-09-13
+196,932,"Detected: confusion, swelling",Breast Cancer,0.64,Recommend further tests; confidence 64.0%.,2025-12-02
+197,1129,"Detected: blurred vision, night sweats, confusion, leg cramps",Sleep Apnea,0.78,Recommend further tests; confidence 78.0%.,2025-04-23
+198,1026,"Detected: fatigue, night sweats",Pneumonia,0.6,Recommend further tests; confidence 60.0%.,2024-05-13
+199,93,"Detected: anxiety, joint pain",Lymphoma,0.89,Recommend further tests; confidence 89.0%.,2022-05-22
+200,210,"Detected: back pain, excessive thirst",Hypertension,0.62,Recommend further tests; confidence 62.0%.,2023-06-29
+201,1016,"Detected: night sweats, fever, shortness of breath",Dermatitis,0.76,Recommend further tests; confidence 76.0%.,2025-07-03
+202,670,"Detected: headache, anxiety, weight loss, memory loss, muscle weakness",Lung Cancer,0.75,Recommend further tests; confidence 75.0%.,2025-08-12
+203,373,"Detected: night sweats, muscle weakness, nausea",Addison's Disease,0.66,Recommend further tests; confidence 66.0%.,2022-03-31
+204,784,"Detected: abdominal pain, numbness, shortness of breath",Pending diagnosis,0.94,Recommend further tests; confidence 94.0%.,2025-10-13
+205,1137,"Detected: dry mouth, excessive thirst",Sleep Apnea,0.61,Recommend further tests; confidence 61.0%.,2025-09-13
+206,914,"Detected: confusion, abdominal pain, weight gain, chest pain, dizziness",Pulmonary Embolism,0.75,Recommend further tests; confidence 75.0%.,2025-12-29
+207,772,"Detected: weight gain, chest pain, shortness of breath",Cancer,0.87,Recommend further tests; confidence 87.0%.,2024-09-07
+208,201,"Detected: insomnia, abdominal pain, chest pain, anxiety, numbness",Bronchitis,0.74,Recommend further tests; confidence 74.0%.,2023-12-05
+209,895,"Detected: joint pain, blurred vision, loss of appetite, shortness of breath",Pneumonia,0.74,Recommend further tests; confidence 74.0%.,2024-05-13
+210,955,"Detected: headache, fatigue, weight gain",Pending diagnosis,0.82,Recommend further tests; confidence 82.0%.,2025-09-06
+211,705,"Detected: palpitations, dizziness, swelling, weight loss, leg cramps",Pending diagnosis,0.95,Recommend further tests; confidence 95.0%.,2026-01-06
+212,747,"Detected: fever, headache, palpitations, rash, anxiety",Fracture,0.9,Recommend further tests; confidence 90.0%.,2024-03-03
+213,488,"Detected: numbness, abdominal pain",Common Cold,0.93,Recommend further tests; confidence 93.0%.,2025-07-09
+214,767,"Detected: numbness, swelling, skin itching, hair loss, dizziness",Pneumonia,0.81,Recommend further tests; confidence 81.0%.,2025-12-30
+215,647,"Detected: palpitations, chest pain, joint pain",Migraine,0.92,Recommend further tests; confidence 92.0%.,2024-10-29
+216,687,"Detected: numbness, tingling sensation, leg cramps, excessive thirst",Pneumonia,0.89,Recommend further tests; confidence 89.0%.,2024-06-29
+217,1104,"Detected: chest pain, muscle weakness, swelling, weight gain",Sleep Apnea,0.79,Recommend further tests; confidence 79.0%.,2025-10-22
+218,1199,"Detected: joint pain, loss of appetite, rash, leg cramps, insomnia",Fracture,0.75,Recommend further tests; confidence 75.0%.,2025-07-21
+219,619,"Detected: rash, vomiting, excessive thirst",Parkinson's Disease,0.86,Recommend further tests; confidence 86.0%.,2025-11-18
+220,426,"Detected: memory loss, skin itching, anxiety, frequent urination, swelling",Myocardial Infarction,0.88,Recommend further tests; confidence 88.0%.,2025-01-14
+221,1110,"Detected: nausea, palpitations",Migraine,0.81,Recommend further tests; confidence 81.0%.,2024-10-30
+222,954,"Detected: rash, nausea",Gastritis,0.62,Recommend further tests; confidence 62.0%.,2024-09-03
+223,164,"Detected: memory loss, weight gain, chest pain, palpitations, confusion",Migraine,0.8,Recommend further tests; confidence 80.0%.,2022-10-31
+224,495,"Detected: dry mouth, headache",Peptic Ulcer,0.67,Recommend further tests; confidence 67.0%.,2025-02-07
+225,1061,"Detected: cough, memory loss, weight gain, palpitations, vomiting",Chronic headache,0.82,Recommend further tests; confidence 82.0%.,2026-04-23
+226,644,"Detected: numbness, vomiting, excessive thirst, muscle weakness, blurred vision",Eczema,0.9,Recommend further tests; confidence 90.0%.,2026-01-08
+227,909,"Detected: muscle weakness, swelling",Psoriasis,0.64,Recommend further tests; confidence 64.0%.,2025-03-09
+228,168,"Detected: frequent urination, shortness of breath, cough",Urinary Tract Infection,0.77,Recommend further tests; confidence 77.0%.,2023-01-22
+229,997,"Detected: loss of appetite, frequent urination, insomnia",Diabetes Type 2,0.83,Recommend further tests; confidence 83.0%.,2025-11-09
+230,1035,"Detected: rash, muscle weakness",Follow-up examination,0.77,Recommend further tests; confidence 77.0%.,2025-01-23
+231,1062,"Detected: fever, numbness",Multiple Sclerosis,0.98,Recommend further tests; confidence 98.0%.,2025-03-13
+232,325,"Detected: chest pain, dizziness, hair loss, abdominal pain, back pain",Fracture,0.91,Recommend further tests; confidence 91.0%.,2024-01-16
+233,595,"Detected: headache, blurred vision",Dermatitis,0.88,Recommend further tests; confidence 88.0%.,2024-10-13
+234,768,"Detected: frequent urination, blurred vision",Under observation,0.73,Recommend further tests; confidence 73.0%.,2024-10-05
+235,558,"Detected: tingling sensation, excessive thirst",Retinal Detachment,0.77,Recommend further tests; confidence 77.0%.,2025-08-24
+236,402,"Detected: loss of appetite, blurred vision",Hyperthyroidism,0.86,Recommend further tests; confidence 86.0%.,2022-01-07
+237,452,"Detected: palpitations, swelling, tingling sensation",Atrial Fibrillation,0.82,Recommend further tests; confidence 82.0%.,2024-06-06
+238,1125,"Detected: fatigue, night sweats, confusion, excessive thirst",Kidney Stones,0.94,Recommend further tests; confidence 94.0%.,2024-05-01
+239,481,"Detected: blurred vision, shortness of breath",Hyperthyroidism,0.95,Recommend further tests; confidence 95.0%.,2026-03-30
+240,1081,"Detected: blurred vision, back pain, swelling",Pending diagnosis,0.7,Recommend further tests; confidence 70.0%.,2024-04-28
+241,63,"Detected: shortness of breath, weight loss, swelling, night sweats",Osteoarthritis,0.73,Recommend further tests; confidence 73.0%.,2022-02-25
+242,343,"Detected: loss of appetite, fever, anxiety, weight loss",Cushing Syndrome,0.74,Recommend further tests; confidence 74.0%.,2022-06-03
+243,370,"Detected: vomiting, chest pain, difficulty breathing, memory loss",Colitis,0.74,Recommend further tests; confidence 74.0%.,2024-02-29
+244,306,"Detected: dizziness, numbness, night sweats, shortness of breath",Stroke,0.77,Recommend further tests; confidence 77.0%.,2023-06-28
+245,530,"Detected: swelling, confusion, hair loss",Dermatitis,0.89,Recommend further tests; confidence 89.0%.,2024-07-05
+246,607,"Detected: frequent urination, abdominal pain, back pain, insomnia",Eczema,0.56,Recommend further tests; confidence 56.0%.,2026-02-13
+247,599,"Detected: dry mouth, night sweats",Dermatitis,0.58,Recommend further tests; confidence 58.0%.,2025-01-09
+248,732,"Detected: vomiting, hair loss, difficulty breathing, rash",Lymphoma,0.6,Recommend further tests; confidence 60.0%.,2025-04-12
+249,789,"Detected: night sweats, loss of appetite, confusion, hair loss, frequent urination",Acne Vulgaris,0.86,Recommend further tests; confidence 86.0%.,2025-12-30
+250,38,"Detected: muscle weakness, insomnia, vomiting",Rheumatoid Arthritis,0.89,Recommend further tests; confidence 89.0%.,2023-06-07
+251,486,"Detected: palpitations, abdominal pain, tingling sensation, back pain, dizziness",Pulmonary Embolism,0.93,Recommend further tests; confidence 93.0%.,2025-10-07
+252,1153,"Detected: confusion, headache, rash, hair loss, anxiety",Pneumonia,0.76,Recommend further tests; confidence 76.0%.,2026-04-20
+253,187,"Detected: headache, back pain, skin itching, anxiety",Follow-up examination,0.81,Recommend further tests; confidence 81.0%.,2023-08-15
+254,711,"Detected: memory loss, insomnia, hair loss",Follow-up examination,0.7,Recommend further tests; confidence 70.0%.,2026-03-18
+255,602,"Detected: fatigue, dizziness, dry mouth, memory loss",Atrial Fibrillation,0.68,Recommend further tests; confidence 68.0%.,2025-11-16
+256,943,"Detected: hair loss, cough, blurred vision",Myocardial Infarction,0.95,Recommend further tests; confidence 95.0%.,2026-05-02
+257,620,"Detected: numbness, shortness of breath, loss of appetite, blurred vision",Hypertension,0.79,Recommend further tests; confidence 79.0%.,2025-06-16
+258,394,"Detected: palpitations, chest pain, insomnia, loss of appetite, vomiting",Leukemia,0.78,Recommend further tests; confidence 78.0%.,2023-01-30
+259,624,"Detected: confusion, night sweats, numbness",Leukemia,0.63,Recommend further tests; confidence 63.0%.,2024-10-07
+260,1068,"Detected: swelling, shortness of breath, fever",Hyperthyroidism,0.59,Recommend further tests; confidence 59.0%.,2026-01-27
+261,616,"Detected: swelling, memory loss, weight gain, leg cramps",Glaucoma,0.69,Recommend further tests; confidence 69.0%.,2024-10-04
+262,1122,"Detected: tingling sensation, confusion, rash, skin itching",Peptic Ulcer,0.98,Recommend further tests; confidence 98.0%.,2026-03-08
+263,334,"Detected: loss of appetite, numbness, night sweats, joint pain",Common Cold,0.96,Recommend further tests; confidence 96.0%.,2022-10-03
+264,300,"Detected: rash, insomnia",Eczema,0.87,Recommend further tests; confidence 87.0%.,2022-11-11
+265,721,"Detected: confusion, weight loss, memory loss, leg cramps",Heart Failure,0.78,Recommend further tests; confidence 78.0%.,2024-07-16
+266,563,"Detected: memory loss, skin itching, difficulty breathing, excessive thirst",Lung Cancer,0.6,Recommend further tests; confidence 60.0%.,2025-11-09
+267,188,"Detected: joint pain, confusion, weight gain, blurred vision",Renal Failure,0.73,Recommend further tests; confidence 73.0%.,2024-02-19
+268,842,"Detected: rash, skin itching, joint pain, weight loss",Pneumonia,0.79,Recommend further tests; confidence 79.0%.,2025-07-06
+269,490,"Detected: night sweats, confusion, blurred vision, hair loss",Under observation,0.55,Recommend further tests; confidence 55.0%.,2024-10-08
+270,10,"Detected: shortness of breath, dry mouth",Cataracts,0.66,Recommend further tests; confidence 66.0%.,2022-05-16
+271,51,"Detected: headache, muscle weakness, confusion, fatigue, weight loss",Epilepsy,0.61,Recommend further tests; confidence 61.0%.,2023-04-18
+272,673,"Detected: dizziness, frequent urination, tingling sensation",Myocardial Infarction,0.58,Recommend further tests; confidence 58.0%.,2025-04-18
+273,1038,"Detected: leg cramps, fever, chest pain",Eczema,0.6,Recommend further tests; confidence 60.0%.,2026-04-11
+274,588,"Detected: shortness of breath, headache, dizziness",COPD,0.81,Recommend further tests; confidence 81.0%.,2026-05-03
+275,254,"Detected: leg cramps, skin itching, headache",Fracture,0.77,Recommend further tests; confidence 77.0%.,2023-04-06
+276,223,"Detected: numbness, weight loss",Hyperthyroidism,0.92,Recommend further tests; confidence 92.0%.,2022-09-16
+277,1200,"Detected: skin itching, nausea, hair loss, back pain, joint pain",Pulmonary Embolism,0.87,Recommend further tests; confidence 87.0%.,2025-09-29
+278,713,"Detected: palpitations, vomiting, headache, abdominal pain",Routine checkup,0.82,Recommend further tests; confidence 82.0%.,2024-05-15
+279,1107,"Detected: numbness, back pain, palpitations, headache, weight gain",Cancer,0.93,Recommend further tests; confidence 93.0%.,2025-08-19
+280,108,"Detected: palpitations, night sweats, blurred vision",Cancer,0.97,Recommend further tests; confidence 97.0%.,2022-12-21
+281,218,"Detected: excessive thirst, chest pain, tingling sensation",Pneumonia,0.58,Recommend further tests; confidence 58.0%.,2024-01-10
+282,132,"Detected: cough, skin itching, night sweats, loss of appetite, fatigue",Hypothyroidism,0.71,Recommend further tests; confidence 71.0%.,2022-11-24
+283,401,"Detected: fever, nausea, headache, back pain",Diabetes Type 2,0.89,Recommend further tests; confidence 89.0%.,2023-01-03
+284,522,"Detected: difficulty breathing, weight gain, hair loss",Osteoporosis,0.84,Recommend further tests; confidence 84.0%.,2025-08-10
+285,586,"Detected: nausea, night sweats, confusion, insomnia, anxiety",Routine checkup,0.66,Recommend further tests; confidence 66.0%.,2025-12-04
+286,1196,"Detected: difficulty breathing, excessive thirst, night sweats, anxiety, headache",Colitis,0.76,Recommend further tests; confidence 76.0%.,2025-05-05
+287,483,"Detected: numbness, vomiting",Follow-up examination,0.95,Recommend further tests; confidence 95.0%.,2024-11-20
+288,835,"Detected: skin itching, shortness of breath, weight gain, difficulty breathing",Myocardial Infarction,0.71,Recommend further tests; confidence 71.0%.,2025-07-05
+289,269,"Detected: hair loss, headache, rash, swelling",Colitis,0.66,Recommend further tests; confidence 66.0%.,2023-05-30
+290,431,"Detected: leg cramps, hair loss, fever",Addison's Disease,0.91,Recommend further tests; confidence 91.0%.,2024-10-23
+291,21,"Detected: excessive thirst, vomiting, dizziness, swelling",Lung Cancer,0.93,Recommend further tests; confidence 93.0%.,2022-02-15
+292,161,"Detected: blurred vision, hair loss, loss of appetite, abdominal pain",Parkinson's Disease,0.81,Recommend further tests; confidence 81.0%.,2022-11-13
+293,66,"Detected: headache, fatigue, memory loss",Retinal Detachment,0.59,Recommend further tests; confidence 59.0%.,2023-04-07
+294,256,"Detected: shortness of breath, tingling sensation, numbness, weight gain",Psoriasis,0.85,Recommend further tests; confidence 85.0%.,2023-08-07
+295,1143,"Detected: back pain, dizziness, frequent urination",Lung Cancer,0.89,Recommend further tests; confidence 89.0%.,2024-10-19
+296,777,"Detected: dry mouth, blurred vision",Diabetes Type 1,0.56,Recommend further tests; confidence 56.0%.,2025-05-12
+297,1165,"Detected: fatigue, cough, vomiting, weight gain, headache",Hyperthyroidism,0.73,Recommend further tests; confidence 73.0%.,2025-12-18
+298,865,"Detected: hair loss, cough, fatigue, abdominal pain, memory loss",Colorectal Cancer,0.63,Recommend further tests; confidence 63.0%.,2024-11-07
+299,1059,"Detected: cough, excessive thirst, anxiety, vomiting, rash",Rheumatoid Arthritis,0.86,Recommend further tests; confidence 86.0%.,2024-12-12
+300,295,"Detected: anxiety, frequent urination, hair loss, blurred vision",Common Cold,0.71,Recommend further tests; confidence 71.0%.,2023-03-08
+301,78,"Detected: memory loss, swelling, insomnia, abdominal pain, hair loss",Sleep Apnea,0.68,Recommend further tests; confidence 68.0%.,2023-01-29
+302,1144,"Detected: numbness, weight loss",Migraine,0.57,Recommend further tests; confidence 57.0%.,2025-01-26
+303,512,"Detected: blurred vision, tingling sensation, numbness",Pneumonia,0.61,Recommend further tests; confidence 61.0%.,2024-09-27
+304,494,"Detected: vomiting, swelling, weight gain, dry mouth",Psoriasis,0.95,Recommend further tests; confidence 95.0%.,2024-11-16
+305,86,"Detected: palpitations, joint pain, hair loss",Bronchitis,0.84,Recommend further tests; confidence 84.0%.,2022-08-25
+306,710,"Detected: weight gain, blurred vision",Asthma,0.91,Recommend further tests; confidence 91.0%.,2025-07-01
+307,139,"Detected: insomnia, chest pain",Breast Cancer,0.69,Recommend further tests; confidence 69.0%.,2023-12-01
+308,760,"Detected: vomiting, muscle weakness, tingling sensation, fatigue",Pneumonia,0.97,Recommend further tests; confidence 97.0%.,2024-03-07
+309,623,"Detected: leg cramps, excessive thirst",Common Cold,0.79,Recommend further tests; confidence 79.0%.,2025-08-21
+310,70,"Detected: leg cramps, palpitations, anxiety, headache",Eczema,0.82,Recommend further tests; confidence 82.0%.,2023-07-29
+311,539,"Detected: anxiety, muscle weakness, difficulty breathing",Addison's Disease,0.61,Recommend further tests; confidence 61.0%.,2024-05-05
+312,273,"Detected: anxiety, headache",Bronchitis,0.96,Recommend further tests; confidence 96.0%.,2023-06-23
+313,177,"Detected: nausea, fever",Follow-up examination,0.7,Recommend further tests; confidence 70.0%.,2023-06-15
+314,718,"Detected: blurred vision, back pain, excessive thirst, nausea",COPD,0.83,Recommend further tests; confidence 83.0%.,2025-11-28
+315,641,"Detected: night sweats, muscle weakness",Diabetes Type 2,0.79,Recommend further tests; confidence 79.0%.,2026-02-27
+316,662,"Detected: rash, memory loss, skin itching, insomnia, leg cramps",Pulmonary Embolism,0.86,Recommend further tests; confidence 86.0%.,2025-11-16
+317,384,"Detected: numbness, chest pain, shortness of breath, fever",Hypothyroidism,0.93,Recommend further tests; confidence 93.0%.,2022-08-17
+318,65,"Detected: muscle weakness, headache, chest pain, insomnia, shortness of breath",Routine checkup,0.94,Recommend further tests; confidence 94.0%.,2022-07-10
+319,740,"Detected: insomnia, tingling sensation, confusion, vomiting",Diabetes Type 1,0.97,Recommend further tests; confidence 97.0%.,2024-12-10
+320,605,"Detected: swelling, weight gain, confusion, insomnia",Pending diagnosis,0.59,Recommend further tests; confidence 59.0%.,2025-02-06
+321,362,"Detected: rash, headache, hair loss, dizziness",Appendicitis,0.9,Recommend further tests; confidence 90.0%.,2023-11-10
+322,816,"Detected: nausea, shortness of breath, chest pain",Seasonal Flu,0.66,Recommend further tests; confidence 66.0%.,2025-01-05
+323,1071,"Detected: muscle weakness, dizziness, leg cramps, difficulty breathing, dry mouth",Angina Pectoris,0.57,Recommend further tests; confidence 57.0%.,2024-10-29
+324,771,"Detected: swelling, tingling sensation, dry mouth, abdominal pain, back pain",Myocardial Infarction,0.73,Recommend further tests; confidence 73.0%.,2026-03-14
+325,1179,"Detected: back pain, skin itching, frequent urination, fever, joint pain",Psoriasis,0.58,Recommend further tests; confidence 58.0%.,2024-08-31
+326,1050,"Detected: excessive thirst, chest pain",Psoriasis,0.78,Recommend further tests; confidence 78.0%.,2025-12-26
+327,1083,"Detected: memory loss, shortness of breath",Epilepsy,0.56,Recommend further tests; confidence 56.0%.,2024-08-21
+328,683,"Detected: skin itching, joint pain, nausea, dry mouth, insomnia",Retinal Detachment,0.69,Recommend further tests; confidence 69.0%.,2025-11-03
+329,980,"Detected: excessive thirst, muscle weakness, fatigue, weight gain, insomnia",Pending diagnosis,0.76,Recommend further tests; confidence 76.0%.,2024-05-23
+330,345,"Detected: dizziness, chest pain, muscle weakness, back pain, swelling",Colitis,0.82,Recommend further tests; confidence 82.0%.,2022-08-23
+331,572,"Detected: weight gain, loss of appetite",Lymphoma,0.81,Recommend further tests; confidence 81.0%.,2025-06-12
+332,615,"Detected: hair loss, nausea, skin itching, muscle weakness, swelling",Peptic Ulcer,0.96,Recommend further tests; confidence 96.0%.,2025-07-08
+333,974,"Detected: dizziness, muscle weakness",Lymphoma,0.56,Recommend further tests; confidence 56.0%.,2026-04-01
+334,1024,"Detected: numbness, anxiety",Asthma,0.61,Recommend further tests; confidence 61.0%.,2025-08-04
+335,226,"Detected: joint pain, headache",Common Cold,0.82,Recommend further tests; confidence 82.0%.,2022-03-06
+336,1133,"Detected: dizziness, fever, memory loss, insomnia",Diabetes Type 2,0.78,Recommend further tests; confidence 78.0%.,2026-02-17
+337,378,"Detected: chest pain, anxiety",Osteoporosis,0.57,Recommend further tests; confidence 57.0%.,2023-06-01
+338,371,"Detected: palpitations, dry mouth, swelling, weight loss",Dermatitis,0.99,Recommend further tests; confidence 99.0%.,2023-03-05
+339,133,"Detected: weight gain, shortness of breath",Pneumonia,0.76,Recommend further tests; confidence 76.0%.,2023-06-29
+340,1152,"Detected: tingling sensation, memory loss, headache",Appendicitis,0.71,Recommend further tests; confidence 71.0%.,2025-03-29
+341,1098,"Detected: headache, hair loss",Stroke,0.93,Recommend further tests; confidence 93.0%.,2026-02-07
+342,331,"Detected: frequent urination, weight loss, fever, fatigue, dry mouth",Hyperthyroidism,0.74,Recommend further tests; confidence 74.0%.,2022-03-04
+343,570,"Detected: rash, loss of appetite, nausea",Atrial Fibrillation,0.72,Recommend further tests; confidence 72.0%.,2024-04-15
+344,503,"Detected: skin itching, confusion",Atrial Fibrillation,0.96,Recommend further tests; confidence 96.0%.,2024-09-22
+345,685,"Detected: joint pain, swelling",Osteoarthritis,0.57,Recommend further tests; confidence 57.0%.,2025-07-06
+346,27,"Detected: shortness of breath, skin itching, anxiety, weight loss",Melanoma,0.78,Recommend further tests; confidence 78.0%.,2022-12-27
+347,448,"Detected: abdominal pain, swelling, leg cramps",Seasonal Flu,0.73,Recommend further tests; confidence 73.0%.,2024-09-03
+348,915,"Detected: anxiety, weight loss",Psoriasis,0.59,Recommend further tests; confidence 59.0%.,2024-11-24
+349,6,"Detected: hair loss, weight loss",Epilepsy,0.72,Recommend further tests; confidence 72.0%.,2022-08-15
+350,803,"Detected: fatigue, abdominal pain, frequent urination, joint pain, palpitations",Cataracts,0.96,Recommend further tests; confidence 96.0%.,2024-07-24
+351,873,"Detected: cough, palpitations, headache",Pending diagnosis,0.85,Recommend further tests; confidence 85.0%.,2025-11-06
+352,155,"Detected: rash, leg cramps, numbness",Pending diagnosis,0.62,Recommend further tests; confidence 62.0%.,2022-06-10
+353,787,"Detected: difficulty breathing, numbness",Eczema,0.68,Recommend further tests; confidence 68.0%.,2025-03-25
+354,152,"Detected: swelling, muscle weakness, fatigue, dry mouth",Hyperthyroidism,0.74,Recommend further tests; confidence 74.0%.,2023-05-04
+355,561,"Detected: joint pain, swelling, vomiting, chest pain",Anemia,0.65,Recommend further tests; confidence 65.0%.,2024-04-19
+356,797,"Detected: nausea, vomiting",Epilepsy,0.98,Recommend further tests; confidence 98.0%.,2024-11-01
+357,731,"Detected: back pain, palpitations, skin itching",Chronic headache,0.57,Recommend further tests; confidence 57.0%.,2025-11-21
+358,182,"Detected: skin itching, dizziness, frequent urination, nausea, back pain",Rheumatoid Arthritis,0.85,Recommend further tests; confidence 85.0%.,2022-11-22
+359,1017,"Detected: insomnia, confusion, excessive thirst",Parkinson's Disease,0.75,Recommend further tests; confidence 75.0%.,2026-05-03
+360,229,"Detected: fever, anxiety",Lung Cancer,0.96,Recommend further tests; confidence 96.0%.,2022-10-31
+361,817,"Detected: tingling sensation, weight gain, joint pain",Atrial Fibrillation,0.88,Recommend further tests; confidence 88.0%.,2025-09-23
+362,1027,"Detected: night sweats, weight loss, muscle weakness, dry mouth, difficulty breathing",Parkinson's Disease,0.8,Recommend further tests; confidence 80.0%.,2025-01-23
+363,366,"Detected: abdominal pain, fatigue",Hypertension,0.64,Recommend further tests; confidence 64.0%.,2023-02-05
+364,1057,"Detected: leg cramps, insomnia, skin itching",Anemia,0.55,Recommend further tests; confidence 55.0%.,2025-04-05
+365,557,"Detected: joint pain, dizziness, weight gain, numbness",Pending diagnosis,0.94,Recommend further tests; confidence 94.0%.,2024-06-12
+366,450,"Detected: muscle weakness, confusion",Chronic headache,0.62,Recommend further tests; confidence 62.0%.,2024-09-20
+367,540,"Detected: frequent urination, loss of appetite, weight gain, blurred vision, joint pain",Melanoma,0.95,Recommend further tests; confidence 95.0%.,2026-04-15
+368,628,"Detected: insomnia, fever, back pain, weight gain",Macular Degeneration,0.7,Recommend further tests; confidence 70.0%.,2024-10-24
+369,510,"Detected: weight gain, dizziness",Seasonal Flu,0.9,Recommend further tests; confidence 90.0%.,2024-07-07
+370,107,"Detected: skin itching, rash, memory loss",Osteoarthritis,0.84,Recommend further tests; confidence 84.0%.,2023-05-17
+371,884,"Detected: weight loss, shortness of breath",Asthma,0.63,Recommend further tests; confidence 63.0%.,2025-07-18
+372,744,"Detected: swelling, numbness, palpitations",Atrial Fibrillation,0.9,Recommend further tests; confidence 90.0%.,2024-12-06
+373,199,"Detected: difficulty breathing, fatigue, confusion, nausea, rash",Angina Pectoris,0.76,Recommend further tests; confidence 76.0%.,2024-01-07
+374,360,"Detected: swelling, excessive thirst, weight loss, palpitations",Osteoporosis,0.83,Recommend further tests; confidence 83.0%.,2023-11-25
+375,823,"Detected: fever, hair loss, tingling sensation, leg cramps, cough",Asthma,0.98,Recommend further tests; confidence 98.0%.,2025-10-06
+376,613,"Detected: joint pain, weight loss, nausea",Common Cold,0.96,Recommend further tests; confidence 96.0%.,2024-08-18
+377,665,"Detected: fatigue, numbness, headache",Routine checkup,0.77,Recommend further tests; confidence 77.0%.,2024-09-18
+378,1052,"Detected: numbness, leg cramps, frequent urination, dizziness, weight gain",Renal Failure,0.78,Recommend further tests; confidence 78.0%.,2024-08-30
+379,1007,"Detected: joint pain, insomnia, vomiting",Lymphoma,0.69,Recommend further tests; confidence 69.0%.,2025-02-19
+380,497,"Detected: muscle weakness, night sweats, anxiety",Hyperthyroidism,0.84,Recommend further tests; confidence 84.0%.,2025-06-10
+381,1011,"Detected: back pain, swelling, confusion",Osteoporosis,0.82,Recommend further tests; confidence 82.0%.,2026-04-03
+382,421,"Detected: chest pain, nausea",Urinary Tract Infection,0.87,Recommend further tests; confidence 87.0%.,2024-07-09
+383,890,"Detected: hair loss, blurred vision",Cancer,0.92,Recommend further tests; confidence 92.0%.,2025-01-18
+384,681,"Detected: abdominal pain, weight gain, tingling sensation",Colorectal Cancer,0.82,Recommend further tests; confidence 82.0%.,2024-12-26
+385,318,"Detected: hair loss, fever, memory loss",Heart Failure,0.58,Recommend further tests; confidence 58.0%.,2023-07-09
+386,756,"Detected: memory loss, abdominal pain, skin itching, confusion, night sweats",Anemia,0.62,Recommend further tests; confidence 62.0%.,2025-11-27
+387,511,"Detected: anxiety, memory loss, night sweats",Osteoporosis,0.65,Recommend further tests; confidence 65.0%.,2026-02-25
+388,889,"Detected: confusion, shortness of breath",Under observation,0.6,Recommend further tests; confidence 60.0%.,2024-05-15
+389,423,"Detected: leg cramps, weight loss, palpitations, rash, skin itching",Seasonal Flu,0.7,Recommend further tests; confidence 70.0%.,2025-09-04
+390,284,"Detected: shortness of breath, rash, insomnia, swelling, dizziness",Renal Failure,0.63,Recommend further tests; confidence 63.0%.,2023-12-08
+391,693,"Detected: dizziness, skin itching, headache",Hypertension,0.81,Recommend further tests; confidence 81.0%.,2025-06-12
+392,899,"Detected: cough, blurred vision, anxiety, hair loss",Pulmonary Embolism,0.91,Recommend further tests; confidence 91.0%.,2024-05-01
+393,329,"Detected: chest pain, rash",Anemia,0.63,Recommend further tests; confidence 63.0%.,2022-04-22
+394,35,"Detected: back pain, palpitations",Chronic headache,0.8,Recommend further tests; confidence 80.0%.,2022-01-13
+395,466,"Detected: insomnia, skin itching, weight loss, night sweats, cough",Eczema,0.85,Recommend further tests; confidence 85.0%.,2024-03-29
+396,701,"Detected: muscle weakness, dry mouth, dizziness, palpitations",Lymphoma,0.63,Recommend further tests; confidence 63.0%.,2025-05-19
+397,849,"Detected: muscle weakness, loss of appetite, frequent urination",Hypothyroidism,0.89,Recommend further tests; confidence 89.0%.,2025-05-24
+398,533,"Detected: skin itching, weight loss",Myocardial Infarction,0.66,Recommend further tests; confidence 66.0%.,2026-04-25
+399,252,"Detected: fatigue, shortness of breath",Under observation,0.6,Recommend further tests; confidence 60.0%.,2022-11-25
+400,106,"Detected: cough, numbness",Seasonal Flu,0.81,Recommend further tests; confidence 81.0%.,2023-07-03
+401,905,"Detected: vomiting, excessive thirst",Pending diagnosis,0.93,Recommend further tests; confidence 93.0%.,2025-12-07
+402,11,"Detected: dizziness, blurred vision, back pain, muscle weakness, tingling sensation",Cataracts,0.66,Recommend further tests; confidence 66.0%.,2023-01-01
+403,126,"Detected: anxiety, chest pain, joint pain",Follow-up examination,0.85,Recommend further tests; confidence 85.0%.,2023-02-27
+404,564,"Detected: hair loss, shortness of breath, cough",Chronic headache,0.92,Recommend further tests; confidence 92.0%.,2025-02-06
+405,880,"Detected: nausea, hair loss, tingling sensation, swelling",COPD,0.68,Recommend further tests; confidence 68.0%.,2025-11-21
+406,829,"Detected: excessive thirst, nausea, palpitations",Routine checkup,0.89,Recommend further tests; confidence 89.0%.,2024-10-03
+407,1101,"Detected: loss of appetite, insomnia, chest pain, night sweats, joint pain",Bronchitis,0.71,Recommend further tests; confidence 71.0%.,2024-12-11
+408,930,"Detected: weight loss, shortness of breath, tingling sensation",Fracture,0.65,Recommend further tests; confidence 65.0%.,2026-04-12
+409,818,"Detected: memory loss, tingling sensation, palpitations, night sweats, loss of appetite",Fracture,0.59,Recommend further tests; confidence 59.0%.,2024-10-13
+410,1006,"Detected: blurred vision, nausea, weight gain, loss of appetite, excessive thirst",Fracture,0.79,Recommend further tests; confidence 79.0%.,2025-05-28
+411,1079,"Detected: insomnia, joint pain",Pulmonary Embolism,0.9,Recommend further tests; confidence 90.0%.,2025-12-11
+412,553,"Detected: tingling sensation, headache, joint pain, loss of appetite",Asthma,0.71,Recommend further tests; confidence 71.0%.,2024-03-04
+413,492,"Detected: hair loss, dizziness, nausea, abdominal pain, fever",Macular Degeneration,0.67,Recommend further tests; confidence 67.0%.,2025-06-26
+414,324,"Detected: cough, weight gain, dry mouth, hair loss",Renal Failure,0.79,Recommend further tests; confidence 79.0%.,2023-10-30
+415,413,"Detected: muscle weakness, anxiety, joint pain",Anemia,0.58,Recommend further tests; confidence 58.0%.,2024-03-10
+416,758,"Detected: fever, blurred vision",Macular Degeneration,0.91,Recommend further tests; confidence 91.0%.,2025-06-21
+417,879,"Detected: fever, frequent urination, night sweats, weight loss",Pending diagnosis,0.92,Recommend further tests; confidence 92.0%.,2025-04-12
+418,827,"Detected: cough, fatigue, loss of appetite",Melanoma,0.8,Recommend further tests; confidence 80.0%.,2024-06-01
+419,769,"Detected: chest pain, blurred vision, night sweats, difficulty breathing, fatigue",Epilepsy,0.87,Recommend further tests; confidence 87.0%.,2024-11-21
+420,855,"Detected: palpitations, frequent urination, excessive thirst, loss of appetite",Pending diagnosis,0.67,Recommend further tests; confidence 67.0%.,2026-01-27
+421,766,"Detected: frequent urination, skin itching, back pain, difficulty breathing, nausea",Asthma,0.74,Recommend further tests; confidence 74.0%.,2024-05-29
+422,694,"Detected: dizziness, memory loss, tingling sensation",Multiple Sclerosis,0.73,Recommend further tests; confidence 73.0%.,2026-01-03
+423,347,"Detected: joint pain, confusion",Sleep Apnea,0.98,Recommend further tests; confidence 98.0%.,2023-02-13
+424,556,"Detected: leg cramps, frequent urination",Leukemia,0.92,Recommend further tests; confidence 92.0%.,2024-12-25
+425,1066,"Detected: rash, back pain",Lymphoma,0.66,Recommend further tests; confidence 66.0%.,2025-12-31
+426,667,"Detected: weight loss, loss of appetite, memory loss, chest pain, tingling sensation",Stroke,0.92,Recommend further tests; confidence 92.0%.,2026-01-19
+427,13,"Detected: nausea, weight gain",Fracture,0.71,Recommend further tests; confidence 71.0%.,2022-02-06
+428,328,"Detected: skin itching, headache, excessive thirst, muscle weakness",Appendicitis,0.83,Recommend further tests; confidence 83.0%.,2023-08-08
+429,543,"Detected: dry mouth, frequent urination, excessive thirst",Heart Failure,0.71,Recommend further tests; confidence 71.0%.,2025-09-25
+430,1029,"Detected: dry mouth, headache, anxiety, weight loss, back pain",COPD,0.56,Recommend further tests; confidence 56.0%.,2025-01-21
+431,112,"Detected: fever, palpitations, joint pain",Peptic Ulcer,0.92,Recommend further tests; confidence 92.0%.,2023-06-05
+432,2,"Detected: dizziness, frequent urination, night sweats",Routine checkup,0.7,Recommend further tests; confidence 70.0%.,2023-10-22
+433,576,"Detected: shortness of breath, confusion, blurred vision",Peptic Ulcer,0.66,Recommend further tests; confidence 66.0%.,2026-04-19
+434,658,"Detected: cough, weight loss, memory loss, skin itching",Diabetes Type 1,0.77,Recommend further tests; confidence 77.0%.,2026-03-27
+435,858,"Detected: excessive thirst, nausea, weight loss, muscle weakness",Dermatitis,0.57,Recommend further tests; confidence 57.0%.,2025-08-16
+436,1182,"Detected: shortness of breath, excessive thirst",Fracture,0.93,Recommend further tests; confidence 93.0%.,2025-06-10
+437,911,"Detected: difficulty breathing, fever, nausea, muscle weakness, cough",Macular Degeneration,0.77,Recommend further tests; confidence 77.0%.,2025-10-04
+438,499,"Detected: difficulty breathing, chest pain, palpitations, joint pain",Pending diagnosis,0.75,Recommend further tests; confidence 75.0%.,2025-05-19
+439,609,"Detected: swelling, fatigue, numbness, loss of appetite, anxiety",Epilepsy,0.56,Recommend further tests; confidence 56.0%.,2024-05-19
+440,504,"Detected: dizziness, abdominal pain, confusion, fever, swelling",Leukemia,0.81,Recommend further tests; confidence 81.0%.,2025-02-15
+441,1128,"Detected: confusion, abdominal pain, hair loss",Fracture,0.87,Recommend further tests; confidence 87.0%.,2026-02-28
+442,260,"Detected: muscle weakness, confusion",Atrial Fibrillation,0.6,Recommend further tests; confidence 60.0%.,2023-12-28
+443,898,"Detected: night sweats, skin itching, joint pain",Osteoporosis,0.9,Recommend further tests; confidence 90.0%.,2025-01-08
+444,1193,"Detected: difficulty breathing, skin itching",Common Cold,0.59,Recommend further tests; confidence 59.0%.,2024-08-29
+445,82,"Detected: night sweats, fatigue, frequent urination, chest pain, confusion",Rheumatoid Arthritis,0.94,Recommend further tests; confidence 94.0%.,2024-02-23
+446,603,"Detected: hair loss, rash, confusion, abdominal pain, joint pain",Under observation,0.9,Recommend further tests; confidence 90.0%.,2024-11-29
+447,920,"Detected: excessive thirst, weight gain, night sweats, muscle weakness, vomiting",Diabetes Type 2,0.89,Recommend further tests; confidence 89.0%.,2026-03-14
+448,458,"Detected: loss of appetite, skin itching, frequent urination, anxiety, dry mouth",Atrial Fibrillation,0.99,Recommend further tests; confidence 99.0%.,2025-07-23
+449,545,"Detected: anxiety, night sweats, nausea, muscle weakness, palpitations",Glaucoma,0.86,Recommend further tests; confidence 86.0%.,2024-08-21
+450,748,"Detected: swelling, dry mouth, headache, confusion",Seasonal Flu,0.55,Recommend further tests; confidence 55.0%.,2025-03-28
+451,562,"Detected: dry mouth, fatigue",Pulmonary Embolism,0.63,Recommend further tests; confidence 63.0%.,2025-08-01
+452,438,"Detected: weight gain, blurred vision, night sweats",Stroke,0.65,Recommend further tests; confidence 65.0%.,2025-03-08
+453,386,"Detected: vomiting, nausea, confusion, dizziness, insomnia",Chronic headache,0.9,Recommend further tests; confidence 90.0%.,2022-12-29
+454,828,"Detected: palpitations, rash, loss of appetite, swelling",Hypertension,0.71,Recommend further tests; confidence 71.0%.,2024-04-17
+455,976,"Detected: joint pain, nausea, insomnia, blurred vision, memory loss",Hypertension,0.74,Recommend further tests; confidence 74.0%.,2025-01-01
+456,650,"Detected: rash, dry mouth, frequent urination",Glaucoma,0.74,Recommend further tests; confidence 74.0%.,2024-04-01
+457,303,"Detected: blurred vision, numbness, tingling sensation, memory loss",Heart Failure,0.56,Recommend further tests; confidence 56.0%.,2022-01-28
+458,398,"Detected: rash, dizziness, cough",Chronic headache,0.57,Recommend further tests; confidence 57.0%.,2023-09-22
+459,339,"Detected: skin itching, palpitations",Renal Failure,0.69,Recommend further tests; confidence 69.0%.,2024-01-03
+460,249,"Detected: swelling, dizziness, nausea, joint pain",Bronchitis,0.56,Recommend further tests; confidence 56.0%.,2023-07-23
+461,225,"Detected: headache, excessive thirst, fever, difficulty breathing, muscle weakness",Colitis,0.94,Recommend further tests; confidence 94.0%.,2023-10-29
+462,240,"Detected: fever, memory loss, night sweats",Kidney Stones,0.85,Recommend further tests; confidence 85.0%.,2022-08-14
+463,971,"Detected: headache, leg cramps",Under observation,0.99,Recommend further tests; confidence 99.0%.,2025-07-20
+464,455,"Detected: shortness of breath, muscle weakness, weight loss, insomnia, palpitations",Pending diagnosis,0.95,Recommend further tests; confidence 95.0%.,2026-01-29
+465,454,"Detected: shortness of breath, insomnia",Atrial Fibrillation,0.69,Recommend further tests; confidence 69.0%.,2024-11-24
+466,811,"Detected: difficulty breathing, rash, joint pain",Hyperthyroidism,0.55,Recommend further tests; confidence 55.0%.,2024-04-08
+467,927,"Detected: joint pain, palpitations, loss of appetite, chest pain",Follow-up examination,0.96,Recommend further tests; confidence 96.0%.,2024-12-11
+468,419,"Detected: weight loss, tingling sensation, rash, nausea",Sleep Apnea,0.62,Recommend further tests; confidence 62.0%.,2024-03-10
+469,235,"Detected: weight gain, back pain",Eczema,0.63,Recommend further tests; confidence 63.0%.,2024-01-27
+470,204,"Detected: fever, difficulty breathing, fatigue, memory loss, night sweats",Hypothyroidism,0.98,Recommend further tests; confidence 98.0%.,2022-12-12
+471,788,"Detected: vomiting, loss of appetite",COPD,0.57,Recommend further tests; confidence 57.0%.,2024-10-24
+472,592,"Detected: chest pain, palpitations, loss of appetite, cough",Pending diagnosis,0.8,Recommend further tests; confidence 80.0%.,2025-03-28
+473,847,"Detected: shortness of breath, skin itching, frequent urination, tingling sensation",Addison's Disease,0.58,Recommend further tests; confidence 58.0%.,2024-07-16
+474,160,"Detected: fatigue, back pain, excessive thirst, abdominal pain, hair loss",Peptic Ulcer,0.72,Recommend further tests; confidence 72.0%.,2022-12-19
+475,903,"Detected: memory loss, joint pain, weight gain, headache, excessive thirst",Renal Failure,0.67,Recommend further tests; confidence 67.0%.,2026-03-12
+476,441,"Detected: hair loss, leg cramps",Hyperthyroidism,0.88,Recommend further tests; confidence 88.0%.,2026-03-23
+477,1106,"Detected: swelling, vomiting",Addison's Disease,0.73,Recommend further tests; confidence 73.0%.,2024-12-23
+478,515,"Detected: excessive thirst, anxiety, nausea, tingling sensation, fatigue",Appendicitis,0.96,Recommend further tests; confidence 96.0%.,2025-03-10
+479,118,"Detected: joint pain, frequent urination, cough, swelling",Cushing Syndrome,0.65,Recommend further tests; confidence 65.0%.,2023-12-07
+480,631,"Detected: vomiting, loss of appetite, rash, tingling sensation",Osteoporosis,0.72,Recommend further tests; confidence 72.0%.,2024-04-23
+481,77,"Detected: weight gain, chest pain, dizziness, muscle weakness",Stroke,0.68,Recommend further tests; confidence 68.0%.,2024-01-15
+482,354,"Detected: swelling, nausea, confusion",Gastritis,0.95,Recommend further tests; confidence 95.0%.,2023-11-25
+483,1,"Detected: weight gain, abdominal pain, loss of appetite",Hypertension,0.97,Recommend further tests; confidence 97.0%.,2024-08-04
+484,186,"Detected: headache, loss of appetite, insomnia",Seasonal Flu,0.63,Recommend further tests; confidence 63.0%.,2022-01-11
+485,224,"Detected: muscle weakness, weight gain, dizziness, swelling, night sweats",Lymphoma,0.55,Recommend further tests; confidence 55.0%.,2023-12-25
+486,821,"Detected: blurred vision, cough, skin itching",Kidney Stones,0.76,Recommend further tests; confidence 76.0%.,2025-10-13
+487,1028,"Detected: blurred vision, vomiting",Routine checkup,0.85,Recommend further tests; confidence 85.0%.,2024-10-25
+488,212,"Detected: vomiting, back pain, headache, difficulty breathing, hair loss",Pending diagnosis,0.6,Recommend further tests; confidence 60.0%.,2023-06-14
+489,935,"Detected: frequent urination, chest pain, excessive thirst, swelling, memory loss",Sleep Apnea,0.9,Recommend further tests; confidence 90.0%.,2025-11-25
+490,1187,"Detected: weight gain, skin itching, cough, loss of appetite",Stroke,0.68,Recommend further tests; confidence 68.0%.,2025-09-17
+491,814,"Detected: dizziness, dry mouth, blurred vision, confusion",Renal Failure,0.75,Recommend further tests; confidence 75.0%.,2024-09-12
+492,251,"Detected: weight loss, weight gain, memory loss",Eczema,0.87,Recommend further tests; confidence 87.0%.,2024-02-17
+493,1077,"Detected: cough, insomnia",Cholecystitis,0.57,Recommend further tests; confidence 57.0%.,2026-03-29
+494,1164,"Detected: tingling sensation, insomnia",Peptic Ulcer,0.89,Recommend further tests; confidence 89.0%.,2024-06-25
+495,52,"Detected: insomnia, abdominal pain, palpitations",Peptic Ulcer,0.82,Recommend further tests; confidence 82.0%.,2022-02-02
+496,859,"Detected: vomiting, weight gain, shortness of breath",Stroke,0.83,Recommend further tests; confidence 83.0%.,2025-09-06
+497,169,"Detected: tingling sensation, shortness of breath, loss of appetite, vomiting",Osteoporosis,0.71,Recommend further tests; confidence 71.0%.,2023-08-01
+498,1190,"Detected: palpitations, confusion, night sweats, tingling sensation, dizziness",Osteoarthritis,0.79,Recommend further tests; confidence 79.0%.,2024-09-03
+499,869,"Detected: skin itching, dizziness",Colorectal Cancer,0.81,Recommend further tests; confidence 81.0%.,2025-11-25
+500,297,"Detected: hair loss, loss of appetite, fatigue, abdominal pain, palpitations",COPD,0.86,Recommend further tests; confidence 86.0%.,2022-06-22
+501,9,"Detected: fatigue, numbness, headache, loss of appetite",Stroke,0.55,Recommend further tests; confidence 55.0%.,2022-09-05
+502,773,"Detected: abdominal pain, confusion, weight loss, back pain",Pending diagnosis,0.92,Recommend further tests; confidence 92.0%.,2025-08-02
+503,649,"Detected: fever, weight gain, frequent urination, night sweats",Under observation,0.91,Recommend further tests; confidence 91.0%.,2026-04-16
+504,1171,"Detected: leg cramps, vomiting, swelling, shortness of breath, difficulty breathing",Retinal Detachment,0.73,Recommend further tests; confidence 73.0%.,2025-04-06
+505,259,"Detected: headache, loss of appetite, numbness",Osteoarthritis,0.74,Recommend further tests; confidence 74.0%.,2022-03-05
+506,875,"Detected: nausea, weight loss, abdominal pain",Under observation,0.91,Recommend further tests; confidence 91.0%.,2024-04-14
+507,134,"Detected: hair loss, abdominal pain",Common Cold,0.83,Recommend further tests; confidence 83.0%.,2023-07-01
+508,427,"Detected: memory loss, joint pain, excessive thirst, swelling",Osteoporosis,0.62,Recommend further tests; confidence 62.0%.,2025-06-29
+509,28,"Detected: night sweats, anxiety, confusion, vomiting, palpitations",Asthma,0.73,Recommend further tests; confidence 73.0%.,2022-08-16
+510,640,"Detected: excessive thirst, numbness, back pain",Migraine,0.65,Recommend further tests; confidence 65.0%.,2024-07-03
+511,1005,"Detected: chest pain, headache, numbness",Pending diagnosis,0.81,Recommend further tests; confidence 81.0%.,2024-10-31
+512,657,"Detected: fever, skin itching, frequent urination",Appendicitis,0.59,Recommend further tests; confidence 59.0%.,2025-03-27
+513,578,"Detected: back pain, vomiting, anxiety",Migraine,0.9,Recommend further tests; confidence 90.0%.,2025-10-18
+514,749,"Detected: chest pain, rash, headache",Retinal Detachment,0.65,Recommend further tests; confidence 65.0%.,2024-03-28
+515,973,"Detected: frequent urination, dry mouth, back pain",Gastritis,0.63,Recommend further tests; confidence 63.0%.,2025-11-22
+516,970,"Detected: anxiety, insomnia, dry mouth",Glaucoma,0.6,Recommend further tests; confidence 60.0%.,2024-08-22
+517,900,"Detected: fever, rash, swelling, tingling sensation, hair loss",Atrial Fibrillation,0.84,Recommend further tests; confidence 84.0%.,2025-07-25
+518,277,"Detected: dizziness, muscle weakness, headache, hair loss, nausea",Acne Vulgaris,0.56,Recommend further tests; confidence 56.0%.,2023-10-04
+519,364,"Detected: weight loss, fever, memory loss, insomnia, skin itching",Cholecystitis,0.86,Recommend further tests; confidence 86.0%.,2023-01-25
+520,946,"Detected: back pain, excessive thirst, numbness, hair loss",Lymphoma,0.9,Recommend further tests; confidence 90.0%.,2024-05-25
+521,763,"Detected: numbness, fatigue, palpitations, loss of appetite",Appendicitis,0.98,Recommend further tests; confidence 98.0%.,2024-10-19
+522,462,"Detected: nausea, weight loss",Breast Cancer,0.89,Recommend further tests; confidence 89.0%.,2024-04-04
+523,839,"Detected: excessive thirst, chest pain, fatigue, weight loss",Melanoma,0.72,Recommend further tests; confidence 72.0%.,2025-10-16
+524,826,"Detected: numbness, skin itching, nausea, difficulty breathing",Seasonal Flu,0.99,Recommend further tests; confidence 99.0%.,2026-02-13
+525,387,"Detected: rash, loss of appetite",COPD,0.57,Recommend further tests; confidence 57.0%.,2023-09-15
+526,1172,"Detected: leg cramps, loss of appetite, difficulty breathing",Glaucoma,0.73,Recommend further tests; confidence 73.0%.,2024-04-29
+527,916,"Detected: dizziness, tingling sensation, skin itching",Gastritis,0.88,Recommend further tests; confidence 88.0%.,2024-08-30
+528,546,"Detected: weight gain, nausea, numbness, tingling sensation",Pulmonary Embolism,0.56,Recommend further tests; confidence 56.0%.,2025-10-05
+529,969,"Detected: back pain, weight gain, chest pain, shortness of breath",Anemia,0.68,Recommend further tests; confidence 68.0%.,2024-11-14
+530,968,"Detected: blurred vision, numbness",Pulmonary Embolism,0.62,Recommend further tests; confidence 62.0%.,2025-02-06
+531,722,"Detected: fever, leg cramps, anxiety, shortness of breath",Sleep Apnea,0.64,Recommend further tests; confidence 64.0%.,2026-03-26
+532,622,"Detected: palpitations, rash, memory loss, blurred vision, back pain",Anemia,0.94,Recommend further tests; confidence 94.0%.,2025-07-13
+533,571,"Detected: palpitations, skin itching, numbness",Melanoma,0.74,Recommend further tests; confidence 74.0%.,2024-03-24
+534,96,"Detected: excessive thirst, skin itching",Pneumonia,0.68,Recommend further tests; confidence 68.0%.,2023-09-17
+535,1074,"Detected: difficulty breathing, chest pain",Glaucoma,0.84,Recommend further tests; confidence 84.0%.,2025-01-21
+536,957,"Detected: swelling, palpitations",Pulmonary Embolism,0.81,Recommend further tests; confidence 81.0%.,2025-02-03
+537,715,"Detected: confusion, joint pain",Asthma,0.71,Recommend further tests; confidence 71.0%.,2024-09-26
+538,238,"Detected: rash, joint pain, night sweats",Dermatitis,0.59,Recommend further tests; confidence 59.0%.,2022-12-17
+539,1065,"Detected: insomnia, confusion, night sweats, vomiting, frequent urination",Glaucoma,0.7,Recommend further tests; confidence 70.0%.,2024-03-11
+540,874,"Detected: cough, night sweats, insomnia, fever",Renal Failure,0.62,Recommend further tests; confidence 62.0%.,2026-03-25
+541,872,"Detected: fever, abdominal pain, insomnia",Follow-up examination,0.86,Recommend further tests; confidence 86.0%.,2024-09-01
+542,1184,"Detected: headache, shortness of breath, swelling",Migraine,0.93,Recommend further tests; confidence 93.0%.,2025-12-19
+543,629,"Detected: weight gain, difficulty breathing, weight loss, blurred vision, insomnia",Renal Failure,0.82,Recommend further tests; confidence 82.0%.,2024-05-26
+544,1113,"Detected: tingling sensation, hair loss, night sweats, weight loss, insomnia",Routine checkup,0.82,Recommend further tests; confidence 82.0%.,2025-03-10
+545,1103,"Detected: anxiety, swelling, leg cramps, back pain, memory loss",Heart Failure,0.92,Recommend further tests; confidence 92.0%.,2024-03-03
+546,834,"Detected: hair loss, night sweats, tingling sensation, difficulty breathing, loss of appetite",Macular Degeneration,0.86,Recommend further tests; confidence 86.0%.,2024-07-23
+547,359,"Detected: vomiting, numbness, memory loss",Myocardial Infarction,0.85,Recommend further tests; confidence 85.0%.,2023-01-26
+548,537,"Detected: rash, weight gain",Asthma,0.7,Recommend further tests; confidence 70.0%.,2024-12-18
+549,679,"Detected: palpitations, swelling, muscle weakness, joint pain, vomiting",Cholecystitis,0.72,Recommend further tests; confidence 72.0%.,2025-01-14
+550,307,"Detected: excessive thirst, confusion",Bronchitis,0.6,Recommend further tests; confidence 60.0%.,2024-01-04
+551,1180,"Detected: hair loss, tingling sensation, weight loss",Common Cold,0.78,Recommend further tests; confidence 78.0%.,2024-05-25
+552,856,"Detected: nausea, dizziness, insomnia, leg cramps, loss of appetite",Bronchitis,0.97,Recommend further tests; confidence 97.0%.,2025-01-01
+553,355,"Detected: excessive thirst, memory loss, confusion, nausea",Pending diagnosis,0.78,Recommend further tests; confidence 78.0%.,2023-09-01
+554,863,"Detected: rash, weight gain",Angina Pectoris,0.86,Recommend further tests; confidence 86.0%.,2024-08-04
+555,464,"Detected: chest pain, nausea, anxiety, loss of appetite",Cancer,0.92,Recommend further tests; confidence 92.0%.,2026-04-17
+556,120,"Detected: back pain, blurred vision, rash, skin itching",Heart Failure,0.78,Recommend further tests; confidence 78.0%.,2023-12-24
+557,709,"Detected: fever, skin itching",Hypothyroidism,0.91,Recommend further tests; confidence 91.0%.,2024-06-09
+558,116,"Detected: frequent urination, swelling, loss of appetite, numbness, headache",Myocardial Infarction,0.6,Recommend further tests; confidence 60.0%.,2024-01-04
+559,627,"Detected: numbness, difficulty breathing, excessive thirst, fever",Follow-up examination,0.91,Recommend further tests; confidence 91.0%.,2025-01-05
+560,902,"Detected: difficulty breathing, blurred vision, joint pain, skin itching, weight gain",Anemia,0.79,Recommend further tests; confidence 79.0%.,2025-01-11
+561,1000,"Detected: shortness of breath, weight loss, dry mouth, confusion",Cholecystitis,0.66,Recommend further tests; confidence 66.0%.,2026-01-14
+562,1176,"Detected: weight gain, muscle weakness, fatigue",Cataracts,0.76,Recommend further tests; confidence 76.0%.,2026-02-04
+563,271,"Detected: fever, nausea",Leukemia,0.6,Recommend further tests; confidence 60.0%.,2022-04-30
+564,940,"Detected: numbness, skin itching, weight loss, dry mouth",Gastritis,0.93,Recommend further tests; confidence 93.0%.,2025-05-03
+565,400,"Detected: leg cramps, vomiting, shortness of breath, insomnia, loss of appetite",Bronchitis,0.6,Recommend further tests; confidence 60.0%.,2022-12-16
+566,67,"Detected: nausea, shortness of breath",Follow-up examination,0.58,Recommend further tests; confidence 58.0%.,2023-12-03
+567,757,"Detected: frequent urination, chest pain",Hypertension,0.62,Recommend further tests; confidence 62.0%.,2024-09-19
+568,741,"Detected: abdominal pain, shortness of breath",Hypothyroidism,0.67,Recommend further tests; confidence 67.0%.,2024-10-24
+569,579,"Detected: excessive thirst, anxiety, tingling sensation, abdominal pain",Acne Vulgaris,0.62,Recommend further tests; confidence 62.0%.,2024-08-29
+570,699,"Detected: blurred vision, vomiting",Cushing Syndrome,0.86,Recommend further tests; confidence 86.0%.,2025-07-18
+571,717,"Detected: excessive thirst, vomiting",Colorectal Cancer,0.77,Recommend further tests; confidence 77.0%.,2025-05-10
+572,348,"Detected: skin itching, weight loss, night sweats, vomiting",Hypertension,0.99,Recommend further tests; confidence 99.0%.,2023-10-03
+573,491,"Detected: cough, excessive thirst, fatigue, skin itching",Diabetes Type 2,0.94,Recommend further tests; confidence 94.0%.,2025-02-14
+574,257,"Detected: night sweats, abdominal pain",Sleep Apnea,0.98,Recommend further tests; confidence 98.0%.,2023-12-29
+575,489,"Detected: hair loss, rash, anxiety, weight gain, shortness of breath",Under observation,0.74,Recommend further tests; confidence 74.0%.,2025-10-29
+576,626,"Detected: confusion, loss of appetite, dizziness, nausea, excessive thirst",Glaucoma,0.58,Recommend further tests; confidence 58.0%.,2024-09-11
+577,977,"Detected: cough, leg cramps, rash, joint pain",Retinal Detachment,0.85,Recommend further tests; confidence 85.0%.,2025-07-14
+578,285,"Detected: blurred vision, loss of appetite, weight gain, joint pain",Hypertension,0.64,Recommend further tests; confidence 64.0%.,2022-01-24
+579,243,"Detected: confusion, excessive thirst",Addison's Disease,0.58,Recommend further tests; confidence 58.0%.,2023-05-04
+580,666,"Detected: abdominal pain, vomiting, shortness of breath, excessive thirst",Angina Pectoris,0.88,Recommend further tests; confidence 88.0%.,2025-04-29
+581,162,"Detected: back pain, hair loss",Cholecystitis,0.94,Recommend further tests; confidence 94.0%.,2022-09-13
+582,1177,"Detected: back pain, hair loss, leg cramps, anxiety",Routine checkup,0.94,Recommend further tests; confidence 94.0%.,2025-12-10
+583,146,"Detected: dry mouth, difficulty breathing, muscle weakness",Rheumatoid Arthritis,0.67,Recommend further tests; confidence 67.0%.,2022-01-05
+584,228,"Detected: leg cramps, loss of appetite, insomnia, weight loss",Retinal Detachment,0.8,Recommend further tests; confidence 80.0%.,2022-11-02
+585,520,"Detected: back pain, night sweats, tingling sensation",Hypothyroidism,0.96,Recommend further tests; confidence 96.0%.,2024-05-04
+586,281,"Detected: dry mouth, skin itching",Retinal Detachment,0.85,Recommend further tests; confidence 85.0%.,2023-02-05
+587,528,"Detected: blurred vision, vomiting, dry mouth",Colorectal Cancer,0.73,Recommend further tests; confidence 73.0%.,2025-03-13
+588,467,"Detected: rash, skin itching, cough",Diabetes Type 1,0.69,Recommend further tests; confidence 69.0%.,2024-07-01
+589,456,"Detected: memory loss, confusion, palpitations, fever",Melanoma,0.95,Recommend further tests; confidence 95.0%.,2026-02-05
+590,379,"Detected: insomnia, frequent urination, chest pain, muscle weakness",Melanoma,0.69,Recommend further tests; confidence 69.0%.,2022-11-14
+591,393,"Detected: hair loss, dry mouth",Rheumatoid Arthritis,0.57,Recommend further tests; confidence 57.0%.,2022-08-07
+592,75,"Detected: night sweats, blurred vision, weight loss, anxiety, muscle weakness",Macular Degeneration,0.7,Recommend further tests; confidence 70.0%.,2023-01-01
+593,84,"Detected: rash, confusion, palpitations, loss of appetite, muscle weakness",Diabetes Type 2,0.88,Recommend further tests; confidence 88.0%.,2022-12-14
+594,750,"Detected: dizziness, hair loss, swelling, weight loss",Common Cold,0.55,Recommend further tests; confidence 55.0%.,2026-01-12
+595,577,"Detected: excessive thirst, tingling sensation",Cataracts,0.66,Recommend further tests; confidence 66.0%.,2026-02-17
+596,532,"Detected: nausea, hair loss, confusion",Migraine,0.94,Recommend further tests; confidence 94.0%.,2024-04-23
+597,962,"Detected: chest pain, insomnia, night sweats, difficulty breathing, vomiting",Common Cold,0.84,Recommend further tests; confidence 84.0%.,2024-07-21
+598,341,"Detected: hair loss, shortness of breath, dizziness",Macular Degeneration,0.9,Recommend further tests; confidence 90.0%.,2022-05-09
+599,383,"Detected: confusion, joint pain, excessive thirst",Angina Pectoris,0.96,Recommend further tests; confidence 96.0%.,2022-08-15
+600,505,"Detected: insomnia, rash, weight loss, shortness of breath, fever",Pending diagnosis,0.73,Recommend further tests; confidence 73.0%.,2025-11-13
+601,551,"Detected: dry mouth, muscle weakness, anxiety, numbness, leg cramps",Angina Pectoris,0.95,Recommend further tests; confidence 95.0%.,2024-05-06
+602,227,"Detected: dry mouth, dizziness, loss of appetite",Cushing Syndrome,0.75,Recommend further tests; confidence 75.0%.,2023-05-19
+603,130,"Detected: dry mouth, loss of appetite, cough, tingling sensation",Asthma,0.72,Recommend further tests; confidence 72.0%.,2024-01-28
+604,1067,"Detected: numbness, insomnia, difficulty breathing, swelling, muscle weakness",Atrial Fibrillation,0.64,Recommend further tests; confidence 64.0%.,2025-05-03
+605,42,"Detected: anxiety, insomnia",Retinal Detachment,0.94,Recommend further tests; confidence 94.0%.,2022-07-19
+606,30,"Detected: confusion, headache, tingling sensation, dry mouth, vomiting",Melanoma,0.6,Recommend further tests; confidence 60.0%.,2024-01-11
+607,1108,"Detected: weight loss, chest pain, swelling",Myocardial Infarction,0.85,Recommend further tests; confidence 85.0%.,2024-12-01
+608,332,"Detected: leg cramps, blurred vision, back pain, frequent urination",Epilepsy,0.75,Recommend further tests; confidence 75.0%.,2023-06-12
+609,774,"Detected: shortness of breath, chest pain, tingling sensation, dry mouth, swelling",Eczema,0.78,Recommend further tests; confidence 78.0%.,2026-05-05
+610,1150,"Detected: fatigue, loss of appetite, dry mouth, blurred vision",Pulmonary Embolism,0.93,Recommend further tests; confidence 93.0%.,2024-08-09
+611,294,"Detected: excessive thirst, palpitations, night sweats",Peptic Ulcer,0.84,Recommend further tests; confidence 84.0%.,2022-09-22
+612,783,"Detected: swelling, palpitations, cough, nausea, fever",Atrial Fibrillation,0.78,Recommend further tests; confidence 78.0%.,2025-06-26
+613,117,"Detected: nausea, shortness of breath, confusion, fatigue",Retinal Detachment,0.91,Recommend further tests; confidence 91.0%.,2022-12-02
+614,449,"Detected: night sweats, joint pain, frequent urination, palpitations",Seasonal Flu,0.59,Recommend further tests; confidence 59.0%.,2025-09-21
+615,1151,"Detected: cough, numbness, loss of appetite, back pain, weight gain",Macular Degeneration,0.62,Recommend further tests; confidence 62.0%.,2024-09-13
+616,389,"Detected: dry mouth, headache, hair loss, chest pain, muscle weakness",Hypothyroidism,0.96,Recommend further tests; confidence 96.0%.,2022-03-25
+617,330,"Detected: night sweats, fatigue",Kidney Stones,0.97,Recommend further tests; confidence 97.0%.,2024-02-15
+618,1100,"Detected: anxiety, loss of appetite, tingling sensation, dry mouth",Peptic Ulcer,0.76,Recommend further tests; confidence 76.0%.,2025-07-31
+619,1185,"Detected: frequent urination, skin itching, dizziness, dry mouth, palpitations",Routine checkup,0.72,Recommend further tests; confidence 72.0%.,2024-07-06
+620,292,"Detected: swelling, muscle weakness",Seasonal Flu,0.97,Recommend further tests; confidence 97.0%.,2023-03-07
+621,1033,"Detected: weight loss, joint pain",Kidney Stones,0.74,Recommend further tests; confidence 74.0%.,2025-12-01
+622,990,"Detected: memory loss, excessive thirst, hair loss",Melanoma,0.56,Recommend further tests; confidence 56.0%.,2024-03-14
+623,69,"Detected: night sweats, difficulty breathing, anxiety, loss of appetite",Asthma,0.58,Recommend further tests; confidence 58.0%.,2022-01-22
+624,230,"Detected: frequent urination, fatigue, numbness, blurred vision, insomnia",Cholecystitis,0.58,Recommend further tests; confidence 58.0%.,2022-06-25
+625,1086,"Detected: memory loss, cough",Hypothyroidism,0.89,Recommend further tests; confidence 89.0%.,2024-09-02
+626,1096,"Detected: shortness of breath, numbness, abdominal pain, joint pain",Breast Cancer,0.84,Recommend further tests; confidence 84.0%.,2026-01-07
+627,190,"Detected: chest pain, leg cramps, loss of appetite, dry mouth, vomiting",Colorectal Cancer,0.87,Recommend further tests; confidence 87.0%.,2023-12-21
+628,961,"Detected: tingling sensation, shortness of breath, skin itching, back pain",Hyperthyroidism,0.69,Recommend further tests; confidence 69.0%.,2026-01-01
+629,733,"Detected: dizziness, weight loss, muscle weakness, weight gain",Lymphoma,0.93,Recommend further tests; confidence 93.0%.,2024-10-10
+630,129,"Detected: skin itching, night sweats, muscle weakness",Hypothyroidism,0.89,Recommend further tests; confidence 89.0%.,2022-11-29
+631,604,"Detected: difficulty breathing, dry mouth, night sweats, weight gain, confusion",Parkinson's Disease,0.87,Recommend further tests; confidence 87.0%.,2025-07-23
+632,801,"Detected: leg cramps, skin itching, nausea",Under observation,0.86,Recommend further tests; confidence 86.0%.,2025-10-08
+633,138,"Detected: tingling sensation, skin itching, excessive thirst, back pain",Diabetes Type 2,0.93,Recommend further tests; confidence 93.0%.,2022-08-17
+634,193,"Detected: fatigue, chest pain",Cancer,0.79,Recommend further tests; confidence 79.0%.,2022-12-02
+635,739,"Detected: insomnia, vomiting, skin itching, excessive thirst, blurred vision",Lymphoma,0.97,Recommend further tests; confidence 97.0%.,2026-01-12
+636,983,"Detected: headache, joint pain, nausea, back pain, frequent urination",Bronchitis,0.92,Recommend further tests; confidence 92.0%.,2025-04-10
+637,1009,"Detected: numbness, skin itching, hair loss, excessive thirst",Heart Failure,0.58,Recommend further tests; confidence 58.0%.,2024-12-30
+638,417,"Detected: chest pain, anxiety",Eczema,0.74,Recommend further tests; confidence 74.0%.,2026-04-01
+639,871,"Detected: rash, difficulty breathing",Urinary Tract Infection,0.67,Recommend further tests; confidence 67.0%.,2026-01-03
+640,669,"Detected: rash, cough",Pending diagnosis,0.67,Recommend further tests; confidence 67.0%.,2025-06-22
+641,208,"Detected: weight loss, fever, headache, weight gain",Addison's Disease,0.85,Recommend further tests; confidence 85.0%.,2023-09-17
+642,381,"Detected: fatigue, weight gain, loss of appetite, numbness",Common Cold,0.68,Recommend further tests; confidence 68.0%.,2022-04-29
+643,1191,"Detected: cough, nausea, vomiting, difficulty breathing",Hyperthyroidism,0.84,Recommend further tests; confidence 84.0%.,2025-08-17
+644,864,"Detected: cough, nausea",Anemia,0.98,Recommend further tests; confidence 98.0%.,2024-12-25
+645,484,"Detected: frequent urination, swelling, rash, difficulty breathing, loss of appetite",Stroke,0.58,Recommend further tests; confidence 58.0%.,2025-08-12
+646,322,"Detected: palpitations, insomnia, nausea, vomiting",Acne Vulgaris,0.6,Recommend further tests; confidence 60.0%.,2022-11-04
+647,1131,"Detected: memory loss, dizziness, frequent urination",Kidney Stones,0.94,Recommend further tests; confidence 94.0%.,2025-10-24
+648,406,"Detected: memory loss, fatigue, dry mouth",Dermatitis,0.76,Recommend further tests; confidence 76.0%.,2025-04-13
+649,820,"Detected: excessive thirst, frequent urination, vomiting, tingling sensation, weight gain",Atrial Fibrillation,0.94,Recommend further tests; confidence 94.0%.,2024-06-09
+650,516,"Detected: tingling sensation, muscle weakness, palpitations, leg cramps, skin itching",COPD,0.84,Recommend further tests; confidence 84.0%.,2024-07-06
+651,191,"Detected: dizziness, hair loss",Appendicitis,0.96,Recommend further tests; confidence 96.0%.,2023-04-24
+652,123,"Detected: shortness of breath, insomnia",Parkinson's Disease,0.61,Recommend further tests; confidence 61.0%.,2022-10-13
+653,414,"Detected: hair loss, fatigue, abdominal pain, loss of appetite, confusion",Sleep Apnea,0.95,Recommend further tests; confidence 95.0%.,2025-10-31
+654,887,"Detected: joint pain, chest pain, confusion",Chronic headache,0.78,Recommend further tests; confidence 78.0%.,2024-06-30
+655,538,"Detected: fatigue, cough, chest pain, weight gain, night sweats",Epilepsy,0.61,Recommend further tests; confidence 61.0%.,2025-05-19
+656,1085,"Detected: palpitations, headache, fever, difficulty breathing",Cataracts,0.97,Recommend further tests; confidence 97.0%.,2026-04-19
+657,501,"Detected: frequent urination, dry mouth",Kidney Stones,0.58,Recommend further tests; confidence 58.0%.,2024-11-08
+658,938,"Detected: weight loss, numbness, loss of appetite, confusion",Asthma,0.74,Recommend further tests; confidence 74.0%.,2024-12-27
+659,1140,"Detected: insomnia, skin itching, leg cramps, fever",Routine checkup,0.99,Recommend further tests; confidence 99.0%.,2024-04-26
+660,517,"Detected: leg cramps, difficulty breathing, abdominal pain, numbness",Hypertension,0.68,Recommend further tests; confidence 68.0%.,2025-02-11
+661,150,"Detected: skin itching, frequent urination",Sleep Apnea,0.88,Recommend further tests; confidence 88.0%.,2023-10-04
+662,1124,"Detected: abdominal pain, frequent urination, palpitations, vomiting, blurred vision",Diabetes Type 2,0.9,Recommend further tests; confidence 90.0%.,2025-07-20
+663,195,"Detected: fever, weight loss, cough, fatigue, nausea",COPD,0.74,Recommend further tests; confidence 74.0%.,2022-10-23
+664,477,"Detected: blurred vision, anxiety",Myocardial Infarction,0.77,Recommend further tests; confidence 77.0%.,2025-07-22
+665,1130,"Detected: hair loss, headache, dizziness",Urinary Tract Infection,0.73,Recommend further tests; confidence 73.0%.,2026-01-14
+666,926,"Detected: leg cramps, palpitations, fever, fatigue, dizziness",Bronchitis,0.65,Recommend further tests; confidence 65.0%.,2025-11-24
+667,49,"Detected: difficulty breathing, muscle weakness, back pain, chest pain",Acne Vulgaris,0.9,Recommend further tests; confidence 90.0%.,2023-05-01
+668,780,"Detected: dry mouth, muscle weakness, chest pain, numbness, palpitations",Retinal Detachment,0.96,Recommend further tests; confidence 96.0%.,2024-05-22
+669,825,"Detected: back pain, night sweats",Bronchitis,0.91,Recommend further tests; confidence 91.0%.,2026-02-05
+670,882,"Detected: numbness, chest pain, anxiety, palpitations",Osteoporosis,0.59,Recommend further tests; confidence 59.0%.,2024-03-30
+671,1118,"Detected: muscle weakness, headache, abdominal pain",Melanoma,0.86,Recommend further tests; confidence 86.0%.,2024-10-25
+672,535,"Detected: shortness of breath, nausea, fatigue, confusion",Hypothyroidism,0.82,Recommend further tests; confidence 82.0%.,2025-08-14
+673,854,"Detected: fever, hair loss, dizziness, blurred vision, skin itching",Colitis,0.65,Recommend further tests; confidence 65.0%.,2025-01-07
+674,395,"Detected: weight loss, dizziness",Lymphoma,0.95,Recommend further tests; confidence 95.0%.,2024-01-29
+675,1141,"Detected: loss of appetite, vomiting",Pulmonary Embolism,0.74,Recommend further tests; confidence 74.0%.,2025-05-22
+676,692,"Detected: excessive thirst, weight loss",Parkinson's Disease,0.69,Recommend further tests; confidence 69.0%.,2025-01-19
+677,785,"Detected: chest pain, difficulty breathing, blurred vision",Angina Pectoris,0.58,Recommend further tests; confidence 58.0%.,2024-07-05
+678,726,"Detected: muscle weakness, frequent urination",Epilepsy,0.88,Recommend further tests; confidence 88.0%.,2025-10-24
+679,600,"Detected: fever, back pain",Eczema,0.68,Recommend further tests; confidence 68.0%.,2025-03-07
+680,994,"Detected: excessive thirst, nausea, abdominal pain, leg cramps",Stroke,0.66,Recommend further tests; confidence 66.0%.,2026-03-14
+681,344,"Detected: cough, tingling sensation, swelling",Fracture,0.63,Recommend further tests; confidence 63.0%.,2022-08-13
+682,12,"Detected: confusion, nausea, joint pain",Pulmonary Embolism,0.96,Recommend further tests; confidence 96.0%.,2023-08-31
+683,583,"Detected: rash, skin itching, dizziness, chest pain",Psoriasis,0.59,Recommend further tests; confidence 59.0%.,2026-05-01
+684,937,"Detected: muscle weakness, difficulty breathing, vomiting, anxiety, shortness of breath",Lymphoma,0.74,Recommend further tests; confidence 74.0%.,2026-01-10
+685,933,"Detected: chest pain, blurred vision, weight loss, dizziness",Breast Cancer,0.93,Recommend further tests; confidence 93.0%.,2025-09-01
+686,998,"Detected: hair loss, cough, leg cramps, headache",Pulmonary Embolism,0.81,Recommend further tests; confidence 81.0%.,2026-03-09
+687,1198,"Detected: cough, weight loss, tingling sensation, dizziness, nausea",Macular Degeneration,0.69,Recommend further tests; confidence 69.0%.,2025-09-26
+688,737,"Detected: night sweats, vomiting, anxiety",Gastritis,0.74,Recommend further tests; confidence 74.0%.,2024-12-21
+689,144,"Detected: back pain, leg cramps, confusion, loss of appetite",Fracture,0.89,Recommend further tests; confidence 89.0%.,2023-11-25
+690,738,"Detected: fever, swelling",Multiple Sclerosis,0.83,Recommend further tests; confidence 83.0%.,2026-01-30
+691,205,"Detected: swelling, cough, palpitations, confusion, weight gain",Pending diagnosis,0.68,Recommend further tests; confidence 68.0%.,2023-08-02
+692,81,"Detected: skin itching, nausea, palpitations, weight gain, blurred vision",Common Cold,0.59,Recommend further tests; confidence 59.0%.,2023-11-06
+693,800,"Detected: palpitations, memory loss, skin itching, anxiety, swelling",Bronchitis,0.94,Recommend further tests; confidence 94.0%.,2025-04-27
+694,313,"Detected: skin itching, difficulty breathing, numbness, cough",Multiple Sclerosis,0.76,Recommend further tests; confidence 76.0%.,2022-07-29
+695,1063,"Detected: chest pain, dizziness, weight loss, memory loss",Lung Cancer,0.99,Recommend further tests; confidence 99.0%.,2024-11-01
+696,1146,"Detected: headache, skin itching, chest pain, confusion, weight gain",Hypothyroidism,0.84,Recommend further tests; confidence 84.0%.,2024-08-19
+697,582,"Detected: excessive thirst, rash, weight gain",Epilepsy,0.96,Recommend further tests; confidence 96.0%.,2026-03-12
+698,498,"Detected: weight loss, palpitations",Common Cold,0.83,Recommend further tests; confidence 83.0%.,2024-09-18
+699,396,"Detected: dry mouth, nausea, fever, abdominal pain",Dermatitis,0.68,Recommend further tests; confidence 68.0%.,2022-03-17
+700,380,"Detected: blurred vision, skin itching, frequent urination, abdominal pain, nausea",Parkinson's Disease,0.74,Recommend further tests; confidence 74.0%.,2023-02-17
+701,14,"Detected: muscle weakness, palpitations, headache",Colitis,0.94,Recommend further tests; confidence 94.0%.,2022-12-24
+702,352,"Detected: rash, frequent urination, anxiety, confusion, swelling",Leukemia,0.66,Recommend further tests; confidence 66.0%.,2024-01-01
+703,596,"Detected: dizziness, rash, joint pain, dry mouth, loss of appetite",Appendicitis,0.6,Recommend further tests; confidence 60.0%.,2024-05-09
+704,700,"Detected: anxiety, excessive thirst",Rheumatoid Arthritis,0.85,Recommend further tests; confidence 85.0%.,2025-04-24
+705,1138,"Detected: fatigue, back pain, memory loss, muscle weakness, weight gain",Chronic headache,0.97,Recommend further tests; confidence 97.0%.,2024-08-20
+706,979,"Detected: memory loss, skin itching, abdominal pain, numbness",Cancer,0.79,Recommend further tests; confidence 79.0%.,2025-08-04
+707,314,"Detected: weight loss, fever, frequent urination",Colitis,0.92,Recommend further tests; confidence 92.0%.,2023-02-24
+708,703,"Detected: numbness, skin itching, dizziness",Epilepsy,0.57,Recommend further tests; confidence 57.0%.,2024-10-24
+709,682,"Detected: joint pain, dizziness, hair loss, back pain",COPD,0.76,Recommend further tests; confidence 76.0%.,2025-06-11
+710,94,"Detected: difficulty breathing, abdominal pain, hair loss, insomnia, headache",Lung Cancer,0.74,Recommend further tests; confidence 74.0%.,2024-02-08
+711,719,"Detected: night sweats, numbness, back pain",Cataracts,0.92,Recommend further tests; confidence 92.0%.,2025-02-02
+712,487,"Detected: shortness of breath, cough",Asthma,0.88,Recommend further tests; confidence 88.0%.,2024-05-12
+713,76,"Detected: fever, weight loss, vomiting, hair loss",Macular Degeneration,0.75,Recommend further tests; confidence 75.0%.,2023-12-20
+714,1060,"Detected: nausea, cough, weight loss, joint pain",COPD,0.72,Recommend further tests; confidence 72.0%.,2026-03-13
+715,183,"Detected: back pain, loss of appetite, anxiety, dizziness",Leukemia,0.6,Recommend further tests; confidence 60.0%.,2023-04-10
+716,792,"Detected: anxiety, dry mouth, joint pain, leg cramps",Asthma,0.9,Recommend further tests; confidence 90.0%.,2025-03-09
+717,606,"Detected: memory loss, back pain, fatigue",Colorectal Cancer,0.78,Recommend further tests; confidence 78.0%.,2026-04-10
+718,265,"Detected: fatigue, confusion",Atrial Fibrillation,0.98,Recommend further tests; confidence 98.0%.,2022-04-03
+719,982,"Detected: joint pain, palpitations, confusion",Heart Failure,0.67,Recommend further tests; confidence 67.0%.,2025-05-01
+720,888,"Detected: palpitations, shortness of breath, frequent urination",Routine checkup,0.86,Recommend further tests; confidence 86.0%.,2024-05-05
+721,149,"Detected: shortness of breath, palpitations, weight gain, tingling sensation, leg cramps",Breast Cancer,0.69,Recommend further tests; confidence 69.0%.,2023-08-05
+722,198,"Detected: dizziness, difficulty breathing, nausea",Cholecystitis,0.93,Recommend further tests; confidence 93.0%.,2022-09-22
+723,122,"Detected: insomnia, hair loss, muscle weakness, chest pain, weight gain",Follow-up examination,0.67,Recommend further tests; confidence 67.0%.,2023-03-09
+724,1010,"Detected: tingling sensation, shortness of breath, fatigue, nausea, confusion",Cushing Syndrome,0.67,Recommend further tests; confidence 67.0%.,2024-10-31
+725,171,"Detected: palpitations, muscle weakness, fatigue",Angina Pectoris,0.68,Recommend further tests; confidence 68.0%.,2022-02-27
+726,1147,"Detected: abdominal pain, weight loss, insomnia",Stroke,0.77,Recommend further tests; confidence 77.0%.,2025-06-08
+727,156,"Detected: joint pain, tingling sensation, fatigue, cough",Melanoma,0.65,Recommend further tests; confidence 65.0%.,2022-07-13
+728,637,"Detected: cough, muscle weakness, fever, nausea",Asthma,0.86,Recommend further tests; confidence 86.0%.,2025-10-02
+729,41,"Detected: numbness, blurred vision, excessive thirst, insomnia, back pain",COPD,0.71,Recommend further tests; confidence 71.0%.,2023-08-05
+730,1192,"Detected: rash, anxiety, weight loss, loss of appetite, dry mouth",Colitis,0.84,Recommend further tests; confidence 84.0%.,2024-10-20
+731,180,"Detected: skin itching, swelling, night sweats, palpitations",Atrial Fibrillation,0.84,Recommend further tests; confidence 84.0%.,2022-12-17
+732,754,"Detected: nausea, fever, abdominal pain, anxiety, blurred vision",Sleep Apnea,0.82,Recommend further tests; confidence 82.0%.,2026-01-01
+733,907,"Detected: cough, excessive thirst, swelling, loss of appetite",Parkinson's Disease,0.66,Recommend further tests; confidence 66.0%.,2024-09-18
+734,1091,"Detected: weight loss, leg cramps, difficulty breathing",Seasonal Flu,0.88,Recommend further tests; confidence 88.0%.,2024-08-04
+735,1031,"Detected: rash, memory loss",Appendicitis,0.76,Recommend further tests; confidence 76.0%.,2025-10-19
+736,953,"Detected: nausea, anxiety, muscle weakness, weight gain",Migraine,0.59,Recommend further tests; confidence 59.0%.,2025-03-19
+737,942,"Detected: excessive thirst, skin itching, dizziness, nausea",Addison's Disease,0.74,Recommend further tests; confidence 74.0%.,2026-04-03
+738,1112,"Detected: excessive thirst, skin itching",Pulmonary Embolism,0.89,Recommend further tests; confidence 89.0%.,2025-10-25
+739,105,"Detected: loss of appetite, shortness of breath, swelling, back pain, rash",Pending diagnosis,0.62,Recommend further tests; confidence 62.0%.,2023-02-27
+740,541,"Detected: cough, difficulty breathing",Hypothyroidism,0.97,Recommend further tests; confidence 97.0%.,2025-01-02
+741,283,"Detected: dry mouth, leg cramps, headache",Follow-up examination,0.92,Recommend further tests; confidence 92.0%.,2022-01-27
+742,764,"Detected: difficulty breathing, rash, vomiting",Parkinson's Disease,0.58,Recommend further tests; confidence 58.0%.,2025-04-01
+743,527,"Detected: hair loss, loss of appetite, confusion",Fracture,0.91,Recommend further tests; confidence 91.0%.,2024-08-05
+744,372,"Detected: joint pain, leg cramps, shortness of breath, tingling sensation",Kidney Stones,0.86,Recommend further tests; confidence 86.0%.,2022-02-28
+745,1080,"Detected: dry mouth, difficulty breathing, numbness, hair loss, weight loss",Melanoma,0.9,Recommend further tests; confidence 90.0%.,2024-03-26
+746,646,"Detected: swelling, vomiting, memory loss",Under observation,0.69,Recommend further tests; confidence 69.0%.,2025-01-18
+747,85,"Detected: chest pain, vomiting, difficulty breathing, numbness, confusion",Peptic Ulcer,0.66,Recommend further tests; confidence 66.0%.,2023-07-02
+748,1120,"Detected: abdominal pain, fever, dry mouth",Addison's Disease,0.55,Recommend further tests; confidence 55.0%.,2024-05-09
+749,411,"Detected: joint pain, insomnia",Pneumonia,0.8,Recommend further tests; confidence 80.0%.,2025-01-23
+750,327,"Detected: loss of appetite, excessive thirst, shortness of breath, back pain, frequent urination",Asthma,0.76,Recommend further tests; confidence 76.0%.,2023-08-23
+751,944,"Detected: dry mouth, palpitations, dizziness, back pain, weight loss",Angina Pectoris,0.59,Recommend further tests; confidence 59.0%.,2024-08-14
+752,967,"Detected: muscle weakness, memory loss",Anemia,0.88,Recommend further tests; confidence 88.0%.,2025-08-27
+753,47,"Detected: cough, swelling",Cushing Syndrome,0.78,Recommend further tests; confidence 78.0%.,2023-12-28
+754,367,"Detected: shortness of breath, night sweats, swelling, back pain, excessive thirst",Dermatitis,0.82,Recommend further tests; confidence 82.0%.,2023-06-16
+755,924,"Detected: leg cramps, weight loss, joint pain, abdominal pain, cough",Cushing Syndrome,0.8,Recommend further tests; confidence 80.0%.,2025-11-27
+756,403,"Detected: fatigue, headache, dry mouth, vomiting, palpitations",Parkinson's Disease,0.86,Recommend further tests; confidence 86.0%.,2022-09-17
+757,434,"Detected: confusion, rash, vomiting, joint pain, loss of appetite",Colitis,0.67,Recommend further tests; confidence 67.0%.,2024-10-08
+758,444,"Detected: fatigue, night sweats, chest pain, difficulty breathing",Cataracts,0.56,Recommend further tests; confidence 56.0%.,2025-11-08
+759,587,"Detected: memory loss, vomiting",Psoriasis,0.82,Recommend further tests; confidence 82.0%.,2025-05-31
+760,674,"Detected: vomiting, leg cramps, shortness of breath",Diabetes Type 2,0.62,Recommend further tests; confidence 62.0%.,2024-03-28
+761,473,"Detected: dizziness, fever, insomnia, rash, back pain",Multiple Sclerosis,0.56,Recommend further tests; confidence 56.0%.,2024-12-07
+762,18,"Detected: headache, numbness, fatigue, difficulty breathing, back pain",Osteoarthritis,0.87,Recommend further tests; confidence 87.0%.,2022-01-01
+763,691,"Detected: muscle weakness, rash, weight gain, cough",Psoriasis,0.84,Recommend further tests; confidence 84.0%.,2024-04-04
+764,440,"Detected: muscle weakness, dry mouth, confusion, memory loss",Stroke,0.71,Recommend further tests; confidence 71.0%.,2025-01-05
+765,642,"Detected: muscle weakness, frequent urination, leg cramps, anxiety",Appendicitis,0.81,Recommend further tests; confidence 81.0%.,2025-08-02
+766,1018,"Detected: memory loss, loss of appetite",Pneumonia,0.76,Recommend further tests; confidence 76.0%.,2024-06-13
+767,1135,"Detected: skin itching, vomiting, night sweats, frequent urination, swelling",Under observation,0.8,Recommend further tests; confidence 80.0%.,2024-08-08
+768,529,"Detected: weight gain, difficulty breathing, memory loss, tingling sensation",Psoriasis,0.77,Recommend further tests; confidence 77.0%.,2024-12-16
+769,704,"Detected: skin itching, weight gain",Seasonal Flu,0.78,Recommend further tests; confidence 78.0%.,2024-10-17
+770,1194,"Detected: night sweats, hair loss, dizziness, insomnia",Psoriasis,0.75,Recommend further tests; confidence 75.0%.,2024-11-09
+771,621,"Detected: dizziness, headache",Multiple Sclerosis,0.62,Recommend further tests; confidence 62.0%.,2024-12-06
+772,392,"Detected: palpitations, fatigue",Lymphoma,0.73,Recommend further tests; confidence 73.0%.,2022-06-17
+773,103,"Detected: hair loss, anxiety, dizziness",Peptic Ulcer,0.57,Recommend further tests; confidence 57.0%.,2023-02-02
+774,1037,"Detected: fever, swelling, night sweats",Melanoma,0.97,Recommend further tests; confidence 97.0%.,2024-09-19
+775,282,"Detected: weight loss, headache, insomnia",Osteoarthritis,0.88,Recommend further tests; confidence 88.0%.,2023-10-31
+776,786,"Detected: hair loss, headache, confusion, blurred vision, abdominal pain",Melanoma,0.82,Recommend further tests; confidence 82.0%.,2025-02-24
+777,782,"Detected: headache, palpitations, vomiting",Psoriasis,0.83,Recommend further tests; confidence 83.0%.,2025-08-02
+778,948,"Detected: headache, muscle weakness, joint pain, frequent urination, fever",Migraine,0.63,Recommend further tests; confidence 63.0%.,2025-11-21
+779,101,"Detected: frequent urination, palpitations",Stroke,0.58,Recommend further tests; confidence 58.0%.,2022-08-16
+780,1170,"Detected: frequent urination, confusion, excessive thirst, memory loss",Lung Cancer,0.96,Recommend further tests; confidence 96.0%.,2024-10-17
+781,993,"Detected: night sweats, muscle weakness, insomnia",Anemia,0.59,Recommend further tests; confidence 59.0%.,2025-01-11
+782,174,"Detected: dizziness, joint pain",Melanoma,0.81,Recommend further tests; confidence 81.0%.,2022-06-27
+783,317,"Detected: difficulty breathing, nausea, cough, weight gain",Pending diagnosis,0.93,Recommend further tests; confidence 93.0%.,2022-10-05
+784,707,"Detected: rash, dizziness",Colorectal Cancer,0.57,Recommend further tests; confidence 57.0%.,2025-08-24
+785,245,"Detected: frequent urination, dry mouth, weight loss, swelling",Hypothyroidism,0.85,Recommend further tests; confidence 85.0%.,2022-10-13
+786,1105,"Detected: hair loss, night sweats, confusion, joint pain",Pending diagnosis,0.87,Recommend further tests; confidence 87.0%.,2024-07-20
+787,1178,"Detected: chest pain, frequent urination, insomnia",Colorectal Cancer,0.95,Recommend further tests; confidence 95.0%.,2025-08-06
+788,268,"Detected: swelling, muscle weakness",Lung Cancer,0.91,Recommend further tests; confidence 91.0%.,2023-09-01
+789,770,"Detected: confusion, loss of appetite, cough, frequent urination, joint pain",Cancer,0.9,Recommend further tests; confidence 90.0%.,2025-02-17
+790,1094,"Detected: vomiting, difficulty breathing, excessive thirst, weight gain",Sleep Apnea,0.63,Recommend further tests; confidence 63.0%.,2025-04-26
+791,574,"Detected: skin itching, headache, cough, nausea",Hypertension,0.76,Recommend further tests; confidence 76.0%.,2025-10-15
+792,439,"Detected: nausea, shortness of breath",Osteoarthritis,0.83,Recommend further tests; confidence 83.0%.,2025-11-22
+793,746,"Detected: memory loss, abdominal pain",Atrial Fibrillation,0.94,Recommend further tests; confidence 94.0%.,2025-10-15
+794,233,"Detected: frequent urination, insomnia, anxiety",Diabetes Type 2,0.56,Recommend further tests; confidence 56.0%.,2022-06-13
+795,819,"Detected: tingling sensation, numbness, muscle weakness",Rheumatoid Arthritis,0.98,Recommend further tests; confidence 98.0%.,2025-03-02
+796,1163,"Detected: difficulty breathing, shortness of breath, tingling sensation",Heart Failure,0.99,Recommend further tests; confidence 99.0%.,2024-03-18
+797,729,"Detected: shortness of breath, vomiting, joint pain, abdominal pain, palpitations",Appendicitis,0.88,Recommend further tests; confidence 88.0%.,2024-12-24
+798,179,"Detected: shortness of breath, frequent urination, palpitations, night sweats, back pain",Chronic headache,0.57,Recommend further tests; confidence 57.0%.,2022-01-14
+799,43,"Detected: loss of appetite, dizziness, chest pain, fever",Anemia,0.77,Recommend further tests; confidence 77.0%.,2023-04-09
+800,98,"Detected: skin itching, vomiting, cough, insomnia, weight gain",Leukemia,0.64,Recommend further tests; confidence 64.0%.,2023-07-01
+801,24,"Detected: excessive thirst, fatigue, memory loss, insomnia",Hyperthyroidism,0.89,Recommend further tests; confidence 89.0%.,2022-04-01
+802,659,"Detected: weight gain, headache, nausea, frequent urination",Bronchitis,0.62,Recommend further tests; confidence 62.0%.,2025-11-20
+803,575,"Detected: cough, weight gain, confusion",Osteoarthritis,0.84,Recommend further tests; confidence 84.0%.,2025-03-29
+804,213,"Detected: muscle weakness, insomnia, chest pain, difficulty breathing, cough",Multiple Sclerosis,0.6,Recommend further tests; confidence 60.0%.,2023-07-07
+805,508,"Detected: swelling, nausea, numbness, chest pain",Pending diagnosis,0.96,Recommend further tests; confidence 96.0%.,2024-07-29
+806,833,"Detected: fatigue, dizziness",Diabetes Type 1,0.7,Recommend further tests; confidence 70.0%.,2024-10-11
+807,580,"Detected: headache, numbness",Glaucoma,0.61,Recommend further tests; confidence 61.0%.,2024-04-06
+808,908,"Detected: rash, confusion, skin itching",Under observation,0.79,Recommend further tests; confidence 79.0%.,2024-09-04
+809,274,"Detected: fever, rash, abdominal pain, vomiting",Common Cold,0.89,Recommend further tests; confidence 89.0%.,2022-11-06
+810,55,"Detected: muscle weakness, dry mouth, excessive thirst",Pending diagnosis,0.94,Recommend further tests; confidence 94.0%.,2023-01-23
+811,163,"Detected: loss of appetite, vomiting, back pain, fever, weight gain",Diabetes Type 2,0.64,Recommend further tests; confidence 64.0%.,2022-11-29
+812,1015,"Detected: fever, chest pain",Breast Cancer,0.97,Recommend further tests; confidence 97.0%.,2025-09-15
+813,702,"Detected: abdominal pain, leg cramps",Colorectal Cancer,0.63,Recommend further tests; confidence 63.0%.,2024-05-25
+814,125,"Detected: dry mouth, excessive thirst",Macular Degeneration,0.72,Recommend further tests; confidence 72.0%.,2022-04-13
+815,442,"Detected: back pain, dry mouth, palpitations, swelling",Colorectal Cancer,0.77,Recommend further tests; confidence 77.0%.,2024-07-13
+816,231,"Detected: difficulty breathing, night sweats, fatigue",Atrial Fibrillation,0.7,Recommend further tests; confidence 70.0%.,2022-11-14
+817,15,"Detected: memory loss, dry mouth, abdominal pain, loss of appetite",Fracture,0.91,Recommend further tests; confidence 91.0%.,2023-12-10
+818,753,"Detected: dizziness, hair loss",Diabetes Type 2,0.86,Recommend further tests; confidence 86.0%.,2026-03-05
+819,248,"Detected: fever, excessive thirst, blurred vision, fatigue",Pneumonia,0.64,Recommend further tests; confidence 64.0%.,2022-11-17
+820,1008,"Detected: joint pain, muscle weakness",COPD,0.92,Recommend further tests; confidence 92.0%.,2026-02-25
+821,496,"Detected: frequent urination, blurred vision",Colorectal Cancer,0.96,Recommend further tests; confidence 96.0%.,2025-03-09
+822,115,"Detected: shortness of breath, difficulty breathing, joint pain, hair loss, palpitations",Cancer,0.94,Recommend further tests; confidence 94.0%.,2022-01-07
+823,385,"Detected: vomiting, shortness of breath",Heart Failure,0.6,Recommend further tests; confidence 60.0%.,2023-05-09
+824,581,"Detected: vomiting, dizziness, weight loss, rash",Anemia,0.63,Recommend further tests; confidence 63.0%.,2024-04-04
+825,286,"Detected: vomiting, numbness, anxiety, chest pain, shortness of breath",Diabetes Type 2,0.75,Recommend further tests; confidence 75.0%.,2022-03-02
+826,80,"Detected: anxiety, insomnia, tingling sensation, weight gain",Seasonal Flu,0.6,Recommend further tests; confidence 60.0%.,2022-07-20
+827,1021,"Detected: frequent urination, dry mouth, weight gain, dizziness",Macular Degeneration,0.97,Recommend further tests; confidence 97.0%.,2026-04-01
+828,837,"Detected: tingling sensation, abdominal pain, skin itching",Melanoma,0.59,Recommend further tests; confidence 59.0%.,2026-04-07
+829,1132,"Detected: loss of appetite, chest pain, vomiting",Cataracts,0.67,Recommend further tests; confidence 67.0%.,2025-09-24
+830,590,"Detected: muscle weakness, fatigue, insomnia, memory loss",Hyperthyroidism,0.63,Recommend further tests; confidence 63.0%.,2024-03-30
+831,876,"Detected: fever, anxiety, swelling, insomnia",Urinary Tract Infection,0.84,Recommend further tests; confidence 84.0%.,2025-02-19
+832,1087,"Detected: abdominal pain, night sweats, loss of appetite",Retinal Detachment,0.77,Recommend further tests; confidence 77.0%.,2026-01-27
+833,44,"Detected: confusion, insomnia",Migraine,0.61,Recommend further tests; confidence 61.0%.,2022-08-18
+834,1043,"Detected: dry mouth, anxiety, hair loss, abdominal pain, fever",Eczema,0.69,Recommend further tests; confidence 69.0%.,2024-03-15
+835,922,"Detected: nausea, memory loss, chest pain, vomiting, fever",Multiple Sclerosis,0.77,Recommend further tests; confidence 77.0%.,2026-05-02
+836,53,"Detected: chest pain, insomnia, nausea, shortness of breath, palpitations",COPD,0.86,Recommend further tests; confidence 86.0%.,2023-11-17
+837,1093,"Detected: memory loss, anxiety, shortness of breath",Multiple Sclerosis,0.93,Recommend further tests; confidence 93.0%.,2025-10-29
+838,124,"Detected: shortness of breath, difficulty breathing",Osteoarthritis,0.63,Recommend further tests; confidence 63.0%.,2023-08-18
+839,878,"Detected: cough, numbness",Bronchitis,0.9,Recommend further tests; confidence 90.0%.,2024-07-18
+840,219,"Detected: swelling, palpitations",Macular Degeneration,0.85,Recommend further tests; confidence 85.0%.,2023-04-10
+841,353,"Detected: weight loss, skin itching",Sleep Apnea,0.69,Recommend further tests; confidence 69.0%.,2022-08-07
+842,939,"Detected: hair loss, skin itching, tingling sensation",Appendicitis,0.62,Recommend further tests; confidence 62.0%.,2024-12-10
+843,290,"Detected: back pain, anxiety, numbness",Fracture,0.82,Recommend further tests; confidence 82.0%.,2023-08-15
+844,1119,"Detected: night sweats, abdominal pain, back pain, insomnia, numbness",Osteoporosis,0.63,Recommend further tests; confidence 63.0%.,2025-02-04
+845,638,"Detected: fever, blurred vision, leg cramps, abdominal pain",Appendicitis,0.74,Recommend further tests; confidence 74.0%.,2024-06-15
+846,550,"Detected: weight loss, dry mouth, blurred vision",Osteoarthritis,0.65,Recommend further tests; confidence 65.0%.,2024-10-19
+847,272,"Detected: difficulty breathing, muscle weakness",Diabetes Type 1,0.76,Recommend further tests; confidence 76.0%.,2022-08-18
+848,1072,"Detected: palpitations, weight loss, fatigue",Dermatitis,0.6,Recommend further tests; confidence 60.0%.,2024-06-02
+849,409,"Detected: rash, fatigue, vomiting, loss of appetite",Common Cold,0.84,Recommend further tests; confidence 84.0%.,2025-11-06
+850,209,"Detected: dizziness, skin itching, rash",Cholecystitis,0.75,Recommend further tests; confidence 75.0%.,2023-05-28
+851,287,"Detected: excessive thirst, rash",Multiple Sclerosis,0.82,Recommend further tests; confidence 82.0%.,2022-03-09
+852,779,"Detected: insomnia, weight gain",Osteoporosis,0.82,Recommend further tests; confidence 82.0%.,2025-09-26
+853,536,"Detected: confusion, swelling",Lung Cancer,0.61,Recommend further tests; confidence 61.0%.,2024-05-21
+854,652,"Detected: shortness of breath, weight gain",Follow-up examination,0.57,Recommend further tests; confidence 57.0%.,2024-12-26
+855,469,"Detected: confusion, night sweats, rash, fever",Cholecystitis,0.93,Recommend further tests; confidence 93.0%.,2024-06-16
+856,995,"Detected: frequent urination, tingling sensation",Follow-up examination,0.69,Recommend further tests; confidence 69.0%.,2024-11-05
+857,64,"Detected: chest pain, weight loss, weight gain, vomiting, loss of appetite",Pulmonary Embolism,0.8,Recommend further tests; confidence 80.0%.,2023-08-18
+858,217,"Detected: difficulty breathing, headache, weight gain, blurred vision, chest pain",Parkinson's Disease,0.84,Recommend further tests; confidence 84.0%.,2023-06-10
+859,513,"Detected: fever, dry mouth",Chronic headache,0.92,Recommend further tests; confidence 92.0%.,2025-03-20
+860,83,"Detected: numbness, skin itching, joint pain",Pending diagnosis,0.7,Recommend further tests; confidence 70.0%.,2023-05-05
+861,102,"Detected: hair loss, nausea, tingling sensation, numbness, memory loss",Cataracts,0.97,Recommend further tests; confidence 97.0%.,2022-01-26
+862,275,"Detected: headache, swelling, rash",Hypothyroidism,0.95,Recommend further tests; confidence 95.0%.,2022-02-06
+863,203,"Detected: blurred vision, fatigue",Hypothyroidism,0.9,Recommend further tests; confidence 90.0%.,2023-06-13
+864,346,"Detected: rash, weight loss, abdominal pain, leg cramps",Hypertension,0.55,Recommend further tests; confidence 55.0%.,2023-04-02
+865,173,"Detected: back pain, abdominal pain, chest pain, tingling sensation, weight loss",COPD,0.89,Recommend further tests; confidence 89.0%.,2022-06-11
+866,923,"Detected: fatigue, chest pain, palpitations, dizziness, cough",Lung Cancer,0.71,Recommend further tests; confidence 71.0%.,2024-09-13
+867,636,"Detected: numbness, abdominal pain, night sweats, vomiting, confusion",Macular Degeneration,0.85,Recommend further tests; confidence 85.0%.,2024-05-09
+868,832,"Detected: hair loss, vomiting, dizziness, swelling",Cushing Syndrome,0.88,Recommend further tests; confidence 88.0%.,2025-06-01
+869,244,"Detected: anxiety, loss of appetite, tingling sensation",Osteoarthritis,0.79,Recommend further tests; confidence 79.0%.,2023-10-23
+870,247,"Detected: frequent urination, fever",Diabetes Type 2,0.77,Recommend further tests; confidence 77.0%.,2023-03-25
+871,648,"Detected: weight gain, fever",Rheumatoid Arthritis,0.9,Recommend further tests; confidence 90.0%.,2025-04-08
+872,470,"Detected: muscle weakness, vomiting, skin itching, dry mouth",Gastritis,0.86,Recommend further tests; confidence 86.0%.,2024-06-28
+873,289,"Detected: fever, weight gain, skin itching",Cushing Syndrome,0.65,Recommend further tests; confidence 65.0%.,2023-12-14
+874,950,"Detected: anxiety, dry mouth, rash, night sweats, back pain",Cancer,0.68,Recommend further tests; confidence 68.0%.,2024-05-19
+875,752,"Detected: skin itching, confusion, shortness of breath",Anemia,0.89,Recommend further tests; confidence 89.0%.,2024-04-23
+876,676,"Detected: shortness of breath, nausea, night sweats, fatigue",Colitis,0.76,Recommend further tests; confidence 76.0%.,2024-05-18
+877,1126,"Detected: muscle weakness, fatigue, night sweats, dry mouth, fever",Asthma,0.75,Recommend further tests; confidence 75.0%.,2024-07-05
+878,480,"Detected: cough, abdominal pain, weight gain",Pneumonia,0.7,Recommend further tests; confidence 70.0%.,2025-04-18
+879,706,"Detected: palpitations, loss of appetite, fever",Under observation,0.62,Recommend further tests; confidence 62.0%.,2025-11-01
+880,796,"Detected: dizziness, rash, nausea",Parkinson's Disease,0.78,Recommend further tests; confidence 78.0%.,2024-05-30
+881,463,"Detected: difficulty breathing, cough, rash, excessive thirst",Hypertension,0.83,Recommend further tests; confidence 83.0%.,2025-08-22
+882,342,"Detected: swelling, rash, joint pain, dry mouth, frequent urination",Acne Vulgaris,0.74,Recommend further tests; confidence 74.0%.,2022-08-03
+883,632,"Detected: cough, chest pain",Kidney Stones,0.85,Recommend further tests; confidence 85.0%.,2026-04-21
+884,635,"Detected: loss of appetite, confusion, chest pain, joint pain, anxiety",Heart Failure,0.95,Recommend further tests; confidence 95.0%.,2026-01-21
+885,843,"Detected: back pain, frequent urination, muscle weakness, swelling",Cancer,0.61,Recommend further tests; confidence 61.0%.,2024-12-06
+886,7,"Detected: cough, weight loss",Angina Pectoris,0.62,Recommend further tests; confidence 62.0%.,2023-11-27
+887,151,"Detected: dry mouth, tingling sensation, excessive thirst",Hypothyroidism,0.66,Recommend further tests; confidence 66.0%.,2023-04-07
+888,554,"Detected: palpitations, swelling, excessive thirst, weight loss",Sleep Apnea,0.6,Recommend further tests; confidence 60.0%.,2024-11-24
+889,1136,"Detected: skin itching, fever, shortness of breath",Migraine,0.84,Recommend further tests; confidence 84.0%.,2026-04-20
+890,432,"Detected: insomnia, fatigue, joint pain, dry mouth, muscle weakness",Dermatitis,0.83,Recommend further tests; confidence 83.0%.,2025-06-29
+891,813,"Detected: headache, blurred vision, fever, dizziness",Cataracts,0.66,Recommend further tests; confidence 66.0%.,2025-01-17
+892,258,"Detected: memory loss, fever, numbness",Cancer,0.64,Recommend further tests; confidence 64.0%.,2022-10-21
+893,388,"Detected: vomiting, weight loss",Macular Degeneration,0.6,Recommend further tests; confidence 60.0%.,2022-12-31
+894,408,"Detected: difficulty breathing, skin itching, loss of appetite",Cataracts,0.76,Recommend further tests; confidence 76.0%.,2024-09-01
+895,500,"Detected: abdominal pain, night sweats, leg cramps",Hypertension,0.63,Recommend further tests; confidence 63.0%.,2025-11-21
+896,850,"Detected: frequent urination, chest pain, muscle weakness",Addison's Disease,0.97,Recommend further tests; confidence 97.0%.,2026-02-04
+897,320,"Detected: vomiting, nausea, tingling sensation, anxiety, joint pain",Colitis,0.85,Recommend further tests; confidence 85.0%.,2023-04-13
+898,167,"Detected: excessive thirst, fatigue, shortness of breath, anxiety",Asthma,0.63,Recommend further tests; confidence 63.0%.,2023-09-08
+899,356,"Detected: frequent urination, anxiety, loss of appetite, fatigue, skin itching",Acne Vulgaris,0.66,Recommend further tests; confidence 66.0%.,2022-01-12
+900,326,"Detected: shortness of breath, fever",Myocardial Infarction,0.98,Recommend further tests; confidence 98.0%.,2022-04-08
+901,1109,"Detected: fatigue, anxiety, memory loss, rash, cough",Lymphoma,0.67,Recommend further tests; confidence 67.0%.,2025-03-12
+902,109,"Detected: loss of appetite, skin itching, chest pain",Gastritis,0.78,Recommend further tests; confidence 78.0%.,2023-05-06
+903,1186,"Detected: vomiting, nausea",Renal Failure,0.89,Recommend further tests; confidence 89.0%.,2024-07-19
+904,633,"Detected: loss of appetite, headache, insomnia, leg cramps",Fracture,0.68,Recommend further tests; confidence 68.0%.,2024-06-19
+905,309,"Detected: skin itching, fatigue, chest pain, excessive thirst, cough",Pending diagnosis,0.87,Recommend further tests; confidence 87.0%.,2022-07-13
+906,947,"Detected: rash, hair loss",Macular Degeneration,0.6,Recommend further tests; confidence 60.0%.,2025-09-09
+907,1095,"Detected: tingling sensation, dizziness",Cataracts,0.64,Recommend further tests; confidence 64.0%.,2025-08-11
+908,678,"Detected: swelling, joint pain",Pending diagnosis,0.91,Recommend further tests; confidence 91.0%.,2025-07-04
+909,720,"Detected: dizziness, vomiting, blurred vision, muscle weakness",Pulmonary Embolism,0.61,Recommend further tests; confidence 61.0%.,2025-12-18
+910,521,"Detected: dry mouth, blurred vision, confusion, cough, difficulty breathing",Sleep Apnea,0.65,Recommend further tests; confidence 65.0%.,2025-06-07
+911,270,"Detected: excessive thirst, nausea, cough, dry mouth, weight gain",Osteoarthritis,0.62,Recommend further tests; confidence 62.0%.,2022-06-30
+912,877,"Detected: night sweats, leg cramps, abdominal pain, frequent urination, skin itching",Lung Cancer,0.56,Recommend further tests; confidence 56.0%.,2026-04-16
+913,1040,"Detected: leg cramps, excessive thirst, dizziness, tingling sensation, night sweats",Cancer,0.76,Recommend further tests; confidence 76.0%.,2024-06-17
+914,723,"Detected: dry mouth, leg cramps",Cataracts,0.66,Recommend further tests; confidence 66.0%.,2025-07-22
+915,59,"Detected: muscle weakness, night sweats",Cholecystitis,0.88,Recommend further tests; confidence 88.0%.,2023-08-25
+916,1039,"Detected: numbness, abdominal pain",Addison's Disease,0.94,Recommend further tests; confidence 94.0%.,2025-01-12
+917,147,"Detected: muscle weakness, blurred vision, abdominal pain, fatigue",Cholecystitis,0.93,Recommend further tests; confidence 93.0%.,2023-10-20
+918,368,"Detected: hair loss, leg cramps, memory loss",Anemia,0.76,Recommend further tests; confidence 76.0%.,2023-04-04
+919,410,"Detected: hair loss, difficulty breathing",Acne Vulgaris,0.96,Recommend further tests; confidence 96.0%.,2025-12-07
+920,31,"Detected: confusion, loss of appetite, swelling, muscle weakness",Diabetes Type 1,0.88,Recommend further tests; confidence 88.0%.,2023-03-18
+921,566,"Detected: hair loss, confusion, abdominal pain, weight loss, fatigue",Sleep Apnea,0.87,Recommend further tests; confidence 87.0%.,2024-03-08
+922,435,"Detected: nausea, palpitations, weight loss, chest pain",Rheumatoid Arthritis,0.68,Recommend further tests; confidence 68.0%.,2024-04-06
+923,798,"Detected: palpitations, leg cramps, numbness, tingling sensation",Acne Vulgaris,0.81,Recommend further tests; confidence 81.0%.,2024-03-23
+924,60,"Detected: dizziness, insomnia, skin itching, vomiting",COPD,0.92,Recommend further tests; confidence 92.0%.,2022-01-02
+925,625,"Detected: vomiting, nausea",Under observation,0.66,Recommend further tests; confidence 66.0%.,2025-07-29
+926,929,"Detected: blurred vision, skin itching, numbness, hair loss",Follow-up examination,0.56,Recommend further tests; confidence 56.0%.,2026-02-21
+927,8,"Detected: hair loss, palpitations, shortness of breath, confusion",Leukemia,0.78,Recommend further tests; confidence 78.0%.,2022-07-03
+928,425,"Detected: anxiety, nausea, leg cramps, vomiting, chest pain",Angina Pectoris,0.71,Recommend further tests; confidence 71.0%.,2024-06-04
+929,61,"Detected: rash, vomiting",Cancer,0.94,Recommend further tests; confidence 94.0%.,2022-08-06
+930,1049,"Detected: headache, numbness, skin itching, frequent urination",Pending diagnosis,0.97,Recommend further tests; confidence 97.0%.,2025-09-09
+931,1056,"Detected: skin itching, nausea, insomnia",Gastritis,0.64,Recommend further tests; confidence 64.0%.,2024-12-02
+932,45,"Detected: nausea, confusion, anxiety, fatigue",Atrial Fibrillation,0.82,Recommend further tests; confidence 82.0%.,2022-04-15
+933,573,"Detected: abdominal pain, chest pain, memory loss, frequent urination",Osteoarthritis,0.6,Recommend further tests; confidence 60.0%.,2024-07-27
+934,934,"Detected: joint pain, anxiety",Kidney Stones,0.97,Recommend further tests; confidence 97.0%.,2025-05-20
+935,196,"Detected: blurred vision, skin itching, tingling sensation, weight loss, frequent urination",Psoriasis,0.6,Recommend further tests; confidence 60.0%.,2023-04-27
+936,548,"Detected: abdominal pain, cough",Common Cold,0.91,Recommend further tests; confidence 91.0%.,2026-01-14
+937,46,"Detected: tingling sensation, headache",Myocardial Infarction,0.88,Recommend further tests; confidence 88.0%.,2023-10-07
+938,493,"Detected: swelling, abdominal pain",Acne Vulgaris,0.63,Recommend further tests; confidence 63.0%.,2026-03-08
+939,618,"Detected: insomnia, confusion, night sweats",Urinary Tract Infection,0.72,Recommend further tests; confidence 72.0%.,2024-04-06
+940,1134,"Detected: loss of appetite, dry mouth, skin itching, memory loss, back pain",Breast Cancer,0.57,Recommend further tests; confidence 57.0%.,2024-09-23
+941,142,"Detected: chest pain, dry mouth, blurred vision",Lymphoma,0.55,Recommend further tests; confidence 55.0%.,2022-03-14
+942,866,"Detected: dry mouth, numbness, loss of appetite, chest pain, vomiting",Breast Cancer,0.99,Recommend further tests; confidence 99.0%.,2024-11-07
+943,451,"Detected: loss of appetite, fatigue",Myocardial Infarction,0.81,Recommend further tests; confidence 81.0%.,2025-10-06
+944,291,"Detected: memory loss, numbness, abdominal pain, swelling",Macular Degeneration,0.75,Recommend further tests; confidence 75.0%.,2023-07-18
+945,1069,"Detected: loss of appetite, skin itching, swelling, headache",Bronchitis,0.71,Recommend further tests; confidence 71.0%.,2025-08-17
+946,591,"Detected: tingling sensation, rash, confusion",Routine checkup,0.82,Recommend further tests; confidence 82.0%.,2025-02-28
+947,1162,"Detected: tingling sensation, leg cramps",Bronchitis,0.58,Recommend further tests; confidence 58.0%.,2025-10-29
+948,397,"Detected: abdominal pain, joint pain",Cancer,0.75,Recommend further tests; confidence 75.0%.,2023-10-21
+949,375,"Detected: swelling, leg cramps, fatigue, loss of appetite",Hypothyroidism,0.79,Recommend further tests; confidence 79.0%.,2023-02-17
+950,896,"Detected: night sweats, frequent urination",Seasonal Flu,0.67,Recommend further tests; confidence 67.0%.,2024-08-05
+951,985,"Detected: weight loss, dizziness, memory loss, fever, dry mouth",Lung Cancer,0.81,Recommend further tests; confidence 81.0%.,2024-09-20
+952,461,"Detected: dry mouth, loss of appetite",Heart Failure,0.8,Recommend further tests; confidence 80.0%.,2024-09-14
+953,261,"Detected: swelling, fatigue",Leukemia,0.89,Recommend further tests; confidence 89.0%.,2022-11-24
+954,838,"Detected: vomiting, dry mouth, loss of appetite, insomnia",Cancer,0.66,Recommend further tests; confidence 66.0%.,2026-04-15
+955,165,"Detected: dizziness, joint pain, excessive thirst, swelling",Pneumonia,0.55,Recommend further tests; confidence 55.0%.,2022-12-15
+956,250,"Detected: abdominal pain, weight gain",COPD,0.75,Recommend further tests; confidence 75.0%.,2022-09-08
+957,1117,"Detected: skin itching, headache, frequent urination, vomiting, insomnia",Hypothyroidism,0.67,Recommend further tests; confidence 67.0%.,2026-02-01
+958,36,"Detected: tingling sensation, numbness, shortness of breath, dizziness",Routine checkup,0.84,Recommend further tests; confidence 84.0%.,2023-01-19
+959,651,"Detected: dry mouth, joint pain, headache, fatigue, night sweats",Asthma,0.94,Recommend further tests; confidence 94.0%.,2025-01-05
+960,552,"Detected: numbness, night sweats, loss of appetite, confusion, skin itching",Cataracts,0.9,Recommend further tests; confidence 90.0%.,2025-02-02
+961,886,"Detected: fever, night sweats, skin itching, weight gain, joint pain",Lung Cancer,0.79,Recommend further tests; confidence 79.0%.,2024-03-09
+962,852,"Detected: hair loss, cough, insomnia",Dermatitis,0.59,Recommend further tests; confidence 59.0%.,2025-12-10
+963,1084,"Detected: weight loss, rash, abdominal pain, dry mouth",Cushing Syndrome,0.9,Recommend further tests; confidence 90.0%.,2024-11-15
+964,433,"Detected: dizziness, hair loss, numbness",Cholecystitis,0.75,Recommend further tests; confidence 75.0%.,2026-03-12
+965,841,"Detected: joint pain, numbness, nausea",Myocardial Infarction,0.85,Recommend further tests; confidence 85.0%.,2025-09-30
+966,751,"Detected: hair loss, rash, blurred vision",Breast Cancer,0.8,Recommend further tests; confidence 80.0%.,2024-10-21
+967,727,"Detected: insomnia, muscle weakness, frequent urination",Eczema,0.72,Recommend further tests; confidence 72.0%.,2024-03-10
+968,1169,"Detected: headache, cough, insomnia, chest pain",Pneumonia,0.68,Recommend further tests; confidence 68.0%.,2024-11-26
+969,931,"Detected: insomnia, night sweats, frequent urination",Cholecystitis,0.71,Recommend further tests; confidence 71.0%.,2025-06-25
+970,634,"Detected: anxiety, tingling sensation",Cholecystitis,0.69,Recommend further tests; confidence 69.0%.,2024-11-16
+971,654,"Detected: cough, frequent urination, memory loss, difficulty breathing",Retinal Detachment,0.74,Recommend further tests; confidence 74.0%.,2024-07-20
+972,802,"Detected: weight gain, swelling, memory loss, frequent urination, palpitations",Dermatitis,0.76,Recommend further tests; confidence 76.0%.,2025-04-12
+973,279,"Detected: swelling, fever, shortness of breath",Colorectal Cancer,0.98,Recommend further tests; confidence 98.0%.,2022-01-31
+974,338,"Detected: confusion, night sweats, weight loss",Retinal Detachment,0.56,Recommend further tests; confidence 56.0%.,2022-09-19
+975,288,"Detected: loss of appetite, tingling sensation",Chronic headache,0.95,Recommend further tests; confidence 95.0%.,2022-08-09
+976,234,"Detected: insomnia, joint pain, frequent urination, tingling sensation, cough",Pending diagnosis,0.95,Recommend further tests; confidence 95.0%.,2023-03-30
+977,881,"Detected: rash, headache, anxiety, blurred vision",Hypertension,0.69,Recommend further tests; confidence 69.0%.,2026-01-20
+978,975,"Detected: weight gain, blurred vision, frequent urination, fatigue, vomiting",Diabetes Type 1,0.97,Recommend further tests; confidence 97.0%.,2026-02-28
+979,1030,"Detected: palpitations, cough, memory loss",Migraine,0.78,Recommend further tests; confidence 78.0%.,2025-02-23
+980,471,"Detected: leg cramps, tingling sensation, excessive thirst, headache, fatigue",Hypertension,0.93,Recommend further tests; confidence 93.0%.,2025-04-29
+981,90,"Detected: rash, anxiety, muscle weakness",Asthma,0.95,Recommend further tests; confidence 95.0%.,2022-01-02
+982,981,"Detected: numbness, abdominal pain, excessive thirst, headache",COPD,0.79,Recommend further tests; confidence 79.0%.,2025-02-14
+983,906,"Detected: palpitations, joint pain",Asthma,0.59,Recommend further tests; confidence 59.0%.,2026-05-09
+984,1181,"Detected: tingling sensation, hair loss, fatigue, fever",Kidney Stones,0.6,Recommend further tests; confidence 60.0%.,2025-11-19
+985,335,"Detected: leg cramps, fever",Multiple Sclerosis,0.77,Recommend further tests; confidence 77.0%.,2023-11-25
+986,598,"Detected: vomiting, tingling sensation, frequent urination",Eczema,0.84,Recommend further tests; confidence 84.0%.,2026-02-14
+987,1149,"Detected: memory loss, confusion",Osteoporosis,0.91,Recommend further tests; confidence 91.0%.,2024-04-01
+988,870,"Detected: cough, fatigue, palpitations",Rheumatoid Arthritis,0.8,Recommend further tests; confidence 80.0%.,2024-07-16
+989,761,"Detected: loss of appetite, excessive thirst, difficulty breathing",Atrial Fibrillation,0.88,Recommend further tests; confidence 88.0%.,2025-05-24
+990,1175,"Detected: dry mouth, palpitations, numbness, loss of appetite",Psoriasis,0.78,Recommend further tests; confidence 78.0%.,2025-10-05
+991,848,"Detected: difficulty breathing, dry mouth, loss of appetite",Osteoarthritis,0.69,Recommend further tests; confidence 69.0%.,2025-09-11
+992,1115,"Detected: dizziness, anxiety",Pneumonia,0.9,Recommend further tests; confidence 90.0%.,2026-03-18
+993,391,"Detected: swelling, joint pain, headache",Leukemia,0.61,Recommend further tests; confidence 61.0%.,2022-03-27
+994,1042,"Detected: blurred vision, fatigue, memory loss, leg cramps, cough",Cataracts,0.95,Recommend further tests; confidence 95.0%.,2025-05-30
+995,56,"Detected: fatigue, weight loss",Migraine,0.67,Recommend further tests; confidence 67.0%.,2022-08-05
+996,1183,"Detected: difficulty breathing, blurred vision, skin itching, weight loss, confusion",Lymphoma,0.76,Recommend further tests; confidence 76.0%.,2024-03-20
+997,1078,"Detected: night sweats, palpitations",Sleep Apnea,0.98,Recommend further tests; confidence 98.0%.,2024-03-20
+998,672,"Detected: swelling, headache, nausea, muscle weakness, weight gain",Epilepsy,0.89,Recommend further tests; confidence 89.0%.,2025-05-09
+999,689,"Detected: weight gain, vomiting",Glaucoma,0.97,Recommend further tests; confidence 97.0%.,2026-05-08
+1000,965,"Detected: fever, fatigue, weight loss, confusion",Myocardial Infarction,0.78,Recommend further tests; confidence 78.0%.,2025-07-04

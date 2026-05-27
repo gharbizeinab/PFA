@@ -1,0 +1,1001 @@
+id_appointment,id_patient,id_staff,appointment_date,appointment_time,reason,status
+1,754,363,2025-03-24,15:00,Psoriasis,completed
+2,302,103,2025-10-19,11:15,Kidney Stones,scheduled
+3,791,17,2026-02-19,14:45,Gastritis,cancelled
+4,63,661,2026-04-02,11:15,Lung Cancer,scheduled
+5,808,71,2026-06-01,09:00,Pneumonia,completed
+6,762,226,2024-02-22,17:15,Fracture,scheduled
+7,117,862,2025-01-24,12:00,Stroke,completed
+8,638,80,2026-08-13,08:15,Fracture,completed
+9,668,217,2024-02-26,14:00,Common Cold,completed
+10,141,901,2024-04-14,08:30,Follow-up,completed
+11,133,47,2026-09-03,10:00,Acne Vulgaris,scheduled
+12,277,460,2025-09-03,10:30,Dermatitis,completed
+13,955,490,2025-05-14,10:30,Under observation,completed
+14,329,63,2026-05-19,13:15,COPD,completed
+15,25,344,2025-03-24,14:45,Pulmonary Embolism,completed
+16,133,25,2026-07-11,10:00,Pulmonary Embolism,completed
+17,562,833,2024-02-16,11:30,Peptic Ulcer,no_show
+18,329,12,2024-07-21,17:45,Cushing Syndrome,cancelled
+19,961,957,2025-06-22,12:30,Dermatitis,completed
+20,721,458,2024-06-11,15:30,Migraine,no_show
+21,35,994,2025-10-06,12:00,Lab results review,no_show
+22,371,926,2024-06-22,13:30,Melanoma,completed
+23,288,10,2024-12-22,08:00,Urinary Tract Infection,completed
+24,511,819,2025-10-09,17:15,Diabetes Type 1,cancelled
+25,25,74,2025-04-03,12:00,Glaucoma,cancelled
+26,358,756,2024-04-16,14:45,Diabetes Type 2,completed
+27,864,261,2025-07-10,14:30,Glaucoma,completed
+28,6,1000,2024-04-10,08:00,Under observation,scheduled
+29,24,300,2026-04-24,12:30,Parkinson's Disease,completed
+30,395,542,2025-03-08,12:45,Retinal Detachment,scheduled
+31,417,20,2025-07-31,16:15,Pending diagnosis,scheduled
+32,436,138,2025-10-09,15:45,Asthma,scheduled
+33,198,544,2024-03-21,15:30,Kidney Stones,scheduled
+34,520,115,2024-12-15,09:45,Retinal Detachment,scheduled
+35,674,382,2024-05-02,16:00,Psoriasis,completed
+36,617,24,2025-09-23,11:00,Macular Degeneration,cancelled
+37,450,889,2024-05-24,15:30,Cancer,completed
+38,701,282,2026-09-12,15:45,Under observation,scheduled
+39,789,854,2024-07-26,08:15,Anemia,cancelled
+40,718,254,2024-09-06,17:45,Acne Vulgaris,completed
+41,167,371,2025-09-21,14:00,Melanoma,completed
+42,943,300,2025-07-23,14:45,Migraine,completed
+43,972,660,2026-10-31,17:15,Parkinson's Disease,completed
+44,87,965,2025-04-11,10:00,Pending diagnosis,scheduled
+45,819,815,2025-05-10,15:15,Multiple Sclerosis,cancelled
+46,700,698,2025-07-25,15:15,Anemia,completed
+47,767,735,2025-10-26,17:00,Colitis,cancelled
+48,938,855,2025-09-05,16:30,Diabetes Type 2,cancelled
+49,589,677,2025-09-25,14:30,Chronic headache,completed
+50,558,262,2026-04-09,11:15,Appendicitis,completed
+51,574,760,2026-10-27,15:00,Appendicitis,no_show
+52,770,250,2026-09-06,14:45,Melanoma,cancelled
+53,875,586,2026-08-20,11:45,Hyperthyroidism,scheduled
+54,255,281,2024-10-30,13:00,COPD,scheduled
+55,551,466,2024-09-08,14:15,Chronic headache,completed
+56,458,314,2026-06-23,14:45,Dermatitis,completed
+57,974,410,2024-04-27,17:00,Pneumonia,scheduled
+58,195,916,2026-01-17,10:45,Follow-up examination,scheduled
+59,351,591,2025-03-07,09:45,Dermatitis,cancelled
+60,509,866,2024-02-01,16:30,Melanoma,completed
+61,459,327,2024-08-27,08:30,Chronic headache,completed
+62,752,806,2025-03-11,17:45,Fracture,scheduled
+63,311,877,2025-07-22,15:45,Rheumatoid Arthritis,cancelled
+64,114,279,2024-03-10,13:45,Chronic headache,cancelled
+65,968,948,2024-04-23,10:30,Kidney Stones,scheduled
+66,88,369,2026-01-24,12:30,Pulmonary Embolism,scheduled
+67,656,851,2025-10-18,15:30,Lymphoma,completed
+68,646,222,2026-10-01,12:30,Lab results review,completed
+69,276,366,2025-11-20,13:45,Eczema,cancelled
+70,963,771,2026-04-19,11:15,Routine checkup,completed
+71,279,995,2025-01-11,08:30,Diabetes Type 2,no_show
+72,921,350,2025-03-17,08:45,Myocardial Infarction,completed
+73,752,482,2024-09-24,16:15,Rheumatoid Arthritis,completed
+74,335,689,2026-11-05,16:45,Asthma,cancelled
+75,569,596,2025-07-12,10:45,Routine checkup,completed
+76,241,420,2026-05-17,17:00,Seasonal Flu,completed
+77,797,476,2026-06-10,12:30,Cushing Syndrome,scheduled
+78,927,789,2025-08-07,11:30,Diabetes Type 1,scheduled
+79,494,618,2026-03-26,09:45,Retinal Detachment,scheduled
+80,508,892,2026-08-14,16:30,Lymphoma,scheduled
+81,109,431,2025-08-12,17:00,Pneumonia,scheduled
+82,198,968,2026-05-27,17:30,Diabetes Type 2,cancelled
+83,704,483,2024-12-21,13:15,Retinal Detachment,scheduled
+84,398,621,2024-05-31,13:45,Pulmonary Embolism,completed
+85,64,492,2026-11-09,10:15,Asthma,completed
+86,48,22,2026-12-08,09:15,Angina Pectoris,completed
+87,768,316,2024-02-07,10:15,Anemia,completed
+88,238,183,2026-06-04,17:15,Renal Failure,completed
+89,639,289,2024-07-19,16:00,Lung Cancer,completed
+90,689,592,2025-12-22,17:00,Colorectal Cancer,completed
+91,179,587,2025-09-07,14:30,Diabetes Type 1,scheduled
+92,110,556,2024-11-14,16:45,Bronchitis,cancelled
+93,270,446,2026-01-01,17:30,Breast Cancer,no_show
+94,670,149,2024-02-26,11:15,COPD,cancelled
+95,768,61,2026-01-22,17:45,Dermatitis,completed
+96,662,594,2025-06-03,10:15,COPD,cancelled
+97,298,847,2025-01-21,16:15,Urinary Tract Infection,completed
+98,902,883,2025-08-10,10:30,Eczema,scheduled
+99,737,491,2025-05-09,12:30,Asthma,completed
+100,10,836,2025-01-02,15:45,Seasonal Flu,scheduled
+101,812,82,2026-07-18,17:15,Routine checkup,scheduled
+102,163,367,2024-04-05,13:30,Heart Failure,scheduled
+103,455,633,2024-10-25,12:30,Gastritis,completed
+104,524,252,2026-08-12,10:45,Addison's Disease,completed
+105,781,725,2026-09-25,17:15,Urinary Tract Infection,completed
+106,682,540,2025-07-03,17:00,Common Cold,scheduled
+107,540,991,2026-06-12,15:15,Hypothyroidism,completed
+108,264,510,2026-02-24,17:00,Asthma,scheduled
+109,454,389,2024-12-04,17:45,Pending diagnosis,completed
+110,814,391,2025-10-04,10:30,Breast Cancer,completed
+111,498,226,2024-06-01,16:00,Leukemia,scheduled
+112,21,271,2024-06-07,08:45,Common Cold,scheduled
+113,71,138,2025-07-27,11:15,Osteoarthritis,scheduled
+114,949,185,2026-05-14,13:45,Hyperthyroidism,cancelled
+115,299,636,2026-03-21,11:30,Cataracts,scheduled
+116,597,215,2026-01-27,11:00,Cholecystitis,scheduled
+117,904,117,2025-10-24,16:30,Psoriasis,completed
+118,864,231,2024-07-06,11:45,Asthma,completed
+119,742,715,2024-05-14,15:30,COPD,scheduled
+120,927,974,2026-07-12,13:45,Diabetes Type 2,cancelled
+121,239,7,2025-01-13,09:45,Angina Pectoris,completed
+122,242,854,2026-09-12,08:00,Follow-up examination,cancelled
+123,6,101,2025-08-15,17:15,Melanoma,scheduled
+124,847,819,2024-11-19,10:30,Hypertension,no_show
+125,426,80,2025-03-03,16:45,Macular Degeneration,scheduled
+126,710,608,2026-05-23,14:00,Myocardial Infarction,cancelled
+127,321,876,2024-06-23,12:15,Macular Degeneration,completed
+128,43,855,2025-07-20,15:00,Cancer,cancelled
+129,729,874,2024-03-04,08:30,Macular Degeneration,scheduled
+130,916,324,2025-05-11,09:00,COPD,cancelled
+131,626,991,2026-04-12,08:15,Rheumatoid Arthritis,completed
+132,800,196,2025-07-15,15:45,Bronchitis,completed
+133,51,868,2025-11-01,12:30,Eczema,scheduled
+134,484,359,2024-01-17,12:15,Atrial Fibrillation,completed
+135,886,268,2024-04-26,14:30,Cholecystitis,completed
+136,513,425,2024-08-12,15:30,Chronic headache,scheduled
+137,109,757,2026-11-27,10:45,Anemia,completed
+138,813,119,2025-09-06,16:00,Eczema,scheduled
+139,988,570,2024-02-13,09:45,Cholecystitis,completed
+140,339,363,2026-09-30,08:15,Acne Vulgaris,completed
+141,562,391,2025-10-29,08:30,Multiple Sclerosis,completed
+142,94,924,2025-09-04,12:15,Pulmonary Embolism,no_show
+143,267,785,2024-10-23,14:45,Seasonal Flu,completed
+144,543,552,2024-05-04,13:00,Cancer,completed
+145,127,233,2026-06-16,16:45,Anemia,cancelled
+146,421,523,2025-05-31,17:45,Diabetes Type 1,scheduled
+147,261,65,2026-04-21,17:00,Migraine,scheduled
+148,929,950,2024-01-12,15:45,Cholecystitis,completed
+149,450,670,2024-01-22,08:45,Cushing Syndrome,scheduled
+150,272,226,2026-05-22,13:45,Leukemia,completed
+151,232,611,2026-08-15,14:45,Kidney Stones,scheduled
+152,49,321,2025-05-30,09:45,Seasonal Flu,scheduled
+153,39,30,2026-10-09,14:00,Lung Cancer,completed
+154,892,469,2025-12-13,09:00,Hypertension,cancelled
+155,935,485,2025-05-27,10:30,Psoriasis,completed
+156,448,106,2026-12-20,14:45,Rheumatoid Arthritis,completed
+157,444,439,2026-09-26,10:00,Bronchitis,completed
+158,818,848,2024-12-28,16:15,Glaucoma,completed
+159,121,266,2025-02-24,08:15,Colorectal Cancer,completed
+160,464,975,2024-12-27,13:45,Cushing Syndrome,scheduled
+161,433,977,2026-08-07,12:00,Routine checkup,completed
+162,591,105,2024-12-15,08:30,Pneumonia,completed
+163,275,828,2025-08-09,15:45,Pneumonia,completed
+164,547,882,2024-02-29,09:15,Cholecystitis,completed
+165,351,774,2026-04-09,10:00,Cushing Syndrome,scheduled
+166,99,761,2024-01-30,16:00,Leukemia,completed
+167,844,674,2024-03-19,09:45,Pending diagnosis,completed
+168,735,49,2026-03-26,11:45,Asthma,scheduled
+169,381,950,2025-11-21,17:30,Under observation,cancelled
+170,109,326,2024-09-09,14:45,Routine checkup,completed
+171,79,447,2026-04-26,10:45,Under observation,cancelled
+172,356,555,2026-03-23,11:45,Chronic headache,no_show
+173,136,800,2026-01-06,11:45,Hypothyroidism,completed
+174,949,148,2024-05-04,17:15,Atrial Fibrillation,completed
+175,283,369,2024-04-04,16:00,Eczema,completed
+176,19,628,2026-06-18,16:45,Routine checkup,scheduled
+177,982,928,2026-10-16,09:15,Sleep Apnea,cancelled
+178,914,121,2024-04-24,08:00,Dermatitis,completed
+179,553,300,2026-11-21,12:15,Chronic headache,completed
+180,829,810,2025-04-18,08:00,Multiple Sclerosis,completed
+181,231,719,2025-10-03,14:00,Colitis,completed
+182,714,874,2026-10-13,08:45,Multiple Sclerosis,completed
+183,870,700,2025-05-16,15:30,Pulmonary Embolism,completed
+184,292,290,2026-08-15,17:00,Sleep Apnea,cancelled
+185,323,766,2025-05-11,08:30,Rheumatoid Arthritis,scheduled
+186,501,671,2026-12-20,17:00,Myocardial Infarction,cancelled
+187,436,270,2026-01-24,09:15,Hypertension,completed
+188,787,49,2025-10-18,08:00,Routine checkup,completed
+189,950,974,2025-11-02,15:30,Glaucoma,completed
+190,925,556,2026-11-06,08:30,Atrial Fibrillation,completed
+191,25,392,2024-11-23,16:15,Hypothyroidism,completed
+192,3,456,2024-12-01,13:30,Stroke,scheduled
+193,380,711,2024-10-13,16:30,Cancer,completed
+194,379,920,2024-04-24,09:15,Macular Degeneration,scheduled
+195,480,83,2024-07-07,15:45,Gastritis,completed
+196,794,354,2024-01-28,13:00,Angina Pectoris,no_show
+197,638,765,2024-09-03,16:30,Lung Cancer,completed
+198,368,767,2024-07-08,12:00,Lymphoma,scheduled
+199,731,959,2024-01-07,15:30,Sleep Apnea,cancelled
+200,282,753,2026-02-04,09:30,Dermatitis,completed
+201,937,858,2025-03-11,11:15,Rheumatoid Arthritis,completed
+202,640,149,2026-02-22,16:30,Osteoporosis,scheduled
+203,477,858,2025-02-19,08:15,Gastritis,completed
+204,872,209,2024-04-09,14:00,Psoriasis,completed
+205,422,831,2024-04-02,15:00,Leukemia,completed
+206,833,868,2024-09-09,11:45,Angina Pectoris,completed
+207,305,631,2024-06-26,10:30,Cushing Syndrome,no_show
+208,72,582,2025-03-30,14:45,Pneumonia,scheduled
+209,195,442,2025-09-01,11:45,Retinal Detachment,completed
+210,200,87,2025-09-19,13:30,Psoriasis,no_show
+211,566,779,2024-08-28,13:00,Renal Failure,completed
+212,328,112,2025-08-24,14:15,Seasonal Flu,completed
+213,111,547,2026-07-05,17:45,Under observation,completed
+214,234,246,2024-04-04,10:15,Hypertension,scheduled
+215,830,845,2025-03-06,11:15,Peptic Ulcer,completed
+216,647,778,2025-05-05,09:45,Hypertension,completed
+217,333,28,2024-11-10,15:00,Parkinson's Disease,scheduled
+218,797,318,2025-05-17,16:45,Lab results review,completed
+219,528,311,2026-08-15,08:45,Appendicitis,scheduled
+220,44,756,2024-11-24,15:30,Rheumatoid Arthritis,completed
+221,621,429,2026-05-23,11:45,Hypothyroidism,scheduled
+222,211,995,2026-09-21,11:00,Follow-up examination,completed
+223,539,1000,2024-10-28,11:15,Under observation,cancelled
+224,578,472,2024-03-01,09:15,Migraine,completed
+225,52,647,2026-08-13,13:00,Hyperthyroidism,completed
+226,406,142,2024-08-01,08:45,Follow-up examination,scheduled
+227,472,541,2024-12-22,16:00,Under observation,completed
+228,971,588,2026-03-04,08:00,Eczema,completed
+229,921,409,2026-10-29,16:00,Under observation,cancelled
+230,499,603,2024-04-06,12:15,Psoriasis,scheduled
+231,689,273,2026-02-11,13:00,Dermatitis,completed
+232,77,694,2026-07-09,17:15,Myocardial Infarction,completed
+233,104,682,2026-07-23,17:45,Hypertension,scheduled
+234,43,571,2024-05-07,16:15,Parkinson's Disease,completed
+235,5,633,2025-12-09,12:30,Follow-up,completed
+236,467,565,2024-04-01,12:15,Heart Failure,scheduled
+237,922,816,2025-10-13,16:45,Follow-up,completed
+238,938,754,2024-10-04,14:00,Atrial Fibrillation,scheduled
+239,72,687,2026-10-29,08:45,Colitis,completed
+240,745,425,2025-09-01,08:30,Lab results review,completed
+241,906,592,2026-09-02,12:15,Sleep Apnea,scheduled
+242,511,743,2024-01-18,11:45,Hyperthyroidism,scheduled
+243,1000,658,2025-11-15,11:45,Breast Cancer,scheduled
+244,753,898,2026-12-13,16:45,Diabetes Type 2,scheduled
+245,917,83,2025-11-14,13:45,Cushing Syndrome,no_show
+246,101,241,2026-06-19,11:00,Migraine,cancelled
+247,997,994,2024-09-01,15:30,Eczema,no_show
+248,277,493,2025-07-18,12:15,Heart Failure,cancelled
+249,509,1000,2024-11-21,15:15,Urinary Tract Infection,cancelled
+250,361,665,2026-09-05,14:45,Lymphoma,scheduled
+251,317,845,2024-01-29,15:30,Colitis,cancelled
+252,260,919,2024-01-28,09:30,Osteoporosis,completed
+253,417,994,2026-03-01,10:00,Bronchitis,completed
+254,498,524,2025-10-10,14:30,Sleep Apnea,scheduled
+255,925,352,2025-09-07,10:30,Macular Degeneration,completed
+256,433,412,2026-07-19,10:15,COPD,completed
+257,475,166,2024-10-04,14:45,Pulmonary Embolism,scheduled
+258,444,683,2024-02-18,09:30,Anemia,scheduled
+259,234,530,2024-12-01,15:15,Addison's Disease,completed
+260,551,539,2025-03-23,11:15,Common Cold,scheduled
+261,550,683,2026-12-10,14:15,Leukemia,completed
+262,903,259,2026-05-16,16:45,Atrial Fibrillation,completed
+263,915,442,2024-06-26,08:15,Psoriasis,completed
+264,510,276,2024-04-16,16:30,Heart Failure,completed
+265,949,82,2025-09-17,17:15,Melanoma,scheduled
+266,238,642,2026-01-18,08:45,Diabetes Type 1,scheduled
+267,80,153,2026-05-26,14:30,Chronic headache,completed
+268,848,38,2026-06-07,09:30,Bronchitis,completed
+269,581,929,2024-06-20,08:00,Bronchitis,scheduled
+270,402,365,2025-10-23,12:30,Glaucoma,cancelled
+271,255,40,2024-04-21,09:45,Under observation,completed
+272,276,875,2026-03-30,10:45,Urinary Tract Infection,scheduled
+273,778,667,2024-11-16,08:30,Atrial Fibrillation,cancelled
+274,134,349,2026-11-03,15:15,Asthma,completed
+275,982,204,2024-11-19,09:45,Acne Vulgaris,completed
+276,793,923,2026-03-29,17:00,Diabetes Type 1,completed
+277,61,643,2026-12-25,14:00,Pending diagnosis,scheduled
+278,507,96,2025-03-13,12:00,Sleep Apnea,scheduled
+279,35,974,2024-02-15,14:30,Atrial Fibrillation,scheduled
+280,470,431,2025-06-10,11:30,Follow-up examination,completed
+281,314,782,2026-04-27,13:15,Follow-up,completed
+282,703,937,2025-12-30,08:30,Heart Failure,scheduled
+283,911,503,2025-06-23,09:00,Melanoma,scheduled
+284,521,383,2025-12-22,11:45,Macular Degeneration,completed
+285,655,922,2026-10-07,13:15,Asthma,scheduled
+286,72,690,2025-12-06,13:15,Seasonal Flu,no_show
+287,756,804,2024-12-03,11:00,Common Cold,cancelled
+288,409,946,2025-07-14,11:00,Follow-up,completed
+289,643,990,2024-10-01,17:45,Osteoarthritis,completed
+290,302,659,2025-08-11,11:15,Anemia,completed
+291,149,608,2025-09-25,13:45,Hyperthyroidism,completed
+292,941,938,2026-10-18,12:00,Migraine,no_show
+293,920,484,2026-07-19,10:30,Sleep Apnea,completed
+294,403,737,2025-07-15,17:45,Leukemia,completed
+295,809,757,2026-11-10,11:30,Breast Cancer,completed
+296,11,420,2026-07-11,09:00,Diabetes Type 1,completed
+297,453,573,2025-08-20,12:15,Pulmonary Embolism,completed
+298,593,584,2025-05-22,09:45,Sleep Apnea,scheduled
+299,125,132,2026-10-26,10:45,Retinal Detachment,completed
+300,984,619,2026-08-20,08:15,Migraine,completed
+301,74,2,2025-12-02,13:45,COPD,completed
+302,91,371,2026-12-18,12:15,Parkinson's Disease,completed
+303,360,914,2026-02-14,13:00,Appendicitis,scheduled
+304,790,229,2025-08-10,11:30,Multiple Sclerosis,scheduled
+305,891,479,2024-02-24,16:00,Melanoma,cancelled
+306,222,73,2025-05-05,17:30,Pulmonary Embolism,completed
+307,245,331,2026-07-10,16:30,Chronic headache,completed
+308,22,761,2026-08-25,11:00,Leukemia,completed
+309,76,653,2024-07-25,09:15,Acne Vulgaris,completed
+310,156,97,2026-11-12,09:30,Parkinson's Disease,scheduled
+311,508,999,2026-10-31,17:15,Anemia,completed
+312,995,467,2024-04-16,15:00,Psoriasis,cancelled
+313,455,26,2026-01-29,08:45,Lab results review,scheduled
+314,685,223,2025-01-14,15:45,Atrial Fibrillation,cancelled
+315,731,673,2025-02-18,10:45,Macular Degeneration,completed
+316,4,981,2026-10-12,17:00,Parkinson's Disease,completed
+317,42,493,2026-11-17,17:15,Osteoporosis,completed
+318,530,511,2026-10-10,13:15,Peptic Ulcer,no_show
+319,196,636,2026-06-09,11:45,COPD,cancelled
+320,831,532,2025-09-07,13:30,Multiple Sclerosis,scheduled
+321,696,826,2025-04-04,16:30,Osteoporosis,no_show
+322,912,583,2024-11-10,16:15,Acne Vulgaris,cancelled
+323,761,620,2024-02-06,09:45,Common Cold,cancelled
+324,108,324,2025-10-04,10:45,Lab results review,scheduled
+325,873,821,2026-10-08,09:30,Appendicitis,completed
+326,230,198,2025-02-23,09:45,COPD,cancelled
+327,234,73,2025-03-12,12:45,Macular Degeneration,cancelled
+328,901,66,2026-05-16,09:45,Eczema,completed
+329,52,146,2024-08-18,08:00,Seasonal Flu,scheduled
+330,511,542,2026-05-18,12:30,Under observation,cancelled
+331,535,687,2026-08-08,08:00,Retinal Detachment,scheduled
+332,129,965,2025-10-28,11:00,Pending diagnosis,completed
+333,432,198,2024-07-14,17:00,Macular Degeneration,cancelled
+334,909,508,2026-02-23,17:15,Myocardial Infarction,completed
+335,479,649,2024-12-09,15:30,Gastritis,cancelled
+336,395,794,2025-01-18,10:45,Follow-up,completed
+337,626,488,2025-10-11,11:00,Cancer,completed
+338,357,168,2025-06-16,11:45,Lymphoma,cancelled
+339,27,456,2025-10-27,15:15,Urinary Tract Infection,scheduled
+340,882,667,2025-09-05,12:30,Common Cold,completed
+341,118,608,2026-02-08,12:30,Gastritis,completed
+342,996,778,2026-02-26,10:30,Cholecystitis,scheduled
+343,285,7,2024-10-15,15:45,Cholecystitis,scheduled
+344,364,462,2025-04-13,14:30,Hypertension,completed
+345,61,329,2024-08-12,16:15,Retinal Detachment,scheduled
+346,930,122,2024-03-03,11:00,Appendicitis,completed
+347,464,134,2024-02-08,15:30,Pneumonia,scheduled
+348,285,849,2026-02-03,14:45,Follow-up,scheduled
+349,418,826,2026-04-04,15:45,Seasonal Flu,scheduled
+350,95,738,2025-11-12,08:30,Epilepsy,scheduled
+351,2,788,2024-06-15,08:15,Acne Vulgaris,completed
+352,351,465,2026-02-14,12:45,Psoriasis,completed
+353,658,867,2026-03-19,13:45,Under observation,scheduled
+354,143,603,2026-09-03,15:30,Lung Cancer,completed
+355,346,3,2026-06-06,16:30,Pulmonary Embolism,scheduled
+356,771,822,2024-11-07,11:15,Asthma,completed
+357,305,913,2026-05-22,10:00,Glaucoma,completed
+358,652,24,2026-05-06,09:45,Follow-up examination,completed
+359,871,858,2026-08-05,11:00,Cataracts,scheduled
+360,897,895,2025-08-29,10:00,Fracture,completed
+361,72,651,2026-05-05,10:15,Asthma,cancelled
+362,823,665,2026-02-12,09:30,Pending diagnosis,scheduled
+363,115,880,2024-04-13,14:45,Colorectal Cancer,completed
+364,56,226,2026-06-06,15:00,Macular Degeneration,completed
+365,276,122,2024-09-01,15:45,Osteoporosis,completed
+366,691,208,2024-07-31,17:30,Melanoma,completed
+367,582,953,2026-03-04,08:45,Multiple Sclerosis,completed
+368,848,71,2024-10-31,10:15,Diabetes Type 2,completed
+369,769,502,2026-11-24,12:45,Osteoporosis,cancelled
+370,553,521,2026-10-30,10:30,Anemia,scheduled
+371,357,637,2026-04-05,16:45,Cushing Syndrome,completed
+372,182,458,2025-06-03,16:15,Peptic Ulcer,scheduled
+373,894,799,2024-03-14,17:45,Cancer,cancelled
+374,264,500,2025-11-12,17:30,Diabetes Type 2,scheduled
+375,200,873,2025-03-18,14:45,Chronic headache,scheduled
+376,674,90,2024-05-14,13:45,Osteoporosis,completed
+377,535,991,2024-05-15,12:00,Cushing Syndrome,scheduled
+378,548,187,2025-08-24,14:30,Bronchitis,completed
+379,853,815,2024-08-31,11:45,Lung Cancer,completed
+380,334,58,2025-07-24,10:15,Cholecystitis,scheduled
+381,929,584,2026-04-16,11:45,Cushing Syndrome,scheduled
+382,229,121,2024-05-08,13:00,Hypothyroidism,completed
+383,727,248,2026-02-19,17:00,Diabetes Type 2,scheduled
+384,451,609,2024-04-08,12:45,Urinary Tract Infection,completed
+385,613,269,2024-05-02,13:00,Macular Degeneration,scheduled
+386,779,229,2025-06-06,10:45,Addison's Disease,completed
+387,96,887,2024-05-28,17:15,Dermatitis,completed
+388,548,611,2024-04-21,08:45,Gastritis,scheduled
+389,433,847,2026-12-06,09:30,Glaucoma,cancelled
+390,440,918,2026-05-23,14:00,Breast Cancer,completed
+391,478,702,2024-11-07,17:30,Myocardial Infarction,no_show
+392,420,910,2026-08-18,08:00,Macular Degeneration,completed
+393,762,353,2024-11-10,12:00,Parkinson's Disease,completed
+394,492,497,2025-10-22,15:15,Migraine,no_show
+395,35,237,2024-04-30,11:00,Psoriasis,scheduled
+396,806,533,2026-04-27,09:45,Retinal Detachment,completed
+397,624,446,2024-12-30,10:30,Pulmonary Embolism,completed
+398,953,480,2026-05-08,12:00,Pulmonary Embolism,scheduled
+399,989,864,2025-12-10,16:15,Atrial Fibrillation,no_show
+400,78,614,2024-03-18,09:00,Lymphoma,cancelled
+401,830,414,2025-04-20,11:30,Lab results review,completed
+402,138,149,2026-06-26,15:45,Asthma,completed
+403,592,314,2024-12-04,14:15,Epilepsy,completed
+404,762,370,2026-01-29,12:15,Peptic Ulcer,scheduled
+405,552,807,2025-01-07,09:15,Hyperthyroidism,completed
+406,121,124,2025-10-03,13:45,Acne Vulgaris,completed
+407,798,103,2026-01-29,09:15,Pulmonary Embolism,completed
+408,915,372,2026-01-24,11:15,Routine checkup,cancelled
+409,482,371,2024-01-29,16:15,Pulmonary Embolism,completed
+410,121,474,2025-10-16,10:30,Leukemia,completed
+411,735,226,2024-10-28,12:15,Parkinson's Disease,completed
+412,99,757,2025-02-22,17:30,Common Cold,completed
+413,811,590,2026-06-04,13:45,Myocardial Infarction,completed
+414,503,203,2025-04-01,13:00,Hypertension,completed
+415,266,878,2025-10-29,13:00,Routine checkup,completed
+416,531,175,2025-08-22,08:45,Chronic headache,completed
+417,164,532,2026-02-15,10:30,Kidney Stones,completed
+418,452,767,2025-01-03,17:15,Pending diagnosis,completed
+419,463,24,2026-05-26,10:30,Pending diagnosis,completed
+420,475,742,2025-03-21,14:00,Hyperthyroidism,scheduled
+421,361,552,2024-09-29,10:45,Leukemia,completed
+422,960,724,2024-06-18,14:45,Psoriasis,cancelled
+423,66,87,2026-01-27,11:15,Sleep Apnea,cancelled
+424,766,26,2025-03-16,12:00,Follow-up examination,cancelled
+425,293,960,2026-06-27,15:30,Renal Failure,completed
+426,715,558,2026-11-09,14:15,Kidney Stones,completed
+427,243,451,2026-08-25,08:00,Pending diagnosis,cancelled
+428,995,870,2025-11-12,11:15,Cushing Syndrome,cancelled
+429,564,757,2024-06-03,10:15,Appendicitis,completed
+430,229,675,2026-03-10,13:45,Peptic Ulcer,completed
+431,866,200,2026-09-23,14:30,Common Cold,scheduled
+432,117,163,2025-11-02,14:15,Myocardial Infarction,scheduled
+433,555,988,2025-02-24,12:45,Follow-up examination,scheduled
+434,276,820,2024-09-26,17:45,Colorectal Cancer,scheduled
+435,59,459,2024-06-02,16:45,Diabetes Type 1,cancelled
+436,443,584,2025-02-18,17:30,Macular Degeneration,scheduled
+437,974,394,2026-12-19,11:15,Pulmonary Embolism,scheduled
+438,391,150,2026-11-23,14:00,Glaucoma,completed
+439,497,520,2026-02-03,15:00,Renal Failure,scheduled
+440,432,667,2025-01-25,08:30,Eczema,completed
+441,667,977,2026-04-30,10:30,Sleep Apnea,scheduled
+442,596,393,2025-09-06,09:15,Angina Pectoris,completed
+443,561,542,2024-01-04,16:45,Renal Failure,scheduled
+444,71,94,2024-01-08,15:00,Migraine,completed
+445,179,937,2025-02-22,14:00,Epilepsy,completed
+446,424,524,2024-03-01,16:30,Addison's Disease,completed
+447,294,268,2025-07-11,11:45,Lymphoma,completed
+448,861,204,2024-12-21,14:45,Fracture,cancelled
+449,218,885,2025-04-03,09:00,Gastritis,cancelled
+450,57,821,2025-09-15,11:30,Peptic Ulcer,scheduled
+451,790,606,2026-08-18,17:45,Macular Degeneration,no_show
+452,385,525,2025-06-19,10:00,Addison's Disease,scheduled
+453,778,984,2024-03-08,09:45,Multiple Sclerosis,completed
+454,613,94,2025-04-12,09:00,Myocardial Infarction,no_show
+455,366,634,2026-06-21,12:45,Hypertension,scheduled
+456,135,703,2025-03-11,09:15,Cancer,completed
+457,117,459,2024-02-04,12:15,Colitis,scheduled
+458,144,506,2025-10-06,16:00,Pending diagnosis,scheduled
+459,326,626,2024-12-07,08:45,Angina Pectoris,scheduled
+460,268,120,2026-02-19,13:15,Pending diagnosis,completed
+461,898,406,2024-07-02,16:00,Hypertension,completed
+462,231,100,2024-03-28,08:00,Osteoarthritis,completed
+463,860,186,2025-10-25,09:15,Acne Vulgaris,cancelled
+464,174,160,2025-02-03,16:00,Cancer,scheduled
+465,460,978,2024-03-06,10:00,Chronic headache,completed
+466,909,574,2024-07-05,17:30,Hypertension,scheduled
+467,938,774,2025-07-21,14:45,Lung Cancer,cancelled
+468,242,836,2026-04-05,08:45,Fracture,scheduled
+469,503,161,2024-03-15,12:30,Asthma,completed
+470,586,979,2024-01-15,14:15,Peptic Ulcer,completed
+471,907,360,2025-04-13,11:15,Psoriasis,scheduled
+472,978,412,2025-01-18,14:15,Cataracts,no_show
+473,37,320,2025-07-11,14:00,Fracture,scheduled
+474,900,916,2026-01-13,09:30,Breast Cancer,scheduled
+475,674,129,2024-03-01,17:45,Osteoporosis,scheduled
+476,886,886,2024-11-02,12:00,Rheumatoid Arthritis,completed
+477,654,863,2025-02-16,13:45,Melanoma,completed
+478,243,577,2024-04-12,11:45,Stroke,completed
+479,530,979,2026-01-11,15:30,Heart Failure,scheduled
+480,104,603,2025-10-17,16:00,Peptic Ulcer,scheduled
+481,815,566,2025-09-03,09:45,Leukemia,completed
+482,500,370,2024-03-30,09:30,Dermatitis,completed
+483,664,125,2025-07-02,14:30,Hypertension,no_show
+484,801,19,2025-04-06,17:30,Anemia,completed
+485,380,889,2026-01-08,16:30,Eczema,cancelled
+486,295,659,2024-11-26,08:00,Hypothyroidism,scheduled
+487,662,937,2024-02-13,10:15,Myocardial Infarction,scheduled
+488,385,357,2024-08-03,17:00,Acne Vulgaris,completed
+489,864,609,2024-08-17,15:30,Diabetes Type 1,completed
+490,352,123,2024-11-26,14:45,Rheumatoid Arthritis,completed
+491,822,22,2025-07-28,14:00,Under observation,completed
+492,164,678,2024-10-24,16:30,Heart Failure,completed
+493,691,442,2025-12-09,14:45,Seasonal Flu,no_show
+494,11,146,2024-01-08,12:45,Lung Cancer,cancelled
+495,849,233,2026-02-24,13:15,Migraine,completed
+496,771,303,2024-06-30,12:30,Seasonal Flu,scheduled
+497,987,728,2026-08-18,09:45,Migraine,completed
+498,66,885,2025-08-30,13:30,Retinal Detachment,scheduled
+499,574,985,2024-04-14,08:15,Sleep Apnea,completed
+500,19,437,2025-12-17,12:45,Heart Failure,no_show
+501,435,934,2025-06-04,10:45,Peptic Ulcer,scheduled
+502,261,209,2026-04-25,09:00,Seasonal Flu,completed
+503,580,534,2024-11-22,12:30,Asthma,completed
+504,120,271,2026-05-31,12:45,Diabetes Type 1,scheduled
+505,203,429,2024-01-13,15:30,Colorectal Cancer,completed
+506,804,439,2024-01-27,10:15,Psoriasis,scheduled
+507,331,930,2025-02-18,09:15,Parkinson's Disease,completed
+508,461,432,2025-01-16,10:00,Follow-up,completed
+509,307,949,2024-05-21,15:30,Multiple Sclerosis,completed
+510,99,398,2025-05-21,15:00,Retinal Detachment,completed
+511,275,568,2024-12-03,16:00,Osteoporosis,scheduled
+512,210,217,2026-04-11,17:00,Diabetes Type 2,completed
+513,983,782,2024-12-01,17:45,Appendicitis,completed
+514,363,445,2024-08-11,10:00,Seasonal Flu,cancelled
+515,392,292,2026-03-02,12:45,Follow-up examination,cancelled
+516,492,386,2025-06-15,15:30,Eczema,scheduled
+517,921,49,2025-06-19,13:00,Kidney Stones,completed
+518,665,888,2025-09-18,11:15,Retinal Detachment,completed
+519,16,902,2024-12-15,16:45,Colorectal Cancer,scheduled
+520,534,353,2025-11-16,09:30,Epilepsy,completed
+521,879,157,2025-10-22,13:15,Hypertension,scheduled
+522,962,948,2026-04-18,13:00,Cushing Syndrome,completed
+523,126,882,2026-12-19,08:30,Atrial Fibrillation,completed
+524,211,829,2024-03-28,13:15,Hypertension,no_show
+525,501,225,2024-01-31,16:15,Common Cold,scheduled
+526,576,923,2026-12-15,12:00,Breast Cancer,completed
+527,653,487,2026-08-08,14:15,Peptic Ulcer,completed
+528,67,596,2024-09-08,08:30,Hypertension,cancelled
+529,903,104,2026-07-27,08:30,Fracture,scheduled
+530,934,778,2025-09-19,13:30,Diabetes Type 2,cancelled
+531,606,967,2024-08-26,12:15,Hypothyroidism,completed
+532,445,483,2025-02-28,16:30,Epilepsy,scheduled
+533,709,948,2025-10-12,13:45,Fracture,completed
+534,323,614,2026-08-03,17:15,COPD,completed
+535,755,419,2025-04-09,10:45,Angina Pectoris,scheduled
+536,271,971,2025-04-12,15:00,Heart Failure,completed
+537,650,631,2024-06-10,17:00,Cataracts,completed
+538,784,329,2024-08-11,12:00,Gastritis,scheduled
+539,196,22,2026-07-07,14:15,Leukemia,cancelled
+540,799,520,2026-06-28,14:00,Appendicitis,completed
+541,442,35,2025-12-26,09:00,Rheumatoid Arthritis,completed
+542,164,698,2025-07-02,10:15,Dermatitis,completed
+543,453,257,2025-03-16,15:15,Cushing Syndrome,scheduled
+544,224,994,2024-06-03,16:30,Heart Failure,scheduled
+545,193,353,2026-09-13,09:45,Kidney Stones,completed
+546,424,128,2024-05-13,09:30,Osteoarthritis,completed
+547,919,175,2024-02-21,15:15,Parkinson's Disease,completed
+548,494,908,2025-04-13,13:30,Colorectal Cancer,scheduled
+549,988,332,2025-12-15,14:30,Osteoporosis,cancelled
+550,199,66,2024-07-19,14:30,Pneumonia,scheduled
+551,413,237,2026-08-27,08:00,Cushing Syndrome,cancelled
+552,536,910,2025-07-03,11:15,Diabetes Type 1,scheduled
+553,561,684,2026-01-19,15:00,Acne Vulgaris,completed
+554,444,11,2026-11-29,16:00,Under observation,completed
+555,967,271,2024-05-20,16:00,Renal Failure,cancelled
+556,133,289,2025-08-05,14:15,Addison's Disease,completed
+557,175,443,2024-05-14,15:15,Parkinson's Disease,completed
+558,35,950,2026-07-25,11:45,Follow-up examination,scheduled
+559,269,578,2025-02-03,09:00,Heart Failure,completed
+560,137,782,2024-11-06,17:15,Hyperthyroidism,completed
+561,8,313,2025-11-26,08:15,Hypertension,completed
+562,658,538,2025-04-15,12:00,Appendicitis,scheduled
+563,294,502,2026-04-24,12:15,Urinary Tract Infection,completed
+564,575,708,2026-04-13,16:00,Angina Pectoris,cancelled
+565,949,746,2026-08-30,10:15,Sleep Apnea,completed
+566,713,800,2024-07-30,16:00,Psoriasis,completed
+567,213,675,2025-01-14,13:15,Diabetes Type 1,cancelled
+568,91,205,2026-03-25,15:00,Melanoma,scheduled
+569,245,251,2026-10-28,12:00,Follow-up,completed
+570,778,534,2026-07-20,14:00,Leukemia,completed
+571,318,613,2024-01-30,15:15,Melanoma,cancelled
+572,703,257,2026-12-22,16:00,Hypertension,completed
+573,32,255,2024-06-29,14:45,Cushing Syndrome,scheduled
+574,544,523,2025-05-13,15:15,Bronchitis,completed
+575,337,928,2025-04-02,08:15,Seasonal Flu,scheduled
+576,459,662,2026-11-24,09:30,Dermatitis,completed
+577,256,608,2025-10-10,11:45,Pneumonia,completed
+578,153,249,2024-12-23,08:45,Myocardial Infarction,completed
+579,834,524,2026-04-28,09:00,Macular Degeneration,completed
+580,911,689,2024-11-22,11:00,Routine checkup,completed
+581,511,566,2024-03-01,09:30,Eczema,completed
+582,87,284,2024-06-07,10:00,Parkinson's Disease,scheduled
+583,108,909,2024-11-20,08:15,Renal Failure,completed
+584,292,562,2026-07-03,12:30,Acne Vulgaris,scheduled
+585,836,460,2026-05-21,09:45,Lab results review,scheduled
+586,821,134,2026-07-14,15:45,Diabetes Type 2,completed
+587,998,777,2025-01-20,17:30,Sleep Apnea,scheduled
+588,246,418,2024-04-10,14:30,Anemia,completed
+589,77,715,2026-04-25,17:30,Appendicitis,scheduled
+590,910,426,2026-04-08,11:15,Rheumatoid Arthritis,completed
+591,853,381,2026-05-02,09:30,Retinal Detachment,scheduled
+592,494,464,2026-09-13,15:30,COPD,scheduled
+593,625,284,2025-11-25,16:15,Melanoma,scheduled
+594,997,698,2026-11-16,11:45,Migraine,completed
+595,898,580,2024-12-06,11:45,Diabetes Type 1,scheduled
+596,276,274,2025-10-26,08:15,Retinal Detachment,cancelled
+597,400,509,2024-05-07,10:00,Rheumatoid Arthritis,cancelled
+598,178,633,2025-11-12,17:00,Follow-up,completed
+599,112,741,2024-01-07,11:45,Urinary Tract Infection,completed
+600,783,166,2025-08-20,08:15,Follow-up examination,completed
+601,840,744,2024-03-04,12:15,Fracture,scheduled
+602,641,161,2026-06-14,17:00,Hypothyroidism,completed
+603,327,327,2024-09-03,08:45,Anemia,cancelled
+604,630,846,2026-08-05,08:45,Chronic headache,completed
+605,515,212,2025-02-27,09:15,Lymphoma,completed
+606,34,171,2026-08-22,13:30,Atrial Fibrillation,completed
+607,44,68,2026-04-06,13:45,Psoriasis,completed
+608,487,309,2026-12-03,14:15,Sleep Apnea,scheduled
+609,73,996,2024-01-23,15:00,Seasonal Flu,completed
+610,61,893,2025-11-21,13:45,Angina Pectoris,completed
+611,641,782,2025-08-04,09:00,COPD,completed
+612,798,30,2026-06-02,14:00,Melanoma,cancelled
+613,824,691,2024-05-16,13:15,Lung Cancer,completed
+614,416,22,2024-12-02,12:30,Peptic Ulcer,completed
+615,616,475,2024-07-06,16:00,Migraine,scheduled
+616,778,708,2026-03-03,17:45,Macular Degeneration,completed
+617,868,812,2026-01-11,12:45,Seasonal Flu,scheduled
+618,570,196,2025-07-03,10:45,Diabetes Type 2,completed
+619,242,892,2026-12-10,16:15,Routine checkup,completed
+620,623,722,2026-06-10,17:45,Eczema,completed
+621,560,722,2024-08-24,16:45,Renal Failure,completed
+622,570,38,2025-08-13,09:30,Sleep Apnea,scheduled
+623,430,229,2025-09-18,16:45,Parkinson's Disease,completed
+624,142,822,2026-03-10,09:15,Pending diagnosis,completed
+625,58,887,2024-12-03,10:15,Under observation,scheduled
+626,663,705,2025-08-19,12:15,Cancer,completed
+627,87,811,2025-02-08,12:30,Macular Degeneration,cancelled
+628,622,626,2024-03-03,08:45,Atrial Fibrillation,completed
+629,397,801,2026-09-20,10:15,Asthma,completed
+630,215,964,2026-05-08,13:45,Pending diagnosis,completed
+631,203,453,2024-05-30,13:00,Seasonal Flu,scheduled
+632,102,242,2026-03-28,15:45,Rheumatoid Arthritis,no_show
+633,499,621,2026-01-09,17:15,Kidney Stones,scheduled
+634,976,136,2025-07-09,17:45,Rheumatoid Arthritis,scheduled
+635,82,604,2026-05-13,15:30,Macular Degeneration,completed
+636,597,122,2024-09-27,08:30,Macular Degeneration,scheduled
+637,25,945,2024-11-30,16:30,Routine checkup,scheduled
+638,574,948,2026-12-18,10:45,Follow-up examination,completed
+639,414,586,2025-07-25,09:15,Gastritis,completed
+640,499,277,2026-12-02,14:45,Bronchitis,cancelled
+641,532,785,2026-09-07,16:45,Stroke,completed
+642,81,978,2025-08-31,09:15,Cataracts,completed
+643,764,743,2025-08-07,17:00,Gastritis,scheduled
+644,299,267,2026-08-13,12:15,Osteoarthritis,scheduled
+645,142,371,2025-09-06,12:30,Urinary Tract Infection,scheduled
+646,575,422,2024-05-10,08:30,Parkinson's Disease,completed
+647,665,168,2026-08-31,12:00,Osteoarthritis,completed
+648,93,894,2025-05-18,17:00,Lab results review,scheduled
+649,817,8,2025-05-04,15:15,Addison's Disease,cancelled
+650,32,234,2025-10-05,14:00,Gastritis,cancelled
+651,574,668,2026-02-01,16:45,Rheumatoid Arthritis,completed
+652,913,737,2026-08-19,13:00,Breast Cancer,scheduled
+653,670,689,2025-03-17,17:15,Cataracts,completed
+654,972,463,2026-09-06,12:45,Routine checkup,scheduled
+655,782,491,2026-09-14,09:45,Atrial Fibrillation,completed
+656,749,451,2026-12-16,14:00,Acne Vulgaris,cancelled
+657,815,232,2026-03-14,11:00,Epilepsy,scheduled
+658,203,146,2026-04-19,10:30,Gastritis,cancelled
+659,529,432,2025-09-12,08:30,Acne Vulgaris,completed
+660,829,845,2025-07-20,17:45,Osteoporosis,scheduled
+661,321,231,2026-03-18,12:30,Common Cold,scheduled
+662,263,989,2025-11-20,12:00,Lymphoma,scheduled
+663,477,390,2024-12-14,08:00,Chronic headache,scheduled
+664,181,885,2026-12-23,17:15,Routine checkup,scheduled
+665,520,168,2026-12-26,08:00,Seasonal Flu,completed
+666,167,843,2024-02-08,13:15,Chronic headache,completed
+667,27,296,2025-12-27,14:45,Pulmonary Embolism,completed
+668,41,40,2024-06-12,17:15,Under observation,scheduled
+669,92,805,2025-10-09,10:30,Hypertension,cancelled
+670,914,976,2024-09-08,13:45,Cataracts,completed
+671,274,712,2024-10-24,15:45,Hyperthyroidism,completed
+672,866,96,2024-12-23,15:45,Routine checkup,cancelled
+673,978,863,2025-02-08,11:15,Epilepsy,cancelled
+674,447,962,2025-09-28,10:00,Lung Cancer,completed
+675,263,816,2025-10-18,15:45,Eczema,scheduled
+676,890,847,2024-12-24,17:30,Asthma,completed
+677,289,67,2024-01-29,11:00,Cushing Syndrome,completed
+678,652,667,2026-09-24,11:15,Sleep Apnea,completed
+679,847,144,2025-03-10,12:45,Psoriasis,completed
+680,920,371,2025-07-30,14:00,Lymphoma,cancelled
+681,820,64,2025-03-27,16:30,Kidney Stones,no_show
+682,466,692,2024-12-21,14:30,Glaucoma,completed
+683,78,894,2026-11-16,17:15,Colitis,no_show
+684,920,617,2024-08-22,12:15,Routine checkup,completed
+685,218,348,2025-06-20,10:30,Sleep Apnea,completed
+686,839,441,2024-09-13,16:45,Common Cold,completed
+687,3,509,2026-11-12,09:15,Seasonal Flu,no_show
+688,519,291,2026-07-20,13:00,Epilepsy,completed
+689,264,794,2024-03-29,15:30,Pulmonary Embolism,scheduled
+690,891,753,2025-10-11,08:30,Peptic Ulcer,cancelled
+691,906,992,2024-10-10,12:00,Renal Failure,completed
+692,957,323,2025-07-05,14:30,Cancer,scheduled
+693,412,632,2024-02-17,14:00,Breast Cancer,completed
+694,802,740,2025-12-15,17:45,Angina Pectoris,completed
+695,160,337,2025-05-03,08:15,Colorectal Cancer,completed
+696,280,388,2025-09-25,11:30,Multiple Sclerosis,cancelled
+697,777,131,2024-02-03,13:30,Gastritis,scheduled
+698,599,169,2025-03-07,09:30,Lab results review,cancelled
+699,979,484,2026-10-13,11:00,Under observation,cancelled
+700,701,194,2024-02-25,08:15,Renal Failure,scheduled
+701,749,782,2025-03-04,10:15,Under observation,completed
+702,26,916,2025-11-08,13:30,Colitis,completed
+703,951,743,2026-02-22,10:30,Bronchitis,completed
+704,394,816,2025-12-07,15:15,Follow-up examination,no_show
+705,235,609,2025-05-12,17:30,Angina Pectoris,scheduled
+706,593,699,2025-12-20,09:30,Renal Failure,completed
+707,451,544,2025-01-17,16:00,Gastritis,cancelled
+708,349,494,2025-01-03,16:15,Bronchitis,completed
+709,204,13,2024-05-25,16:45,Routine checkup,completed
+710,659,603,2026-12-06,12:45,Renal Failure,completed
+711,709,749,2024-02-06,15:30,Macular Degeneration,cancelled
+712,162,686,2025-10-16,14:45,Hypertension,cancelled
+713,935,161,2026-07-05,09:45,Retinal Detachment,completed
+714,843,337,2024-04-19,17:00,Cholecystitis,scheduled
+715,498,350,2024-09-16,08:30,Acne Vulgaris,completed
+716,600,934,2024-04-06,15:30,Angina Pectoris,completed
+717,648,409,2025-06-15,16:30,Rheumatoid Arthritis,no_show
+718,195,629,2024-12-09,08:15,Glaucoma,completed
+719,262,845,2025-07-04,08:45,Epilepsy,completed
+720,588,496,2024-06-14,16:00,Colorectal Cancer,scheduled
+721,60,776,2025-02-05,14:45,Follow-up,scheduled
+722,698,994,2024-05-27,14:30,Lab results review,scheduled
+723,444,85,2026-03-14,14:45,Multiple Sclerosis,completed
+724,30,501,2025-03-26,13:15,Osteoporosis,completed
+725,376,139,2024-02-21,16:15,Breast Cancer,no_show
+726,923,917,2025-01-29,08:00,Cancer,completed
+727,82,651,2026-12-10,11:15,Lung Cancer,completed
+728,583,958,2024-04-05,08:45,Migraine,scheduled
+729,757,393,2026-02-12,12:15,Diabetes Type 1,completed
+730,25,823,2025-08-30,10:15,Breast Cancer,completed
+731,144,218,2024-09-24,12:45,Follow-up examination,completed
+732,288,486,2024-08-24,08:45,Asthma,completed
+733,63,441,2026-07-19,11:45,Follow-up,completed
+734,545,907,2024-12-02,09:30,Colorectal Cancer,completed
+735,41,62,2026-07-29,10:00,Hypothyroidism,completed
+736,483,636,2026-12-27,08:00,Appendicitis,scheduled
+737,63,753,2025-12-07,14:30,Osteoarthritis,completed
+738,695,439,2025-11-08,16:30,Osteoarthritis,completed
+739,461,607,2024-02-13,11:15,Acne Vulgaris,completed
+740,892,746,2025-10-17,17:30,Anemia,completed
+741,618,86,2024-02-12,17:15,Kidney Stones,cancelled
+742,495,542,2025-08-01,16:45,Cataracts,scheduled
+743,790,45,2024-01-10,12:30,Follow-up examination,scheduled
+744,271,899,2025-03-10,08:30,Pulmonary Embolism,cancelled
+745,179,27,2026-08-06,08:00,Diabetes Type 2,scheduled
+746,976,788,2026-08-17,13:30,Parkinson's Disease,completed
+747,208,832,2026-06-08,12:00,Dermatitis,scheduled
+748,143,350,2024-06-14,09:45,Chronic headache,cancelled
+749,840,650,2025-02-18,08:15,Follow-up examination,cancelled
+750,520,168,2024-07-02,15:15,Eczema,no_show
+751,702,255,2024-02-29,16:00,Seasonal Flu,cancelled
+752,941,265,2024-01-27,16:45,Under observation,completed
+753,110,171,2026-01-22,16:00,Glaucoma,completed
+754,901,238,2024-05-03,14:30,Gastritis,cancelled
+755,476,945,2026-09-17,10:00,Breast Cancer,scheduled
+756,110,720,2026-04-08,16:00,Hypertension,completed
+757,922,98,2026-07-18,14:45,Stroke,cancelled
+758,132,88,2025-11-14,10:45,Rheumatoid Arthritis,scheduled
+759,670,463,2024-08-22,09:00,Osteoporosis,completed
+760,959,405,2026-12-29,14:45,Multiple Sclerosis,completed
+761,756,852,2025-09-21,09:30,Rheumatoid Arthritis,cancelled
+762,359,896,2025-09-28,14:30,Heart Failure,completed
+763,299,191,2025-12-03,10:30,Osteoarthritis,completed
+764,389,552,2026-10-03,15:15,Gastritis,cancelled
+765,383,91,2026-03-05,14:00,Stroke,completed
+766,998,685,2025-05-25,15:00,Breast Cancer,scheduled
+767,742,18,2025-12-23,08:45,Seasonal Flu,completed
+768,79,360,2024-07-18,17:45,Urinary Tract Infection,completed
+769,756,228,2024-10-15,11:00,Appendicitis,completed
+770,933,504,2024-11-05,13:45,Cancer,completed
+771,371,654,2025-12-06,11:15,Common Cold,completed
+772,793,299,2024-07-06,14:15,Lab results review,completed
+773,700,836,2024-02-05,14:15,Addison's Disease,completed
+774,522,90,2025-10-19,14:45,Asthma,completed
+775,811,931,2025-01-30,08:00,Retinal Detachment,cancelled
+776,655,535,2025-03-17,12:15,Multiple Sclerosis,cancelled
+777,210,418,2025-05-26,13:45,Hyperthyroidism,scheduled
+778,956,535,2026-10-18,15:15,Migraine,completed
+779,302,924,2025-06-17,09:45,Osteoarthritis,completed
+780,97,820,2026-10-02,12:15,Diabetes Type 2,completed
+781,293,512,2025-09-09,10:15,Lymphoma,completed
+782,242,747,2025-09-10,16:45,Diabetes Type 2,completed
+783,973,654,2024-12-18,17:30,Breast Cancer,completed
+784,173,574,2024-03-23,16:30,Retinal Detachment,scheduled
+785,809,159,2026-02-12,10:45,Rheumatoid Arthritis,cancelled
+786,229,105,2025-01-18,13:00,Lymphoma,completed
+787,974,862,2026-08-10,14:45,Stroke,scheduled
+788,263,817,2024-08-01,17:45,Pending diagnosis,completed
+789,268,943,2026-08-15,14:30,Colitis,scheduled
+790,788,133,2025-09-13,14:45,Hyperthyroidism,completed
+791,963,781,2024-08-23,14:15,Cancer,completed
+792,74,473,2024-08-01,11:30,Peptic Ulcer,completed
+793,645,567,2025-08-31,13:30,Appendicitis,completed
+794,729,642,2025-10-31,08:00,Retinal Detachment,cancelled
+795,451,267,2025-11-12,16:00,Fracture,completed
+796,320,548,2026-07-30,16:30,Colorectal Cancer,scheduled
+797,683,256,2024-08-31,10:45,Dermatitis,scheduled
+798,549,792,2025-04-26,11:30,Bronchitis,scheduled
+799,181,653,2024-09-18,12:30,Lymphoma,scheduled
+800,977,823,2024-08-31,14:00,Cholecystitis,scheduled
+801,374,827,2025-05-23,12:00,Fracture,completed
+802,850,362,2025-09-29,14:00,Common Cold,scheduled
+803,106,661,2024-08-11,08:00,Migraine,completed
+804,474,886,2025-03-31,17:00,Sleep Apnea,scheduled
+805,591,519,2025-04-26,13:30,Migraine,completed
+806,917,728,2024-01-17,09:15,Osteoarthritis,completed
+807,139,908,2026-06-25,15:00,Follow-up,completed
+808,663,514,2025-11-23,11:00,Follow-up examination,completed
+809,698,462,2025-07-31,12:45,COPD,cancelled
+810,259,15,2026-12-13,08:15,Diabetes Type 2,completed
+811,995,900,2024-11-23,10:00,Pending diagnosis,completed
+812,848,100,2026-03-07,13:30,Diabetes Type 1,scheduled
+813,579,251,2026-08-09,14:30,Cataracts,scheduled
+814,426,656,2025-10-15,16:45,Lymphoma,completed
+815,952,173,2025-05-02,16:45,Cataracts,completed
+816,424,45,2024-01-28,16:00,Psoriasis,completed
+817,27,686,2024-09-03,16:00,Hypertension,completed
+818,1,1,2025-11-11,11:45,Cushing Syndrome,scheduled
+819,996,407,2026-12-08,15:15,Seasonal Flu,completed
+820,868,643,2024-11-12,08:15,Hypertension,completed
+821,63,880,2024-05-08,14:15,Myocardial Infarction,scheduled
+822,725,605,2026-08-15,14:45,Myocardial Infarction,scheduled
+823,276,71,2025-12-14,09:00,Osteoporosis,scheduled
+824,798,696,2024-09-16,15:15,Pulmonary Embolism,completed
+825,852,842,2025-09-23,10:45,Angina Pectoris,completed
+826,788,873,2025-05-01,12:15,Colitis,cancelled
+827,206,573,2026-09-25,12:30,Retinal Detachment,completed
+828,55,625,2024-10-15,11:15,Psoriasis,completed
+829,538,517,2025-12-14,15:15,Routine checkup,completed
+830,227,269,2026-03-30,11:00,Under observation,completed
+831,679,615,2024-02-24,13:30,Follow-up,completed
+832,375,213,2024-02-07,10:45,Lung Cancer,scheduled
+833,600,616,2024-04-26,17:30,Cancer,completed
+834,580,336,2024-11-17,08:15,Osteoarthritis,completed
+835,939,521,2024-07-15,12:30,Chronic headache,scheduled
+836,555,83,2024-05-25,16:00,Rheumatoid Arthritis,completed
+837,526,287,2025-11-21,16:30,Cushing Syndrome,completed
+838,277,601,2025-06-11,08:00,COPD,cancelled
+839,431,189,2026-11-24,14:30,Kidney Stones,completed
+840,23,907,2026-10-07,10:00,Follow-up examination,scheduled
+841,654,678,2024-02-16,13:45,Common Cold,scheduled
+842,584,926,2026-10-16,12:15,Renal Failure,completed
+843,330,458,2025-10-20,10:15,Macular Degeneration,completed
+844,839,927,2026-02-04,14:00,Peptic Ulcer,completed
+845,275,435,2024-01-28,08:00,Macular Degeneration,completed
+846,576,114,2024-09-18,11:45,Chronic headache,scheduled
+847,721,192,2025-08-23,17:30,Seasonal Flu,completed
+848,39,5,2024-10-04,13:00,COPD,completed
+849,403,918,2026-07-07,10:30,Peptic Ulcer,scheduled
+850,436,52,2026-01-06,15:45,Routine checkup,scheduled
+851,295,546,2026-09-08,15:30,Osteoarthritis,completed
+852,976,920,2024-04-21,16:15,Macular Degeneration,completed
+853,686,550,2024-03-01,17:00,Chronic headache,completed
+854,59,38,2026-05-05,11:30,Appendicitis,completed
+855,643,789,2024-06-13,16:00,Routine checkup,scheduled
+856,794,138,2024-04-03,10:15,Heart Failure,scheduled
+857,800,889,2026-09-03,13:45,Epilepsy,scheduled
+858,796,846,2026-06-05,16:15,Lab results review,completed
+859,492,388,2025-12-05,15:30,Urinary Tract Infection,completed
+860,143,340,2026-11-08,14:30,Eczema,cancelled
+861,369,26,2026-05-22,14:30,Hypothyroidism,completed
+862,172,674,2026-03-31,12:45,Colorectal Cancer,scheduled
+863,53,56,2024-12-25,13:30,Parkinson's Disease,completed
+864,272,349,2025-05-25,11:30,Osteoporosis,completed
+865,358,140,2025-06-27,16:30,Migraine,completed
+866,294,838,2024-08-30,12:30,Diabetes Type 1,completed
+867,764,395,2025-03-10,11:45,Diabetes Type 1,completed
+868,932,343,2024-08-04,09:00,Pneumonia,completed
+869,124,203,2026-12-31,15:30,Appendicitis,completed
+870,334,578,2025-07-26,10:15,COPD,completed
+871,106,682,2025-01-26,11:15,Migraine,scheduled
+872,684,630,2026-07-31,15:00,Lung Cancer,completed
+873,882,111,2026-02-11,15:45,Migraine,cancelled
+874,199,389,2024-04-15,12:00,Pending diagnosis,completed
+875,340,619,2024-11-13,15:00,Parkinson's Disease,scheduled
+876,426,588,2025-07-09,15:30,Bronchitis,scheduled
+877,652,314,2026-09-09,14:15,Colitis,completed
+878,84,401,2024-07-04,16:45,Common Cold,completed
+879,315,991,2025-10-09,16:00,Cushing Syndrome,scheduled
+880,84,809,2026-04-28,13:15,Urinary Tract Infection,scheduled
+881,711,458,2024-03-15,08:30,Heart Failure,completed
+882,138,430,2024-02-10,13:30,Peptic Ulcer,cancelled
+883,307,64,2024-10-13,16:30,Lab results review,completed
+884,377,551,2026-06-23,14:30,Psoriasis,completed
+885,861,97,2024-12-15,14:00,Stroke,scheduled
+886,531,248,2026-07-12,11:00,Seasonal Flu,completed
+887,707,248,2025-12-14,17:30,Breast Cancer,scheduled
+888,242,784,2025-06-19,13:15,Heart Failure,scheduled
+889,379,710,2026-11-23,08:15,Migraine,completed
+890,857,512,2024-06-07,09:45,Atrial Fibrillation,cancelled
+891,477,277,2025-03-01,13:00,Follow-up,completed
+892,612,129,2026-11-19,14:15,Lymphoma,completed
+893,57,158,2025-02-24,09:45,Parkinson's Disease,completed
+894,980,35,2024-09-22,16:00,Diabetes Type 1,no_show
+895,3,800,2026-09-19,14:15,Follow-up examination,scheduled
+896,213,213,2025-07-27,14:00,Atrial Fibrillation,completed
+897,990,908,2026-02-07,11:15,Urinary Tract Infection,completed
+898,285,76,2026-04-06,10:45,Diabetes Type 1,cancelled
+899,339,155,2024-07-12,13:00,Multiple Sclerosis,completed
+900,980,745,2025-04-11,13:00,Rheumatoid Arthritis,scheduled
+901,203,685,2026-02-19,16:30,Diabetes Type 1,scheduled
+902,763,814,2025-09-30,16:30,Myocardial Infarction,completed
+903,649,905,2024-10-17,11:30,Migraine,completed
+904,158,899,2024-12-11,12:00,Routine checkup,completed
+905,742,956,2026-01-07,11:00,Renal Failure,completed
+906,79,985,2024-08-25,11:00,Hypertension,scheduled
+907,672,544,2024-10-03,15:30,Chronic headache,completed
+908,202,275,2024-04-15,16:45,Diabetes Type 1,completed
+909,429,576,2025-04-06,11:30,Psoriasis,no_show
+910,412,246,2026-11-08,13:00,Hyperthyroidism,completed
+911,570,267,2025-03-05,17:45,Glaucoma,completed
+912,399,594,2024-03-27,08:30,Colitis,completed
+913,729,983,2025-03-03,11:00,Osteoarthritis,completed
+914,753,993,2024-09-14,14:45,Hypertension,completed
+915,296,11,2025-09-14,12:45,Under observation,cancelled
+916,27,106,2026-07-20,13:00,Macular Degeneration,completed
+917,859,402,2025-12-11,13:00,Appendicitis,completed
+918,548,956,2026-03-23,17:45,Pending diagnosis,completed
+919,729,730,2024-09-29,10:15,Myocardial Infarction,scheduled
+920,44,259,2025-05-06,08:00,Acne Vulgaris,scheduled
+921,66,588,2024-08-03,08:45,Chronic headache,completed
+922,859,867,2024-07-25,11:45,Renal Failure,scheduled
+923,606,81,2024-07-05,12:15,Follow-up examination,scheduled
+924,857,158,2026-03-25,09:15,Routine checkup,scheduled
+925,162,568,2026-04-22,09:30,Hypertension,completed
+926,135,652,2025-08-11,13:30,Lymphoma,scheduled
+927,756,609,2024-11-15,10:30,Epilepsy,scheduled
+928,237,708,2024-09-26,08:00,Diabetes Type 2,scheduled
+929,133,459,2026-12-14,17:15,Cushing Syndrome,completed
+930,165,272,2025-04-27,13:00,Appendicitis,completed
+931,501,581,2024-07-15,11:30,Stroke,completed
+932,619,331,2026-02-18,09:45,Melanoma,scheduled
+933,288,916,2026-11-29,12:45,Kidney Stones,completed
+934,385,293,2024-04-24,16:45,Osteoarthritis,completed
+935,372,221,2026-02-08,09:30,Hypertension,completed
+936,1,658,2026-08-10,08:00,Acne Vulgaris,scheduled
+937,953,244,2026-02-10,08:15,Fracture,cancelled
+938,932,125,2025-11-15,14:45,Follow-up examination,completed
+939,432,71,2026-09-30,11:45,Atrial Fibrillation,completed
+940,299,329,2026-08-21,15:45,Heart Failure,completed
+941,760,187,2025-09-07,11:15,Cancer,scheduled
+942,171,609,2024-11-23,10:15,Myocardial Infarction,cancelled
+943,875,229,2025-02-07,16:00,Heart Failure,completed
+944,951,334,2024-12-27,10:15,Macular Degeneration,completed
+945,29,395,2024-10-23,15:00,Anemia,completed
+946,723,299,2024-03-27,09:30,Glaucoma,scheduled
+947,319,347,2024-11-24,10:15,Parkinson's Disease,cancelled
+948,398,454,2024-02-23,16:15,COPD,completed
+949,927,896,2025-12-14,08:30,Melanoma,cancelled
+950,711,989,2025-01-22,11:45,Multiple Sclerosis,scheduled
+951,946,202,2025-12-01,16:15,Angina Pectoris,completed
+952,458,521,2026-01-17,17:00,Urinary Tract Infection,cancelled
+953,949,625,2024-02-14,13:15,Renal Failure,scheduled
+954,655,763,2025-07-02,13:45,Psoriasis,completed
+955,61,521,2025-01-14,13:45,Lymphoma,scheduled
+956,759,715,2025-01-26,08:00,Rheumatoid Arthritis,scheduled
+957,432,895,2024-05-23,16:45,Bronchitis,cancelled
+958,516,846,2025-09-02,14:45,Migraine,completed
+959,646,772,2025-12-17,10:00,Multiple Sclerosis,completed
+960,758,376,2026-02-18,13:00,Addison's Disease,completed
+961,391,586,2024-10-06,10:45,Chronic headache,cancelled
+962,958,677,2024-01-02,10:30,Routine checkup,scheduled
+963,700,378,2025-06-25,09:00,Kidney Stones,completed
+964,914,769,2026-01-23,13:45,Atrial Fibrillation,completed
+965,74,147,2026-05-15,14:45,Melanoma,cancelled
+966,520,27,2025-06-27,08:30,COPD,completed
+967,496,37,2025-05-23,11:45,Routine checkup,scheduled
+968,862,296,2025-10-27,11:15,Diabetes Type 2,completed
+969,278,871,2025-04-05,10:45,Sleep Apnea,scheduled
+970,226,306,2024-04-30,11:45,Cancer,completed
+971,911,863,2025-06-29,11:00,Diabetes Type 1,completed
+972,344,693,2026-04-22,16:15,Appendicitis,cancelled
+973,634,936,2026-01-17,11:00,Kidney Stones,no_show
+974,168,373,2024-11-30,14:30,Pneumonia,completed
+975,449,563,2026-08-07,08:45,Osteoporosis,completed
+976,685,391,2025-08-17,12:15,Hypothyroidism,completed
+977,959,890,2025-04-21,08:45,Cholecystitis,completed
+978,472,537,2024-06-11,08:00,Urinary Tract Infection,scheduled
+979,139,302,2025-08-16,16:00,Psoriasis,completed
+980,656,305,2024-09-20,09:00,Kidney Stones,completed
+981,315,734,2024-02-10,08:30,Parkinson's Disease,completed
+982,847,56,2024-05-06,15:15,Peptic Ulcer,scheduled
+983,74,750,2025-08-23,17:15,Diabetes Type 2,scheduled
+984,616,213,2024-02-03,14:30,Asthma,cancelled
+985,88,134,2024-05-30,08:45,Diabetes Type 1,completed
+986,282,702,2025-02-27,09:00,Common Cold,completed
+987,805,10,2025-03-20,09:30,Urinary Tract Infection,completed
+988,467,563,2025-10-10,08:45,Melanoma,scheduled
+989,441,456,2026-01-02,09:30,Colorectal Cancer,scheduled
+990,234,354,2024-05-27,13:45,Diabetes Type 2,completed
+991,124,273,2024-09-26,15:45,Asthma,completed
+992,67,351,2025-04-16,16:45,Colorectal Cancer,scheduled
+993,343,126,2024-08-28,09:45,Atrial Fibrillation,cancelled
+994,483,867,2024-07-16,12:15,Renal Failure,completed
+995,198,270,2024-08-17,08:45,Breast Cancer,completed
+996,432,987,2025-10-28,08:30,Peptic Ulcer,cancelled
+997,192,970,2025-10-12,13:15,Colorectal Cancer,cancelled
+998,37,509,2025-02-13,15:00,Atrial Fibrillation,scheduled
+999,450,149,2025-10-21,08:30,Cataracts,cancelled
+1000,766,182,2025-09-07,08:45,Urinary Tract Infection,completed

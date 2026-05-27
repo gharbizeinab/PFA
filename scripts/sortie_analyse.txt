@@ -1,0 +1,338 @@
+
+============================================================
+
+📋 TABLE : AI_Chat_History.xlsx
+   Lignes : 1,000 | Colonnes : 5
+
+   Colonnes détectées :
+   → id_chat                        int64        ex: 1
+   → id_patient                     int64        ex: 1000
+   → question                       str          ex: What are common allergy sympto
+   → ai_response                    str          ex: Based on medical literature, w
+   → created_at                     str          ex: 2026-03-02
+------------------------------------------------------------
+
+📋 TABLE : AI_Diagnosis.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_ai_diagnosis                int64        ex: 1
+   → id_consultation                int64        ex: 1127
+   → symptoms_analysis              str          ex: Detected: muscle weakness, bac
+   → predicted_disease              str          ex: Atrial Fibrillation
+   → confidence_score               float64      ex: 0.68
+   → ai_recommendation              str          ex: Recommend further tests; confi
+   → generated_at                   str          ex: 2024-08-14
+------------------------------------------------------------
+
+📋 TABLE : Appointments.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_appointment                 int64        ex: 1
+   → id_patient                     int64        ex: 754
+   → id_staff                       int64        ex: 363
+   → appointment_date               str          ex: 2025-03-24
+   → appointment_time               str          ex: 15:00
+   → reason                         str          ex: Psoriasis
+   → status                         str          ex: completed
+------------------------------------------------------------
+
+📋 TABLE : Audit_logs.xlsx
+   Lignes : 1,000 | Colonnes : 6
+
+   Colonnes détectées :
+   → id_log                         int64        ex: 1
+   → id_user                        int64        ex: 489
+   → action_type                    str          ex: SELECT
+   → table_name                     str          ex: Patients
+   → action_date                    str          ex: 2025-08-06
+   → description                    str          ex: User 489 performed SELECT on P
+------------------------------------------------------------
+
+📋 TABLE : Consultations.xlsx
+   Lignes : 1,200 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_consultation                int64        ex: 1
+   → consultation_date              str          ex: 2024-08-04
+   → diagnosis                      str          ex: Hypertension
+   → treatment                      str          ex: Prescribed Aspirin
+   → symptoms                       str          ex: weight gain, abdominal pain, l
+   → medical_report                 str          ex: Patient presented with weight 
+   → notes                          str          ex: Follow up in 3 months. [22% null]
+   → status                         str          ex: pending
+   → id_staff                       int64        ex: 12
+   → id_patient                     int64        ex: 1
+------------------------------------------------------------
+
+📋 TABLE : Medical_documents.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_document                    int64        ex: 1
+   → id_patient                     int64        ex: 758
+   → id_consultation                int64        ex: 878
+   → file_name                      str          ex: Prescription_1.docx
+   → file_type                      str          ex: DOCX
+   → file_path                      str          ex: /uploads/patients/758/Prescrip
+   → uploaded_at                    str          ex: 2023-10-13
+------------------------------------------------------------
+
+📋 TABLE : Medical_records.xlsx
+   Lignes : 1,000 | Colonnes : 11
+
+   Colonnes détectées :
+   → id_record                      int64        ex: 1
+   → id_patient                     int64        ex: 1
+   → allergies                      str          ex: Penicillin [24% null]
+   → chronic_diseases               str          ex: Cancer [14% null]
+   → blood_group                    str          ex: O+
+   → medical_history                str          ex: Patient reported muscle weakne
+   → current_medications            str          ex: Atorvastatin [12% null]
+   → height                         float64      ex: 1.56
+   → weight                         float64      ex: 65.8
+   → created_at                     str          ex: 2021-09-15
+   → updated_at                     str          ex: 2025-09-17
+------------------------------------------------------------
+
+📋 TABLE : Medical_staff.xlsx
+   Lignes : 1,000 | Colonnes : 8
+
+   Colonnes détectées :
+   → id_staff                       int64        ex: 1
+   → id_user                        int64        ex: 3
+   → name_staff                     str          ex: Dr. Ines Hammami
+   → position_staff                 str          ex: Dr.
+   → speciality                     str          ex: Cardiologist
+   → license_number                 str          ex: LIC-10001
+   → years_experience               int64        ex: 12
+   → id_service                     int64        ex: 2
+------------------------------------------------------------
+
+📋 TABLE : Notifications.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_notification                int64        ex: 1
+   → id_user                        int64        ex: 852
+   → title                          str          ex: Test Results Ready
+   → message                        str          ex: Test Results Ready: Please che
+   → type                           str          ex: reminder
+   → is_read                        bool         ex: False
+   → created_at                     str          ex: 2024-02-17
+------------------------------------------------------------
+
+📋 TABLE : Patients.xlsx
+   Lignes : 1,000 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_patient                     int64        ex: 1
+   → id_user                        int64        ex: 1
+   → first_name                     str          ex: Mohamed
+   → last_name                      str          ex: Trabelsi
+   → birthdate                      str          ex: 1976-08-10
+   → gender                         str          ex: M
+   → age                            int64        ex: 50
+   → blood_group                    str          ex: O+
+   → emergency_contact              str          ex: +216 99 522 152
+   → address                        str          ex: 52 Rue Souissi, Gabès
+------------------------------------------------------------
+
+📋 TABLE : Services.xlsx
+   Lignes : 12 | Colonnes : 3
+
+   Colonnes détectées :
+   → id_service                     int64        ex: 1
+   → service_name                   str          ex: Oncology
+   → description                    str          ex: Diagnosis and treatment of can
+------------------------------------------------------------
+
+📋 TABLE : Users.xlsx
+   Lignes : 1,200 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_user                        int64        ex: 1
+   → first_name                     str          ex: Mohamed
+   → last_name                      str          ex: Trabelsi
+   → email                          str          ex: mohamed_trabelsi@email.tn
+   → password                       str          ex: aebc40795d851ad6
+   → phone                          str          ex: +216 49 572 753
+   → gender                         str          ex: M
+   → role                           str          ex: patient
+   → created_at                     str          ex: 2023-06-05
+   → status                         str          ex: active
+------------------------------------------------------------
+
+❌ Erreur avec liv1.xlsx: Excel file format cannot be determined, you must specify an engine manually.
+
+✓ Analyse terminée ! Copie la sortie pour créer tes tables SQL.
+(venv) zeinab@DESKTOP-RBUBOIR:~/backend_medical_ia$ python scripts/analyser_fichiers.py
+✓ 12 fichiers trouvés
+
+============================================================
+
+📋 TABLE : AI_Chat_History.xlsx
+   Lignes : 1,000 | Colonnes : 5
+
+   Colonnes détectées :
+   → id_chat                        int64        ex: 1
+   → id_patient                     int64        ex: 1000
+   → question                       str          ex: What are common allergy sympto
+   → ai_response                    str          ex: Based on medical literature, w
+   → created_at                     str          ex: 2026-03-02
+------------------------------------------------------------
+
+📋 TABLE : AI_Diagnosis.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_ai_diagnosis                int64        ex: 1
+   → id_consultation                int64        ex: 1127
+   → symptoms_analysis              str          ex: Detected: muscle weakness, bac
+   → predicted_disease              str          ex: Atrial Fibrillation
+   → confidence_score               float64      ex: 0.68
+   → ai_recommendation              str          ex: Recommend further tests; confi
+   → generated_at                   str          ex: 2024-08-14
+------------------------------------------------------------
+
+📋 TABLE : Appointments.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_appointment                 int64        ex: 1
+   → id_patient                     int64        ex: 754
+   → id_staff                       int64        ex: 363
+   → appointment_date               str          ex: 2025-03-24
+   → appointment_time               str          ex: 15:00
+   → reason                         str          ex: Psoriasis
+   → status                         str          ex: completed
+------------------------------------------------------------
+
+📋 TABLE : Audit_logs.xlsx
+   Lignes : 1,000 | Colonnes : 6
+
+   Colonnes détectées :
+   → id_log                         int64        ex: 1
+   → id_user                        int64        ex: 489
+   → action_type                    str          ex: SELECT
+   → table_name                     str          ex: Patients
+   → action_date                    str          ex: 2025-08-06
+   → description                    str          ex: User 489 performed SELECT on P
+------------------------------------------------------------
+
+📋 TABLE : Consultations.xlsx
+   Lignes : 1,200 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_consultation                int64        ex: 1
+   → consultation_date              str          ex: 2024-08-04
+   → diagnosis                      str          ex: Hypertension
+   → treatment                      str          ex: Prescribed Aspirin
+   → symptoms                       str          ex: weight gain, abdominal pain, l
+   → medical_report                 str          ex: Patient presented with weight 
+   → notes                          str          ex: Follow up in 3 months. [22% null]
+   → status                         str          ex: pending
+   → id_staff                       int64        ex: 12
+   → id_patient                     int64        ex: 1
+------------------------------------------------------------
+
+📋 TABLE : Medical_documents.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_document                    int64        ex: 1
+   → id_patient                     int64        ex: 758
+   → id_consultation                int64        ex: 878
+   → file_name                      str          ex: Prescription_1.docx
+   → file_type                      str          ex: DOCX
+   → file_path                      str          ex: /uploads/patients/758/Prescrip
+   → uploaded_at                    str          ex: 2023-10-13
+------------------------------------------------------------
+
+📋 TABLE : Medical_records.xlsx
+   Lignes : 1,000 | Colonnes : 11
+
+   Colonnes détectées :
+   → id_record                      int64        ex: 1
+   → id_patient                     int64        ex: 1
+   → allergies                      str          ex: Penicillin [24% null]
+   → chronic_diseases               str          ex: Cancer [14% null]
+   → blood_group                    str          ex: O+
+   → medical_history                str          ex: Patient reported muscle weakne
+   → current_medications            str          ex: Atorvastatin [12% null]
+   → height                         float64      ex: 1.56
+   → weight                         float64      ex: 65.8
+   → created_at                     str          ex: 2021-09-15
+   → updated_at                     str          ex: 2025-09-17
+------------------------------------------------------------
+
+📋 TABLE : Medical_staff.xlsx
+   Lignes : 1,000 | Colonnes : 8
+
+   Colonnes détectées :
+   → id_staff                       int64        ex: 1
+   → id_user                        int64        ex: 3
+   → name_staff                     str          ex: Dr. Ines Hammami
+   → position_staff                 str          ex: Dr.
+   → speciality                     str          ex: Cardiologist
+   → license_number                 str          ex: LIC-10001
+   → years_experience               int64        ex: 12
+   → id_service                     int64        ex: 2
+------------------------------------------------------------
+
+📋 TABLE : Notifications.xlsx
+   Lignes : 1,000 | Colonnes : 7
+
+   Colonnes détectées :
+   → id_notification                int64        ex: 1
+   → id_user                        int64        ex: 852
+   → title                          str          ex: Test Results Ready
+   → message                        str          ex: Test Results Ready: Please che
+   → type                           str          ex: reminder
+   → is_read                        bool         ex: False
+   → created_at                     str          ex: 2024-02-17
+------------------------------------------------------------
+
+📋 TABLE : Patients.xlsx
+   Lignes : 1,000 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_patient                     int64        ex: 1
+   → id_user                        int64        ex: 1
+   → first_name                     str          ex: Mohamed
+   → last_name                      str          ex: Trabelsi
+   → birthdate                      str          ex: 1976-08-10
+   → gender                         str          ex: M
+   → age                            int64        ex: 50
+   → blood_group                    str          ex: O+
+   → emergency_contact              str          ex: +216 99 522 152
+   → address                        str          ex: 52 Rue Souissi, Gabès
+------------------------------------------------------------
+
+📋 TABLE : Services.xlsx
+   Lignes : 12 | Colonnes : 3
+
+   Colonnes détectées :
+   → id_service                     int64        ex: 1
+   → service_name                   str          ex: Oncology
+   → description                    str          ex: Diagnosis and treatment of can
+------------------------------------------------------------
+
+📋 TABLE : Users.xlsx
+   Lignes : 1,200 | Colonnes : 10
+
+   Colonnes détectées :
+   → id_user                        int64        ex: 1
+   → first_name                     str          ex: Mohamed
+   → last_name                      str          ex: Trabelsi
+   → email                          str          ex: mohamed_trabelsi@email.tn
+   → password                       str          ex: aebc40795d851ad6
+   → phone                          str          ex: +216 49 572 753
+   → gender                         str          ex: M
+   → role                           str          ex: patient
+   → created_at                     str          ex: 2023-06-05
+   → status                         str          ex: active
+------------------------------------------------------------
+
+✓ Analyse terminée ! Copie la sortie pour créer tes tables SQL.

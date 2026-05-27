@@ -1,0 +1,1001 @@
+id_record,id_patient,allergies,chronic_diseases,blood_group,medical_history,current_medications,height,weight,created_at,updated_at
+1,1,Penicillin,Cancer,O+,Patient reported muscle weakness for 7 months.,Atorvastatin,1.56,65.8,2021-09-15,2025-09-17
+2,2,Penicillin,Diabetes,B+,Patient reported hair loss for 10 months.,Aspirin,1.94,109.9,2019-02-27,2025-09-28
+3,3,Penicillin,Asthma,O+,Patient reported cough for 12 months.,Amlodipine,1.54,82.2,2021-04-13,2022-06-06
+4,4,Penicillin,Glaucoma,O+,Patient reported cough for 19 months.,Metformin,1.62,111.8,2023-06-13,2024-04-03
+5,5,Penicillin,Hypertension,O+,Patient reported cough for 27 months.,Lisinopril,1.55,107.1,2022-10-11,2023-12-23
+6,6,Penicillin,Cancer,O+,Patient reported insomnia for 34 months.,Aspirin,1.54,73.6,2020-01-30,2023-07-04
+7,7,Penicillin,Diabetes,A+,Patient reported loss of appetite for 29 months.,Atorvastatin,1.53,114.7,2019-01-25,2020-09-27
+8,8,Penicillin,Cancer,B+,Patient reported tingling sensation for 16 months.,Aspirin,1.9,76.1,2019-03-07,2025-11-05
+9,9,Penicillin,Cancer,B+,Patient reported rash for 27 months.,Metformin,1.5,79.9,2022-03-15,2024-03-22
+10,10,Penicillin,Diabetes,O+,Patient reported vomiting for 32 months.,,1.56,116.6,2019-03-03,2019-11-03
+11,11,Penicillin,Osteoporosis,O+,Patient reported skin itching for 14 months.,Salbutamol,1.54,101.4,2019-01-26,2019-05-12
+12,12,Penicillin,Hypertension,A+,Patient reported fever for 11 months.,Lisinopril,1.55,85.5,2022-09-02,2025-03-14
+13,13,Penicillin,Rheumatoid Arthritis,B+,Patient reported leg cramps for 31 months.,Lisinopril,1.79,82.2,2022-03-05,2022-05-28
+14,14,Penicillin,Asthma,O+,Patient reported palpitations for 21 months.,Omeprazole,1.83,104.4,2019-09-03,2019-12-14
+15,15,Penicillin,Hypothyroidism,A+,Patient reported fever for 36 months.,Lisinopril,1.71,45.5,2019-08-16,2026-01-03
+16,16,Penicillin,Glaucoma,A-,Patient reported excessive thirst for 4 months.,Atorvastatin,1.87,102.0,2020-09-19,2023-06-19
+17,17,Penicillin,Glaucoma,O+,Patient reported joint pain for 12 months.,Amlodipine,1.56,93.6,2023-10-21,2026-01-03
+18,18,Penicillin,Hypertension,A+,Patient reported cough for 14 months.,Omeprazole,1.84,55.6,2019-10-23,2023-08-25
+19,19,Penicillin,Chronic Kidney Disease,O+,Patient reported blurred vision for 20 months.,Salbutamol,1.86,80.6,2022-09-22,2022-10-26
+20,20,Penicillin,Asthma,A+,Patient reported shortness of breath for 14 months.,Atorvastatin,1.69,91.9,2021-02-08,2024-07-25
+21,21,Penicillin,COPD,O+,Patient reported joint pain for 31 months.,Aspirin,1.54,79.9,2019-07-13,2022-01-18
+22,22,Penicillin,,O+,Patient reported joint pain for 18 months.,Amlodipine,1.87,71.9,2020-09-06,2020-12-13
+23,23,Penicillin,Epilepsy,AB+,Patient reported insomnia for 3 months.,Atorvastatin,1.55,88.1,2020-12-19,2021-08-05
+24,24,Penicillin,Diabetes,O+,Patient reported nausea for 11 months.,Aspirin,1.74,75.3,2020-10-16,2026-02-23
+25,25,Penicillin,Liver Cirrhosis,A+,Patient reported excessive thirst for 17 months.,Salbutamol,1.75,104.3,2022-12-10,2024-07-16
+26,26,Penicillin,,O+,Patient reported excessive thirst for 9 months.,,1.71,119.9,2021-11-18,2025-08-30
+27,27,Penicillin,,O+,Patient reported anxiety for 18 months.,Omeprazole,1.71,46.8,2019-01-20,2024-08-29
+28,28,Penicillin,Chronic Kidney Disease,O+,Patient reported nausea for 8 months.,Metformin,1.72,91.5,2020-04-17,2025-03-17
+29,29,Penicillin,Osteoporosis,B+,Patient reported frequent urination for 20 months.,Metformin,1.52,87.8,2019-09-25,2020-09-10
+30,30,Penicillin,Chronic Kidney Disease,O+,Patient reported rash for 26 months.,Atorvastatin,1.88,103.9,2023-04-14,2026-04-01
+31,31,Penicillin,Cancer,O+,Patient reported leg cramps for 28 months.,Omeprazole,1.7,116.3,2020-07-24,2023-07-30
+32,32,Penicillin,Epilepsy,O+,Patient reported weight loss for 34 months.,Aspirin,1.64,77.4,2019-11-20,2021-03-14
+33,33,Penicillin,Asthma,O+,Patient reported fever for 5 months.,Atorvastatin,1.59,99.5,2023-01-03,2023-01-22
+34,34,Penicillin,Heart Failure,O+,Patient reported chest pain for 23 months.,Amlodipine,1.5,60.6,2023-03-01,2023-12-29
+35,35,Penicillin,Cancer,O+,Patient reported shortness of breath for 2 months.,Aspirin,1.61,66.9,2019-01-05,2019-09-11
+36,36,Penicillin,Chronic Kidney Disease,O+,Patient reported weight gain for 8 months.,Metformin,1.5,84.1,2021-04-05,2023-10-20
+37,37,Penicillin,Liver Cirrhosis,O+,Patient reported abdominal pain for 17 months.,Lisinopril,1.68,45.2,2023-05-13,2023-11-13
+38,38,Penicillin,Osteoporosis,AB+,Patient reported nausea for 25 months.,Atorvastatin,1.87,55.4,2023-10-19,2026-03-07
+39,39,Penicillin,Hypothyroidism,O+,Patient reported skin itching for 3 months.,Aspirin,1.5,104.6,2020-02-17,2025-04-01
+40,40,Penicillin,COPD,O+,Patient reported frequent urination for 31 months.,Omeprazole,1.67,48.0,2020-09-06,2021-08-08
+41,41,Penicillin,Hypertension,O+,Patient reported leg cramps for 18 months.,,1.61,53.9,2022-05-07,2025-08-26
+42,42,Penicillin,Diabetes,A+,Patient reported night sweats for 6 months.,Lisinopril,1.74,51.4,2023-01-20,2024-06-03
+43,43,Penicillin,Diabetes,A-,Patient reported confusion for 17 months.,Amlodipine,1.73,101.9,2022-09-18,2026-02-06
+44,44,Penicillin,Liver Cirrhosis,B+,Patient reported shortness of breath for 13 months.,Omeprazole,1.86,94.9,2020-09-24,2022-05-31
+45,45,Penicillin,Diabetes,O+,Patient reported numbness for 16 months.,Omeprazole,1.69,47.2,2021-01-13,2022-03-05
+46,46,Penicillin,COPD,B+,Patient reported palpitations for 19 months.,Omeprazole,1.89,77.4,2021-02-07,2024-04-29
+47,47,Penicillin,Asthma,A+,Patient reported vomiting for 4 months.,Atorvastatin,1.62,93.3,2023-01-06,2023-04-25
+48,48,Penicillin,Hypertension,A-,Patient reported nausea for 33 months.,Atorvastatin,1.91,93.9,2023-07-18,2024-04-28
+49,49,Penicillin,Epilepsy,O+,Patient reported difficulty breathing for 1 months.,Atorvastatin,1.93,74.3,2021-07-03,2024-11-05
+50,50,Penicillin,Hypertension,O+,Patient reported leg cramps for 5 months.,Salbutamol,1.62,69.4,2021-12-23,2023-12-02
+51,51,,Asthma,O-,Patient reported memory loss for 13 months.,Aspirin,1.64,116.3,2021-08-15,2022-11-23
+52,52,,Cancer,O+,Patient reported shortness of breath for 1 months.,Omeprazole,1.54,91.5,2020-12-06,2023-06-24
+53,53,,Liver Cirrhosis,A-,Patient reported tingling sensation for 7 months.,Lisinopril,1.81,115.4,2022-02-20,2022-12-02
+54,54,,Heart Failure,O-,Patient reported memory loss for 2 months.,Omeprazole,1.8,111.9,2019-12-28,2023-08-29
+55,55,,Diabetes,A+,Patient reported dizziness for 30 months.,Atorvastatin,1.6,64.8,2023-12-15,2024-01-16
+56,56,,Rheumatoid Arthritis,A+,Patient reported nausea for 9 months.,,1.74,79.4,2019-02-18,2019-09-26
+57,57,,Hypertension,B+,Patient reported rash for 9 months.,Aspirin,1.53,51.7,2019-07-03,2021-06-21
+58,58,,Hypertension,A+,Patient reported confusion for 1 months.,Salbutamol,1.83,77.6,2022-09-03,2024-02-26
+59,59,,COPD,A+,Patient reported muscle weakness for 25 months.,Metformin,1.94,67.9,2020-04-04,2023-02-27
+60,60,,Asthma,AB+,Patient reported excessive thirst for 15 months.,Omeprazole,1.67,117.5,2019-10-23,2024-09-27
+61,61,,Diabetes,A+,Patient reported tingling sensation for 16 months.,Metformin,1.66,98.9,2022-06-27,2022-12-24
+62,62,,Liver Cirrhosis,B+,Patient reported muscle weakness for 32 months.,Atorvastatin,1.62,71.2,2022-07-05,2023-08-28
+63,63,,Rheumatoid Arthritis,O+,Patient reported excessive thirst for 35 months.,Atorvastatin,1.57,68.8,2019-06-20,2024-12-21
+64,64,,Diabetes,A+,Patient reported skin itching for 12 months.,Aspirin,1.7,45.3,2023-03-15,2023-11-28
+65,65,,Rheumatoid Arthritis,B+,Patient reported insomnia for 23 months.,Aspirin,1.93,109.2,2023-10-02,2024-12-03
+66,66,,Glaucoma,O+,Patient reported excessive thirst for 35 months.,Salbutamol,1.73,108.3,2019-06-06,2024-05-20
+67,67,,Liver Cirrhosis,AB+,Patient reported hair loss for 30 months.,Lisinopril,1.8,88.4,2022-07-01,2024-02-21
+68,68,,Heart Failure,A+,Patient reported chest pain for 3 months.,Aspirin,1.94,53.2,2020-03-01,2024-03-21
+69,69,,Epilepsy,AB+,Patient reported hair loss for 20 months.,Atorvastatin,1.56,68.5,2020-09-13,2026-04-25
+70,70,,Glaucoma,O+,Patient reported muscle weakness for 4 months.,Omeprazole,1.83,110.9,2023-07-21,2024-09-22
+71,71,,Liver Cirrhosis,O+,Patient reported back pain for 8 months.,Atorvastatin,1.54,104.3,2021-02-13,2024-03-10
+72,72,,Rheumatoid Arthritis,A+,Patient reported memory loss for 11 months.,Amlodipine,1.62,103.9,2023-09-24,2024-06-08
+73,73,,Hypertension,O+,Patient reported blurred vision for 19 months.,Lisinopril,1.84,52.6,2021-03-29,2024-12-09
+74,74,,Chronic Kidney Disease,A+,Patient reported rash for 35 months.,Lisinopril,1.74,79.8,2022-06-08,2025-03-13
+75,75,,Hypertension,O-,Patient reported frequent urination for 15 months.,Omeprazole,1.6,95.8,2023-10-22,2025-09-05
+76,76,,Liver Cirrhosis,O+,Patient reported leg cramps for 12 months.,Lisinopril,1.74,65.8,2020-08-11,2026-03-22
+77,77,,Liver Cirrhosis,A+,Patient reported shortness of breath for 26 months.,Aspirin,1.62,103.1,2021-05-09,2024-05-12
+78,78,,COPD,A+,Patient reported vomiting for 3 months.,Atorvastatin,1.54,106.1,2023-10-01,2024-01-09
+79,79,,COPD,O+,Patient reported blurred vision for 6 months.,Atorvastatin,1.61,47.2,2020-09-28,2022-12-10
+80,80,,Chronic Kidney Disease,O+,Patient reported muscle weakness for 34 months.,Aspirin,1.5,115.9,2021-04-02,2021-07-15
+81,81,,Hypothyroidism,O-,Patient reported leg cramps for 25 months.,Metformin,1.94,60.2,2019-10-19,2020-12-03
+82,82,,Hypertension,O+,Patient reported vomiting for 29 months.,Metformin,1.54,105.6,2022-12-02,2024-01-18
+83,83,,Hypertension,A+,Patient reported muscle weakness for 31 months.,Lisinopril,1.61,101.3,2019-01-28,2021-06-05
+84,84,,Hypothyroidism,B+,Patient reported skin itching for 36 months.,Aspirin,1.52,101.2,2023-03-11,2023-09-29
+85,85,,,B+,Patient reported back pain for 23 months.,Metformin,1.82,64.4,2022-07-14,2024-09-15
+86,86,,Osteoporosis,O+,Patient reported skin itching for 34 months.,Amlodipine,1.89,114.1,2022-08-20,2024-03-25
+87,87,,Heart Failure,A+,Patient reported swelling for 29 months.,Amlodipine,1.6,84.8,2019-09-04,2020-07-15
+88,88,,Chronic Kidney Disease,A+,Patient reported hair loss for 11 months.,Salbutamol,1.74,45.3,2019-09-02,2019-12-03
+89,89,,Asthma,A-,Patient reported dizziness for 15 months.,Salbutamol,1.55,76.2,2023-05-16,2025-12-29
+90,90,,Rheumatoid Arthritis,O+,Patient reported leg cramps for 8 months.,Salbutamol,1.94,56.6,2019-02-26,2025-05-08
+91,91,,,A-,Patient reported palpitations for 31 months.,Salbutamol,1.85,85.2,2020-02-20,2024-06-11
+92,92,,Hypothyroidism,A+,Patient reported weight loss for 3 months.,Salbutamol,1.9,87.0,2020-11-24,2025-08-05
+93,93,,Diabetes,B+,Patient reported difficulty breathing for 36 months.,Metformin,1.8,98.7,2019-01-15,2021-01-29
+94,94,,COPD,O+,Patient reported skin itching for 33 months.,Metformin,1.51,93.8,2023-05-26,2025-05-15
+95,95,,Heart Failure,O+,Patient reported rash for 9 months.,,1.89,117.3,2023-11-13,2024-09-08
+96,96,,Asthma,B+,Patient reported loss of appetite for 3 months.,Aspirin,1.77,102.3,2023-08-16,2023-12-18
+97,97,,Epilepsy,O+,Patient reported skin itching for 17 months.,Aspirin,1.8,46.5,2020-12-22,2025-09-21
+98,98,,Liver Cirrhosis,A+,Patient reported memory loss for 5 months.,Aspirin,1.78,53.9,2021-06-25,2025-04-22
+99,99,,Osteoporosis,O+,Patient reported confusion for 10 months.,Lisinopril,1.64,100.2,2023-10-07,2026-04-30
+100,100,,,O+,Patient reported muscle weakness for 10 months.,Aspirin,1.53,81.0,2021-04-12,2026-04-18
+101,101,Penicillin,Cancer,O+,Patient reported fatigue for 34 months.,Omeprazole,1.9,56.7,2020-02-09,2024-03-09
+102,102,Morphine,Chronic Kidney Disease,O+,Patient reported weight loss for 9 months.,Omeprazole,1.74,67.0,2023-03-13,2023-10-29
+103,103,Ibuprofen,Cancer,O+,Patient reported muscle weakness for 7 months.,Aspirin,1.77,105.7,2019-02-18,2019-03-31
+104,104,Penicillin,COPD,O+,Patient reported fatigue for 10 months.,Lisinopril,1.67,50.3,2023-10-24,2024-06-14
+105,105,,Chronic Kidney Disease,O-,Patient reported insomnia for 19 months.,Aspirin,1.82,63.4,2021-01-16,2025-04-28
+106,106,Shellfish,Cancer,A+,Patient reported nausea for 1 months.,Amlodipine,1.51,53.9,2020-09-26,2021-10-02
+107,107,Erythromycin,,A-,Patient reported palpitations for 10 months.,Salbutamol,1.73,105.6,2021-10-18,2024-02-26
+108,108,Pollen,,O+,Patient reported hair loss for 16 months.,Amlodipine,1.64,102.4,2019-09-08,2023-04-10
+109,109,Sulfa drugs,Asthma,B+,Patient reported night sweats for 32 months.,Amlodipine,1.86,55.0,2022-01-23,2022-06-28
+110,110,Peanuts,Liver Cirrhosis,O-,Patient reported leg cramps for 7 months.,Amlodipine,1.66,56.6,2022-02-26,2024-12-11
+111,111,Aspirin,Liver Cirrhosis,A+,Patient reported skin itching for 11 months.,,1.83,46.4,2022-10-07,2026-02-13
+112,112,Cephalosporins,Liver Cirrhosis,A+,Patient reported confusion for 18 months.,Aspirin,1.85,80.1,2020-08-22,2025-07-09
+113,113,Aspirin,COPD,AB+,Patient reported vomiting for 2 months.,Salbutamol,1.59,107.0,2019-05-13,2024-04-24
+114,114,,Diabetes,B-,Patient reported palpitations for 31 months.,,1.72,99.2,2021-01-10,2023-03-07
+115,115,Morphine,Diabetes,O+,Patient reported muscle weakness for 15 months.,Metformin,1.85,111.7,2021-09-23,2023-07-06
+116,116,Cephalosporins,,A+,Patient reported leg cramps for 21 months.,Salbutamol,1.8,73.7,2019-05-30,2022-10-16
+117,117,Codeine,Osteoporosis,O-,Patient reported palpitations for 26 months.,Aspirin,1.94,112.0,2019-12-20,2023-09-11
+118,118,Codeine,Epilepsy,O+,Patient reported fatigue for 29 months.,Aspirin,1.69,55.2,2021-11-23,2023-07-30
+119,119,,Heart Failure,O+,Patient reported swelling for 10 months.,Salbutamol,1.93,109.5,2021-02-11,2024-12-11
+120,120,Morphine,COPD,B+,Patient reported loss of appetite for 31 months.,Aspirin,1.81,71.9,2020-03-02,2026-04-26
+121,121,Latex,Cancer,O-,Patient reported leg cramps for 31 months.,Metformin,1.68,95.4,2021-12-19,2024-05-20
+122,122,Penicillin,Liver Cirrhosis,O-,Patient reported anxiety for 26 months.,,1.58,97.0,2020-06-23,2026-04-10
+123,123,Peanuts,Liver Cirrhosis,A+,Patient reported chest pain for 23 months.,Metformin,1.81,115.8,2020-04-26,2023-03-25
+124,124,Latex,Hypothyroidism,A+,Patient reported nausea for 21 months.,Salbutamol,1.69,64.3,2020-02-14,2024-10-22
+125,125,Penicillin,COPD,O+,Patient reported excessive thirst for 29 months.,Metformin,1.83,82.5,2020-01-28,2023-09-06
+126,126,,Hypothyroidism,O+,Patient reported memory loss for 17 months.,Atorvastatin,1.7,50.8,2022-12-26,2024-11-19
+127,127,Penicillin,Cancer,A-,Patient reported anxiety for 17 months.,Atorvastatin,1.88,80.8,2023-08-30,2025-11-07
+128,128,Dust mites,Chronic Kidney Disease,O+,Patient reported skin itching for 14 months.,Atorvastatin,1.53,58.2,2023-09-11,2024-01-22
+129,129,Latex,Hypothyroidism,O-,Patient reported headache for 30 months.,Amlodipine,1.79,81.8,2019-07-31,2020-10-08
+130,130,Sulfa drugs,Hypothyroidism,A+,Patient reported fever for 4 months.,Omeprazole,1.57,111.2,2019-08-07,2024-05-04
+131,131,Peanuts,Diabetes,A+,Patient reported loss of appetite for 36 months.,,1.51,58.2,2020-08-14,2023-08-17
+132,132,Sulfa drugs,,A+,Patient reported chest pain for 14 months.,Atorvastatin,1.58,112.4,2021-05-20,2024-08-16
+133,133,Pollen,Osteoporosis,O+,Patient reported vomiting for 18 months.,Atorvastatin,1.81,65.1,2023-06-16,2023-07-14
+134,134,Ibuprofen,Hypertension,A+,Patient reported shortness of breath for 5 months.,Salbutamol,1.71,111.5,2021-05-14,2024-06-05
+135,135,Penicillin,,B+,Patient reported loss of appetite for 13 months.,Salbutamol,1.9,48.0,2020-03-18,2021-02-10
+136,136,Shellfish,Heart Failure,A+,Patient reported difficulty breathing for 13 months.,,1.58,107.6,2019-01-23,2019-06-06
+137,137,Codeine,Glaucoma,A-,Patient reported weight loss for 8 months.,Salbutamol,1.57,65.9,2020-07-26,2024-10-16
+138,138,,Rheumatoid Arthritis,O+,Patient reported weight loss for 3 months.,Aspirin,1.84,69.4,2020-05-09,2020-05-30
+139,139,Aspirin,Asthma,A+,Patient reported numbness for 7 months.,,1.83,61.9,2023-12-10,2024-12-02
+140,140,,Chronic Kidney Disease,A+,Patient reported cough for 35 months.,Lisinopril,1.57,87.9,2019-11-20,2025-06-01
+141,141,Dust mites,Cancer,A+,Patient reported dizziness for 20 months.,Aspirin,1.53,107.3,2020-12-13,2024-08-09
+142,142,Pollen,Hypothyroidism,A+,Patient reported tingling sensation for 11 months.,Salbutamol,1.89,86.5,2021-03-20,2024-11-01
+143,143,Cephalosporins,COPD,AB-,Patient reported palpitations for 24 months.,Metformin,1.7,45.0,2020-02-25,2025-08-20
+144,144,,Rheumatoid Arthritis,O+,Patient reported excessive thirst for 32 months.,Amlodipine,1.84,108.5,2020-09-09,2020-09-20
+145,145,Penicillin,Asthma,A-,Patient reported chest pain for 7 months.,Atorvastatin,1.77,57.4,2019-04-02,2025-05-14
+146,146,Ibuprofen,,A+,Patient reported muscle weakness for 16 months.,Metformin,1.63,85.7,2021-01-30,2025-06-08
+147,147,Aspirin,Osteoporosis,O+,Patient reported fever for 23 months.,,1.61,58.0,2020-04-06,2022-03-17
+148,148,Codeine,Cancer,O+,Patient reported fatigue for 10 months.,Amlodipine,1.91,105.4,2021-01-02,2021-05-19
+149,149,Peanuts,,A+,Patient reported weight loss for 22 months.,Omeprazole,1.65,98.8,2019-05-02,2020-08-08
+150,150,Aspirin,Cancer,O+,Patient reported leg cramps for 36 months.,Omeprazole,1.81,60.6,2023-10-18,2024-12-05
+151,151,Morphine,Liver Cirrhosis,O+,Patient reported rash for 11 months.,Omeprazole,1.88,74.6,2023-05-08,2024-09-21
+152,152,Codeine,Osteoporosis,O-,Patient reported chest pain for 35 months.,Metformin,1.66,101.0,2021-05-23,2022-02-17
+153,153,,Heart Failure,A-,Patient reported joint pain for 18 months.,Omeprazole,1.54,111.0,2020-04-17,2021-08-31
+154,154,Aspirin,Hypothyroidism,A+,Patient reported loss of appetite for 21 months.,Atorvastatin,1.93,53.8,2023-05-17,2025-03-29
+155,155,Amoxicillin,Hypothyroidism,O+,Patient reported headache for 31 months.,Salbutamol,1.64,72.9,2021-04-02,2022-05-12
+156,156,Codeine,Diabetes,O+,Patient reported cough for 18 months.,Lisinopril,1.75,112.6,2019-01-31,2023-05-22
+157,157,Shellfish,Osteoporosis,A-,Patient reported joint pain for 12 months.,Aspirin,1.7,97.7,2023-06-20,2024-01-06
+158,158,Sulfa drugs,Hypothyroidism,A-,Patient reported loss of appetite for 9 months.,Aspirin,1.88,65.6,2021-02-01,2022-05-22
+159,159,Shellfish,Asthma,O+,Patient reported loss of appetite for 17 months.,Aspirin,1.55,112.9,2022-09-29,2025-08-05
+160,160,Penicillin,,A+,Patient reported abdominal pain for 29 months.,,1.51,87.8,2022-06-25,2024-11-12
+161,161,Codeine,Heart Failure,O+,Patient reported blurred vision for 21 months.,Atorvastatin,1.62,59.3,2023-02-28,2026-02-23
+162,162,Sulfa drugs,Diabetes,O+,Patient reported weight loss for 22 months.,Amlodipine,1.5,52.1,2020-12-25,2024-11-09
+163,163,Morphine,Chronic Kidney Disease,O+,Patient reported vomiting for 7 months.,Omeprazole,1.61,108.1,2023-04-30,2024-02-09
+164,164,,,A-,Patient reported skin itching for 9 months.,Omeprazole,1.71,118.0,2021-06-23,2024-03-12
+165,165,Peanuts,Chronic Kidney Disease,A-,Patient reported joint pain for 10 months.,Lisinopril,1.73,62.7,2023-02-27,2024-07-25
+166,166,Erythromycin,Heart Failure,A+,Patient reported abdominal pain for 12 months.,Metformin,1.64,85.7,2023-06-23,2025-04-11
+167,167,,Hypertension,A+,Patient reported insomnia for 13 months.,,1.9,101.8,2021-06-02,2024-03-07
+168,168,,Rheumatoid Arthritis,O+,Patient reported memory loss for 4 months.,Atorvastatin,1.65,98.7,2020-12-26,2021-07-09
+169,169,Cephalosporins,Rheumatoid Arthritis,A+,Patient reported anxiety for 22 months.,Amlodipine,1.83,84.8,2020-07-17,2021-03-08
+170,170,,Asthma,O+,Patient reported frequent urination for 31 months.,Atorvastatin,1.68,57.9,2023-05-06,2025-02-20
+171,171,,Glaucoma,A+,Patient reported joint pain for 11 months.,Amlodipine,1.64,61.3,2021-03-25,2023-12-07
+172,172,Shellfish,Chronic Kidney Disease,O+,Patient reported loss of appetite for 11 months.,Atorvastatin,1.58,110.2,2021-02-03,2021-07-17
+173,173,Penicillin,Liver Cirrhosis,A-,Patient reported cough for 23 months.,Aspirin,1.58,111.2,2019-08-06,2025-07-29
+174,174,Cephalosporins,Hypothyroidism,A+,Patient reported excessive thirst for 13 months.,Omeprazole,1.9,93.5,2019-12-19,2026-02-27
+175,175,Ibuprofen,,A+,Patient reported weight gain for 18 months.,Lisinopril,1.63,88.0,2019-12-14,2021-10-09
+176,176,Penicillin,Liver Cirrhosis,O+,Patient reported excessive thirst for 26 months.,Atorvastatin,1.87,78.3,2019-01-28,2025-11-12
+177,177,Latex,Rheumatoid Arthritis,O+,Patient reported palpitations for 22 months.,Metformin,1.93,72.1,2021-03-27,2021-03-27
+178,178,Morphine,Asthma,B+,Patient reported difficulty breathing for 3 months.,Metformin,1.82,91.1,2019-05-17,2024-09-21
+179,179,Aspirin,Chronic Kidney Disease,B+,Patient reported weight loss for 16 months.,Amlodipine,1.84,85.4,2023-04-07,2023-09-26
+180,180,Codeine,Asthma,A+,Patient reported skin itching for 6 months.,Lisinopril,1.93,61.7,2019-11-25,2023-03-29
+181,181,Penicillin,Chronic Kidney Disease,A+,Patient reported shortness of breath for 34 months.,Atorvastatin,1.71,94.4,2019-04-06,2023-12-20
+182,182,Shellfish,Rheumatoid Arthritis,B+,Patient reported abdominal pain for 27 months.,Metformin,1.71,77.7,2020-07-29,2025-01-23
+183,183,Latex,Rheumatoid Arthritis,A+,Patient reported anxiety for 23 months.,Metformin,1.51,69.4,2020-07-30,2023-01-10
+184,184,,Asthma,O+,Patient reported frequent urination for 6 months.,Salbutamol,1.87,94.4,2020-02-14,2023-03-01
+185,185,Amoxicillin,Heart Failure,O+,Patient reported rash for 27 months.,Lisinopril,1.51,115.3,2019-08-16,2021-12-05
+186,186,Erythromycin,Glaucoma,A+,Patient reported frequent urination for 20 months.,Atorvastatin,1.92,98.7,2022-12-30,2023-07-08
+187,187,Dust mites,COPD,B+,Patient reported abdominal pain for 13 months.,Salbutamol,1.58,80.2,2020-07-19,2023-10-10
+188,188,Dust mites,Epilepsy,A+,Patient reported excessive thirst for 3 months.,Aspirin,1.89,60.6,2021-01-11,2023-09-14
+189,189,Erythromycin,Osteoporosis,A+,Patient reported fatigue for 18 months.,Aspirin,1.86,80.5,2020-08-21,2022-08-28
+190,190,Shellfish,Diabetes,B+,Patient reported night sweats for 2 months.,Lisinopril,1.88,82.1,2021-11-13,2024-12-14
+191,191,Morphine,Asthma,B+,Patient reported fatigue for 11 months.,Omeprazole,1.75,78.4,2020-09-05,2022-09-23
+192,192,Erythromycin,Liver Cirrhosis,O-,Patient reported dry mouth for 11 months.,,1.62,77.1,2020-07-01,2021-05-15
+193,193,Shellfish,Liver Cirrhosis,AB+,Patient reported insomnia for 17 months.,Salbutamol,1.76,119.8,2020-02-07,2025-09-20
+194,194,Codeine,COPD,B+,Patient reported confusion for 15 months.,Aspirin,1.88,55.3,2023-11-26,2024-09-21
+195,195,,Osteoporosis,A+,Patient reported skin itching for 12 months.,,1.73,100.0,2019-03-26,2022-05-19
+196,196,Erythromycin,Diabetes,O+,Patient reported chest pain for 22 months.,,1.73,70.3,2022-08-30,2022-09-23
+197,197,Shellfish,Hypothyroidism,O+,Patient reported cough for 6 months.,Aspirin,1.83,62.6,2023-02-28,2024-08-29
+198,198,Penicillin,,A+,Patient reported weight loss for 31 months.,Lisinopril,1.62,77.1,2023-06-23,2023-08-28
+199,199,Cephalosporins,Hypothyroidism,O+,Patient reported excessive thirst for 7 months.,Omeprazole,1.6,82.9,2023-09-30,2025-07-24
+200,200,,Glaucoma,A+,Patient reported skin itching for 4 months.,Aspirin,1.83,51.2,2020-07-18,2022-12-04
+201,201,,,A-,Patient reported excessive thirst for 17 months.,Aspirin,1.88,54.9,2022-08-27,2024-08-15
+202,202,Dust mites,Liver Cirrhosis,O+,Patient reported headache for 24 months.,Omeprazole,1.9,51.5,2020-04-23,2024-11-03
+203,203,Peanuts,,O-,Patient reported fatigue for 4 months.,Atorvastatin,1.7,114.3,2021-11-25,2026-01-31
+204,204,Codeine,Osteoporosis,O+,Patient reported chest pain for 34 months.,Omeprazole,1.65,97.3,2023-09-23,2024-01-13
+205,205,,Rheumatoid Arthritis,A+,Patient reported weight gain for 24 months.,Aspirin,1.84,77.1,2019-02-11,2022-05-14
+206,206,Shellfish,,O+,Patient reported weight gain for 29 months.,Omeprazole,1.91,89.4,2019-03-16,2021-10-04
+207,207,Amoxicillin,Cancer,O+,Patient reported hair loss for 29 months.,,1.51,75.3,2019-02-25,2023-08-06
+208,208,Sulfa drugs,Epilepsy,O+,Patient reported cough for 27 months.,Aspirin,1.9,80.7,2019-10-05,2021-10-23
+209,209,Erythromycin,Liver Cirrhosis,A+,Patient reported shortness of breath for 33 months.,Salbutamol,1.73,83.0,2019-06-16,2026-05-06
+210,210,Shellfish,Cancer,O-,Patient reported tingling sensation for 3 months.,Aspirin,1.71,60.4,2021-10-25,2026-01-28
+211,211,Pollen,Cancer,O+,Patient reported leg cramps for 33 months.,Salbutamol,1.94,46.8,2020-09-15,2022-08-08
+212,212,Shellfish,Liver Cirrhosis,A+,Patient reported shortness of breath for 20 months.,Atorvastatin,1.56,53.8,2022-07-29,2024-05-19
+213,213,,Hypertension,A+,Patient reported headache for 35 months.,Aspirin,1.81,78.2,2020-06-21,2025-03-17
+214,214,Pollen,Rheumatoid Arthritis,O+,Patient reported dizziness for 5 months.,Aspirin,1.84,88.3,2020-02-26,2022-04-01
+215,215,Penicillin,Hypothyroidism,O+,Patient reported leg cramps for 6 months.,Atorvastatin,1.72,87.1,2020-01-28,2022-01-23
+216,216,Pollen,Chronic Kidney Disease,O+,Patient reported swelling for 15 months.,Salbutamol,1.54,100.3,2020-10-23,2026-03-23
+217,217,Penicillin,Epilepsy,B+,Patient reported muscle weakness for 17 months.,Atorvastatin,1.68,66.9,2021-05-16,2025-12-25
+218,218,Penicillin,Cancer,O+,Patient reported weight gain for 6 months.,,1.93,67.7,2023-01-10,2026-05-05
+219,219,Penicillin,Diabetes,O-,Patient reported excessive thirst for 29 months.,Metformin,1.95,89.9,2020-08-01,2024-08-09
+220,220,Ibuprofen,Osteoporosis,O+,Patient reported night sweats for 13 months.,Metformin,1.67,119.7,2020-11-27,2025-07-02
+221,221,,Asthma,O+,Patient reported leg cramps for 18 months.,,1.87,97.3,2020-07-10,2023-02-15
+222,222,Ibuprofen,Hypothyroidism,O+,Patient reported abdominal pain for 27 months.,Salbutamol,1.73,114.6,2023-01-24,2026-01-31
+223,223,Dust mites,Heart Failure,O+,Patient reported blurred vision for 15 months.,Lisinopril,1.65,93.4,2021-02-10,2024-09-14
+224,224,Aspirin,Diabetes,O+,Patient reported palpitations for 10 months.,Lisinopril,1.65,60.0,2021-02-16,2024-10-10
+225,225,,Liver Cirrhosis,A+,Patient reported hair loss for 4 months.,Atorvastatin,1.69,67.4,2019-04-05,2020-07-16
+226,226,,,O+,Patient reported shortness of breath for 33 months.,Metformin,1.73,112.4,2019-04-09,2021-07-20
+227,227,Ibuprofen,Hypothyroidism,O+,Patient reported back pain for 34 months.,Atorvastatin,1.77,76.1,2019-11-23,2024-05-27
+228,228,Codeine,Heart Failure,O+,Patient reported difficulty breathing for 20 months.,Amlodipine,1.84,47.3,2023-11-18,2026-01-14
+229,229,Penicillin,Hypothyroidism,A+,Patient reported leg cramps for 22 months.,Atorvastatin,1.79,80.0,2019-10-29,2025-08-12
+230,230,Erythromycin,Diabetes,A+,Patient reported chest pain for 28 months.,Lisinopril,1.82,111.3,2019-06-04,2024-02-14
+231,231,Dust mites,,O+,Patient reported hair loss for 26 months.,Aspirin,1.56,86.8,2019-08-14,2021-07-16
+232,232,,Asthma,O+,Patient reported weight gain for 8 months.,Salbutamol,1.53,101.8,2023-09-18,2023-10-05
+233,233,Codeine,,O+,Patient reported palpitations for 18 months.,Omeprazole,1.6,105.2,2021-05-12,2022-06-14
+234,234,Dust mites,Heart Failure,A+,Patient reported palpitations for 22 months.,Salbutamol,1.9,51.1,2022-08-26,2023-09-06
+235,235,Penicillin,Chronic Kidney Disease,A+,Patient reported back pain for 20 months.,Atorvastatin,1.8,73.0,2023-03-09,2024-11-02
+236,236,Pollen,Osteoporosis,O+,Patient reported nausea for 10 months.,,1.71,63.6,2019-02-08,2025-09-02
+237,237,Codeine,Epilepsy,A+,Patient reported loss of appetite for 4 months.,,1.77,93.7,2020-06-29,2025-07-21
+238,238,,Hypertension,AB+,Patient reported weight gain for 25 months.,Amlodipine,1.56,102.4,2019-09-28,2023-01-12
+239,239,Cephalosporins,Hypertension,O+,Patient reported weight loss for 28 months.,Omeprazole,1.73,50.9,2020-12-21,2022-12-17
+240,240,,,A+,Patient reported confusion for 18 months.,Metformin,1.94,110.5,2021-06-19,2025-11-22
+241,241,Erythromycin,,O+,Patient reported back pain for 8 months.,Amlodipine,1.89,87.7,2023-12-02,2025-05-07
+242,242,,Cancer,O+,Patient reported blurred vision for 26 months.,Aspirin,1.57,59.8,2021-11-26,2023-12-22
+243,243,Latex,Cancer,B-,Patient reported insomnia for 26 months.,Salbutamol,1.77,91.9,2021-05-26,2021-08-12
+244,244,,Rheumatoid Arthritis,B+,Patient reported joint pain for 24 months.,Omeprazole,1.76,81.3,2020-08-04,2021-06-01
+245,245,Codeine,Asthma,O+,Patient reported palpitations for 12 months.,Aspirin,1.58,117.1,2023-03-13,2023-06-24
+246,246,Latex,Hypertension,O+,Patient reported loss of appetite for 5 months.,Salbutamol,1.93,87.7,2021-02-25,2023-06-28
+247,247,Pollen,Asthma,A+,Patient reported insomnia for 10 months.,,1.6,101.4,2020-01-23,2023-12-05
+248,248,,,AB+,Patient reported leg cramps for 30 months.,Salbutamol,1.7,59.0,2021-03-29,2024-05-10
+249,249,Pollen,Hypertension,A+,Patient reported weight gain for 17 months.,Atorvastatin,1.52,116.1,2020-09-08,2022-01-18
+250,250,Erythromycin,,A+,Patient reported vomiting for 21 months.,,1.77,101.0,2022-05-30,2023-10-17
+251,251,Ibuprofen,Asthma,B+,Patient reported chest pain for 2 months.,Metformin,1.9,66.7,2019-09-16,2024-03-21
+252,252,Aspirin,Heart Failure,O+,Patient reported loss of appetite for 10 months.,Lisinopril,1.93,67.9,2022-09-10,2025-04-22
+253,253,Amoxicillin,,B+,Patient reported headache for 14 months.,Omeprazole,1.55,60.3,2019-03-11,2022-05-18
+254,254,,COPD,O-,Patient reported hair loss for 9 months.,Metformin,1.77,85.5,2019-11-08,2025-12-12
+255,255,Shellfish,,O+,Patient reported muscle weakness for 11 months.,Atorvastatin,1.63,45.9,2022-10-06,2024-11-29
+256,256,Latex,Hypertension,O+,Patient reported weight loss for 22 months.,,1.51,114.9,2021-11-28,2022-12-07
+257,257,Pollen,Rheumatoid Arthritis,O+,Patient reported palpitations for 36 months.,Aspirin,1.56,115.3,2022-05-31,2022-12-26
+258,258,,,A+,Patient reported confusion for 26 months.,Atorvastatin,1.9,51.4,2023-07-31,2023-09-03
+259,259,Peanuts,Cancer,O+,Patient reported night sweats for 27 months.,Aspirin,1.55,84.5,2022-07-10,2022-07-15
+260,260,Shellfish,Hypothyroidism,A+,Patient reported chest pain for 20 months.,,1.86,68.1,2019-11-10,2023-02-11
+261,261,Erythromycin,Diabetes,O+,Patient reported numbness for 15 months.,Lisinopril,1.8,81.2,2022-12-26,2023-11-25
+262,262,Shellfish,,O+,Patient reported chest pain for 4 months.,Salbutamol,1.72,59.7,2021-04-08,2021-10-23
+263,263,Codeine,Diabetes,O+,Patient reported dizziness for 15 months.,Aspirin,1.54,88.2,2021-10-13,2023-09-29
+264,264,Codeine,Hypertension,O+,Patient reported headache for 13 months.,Salbutamol,1.59,79.5,2019-10-28,2023-07-25
+265,265,Morphine,Glaucoma,A+,Patient reported difficulty breathing for 20 months.,Omeprazole,1.88,66.5,2023-02-07,2024-02-18
+266,266,Penicillin,Liver Cirrhosis,AB+,Patient reported frequent urination for 2 months.,Salbutamol,1.84,85.1,2020-07-08,2026-01-18
+267,267,Latex,Liver Cirrhosis,O+,Patient reported headache for 1 months.,Salbutamol,1.69,50.7,2020-04-06,2023-10-19
+268,268,Ibuprofen,Liver Cirrhosis,A+,Patient reported fatigue for 36 months.,Amlodipine,1.54,97.1,2021-08-23,2025-03-04
+269,269,Codeine,,O+,Patient reported memory loss for 6 months.,Omeprazole,1.66,59.4,2022-01-07,2025-05-05
+270,270,Erythromycin,Hypertension,AB+,Patient reported memory loss for 33 months.,Metformin,1.65,85.8,2022-05-24,2022-10-21
+271,271,Ibuprofen,Chronic Kidney Disease,O+,Patient reported numbness for 29 months.,Omeprazole,1.62,105.1,2023-02-17,2023-08-31
+272,272,Dust mites,Heart Failure,A+,Patient reported abdominal pain for 26 months.,Metformin,1.79,106.6,2021-01-19,2022-06-12
+273,273,Penicillin,Hypertension,O+,Patient reported weight gain for 1 months.,Omeprazole,1.64,68.4,2020-08-06,2020-09-21
+274,274,,Glaucoma,A-,Patient reported back pain for 12 months.,Lisinopril,1.86,46.8,2019-02-07,2021-11-21
+275,275,Morphine,Osteoporosis,O+,Patient reported fever for 3 months.,,1.73,113.7,2021-02-22,2023-05-09
+276,276,,Epilepsy,A+,Patient reported blurred vision for 2 months.,Salbutamol,1.74,45.9,2021-03-28,2025-01-27
+277,277,Dust mites,COPD,O+,Patient reported nausea for 25 months.,Omeprazole,1.81,98.2,2019-11-19,2023-09-03
+278,278,Morphine,,A-,Patient reported tingling sensation for 27 months.,Atorvastatin,1.59,114.9,2020-02-22,2022-10-18
+279,279,,Glaucoma,B+,Patient reported leg cramps for 33 months.,Metformin,1.84,108.0,2020-06-23,2020-09-15
+280,280,,Hypertension,O+,Patient reported hair loss for 3 months.,Atorvastatin,1.52,96.0,2021-11-01,2025-11-14
+281,281,Sulfa drugs,Osteoporosis,B+,Patient reported difficulty breathing for 15 months.,Lisinopril,1.54,96.1,2022-12-03,2023-06-10
+282,282,Latex,Liver Cirrhosis,B+,Patient reported vomiting for 7 months.,Amlodipine,1.74,86.5,2021-03-09,2023-04-23
+283,283,,Hypertension,O+,Patient reported loss of appetite for 16 months.,Atorvastatin,1.8,53.4,2020-12-03,2021-11-01
+284,284,Dust mites,Hypertension,O+,Patient reported fever for 10 months.,Metformin,1.64,90.0,2020-08-27,2025-10-02
+285,285,,Heart Failure,O+,Patient reported hair loss for 18 months.,Amlodipine,1.82,67.2,2019-01-15,2024-05-17
+286,286,Aspirin,,A+,Patient reported joint pain for 13 months.,Lisinopril,1.7,49.8,2021-12-25,2025-10-15
+287,287,Dust mites,Chronic Kidney Disease,A+,Patient reported tingling sensation for 16 months.,Omeprazole,1.69,104.5,2019-05-31,2026-05-03
+288,288,Dust mites,Rheumatoid Arthritis,B+,Patient reported cough for 16 months.,Amlodipine,1.82,88.2,2019-09-28,2024-04-22
+289,289,Penicillin,COPD,A+,Patient reported joint pain for 25 months.,Lisinopril,1.83,67.6,2020-04-20,2020-06-14
+290,290,Latex,COPD,A-,Patient reported night sweats for 1 months.,,1.91,83.8,2021-09-22,2026-04-13
+291,291,Aspirin,COPD,A+,Patient reported loss of appetite for 16 months.,Metformin,1.68,62.9,2023-07-23,2023-09-14
+292,292,Penicillin,COPD,O+,Patient reported anxiety for 6 months.,Aspirin,1.62,45.6,2019-04-01,2020-09-11
+293,293,,Osteoporosis,B+,Patient reported swelling for 3 months.,Lisinopril,1.94,49.4,2019-09-05,2019-10-19
+294,294,Amoxicillin,Heart Failure,O+,Patient reported confusion for 9 months.,Metformin,1.77,70.4,2019-03-01,2020-10-07
+295,295,Morphine,Liver Cirrhosis,B+,Patient reported confusion for 30 months.,Amlodipine,1.6,53.4,2021-07-31,2025-10-28
+296,296,Codeine,Rheumatoid Arthritis,O+,Patient reported frequent urination for 3 months.,Atorvastatin,1.89,79.8,2019-03-27,2019-10-15
+297,297,,,A+,Patient reported palpitations for 18 months.,Atorvastatin,1.52,66.4,2020-08-27,2024-04-05
+298,298,,Osteoporosis,O+,Patient reported tingling sensation for 15 months.,Lisinopril,1.56,46.2,2020-07-30,2023-10-11
+299,299,,Diabetes,B+,Patient reported insomnia for 23 months.,Amlodipine,1.74,66.3,2023-01-11,2026-02-06
+300,300,Cephalosporins,Liver Cirrhosis,A+,Patient reported loss of appetite for 11 months.,Atorvastatin,1.77,96.4,2020-11-07,2023-01-31
+301,301,Latex,Diabetes,A-,Patient reported dry mouth for 4 months.,Amlodipine,1.81,73.5,2021-10-07,2025-03-22
+302,302,Amoxicillin,Liver Cirrhosis,O+,Patient reported excessive thirst for 9 months.,Omeprazole,1.74,47.3,2021-04-16,2021-11-12
+303,303,Penicillin,Glaucoma,O+,Patient reported back pain for 27 months.,Aspirin,1.51,59.8,2021-07-08,2025-02-08
+304,304,Ibuprofen,COPD,O+,Patient reported shortness of breath for 5 months.,Amlodipine,1.93,96.1,2021-10-29,2023-11-15
+305,305,Ibuprofen,Hypothyroidism,B+,Patient reported frequent urination for 32 months.,Lisinopril,1.64,49.0,2020-04-16,2021-04-20
+306,306,,Hypothyroidism,B+,Patient reported confusion for 9 months.,Atorvastatin,1.62,50.6,2022-03-17,2022-07-21
+307,307,Amoxicillin,Osteoporosis,O+,Patient reported night sweats for 17 months.,Metformin,1.82,117.6,2020-10-30,2022-07-21
+308,308,Peanuts,Cancer,A+,Patient reported skin itching for 4 months.,Amlodipine,1.83,54.2,2019-07-18,2023-02-17
+309,309,Ibuprofen,Liver Cirrhosis,O+,Patient reported loss of appetite for 28 months.,Omeprazole,1.88,75.3,2022-08-09,2025-07-18
+310,310,Morphine,Rheumatoid Arthritis,A+,Patient reported abdominal pain for 36 months.,,1.59,69.2,2020-11-07,2023-01-11
+311,311,,Glaucoma,AB+,Patient reported skin itching for 26 months.,Metformin,1.67,80.2,2022-07-08,2026-04-11
+312,312,Codeine,Cancer,A+,Patient reported hair loss for 6 months.,Omeprazole,1.61,45.4,2023-03-08,2025-11-11
+313,313,Sulfa drugs,Osteoporosis,O-,Patient reported shortness of breath for 24 months.,Aspirin,1.72,61.3,2020-01-16,2021-11-17
+314,314,Latex,Chronic Kidney Disease,O+,Patient reported hair loss for 14 months.,Atorvastatin,1.59,119.9,2022-12-17,2026-05-06
+315,315,Dust mites,Glaucoma,A+,Patient reported cough for 36 months.,Atorvastatin,1.64,102.2,2020-06-14,2020-11-24
+316,316,Dust mites,,A+,Patient reported insomnia for 12 months.,Omeprazole,1.57,80.5,2023-07-05,2026-02-01
+317,317,Amoxicillin,Osteoporosis,B+,Patient reported weight loss for 35 months.,Amlodipine,1.79,48.5,2022-12-23,2023-11-14
+318,318,Amoxicillin,Heart Failure,B+,Patient reported vomiting for 17 months.,Metformin,1.53,91.3,2020-01-09,2020-04-06
+319,319,Amoxicillin,Liver Cirrhosis,O+,Patient reported anxiety for 18 months.,Omeprazole,1.56,117.1,2023-06-24,2024-06-16
+320,320,,Heart Failure,O+,Patient reported anxiety for 10 months.,Metformin,1.86,81.2,2019-05-25,2026-03-05
+321,321,Shellfish,,O+,Patient reported blurred vision for 22 months.,Atorvastatin,1.9,49.3,2019-06-22,2023-02-25
+322,322,,COPD,O-,Patient reported headache for 13 months.,,1.56,45.3,2021-06-12,2024-08-19
+323,323,Dust mites,Liver Cirrhosis,B-,Patient reported swelling for 10 months.,Atorvastatin,1.85,77.4,2020-08-05,2023-05-09
+324,324,Latex,,A+,Patient reported night sweats for 30 months.,Salbutamol,1.6,115.4,2019-09-20,2025-03-30
+325,325,Pollen,,O+,Patient reported fatigue for 26 months.,Aspirin,1.92,99.8,2023-01-26,2025-11-27
+326,326,Penicillin,,A+,Patient reported chest pain for 14 months.,Amlodipine,1.52,73.4,2023-07-02,2025-12-25
+327,327,Aspirin,COPD,O+,Patient reported fever for 33 months.,Omeprazole,1.56,66.6,2022-06-12,2024-03-14
+328,328,Aspirin,Heart Failure,AB+,Patient reported muscle weakness for 4 months.,Atorvastatin,1.9,65.3,2021-08-26,2026-02-01
+329,329,Pollen,Hypothyroidism,O+,Patient reported leg cramps for 11 months.,Aspirin,1.7,55.3,2023-05-20,2025-06-09
+330,330,Penicillin,,O+,Patient reported fever for 1 months.,Metformin,1.61,75.4,2021-05-30,2026-01-24
+331,331,,Heart Failure,O+,Patient reported loss of appetite for 17 months.,Aspirin,1.83,66.2,2020-12-31,2024-07-22
+332,332,,Glaucoma,O+,Patient reported dry mouth for 14 months.,Lisinopril,1.74,61.3,2020-10-07,2024-02-07
+333,333,,Chronic Kidney Disease,O+,Patient reported blurred vision for 5 months.,Omeprazole,1.77,98.0,2022-03-22,2025-04-04
+334,334,Pollen,Hypertension,O+,Patient reported numbness for 21 months.,Metformin,1.89,89.8,2022-04-21,2025-10-12
+335,335,Morphine,Asthma,B+,Patient reported frequent urination for 19 months.,,1.56,100.9,2023-08-14,2024-10-13
+336,336,Erythromycin,,O+,Patient reported joint pain for 7 months.,Atorvastatin,1.82,88.9,2021-02-19,2021-09-14
+337,337,,Liver Cirrhosis,B+,Patient reported vomiting for 22 months.,Omeprazole,1.75,70.5,2022-08-26,2023-01-25
+338,338,Erythromycin,Hypertension,O+,Patient reported cough for 29 months.,Aspirin,1.83,119.1,2019-01-09,2019-11-04
+339,339,Codeine,Asthma,O+,Patient reported muscle weakness for 32 months.,Omeprazole,1.58,111.7,2020-01-31,2026-01-14
+340,340,Codeine,COPD,A-,Patient reported skin itching for 33 months.,Salbutamol,1.53,83.5,2021-03-25,2025-03-28
+341,341,,Epilepsy,O+,Patient reported swelling for 29 months.,Salbutamol,1.53,94.3,2019-10-17,2021-03-27
+342,342,Cephalosporins,Diabetes,O+,Patient reported dizziness for 25 months.,Lisinopril,1.94,60.0,2021-03-05,2024-02-07
+343,343,Erythromycin,Osteoporosis,O+,Patient reported loss of appetite for 20 months.,Salbutamol,1.84,88.1,2022-08-08,2024-09-03
+344,344,,,O+,Patient reported shortness of breath for 21 months.,Aspirin,1.81,91.8,2020-07-09,2024-11-28
+345,345,Dust mites,Cancer,A+,Patient reported weight gain for 1 months.,Salbutamol,1.57,74.6,2023-12-15,2025-11-08
+346,346,Sulfa drugs,Hypertension,O+,Patient reported dizziness for 10 months.,Aspirin,1.54,75.1,2023-09-16,2025-03-25
+347,347,Penicillin,Diabetes,O-,Patient reported memory loss for 21 months.,Salbutamol,1.81,75.5,2021-05-07,2023-02-26
+348,348,Erythromycin,COPD,O+,Patient reported anxiety for 26 months.,Amlodipine,1.65,101.9,2021-10-19,2025-07-12
+349,349,,COPD,AB+,Patient reported palpitations for 31 months.,Aspirin,1.62,45.5,2019-07-24,2021-06-28
+350,350,Dust mites,Epilepsy,O+,Patient reported anxiety for 27 months.,Atorvastatin,1.63,49.3,2021-07-03,2023-05-25
+351,351,Ibuprofen,Rheumatoid Arthritis,A+,Patient reported palpitations for 21 months.,Lisinopril,1.57,111.9,2021-02-22,2023-02-14
+352,352,Cephalosporins,Glaucoma,O+,Patient reported hair loss for 19 months.,Metformin,1.56,108.6,2019-05-21,2025-02-16
+353,353,Morphine,Cancer,O+,Patient reported frequent urination for 2 months.,,1.88,106.5,2021-12-19,2024-03-30
+354,354,Aspirin,Chronic Kidney Disease,O+,Patient reported shortness of breath for 16 months.,Aspirin,1.59,111.1,2019-05-11,2024-06-06
+355,355,Cephalosporins,Liver Cirrhosis,O+,Patient reported swelling for 33 months.,Aspirin,1.53,48.4,2020-07-02,2022-03-24
+356,356,Shellfish,Chronic Kidney Disease,O+,Patient reported weight loss for 2 months.,Omeprazole,1.84,60.9,2019-04-10,2025-05-02
+357,357,Penicillin,Osteoporosis,O+,Patient reported headache for 31 months.,Salbutamol,1.89,113.9,2023-04-27,2025-09-30
+358,358,,Asthma,B+,Patient reported tingling sensation for 10 months.,Omeprazole,1.55,72.2,2023-09-18,2024-06-23
+359,359,Erythromycin,Epilepsy,O+,Patient reported numbness for 3 months.,Salbutamol,1.59,101.5,2019-01-27,2022-06-03
+360,360,Dust mites,Liver Cirrhosis,B+,Patient reported muscle weakness for 33 months.,Metformin,1.76,82.4,2022-11-16,2025-08-19
+361,361,Amoxicillin,Osteoporosis,A+,Patient reported tingling sensation for 36 months.,Metformin,1.56,118.7,2020-05-29,2020-08-14
+362,362,Penicillin,Asthma,A+,Patient reported blurred vision for 10 months.,Metformin,1.86,117.7,2023-01-08,2024-06-04
+363,363,Peanuts,,O-,Patient reported joint pain for 22 months.,Omeprazole,1.77,110.3,2021-12-22,2025-05-04
+364,364,,Cancer,A+,Patient reported back pain for 3 months.,,1.54,100.8,2023-09-26,2024-08-10
+365,365,,Hypothyroidism,O-,Patient reported skin itching for 24 months.,Amlodipine,1.93,53.5,2020-08-08,2025-07-02
+366,366,Cephalosporins,Diabetes,AB-,Patient reported blurred vision for 34 months.,Atorvastatin,1.59,82.6,2021-11-17,2024-04-06
+367,367,Latex,,A-,Patient reported anxiety for 26 months.,Omeprazole,1.55,76.5,2022-05-26,2024-03-11
+368,368,Amoxicillin,Heart Failure,A+,Patient reported fever for 28 months.,Metformin,1.83,72.0,2023-04-19,2024-07-12
+369,369,,Rheumatoid Arthritis,A+,Patient reported fever for 30 months.,Aspirin,1.88,66.9,2023-01-07,2024-08-02
+370,370,,Cancer,O+,Patient reported rash for 1 months.,Aspirin,1.68,108.3,2019-07-22,2024-07-11
+371,371,Morphine,Heart Failure,O+,Patient reported confusion for 6 months.,Lisinopril,1.71,82.5,2022-08-08,2023-02-01
+372,372,Cephalosporins,Liver Cirrhosis,A-,Patient reported confusion for 22 months.,Omeprazole,1.69,86.2,2019-10-28,2024-02-06
+373,373,Penicillin,,O+,Patient reported weight gain for 9 months.,Salbutamol,1.83,61.5,2021-05-10,2022-03-18
+374,374,,Diabetes,O+,Patient reported leg cramps for 2 months.,Atorvastatin,1.9,62.1,2021-07-11,2025-01-10
+375,375,Aspirin,Hypertension,O+,Patient reported numbness for 18 months.,Salbutamol,1.53,111.6,2022-12-21,2025-05-16
+376,376,Erythromycin,Liver Cirrhosis,O+,Patient reported numbness for 17 months.,Lisinopril,1.78,78.4,2021-08-12,2024-02-12
+377,377,,COPD,B+,Patient reported anxiety for 5 months.,Metformin,1.88,101.2,2020-10-04,2021-11-22
+378,378,,Epilepsy,A+,Patient reported headache for 21 months.,Salbutamol,1.77,86.8,2019-05-16,2023-04-29
+379,379,Cephalosporins,COPD,O+,Patient reported insomnia for 11 months.,Aspirin,1.87,60.8,2021-11-10,2025-04-09
+380,380,Erythromycin,Epilepsy,O-,Patient reported excessive thirst for 14 months.,Metformin,1.89,117.0,2021-11-14,2024-05-09
+381,381,,Rheumatoid Arthritis,O+,Patient reported weight gain for 26 months.,Lisinopril,1.58,115.2,2019-06-12,2021-02-19
+382,382,Penicillin,Heart Failure,A+,Patient reported nausea for 36 months.,Lisinopril,1.57,87.5,2023-10-07,2024-09-12
+383,383,,Epilepsy,O+,Patient reported vomiting for 33 months.,Atorvastatin,1.87,47.0,2022-08-11,2024-10-11
+384,384,,Hypertension,O+,Patient reported fatigue for 8 months.,Metformin,1.7,54.9,2021-04-02,2023-06-05
+385,385,,Liver Cirrhosis,A+,Patient reported back pain for 25 months.,,1.6,112.9,2019-10-28,2026-01-16
+386,386,,Heart Failure,O-,Patient reported muscle weakness for 30 months.,Metformin,1.61,68.7,2023-10-06,2024-12-26
+387,387,Pollen,Hypothyroidism,A+,Patient reported leg cramps for 27 months.,,1.95,59.3,2020-11-02,2023-06-02
+388,388,Peanuts,Chronic Kidney Disease,A-,Patient reported dry mouth for 29 months.,,1.83,102.4,2021-07-02,2021-07-29
+389,389,Morphine,Diabetes,AB+,Patient reported tingling sensation for 3 months.,Amlodipine,1.7,112.9,2020-10-23,2022-08-28
+390,390,Peanuts,Asthma,A+,Patient reported anxiety for 31 months.,,1.73,98.3,2022-08-11,2023-02-18
+391,391,Erythromycin,Glaucoma,AB+,Patient reported confusion for 33 months.,,1.55,50.7,2019-04-02,2022-09-27
+392,392,Ibuprofen,Glaucoma,B+,Patient reported dizziness for 7 months.,Atorvastatin,1.92,118.3,2023-12-24,2025-05-01
+393,393,Shellfish,,O+,Patient reported loss of appetite for 35 months.,Salbutamol,1.55,92.1,2019-04-11,2021-07-01
+394,394,Dust mites,,O+,Patient reported headache for 3 months.,Salbutamol,1.9,78.8,2023-05-10,2026-05-07
+395,395,,Epilepsy,A+,Patient reported weight loss for 20 months.,Omeprazole,1.66,83.4,2019-04-20,2020-11-22
+396,396,Erythromycin,Rheumatoid Arthritis,A+,Patient reported difficulty breathing for 2 months.,,1.87,76.7,2021-08-26,2024-11-14
+397,397,Pollen,Glaucoma,AB+,Patient reported headache for 28 months.,,1.92,91.0,2023-07-26,2023-08-17
+398,398,,Cancer,O+,Patient reported leg cramps for 14 months.,Lisinopril,1.66,115.9,2023-04-03,2026-01-18
+399,399,Peanuts,Hypothyroidism,A+,Patient reported back pain for 29 months.,,1.55,74.5,2022-12-17,2023-11-10
+400,400,,Liver Cirrhosis,O+,Patient reported fatigue for 9 months.,Lisinopril,1.65,72.6,2023-03-02,2024-05-01
+401,401,Cephalosporins,Heart Failure,A+,Patient reported weight loss for 12 months.,Omeprazole,1.54,109.1,2019-12-02,2022-06-17
+402,402,Peanuts,Diabetes,B+,Patient reported palpitations for 35 months.,,1.76,104.8,2022-01-31,2024-01-11
+403,403,Penicillin,Hypothyroidism,A+,Patient reported difficulty breathing for 25 months.,Salbutamol,1.82,74.2,2020-02-29,2023-07-11
+404,404,Sulfa drugs,COPD,A+,Patient reported difficulty breathing for 6 months.,Salbutamol,1.62,114.9,2023-03-02,2025-03-01
+405,405,Sulfa drugs,Rheumatoid Arthritis,O+,Patient reported chest pain for 22 months.,Metformin,1.93,112.3,2019-05-11,2024-04-24
+406,406,Ibuprofen,Epilepsy,O-,Patient reported loss of appetite for 36 months.,Lisinopril,1.79,115.7,2022-09-22,2023-04-02
+407,407,Sulfa drugs,Cancer,B+,Patient reported blurred vision for 31 months.,Aspirin,1.81,49.4,2023-06-02,2025-02-05
+408,408,Erythromycin,,O+,Patient reported dry mouth for 29 months.,Omeprazole,1.51,119.7,2022-02-25,2023-04-17
+409,409,Latex,Epilepsy,O+,Patient reported weight gain for 13 months.,Metformin,1.87,76.9,2021-04-09,2022-11-21
+410,410,Peanuts,,AB+,Patient reported insomnia for 12 months.,Lisinopril,1.75,59.1,2023-03-15,2023-05-14
+411,411,Dust mites,Hypothyroidism,A+,Patient reported insomnia for 27 months.,Aspirin,1.7,50.8,2021-07-30,2022-04-08
+412,412,Latex,COPD,O-,Patient reported weight gain for 18 months.,Atorvastatin,1.87,114.1,2023-03-10,2025-05-25
+413,413,Latex,Liver Cirrhosis,O+,Patient reported joint pain for 9 months.,,1.62,89.1,2023-10-05,2026-02-09
+414,414,Aspirin,Diabetes,A+,Patient reported frequent urination for 36 months.,,1.9,81.6,2020-03-03,2025-01-28
+415,415,Penicillin,Diabetes,O+,Patient reported headache for 21 months.,Atorvastatin,1.79,65.7,2021-08-29,2024-03-12
+416,416,Dust mites,Diabetes,A+,Patient reported shortness of breath for 11 months.,,1.61,109.4,2020-07-15,2023-10-31
+417,417,Ibuprofen,Hypothyroidism,A-,Patient reported confusion for 28 months.,Omeprazole,1.56,105.7,2020-09-14,2025-02-19
+418,418,Aspirin,Diabetes,O+,Patient reported weight gain for 32 months.,Atorvastatin,1.67,50.0,2022-01-30,2024-03-25
+419,419,Peanuts,Chronic Kidney Disease,AB+,Patient reported tingling sensation for 23 months.,Atorvastatin,1.79,81.4,2022-08-09,2024-09-28
+420,420,,Rheumatoid Arthritis,O+,Patient reported palpitations for 6 months.,Omeprazole,1.77,47.0,2023-10-09,2026-03-28
+421,421,,COPD,B+,Patient reported tingling sensation for 22 months.,Lisinopril,1.83,118.4,2019-01-06,2021-01-07
+422,422,Erythromycin,Liver Cirrhosis,A+,Patient reported loss of appetite for 31 months.,Atorvastatin,1.58,113.3,2020-08-13,2023-06-26
+423,423,Amoxicillin,Osteoporosis,O+,Patient reported hair loss for 16 months.,,1.53,114.4,2019-01-02,2022-05-17
+424,424,Erythromycin,Rheumatoid Arthritis,O+,Patient reported confusion for 31 months.,Omeprazole,1.76,59.8,2023-02-06,2023-07-27
+425,425,Peanuts,Diabetes,A+,Patient reported skin itching for 34 months.,Salbutamol,1.77,68.8,2019-08-23,2022-07-25
+426,426,Ibuprofen,Asthma,B-,Patient reported chest pain for 19 months.,Metformin,1.76,66.4,2023-11-27,2025-10-31
+427,427,,Hypothyroidism,B+,Patient reported frequent urination for 7 months.,,1.52,84.6,2022-08-25,2025-02-01
+428,428,Peanuts,Epilepsy,O-,Patient reported vomiting for 35 months.,Salbutamol,1.93,51.4,2019-04-16,2019-12-16
+429,429,Morphine,Osteoporosis,A+,Patient reported nausea for 5 months.,Omeprazole,1.6,81.1,2019-06-22,2023-02-10
+430,430,Pollen,Asthma,O+,Patient reported chest pain for 32 months.,Lisinopril,1.75,52.3,2022-07-16,2023-02-13
+431,431,Dust mites,Heart Failure,A+,Patient reported frequent urination for 20 months.,Atorvastatin,1.65,79.1,2021-12-10,2023-09-26
+432,432,Aspirin,Rheumatoid Arthritis,A+,Patient reported chest pain for 10 months.,Aspirin,1.87,94.2,2022-08-08,2025-09-03
+433,433,Amoxicillin,,B+,Patient reported confusion for 17 months.,Atorvastatin,1.82,59.7,2023-07-15,2023-12-09
+434,434,Dust mites,Hypertension,O+,Patient reported rash for 4 months.,Atorvastatin,1.93,77.4,2019-04-19,2021-05-14
+435,435,Shellfish,Heart Failure,B+,Patient reported shortness of breath for 21 months.,Atorvastatin,1.58,100.6,2022-11-16,2024-10-02
+436,436,Sulfa drugs,Glaucoma,A+,Patient reported shortness of breath for 26 months.,Aspirin,1.72,52.7,2023-06-03,2024-04-12
+437,437,Ibuprofen,Glaucoma,A+,Patient reported back pain for 2 months.,Lisinopril,1.94,75.1,2020-10-16,2024-12-06
+438,438,Amoxicillin,Cancer,O+,Patient reported anxiety for 10 months.,Atorvastatin,1.56,55.2,2023-10-05,2025-10-31
+439,439,Aspirin,Hypertension,O+,Patient reported joint pain for 12 months.,Atorvastatin,1.52,73.3,2020-10-16,2022-02-03
+440,440,Penicillin,Diabetes,O+,Patient reported fatigue for 5 months.,Lisinopril,1.84,64.2,2022-09-20,2026-02-28
+441,441,Cephalosporins,Cancer,A+,Patient reported rash for 15 months.,Atorvastatin,1.66,83.8,2020-04-02,2021-05-20
+442,442,Sulfa drugs,Liver Cirrhosis,O-,Patient reported weight gain for 17 months.,Amlodipine,1.87,75.9,2020-03-15,2021-12-23
+443,443,Cephalosporins,COPD,O+,Patient reported muscle weakness for 12 months.,Aspirin,1.63,105.3,2019-09-16,2022-02-19
+444,444,,Rheumatoid Arthritis,O-,Patient reported cough for 17 months.,Aspirin,1.69,65.1,2023-06-13,2023-06-23
+445,445,Aspirin,Chronic Kidney Disease,AB+,Patient reported weight gain for 28 months.,Salbutamol,1.79,80.5,2023-07-18,2025-07-17
+446,446,Amoxicillin,Glaucoma,O-,Patient reported confusion for 12 months.,Salbutamol,1.87,71.7,2022-09-17,2025-12-03
+447,447,Ibuprofen,COPD,A+,Patient reported insomnia for 26 months.,Amlodipine,1.87,87.2,2022-11-10,2023-11-08
+448,448,Ibuprofen,Glaucoma,A+,Patient reported insomnia for 11 months.,Amlodipine,1.85,110.4,2021-09-26,2026-01-07
+449,449,,Hypertension,A+,Patient reported excessive thirst for 20 months.,Lisinopril,1.62,103.7,2022-06-22,2024-10-22
+450,450,Peanuts,Cancer,A-,Patient reported confusion for 11 months.,Omeprazole,1.9,103.3,2020-05-25,2024-12-06
+451,451,Erythromycin,,O-,Patient reported frequent urination for 21 months.,,1.65,87.1,2023-04-16,2025-06-30
+452,452,Pollen,Asthma,A+,Patient reported weight gain for 10 months.,Omeprazole,1.59,113.3,2023-04-10,2025-03-04
+453,453,Dust mites,Hypothyroidism,O+,Patient reported muscle weakness for 7 months.,Amlodipine,1.71,56.7,2022-04-28,2023-03-02
+454,454,,,B+,Patient reported rash for 36 months.,,1.65,60.9,2022-08-13,2024-12-16
+455,455,Cephalosporins,Rheumatoid Arthritis,A+,Patient reported leg cramps for 28 months.,,1.8,47.0,2022-01-28,2023-12-01
+456,456,Sulfa drugs,Rheumatoid Arthritis,A-,Patient reported back pain for 19 months.,Salbutamol,1.77,62.7,2023-02-05,2026-02-11
+457,457,,Liver Cirrhosis,O+,Patient reported excessive thirst for 7 months.,Amlodipine,1.89,95.5,2022-09-08,2023-02-13
+458,458,,Diabetes,A+,Patient reported leg cramps for 13 months.,Salbutamol,1.54,63.4,2019-07-27,2023-12-25
+459,459,,Liver Cirrhosis,O-,Patient reported joint pain for 25 months.,Metformin,1.71,57.5,2020-03-02,2025-06-25
+460,460,Penicillin,Diabetes,O+,Patient reported hair loss for 36 months.,Metformin,1.75,55.5,2020-07-14,2025-04-14
+461,461,Erythromycin,Osteoporosis,AB-,Patient reported joint pain for 8 months.,Omeprazole,1.68,59.7,2020-03-01,2021-06-26
+462,462,Cephalosporins,Liver Cirrhosis,A+,Patient reported loss of appetite for 12 months.,Amlodipine,1.79,107.9,2023-05-03,2025-10-24
+463,463,Codeine,Rheumatoid Arthritis,B+,Patient reported difficulty breathing for 23 months.,Aspirin,1.59,106.2,2023-09-22,2025-09-10
+464,464,Sulfa drugs,Hypothyroidism,A+,Patient reported muscle weakness for 1 months.,,1.68,87.9,2019-10-12,2026-05-04
+465,465,,,O+,Patient reported abdominal pain for 12 months.,Aspirin,1.82,73.7,2022-09-23,2023-03-05
+466,466,Cephalosporins,Osteoporosis,A-,Patient reported excessive thirst for 29 months.,Metformin,1.69,111.7,2021-07-31,2022-01-28
+467,467,Amoxicillin,Cancer,B+,Patient reported abdominal pain for 3 months.,Lisinopril,1.93,53.1,2020-11-04,2022-01-29
+468,468,Peanuts,Liver Cirrhosis,O+,Patient reported abdominal pain for 26 months.,,1.76,65.4,2023-05-03,2023-06-28
+469,469,Aspirin,Liver Cirrhosis,O+,Patient reported rash for 15 months.,,1.62,65.4,2023-03-25,2023-09-07
+470,470,,,A-,Patient reported hair loss for 14 months.,Omeprazole,1.74,52.5,2022-09-25,2025-01-30
+471,471,Aspirin,,O+,Patient reported palpitations for 6 months.,Metformin,1.93,109.9,2022-02-27,2025-03-20
+472,472,,Osteoporosis,O+,Patient reported headache for 17 months.,Lisinopril,1.55,45.8,2020-03-19,2020-08-20
+473,473,Cephalosporins,Osteoporosis,B+,Patient reported nausea for 2 months.,Metformin,1.88,94.2,2022-09-02,2025-12-23
+474,474,Codeine,,A+,Patient reported anxiety for 36 months.,Aspirin,1.88,114.4,2019-03-21,2020-11-26
+475,475,Dust mites,,A+,Patient reported headache for 3 months.,,1.63,54.1,2022-01-19,2022-03-27
+476,476,Morphine,Glaucoma,O-,Patient reported tingling sensation for 20 months.,Omeprazole,1.9,119.7,2021-10-24,2025-12-23
+477,477,Morphine,COPD,B+,Patient reported frequent urination for 4 months.,Salbutamol,1.75,95.3,2020-02-09,2020-12-10
+478,478,,,O-,Patient reported swelling for 35 months.,Aspirin,1.53,69.3,2022-04-26,2022-11-16
+479,479,,Diabetes,O+,Patient reported nausea for 32 months.,Lisinopril,1.59,55.1,2023-10-18,2025-10-05
+480,480,Sulfa drugs,Osteoporosis,O+,Patient reported shortness of breath for 9 months.,Omeprazole,1.91,95.2,2022-10-28,2024-07-22
+481,481,Penicillin,Asthma,O-,Patient reported nausea for 19 months.,Lisinopril,1.55,108.0,2021-12-02,2025-01-12
+482,482,,,O+,Patient reported numbness for 9 months.,Salbutamol,1.92,50.6,2022-07-18,2024-03-21
+483,483,Morphine,Rheumatoid Arthritis,A+,Patient reported confusion for 32 months.,Aspirin,1.63,77.2,2021-09-02,2024-07-12
+484,484,Ibuprofen,Cancer,O+,Patient reported fatigue for 32 months.,Omeprazole,1.78,53.3,2022-02-08,2022-07-21
+485,485,Dust mites,Diabetes,A+,Patient reported fever for 16 months.,Atorvastatin,1.55,66.3,2023-05-22,2024-12-28
+486,486,Aspirin,Diabetes,AB+,Patient reported nausea for 22 months.,,1.65,75.8,2022-12-25,2024-04-24
+487,487,Pollen,Heart Failure,A+,Patient reported headache for 27 months.,Omeprazole,1.87,70.3,2020-01-15,2024-05-24
+488,488,Shellfish,Asthma,O+,Patient reported muscle weakness for 5 months.,Metformin,1.56,72.2,2023-04-01,2026-01-12
+489,489,,Chronic Kidney Disease,B+,Patient reported skin itching for 35 months.,Omeprazole,1.73,113.6,2023-07-15,2023-11-25
+490,490,Peanuts,Rheumatoid Arthritis,O+,Patient reported difficulty breathing for 33 months.,,1.94,47.3,2021-03-10,2024-07-30
+491,491,Sulfa drugs,Osteoporosis,O+,Patient reported frequent urination for 29 months.,Amlodipine,1.92,113.8,2022-07-11,2024-06-07
+492,492,Morphine,COPD,A+,Patient reported leg cramps for 19 months.,Atorvastatin,1.88,58.8,2021-01-15,2025-05-27
+493,493,Ibuprofen,Hypothyroidism,O+,Patient reported loss of appetite for 9 months.,Amlodipine,1.68,46.9,2019-11-16,2024-03-30
+494,494,Dust mites,,A+,Patient reported shortness of breath for 3 months.,Lisinopril,1.63,119.9,2019-01-17,2024-05-21
+495,495,Erythromycin,Diabetes,O+,Patient reported chest pain for 25 months.,Aspirin,1.89,64.6,2023-09-14,2024-04-28
+496,496,,Hypothyroidism,O+,Patient reported chest pain for 1 months.,Aspirin,1.68,90.0,2023-05-13,2023-12-09
+497,497,Erythromycin,Liver Cirrhosis,O+,Patient reported dry mouth for 9 months.,Atorvastatin,1.5,75.6,2023-04-05,2023-10-27
+498,498,Morphine,Epilepsy,B+,Patient reported abdominal pain for 23 months.,Atorvastatin,1.56,55.7,2023-01-14,2023-08-29
+499,499,Latex,Asthma,A+,Patient reported back pain for 19 months.,Metformin,1.74,80.3,2019-12-25,2026-03-20
+500,500,Latex,Epilepsy,O+,Patient reported muscle weakness for 3 months.,Metformin,1.62,47.9,2020-01-30,2024-02-04
+501,501,,Glaucoma,O-,Patient reported abdominal pain for 15 months.,Amlodipine,1.9,52.6,2021-07-15,2024-12-05
+502,502,Sulfa drugs,,O+,Patient reported shortness of breath for 21 months.,,1.64,103.5,2020-05-19,2024-04-09
+503,503,,,O+,Patient reported anxiety for 9 months.,Metformin,1.86,77.8,2019-10-26,2021-08-30
+504,504,Sulfa drugs,Heart Failure,A+,Patient reported dry mouth for 36 months.,Metformin,1.77,79.8,2022-12-05,2024-12-10
+505,505,Amoxicillin,Hypertension,O-,Patient reported shortness of breath for 5 months.,Metformin,1.9,52.7,2019-09-19,2025-10-10
+506,506,Cephalosporins,,A+,Patient reported tingling sensation for 16 months.,Omeprazole,1.53,70.0,2023-11-11,2025-11-09
+507,507,Latex,Liver Cirrhosis,O+,Patient reported vomiting for 17 months.,Omeprazole,1.71,75.7,2023-04-10,2026-02-18
+508,508,,Glaucoma,A-,Patient reported fatigue for 12 months.,Lisinopril,1.79,95.6,2023-02-09,2023-10-30
+509,509,Amoxicillin,Hypertension,A+,Patient reported memory loss for 32 months.,Metformin,1.8,62.1,2021-02-28,2022-05-28
+510,510,,Osteoporosis,O+,Patient reported back pain for 7 months.,,1.87,91.5,2023-05-03,2023-12-25
+511,511,,Glaucoma,O+,Patient reported chest pain for 21 months.,Amlodipine,1.75,116.8,2020-05-05,2024-11-08
+512,512,,Liver Cirrhosis,O+,Patient reported muscle weakness for 2 months.,Omeprazole,1.58,112.1,2021-02-01,2024-05-29
+513,513,Penicillin,,O+,Patient reported frequent urination for 4 months.,Omeprazole,1.66,56.5,2021-05-08,2024-09-23
+514,514,,Rheumatoid Arthritis,A+,Patient reported headache for 4 months.,Aspirin,1.65,79.5,2019-01-31,2023-04-25
+515,515,Amoxicillin,Hypothyroidism,O+,Patient reported confusion for 29 months.,Metformin,1.54,68.9,2023-03-29,2024-10-08
+516,516,,Rheumatoid Arthritis,O+,Patient reported excessive thirst for 36 months.,Lisinopril,1.63,112.4,2019-07-10,2022-01-07
+517,517,Aspirin,Asthma,A-,Patient reported shortness of breath for 33 months.,Omeprazole,1.59,99.2,2021-01-02,2022-03-28
+518,518,Codeine,Heart Failure,A-,Patient reported difficulty breathing for 18 months.,Omeprazole,1.71,107.8,2022-06-09,2024-08-31
+519,519,Codeine,COPD,A+,Patient reported difficulty breathing for 12 months.,,1.83,112.6,2023-07-02,2023-07-20
+520,520,Codeine,Cancer,A+,Patient reported fatigue for 18 months.,Lisinopril,1.7,54.5,2020-09-09,2020-09-28
+521,521,Sulfa drugs,Chronic Kidney Disease,B+,Patient reported weight gain for 26 months.,Lisinopril,1.65,70.4,2020-11-08,2022-10-09
+522,522,,Glaucoma,B+,Patient reported shortness of breath for 25 months.,Atorvastatin,1.88,87.2,2023-09-29,2025-05-19
+523,523,Dust mites,Hypertension,AB+,Patient reported fever for 24 months.,Salbutamol,1.53,119.8,2019-11-29,2023-01-08
+524,524,Morphine,Cancer,A+,Patient reported tingling sensation for 19 months.,Amlodipine,1.58,61.7,2022-09-07,2023-06-29
+525,525,Ibuprofen,COPD,AB-,Patient reported joint pain for 34 months.,Aspirin,1.6,66.0,2022-08-03,2025-08-08
+526,526,Latex,Osteoporosis,O+,Patient reported cough for 6 months.,Salbutamol,1.57,81.4,2021-06-10,2023-08-22
+527,527,Codeine,Osteoporosis,B+,Patient reported shortness of breath for 20 months.,Lisinopril,1.68,85.6,2019-10-12,2021-03-31
+528,528,Codeine,,B+,Patient reported weight gain for 12 months.,Aspirin,1.67,60.7,2019-09-02,2023-09-12
+529,529,Penicillin,Rheumatoid Arthritis,B+,Patient reported memory loss for 3 months.,,1.55,62.3,2020-03-29,2021-08-27
+530,530,Codeine,Epilepsy,O+,Patient reported memory loss for 1 months.,Atorvastatin,1.57,76.3,2019-04-03,2022-08-22
+531,531,Aspirin,Diabetes,O+,Patient reported weight gain for 14 months.,Amlodipine,1.78,81.7,2022-03-26,2023-07-29
+532,532,,Diabetes,B+,Patient reported chest pain for 4 months.,Metformin,1.58,88.6,2022-05-21,2022-09-24
+533,533,Shellfish,Rheumatoid Arthritis,O+,Patient reported back pain for 12 months.,Amlodipine,1.67,98.8,2019-07-23,2023-10-13
+534,534,Erythromycin,Chronic Kidney Disease,A+,Patient reported leg cramps for 24 months.,Amlodipine,1.94,68.2,2021-10-05,2022-02-13
+535,535,,Osteoporosis,A+,Patient reported weight loss for 1 months.,Omeprazole,1.86,70.8,2022-06-27,2023-04-15
+536,536,Morphine,Asthma,A+,Patient reported nausea for 25 months.,Salbutamol,1.71,103.6,2023-03-02,2024-06-23
+537,537,Ibuprofen,Glaucoma,AB+,Patient reported difficulty breathing for 29 months.,Omeprazole,1.88,78.3,2020-11-09,2022-12-20
+538,538,Sulfa drugs,Osteoporosis,B-,Patient reported rash for 7 months.,Lisinopril,1.8,118.1,2020-08-28,2024-08-11
+539,539,Pollen,Rheumatoid Arthritis,O+,Patient reported tingling sensation for 4 months.,Amlodipine,1.58,80.3,2022-12-28,2025-05-22
+540,540,Pollen,Diabetes,A+,Patient reported fever for 36 months.,Lisinopril,1.87,93.6,2019-09-14,2019-12-31
+541,541,,Epilepsy,B+,Patient reported headache for 4 months.,Atorvastatin,1.56,50.2,2019-04-23,2023-11-14
+542,542,Sulfa drugs,Rheumatoid Arthritis,A+,Patient reported night sweats for 2 months.,Aspirin,1.78,80.8,2021-09-06,2025-03-11
+543,543,Pollen,Cancer,B+,Patient reported joint pain for 10 months.,,1.81,54.2,2020-11-17,2022-04-04
+544,544,Peanuts,Osteoporosis,A-,Patient reported joint pain for 25 months.,Omeprazole,1.79,72.6,2019-11-15,2020-09-03
+545,545,Amoxicillin,,O+,Patient reported nausea for 19 months.,Atorvastatin,1.77,59.4,2021-10-16,2022-04-05
+546,546,Aspirin,Hypertension,A+,Patient reported skin itching for 22 months.,,1.76,85.3,2023-03-09,2024-07-22
+547,547,Latex,,A-,Patient reported swelling for 10 months.,Omeprazole,1.7,90.0,2020-05-13,2021-03-08
+548,548,,,O-,Patient reported swelling for 9 months.,Salbutamol,1.84,85.2,2021-02-17,2023-04-06
+549,549,Erythromycin,Diabetes,O-,Patient reported rash for 32 months.,Aspirin,1.65,50.4,2021-10-02,2025-06-12
+550,550,Shellfish,,A+,Patient reported joint pain for 3 months.,Lisinopril,1.54,65.6,2020-03-06,2026-01-19
+551,551,Penicillin,,A+,Patient reported memory loss for 11 months.,Aspirin,1.68,58.8,2021-03-05,2025-09-06
+552,552,,,A-,Patient reported confusion for 5 months.,Atorvastatin,1.72,119.5,2023-06-13,2024-09-06
+553,553,Shellfish,COPD,O+,Patient reported dry mouth for 24 months.,Aspirin,1.64,101.4,2020-03-27,2023-01-10
+554,554,,Rheumatoid Arthritis,A+,Patient reported leg cramps for 19 months.,Aspirin,1.57,65.9,2020-06-16,2025-05-28
+555,555,Cephalosporins,Chronic Kidney Disease,A+,Patient reported abdominal pain for 2 months.,Omeprazole,1.68,55.4,2021-01-22,2025-09-18
+556,556,Penicillin,Rheumatoid Arthritis,O+,Patient reported excessive thirst for 21 months.,Aspirin,1.74,70.0,2022-03-30,2022-12-20
+557,557,Sulfa drugs,Asthma,AB+,Patient reported dizziness for 27 months.,Atorvastatin,1.84,110.7,2023-08-04,2025-06-22
+558,558,,Asthma,A+,Patient reported numbness for 2 months.,Salbutamol,1.76,61.2,2022-05-08,2023-08-24
+559,559,Erythromycin,,O+,Patient reported joint pain for 8 months.,Omeprazole,1.7,103.7,2019-10-11,2020-08-04
+560,560,Peanuts,,O+,Patient reported back pain for 13 months.,Omeprazole,1.9,79.6,2019-01-09,2021-02-09
+561,561,Penicillin,Glaucoma,A-,Patient reported skin itching for 9 months.,Amlodipine,1.55,84.0,2020-12-07,2023-09-12
+562,562,Aspirin,Hypothyroidism,A+,Patient reported weight loss for 34 months.,Atorvastatin,1.54,79.0,2019-02-19,2021-06-01
+563,563,Latex,Liver Cirrhosis,AB-,Patient reported night sweats for 10 months.,Metformin,1.92,97.4,2020-05-12,2022-07-11
+564,564,Erythromycin,COPD,O+,Patient reported dry mouth for 26 months.,Salbutamol,1.51,59.8,2019-05-12,2023-10-14
+565,565,Amoxicillin,Heart Failure,A+,Patient reported frequent urination for 13 months.,Metformin,1.55,119.1,2019-10-15,2025-08-14
+566,566,Latex,Hypertension,O+,Patient reported dizziness for 34 months.,Omeprazole,1.73,65.1,2023-08-10,2026-04-07
+567,567,Dust mites,,O+,Patient reported swelling for 14 months.,Aspirin,1.88,95.7,2020-06-02,2022-09-13
+568,568,Dust mites,Hypertension,O+,Patient reported fever for 35 months.,Aspirin,1.72,100.5,2023-06-06,2026-04-14
+569,569,Ibuprofen,Chronic Kidney Disease,O+,Patient reported chest pain for 22 months.,Omeprazole,1.77,66.5,2020-02-28,2024-06-07
+570,570,Pollen,,O+,Patient reported shortness of breath for 36 months.,Amlodipine,1.91,66.0,2022-05-12,2023-02-08
+571,571,Aspirin,Diabetes,A+,Patient reported back pain for 17 months.,Amlodipine,1.84,52.0,2023-11-11,2024-05-21
+572,572,Morphine,COPD,B+,Patient reported headache for 7 months.,Amlodipine,1.63,53.2,2019-04-13,2019-04-16
+573,573,Peanuts,Liver Cirrhosis,O+,Patient reported dizziness for 35 months.,Metformin,1.6,84.3,2021-12-22,2025-12-26
+574,574,,Osteoporosis,A+,Patient reported difficulty breathing for 17 months.,Lisinopril,1.53,49.6,2022-08-01,2022-10-13
+575,575,Amoxicillin,Diabetes,O+,Patient reported insomnia for 33 months.,Amlodipine,1.53,61.0,2020-12-14,2023-03-24
+576,576,Shellfish,Cancer,O+,Patient reported vomiting for 18 months.,,1.71,79.4,2021-12-05,2025-06-26
+577,577,Peanuts,Epilepsy,A+,Patient reported fatigue for 1 months.,Lisinopril,1.91,83.7,2019-04-13,2021-06-28
+578,578,Shellfish,Rheumatoid Arthritis,A+,Patient reported abdominal pain for 32 months.,Salbutamol,1.75,47.7,2020-07-31,2025-08-06
+579,579,Aspirin,Asthma,A+,Patient reported vomiting for 26 months.,,1.72,52.7,2023-12-25,2025-04-11
+580,580,Ibuprofen,Diabetes,A+,Patient reported insomnia for 28 months.,Aspirin,1.55,87.7,2021-01-19,2023-12-11
+581,581,,,A+,Patient reported night sweats for 23 months.,,1.8,57.0,2023-08-31,2024-09-28
+582,582,Ibuprofen,Hypothyroidism,O+,Patient reported numbness for 2 months.,Amlodipine,1.94,85.2,2023-11-17,2023-12-29
+583,583,Peanuts,Cancer,O+,Patient reported headache for 23 months.,Aspirin,1.65,97.9,2020-06-07,2024-06-06
+584,584,,COPD,A+,Patient reported weight gain for 16 months.,Atorvastatin,1.63,74.1,2020-05-20,2024-06-21
+585,585,Latex,Diabetes,O+,Patient reported hair loss for 22 months.,Metformin,1.53,69.8,2021-08-16,2025-12-23
+586,586,Erythromycin,,B+,Patient reported dry mouth for 14 months.,Metformin,1.87,103.2,2021-05-21,2023-10-14
+587,587,Penicillin,Asthma,O+,Patient reported tingling sensation for 14 months.,Atorvastatin,1.91,79.7,2023-06-04,2026-04-24
+588,588,,Liver Cirrhosis,O+,Patient reported weight loss for 17 months.,Amlodipine,1.53,72.8,2021-02-25,2023-07-25
+589,589,Aspirin,Asthma,A-,Patient reported anxiety for 24 months.,Omeprazole,1.69,117.6,2020-10-17,2021-07-01
+590,590,Penicillin,Liver Cirrhosis,A+,Patient reported rash for 1 months.,Salbutamol,1.56,99.2,2022-01-19,2024-09-01
+591,591,Penicillin,Heart Failure,O-,Patient reported weight loss for 36 months.,Atorvastatin,1.93,104.5,2021-07-24,2025-11-07
+592,592,,Hypothyroidism,O+,Patient reported abdominal pain for 33 months.,Omeprazole,1.56,54.6,2023-03-10,2023-11-02
+593,593,,Heart Failure,A-,Patient reported rash for 1 months.,Metformin,1.5,113.1,2021-10-29,2024-01-05
+594,594,Latex,Diabetes,O+,Patient reported blurred vision for 10 months.,,1.63,66.8,2019-04-09,2020-11-08
+595,595,Morphine,,O+,Patient reported memory loss for 31 months.,Salbutamol,1.94,52.0,2022-10-20,2023-02-03
+596,596,Pollen,,O-,Patient reported hair loss for 7 months.,Aspirin,1.66,90.7,2019-09-04,2026-03-05
+597,597,Peanuts,Liver Cirrhosis,AB+,Patient reported skin itching for 27 months.,Omeprazole,1.52,90.7,2021-03-27,2023-06-29
+598,598,Dust mites,Epilepsy,O+,Patient reported rash for 19 months.,Omeprazole,1.51,91.1,2023-10-17,2024-06-13
+599,599,Peanuts,Asthma,AB+,Patient reported joint pain for 25 months.,Amlodipine,1.59,79.4,2019-11-27,2023-01-23
+600,600,Morphine,Chronic Kidney Disease,O+,Patient reported nausea for 5 months.,Omeprazole,1.61,91.8,2020-01-09,2021-06-12
+601,601,Penicillin,Hypothyroidism,O+,Patient reported difficulty breathing for 31 months.,,1.69,102.2,2019-02-13,2023-03-06
+602,602,Shellfish,Hypothyroidism,B+,Patient reported nausea for 22 months.,Metformin,1.84,52.2,2023-06-04,2024-01-24
+603,603,Ibuprofen,Rheumatoid Arthritis,O+,Patient reported excessive thirst for 1 months.,Metformin,1.73,55.1,2022-12-22,2023-10-28
+604,604,Peanuts,Epilepsy,A+,Patient reported swelling for 17 months.,Salbutamol,1.91,89.8,2022-03-17,2026-03-25
+605,605,,,A+,Patient reported weight loss for 21 months.,Omeprazole,1.73,98.5,2023-10-15,2024-05-10
+606,606,Peanuts,Hypothyroidism,B+,Patient reported cough for 7 months.,Omeprazole,1.76,80.4,2019-07-02,2026-03-25
+607,607,Ibuprofen,,O+,Patient reported weight gain for 33 months.,Aspirin,1.94,74.1,2020-05-31,2024-09-21
+608,608,Cephalosporins,Heart Failure,B+,Patient reported back pain for 2 months.,,1.54,119.6,2023-08-31,2024-05-02
+609,609,,Chronic Kidney Disease,O+,Patient reported frequent urination for 24 months.,Atorvastatin,1.85,55.6,2019-10-12,2024-05-07
+610,610,Dust mites,Epilepsy,A-,Patient reported fever for 32 months.,Atorvastatin,1.63,48.0,2020-11-13,2022-05-07
+611,611,Aspirin,Chronic Kidney Disease,B+,Patient reported back pain for 2 months.,Aspirin,1.8,51.5,2023-12-09,2025-12-30
+612,612,Dust mites,Liver Cirrhosis,O+,Patient reported nausea for 2 months.,Amlodipine,1.63,106.8,2019-02-05,2022-09-06
+613,613,,,A-,Patient reported rash for 4 months.,,1.94,69.0,2019-08-23,2024-02-19
+614,614,Pollen,,B-,Patient reported insomnia for 13 months.,Metformin,1.54,49.4,2022-09-04,2023-11-22
+615,615,Aspirin,Osteoporosis,A+,Patient reported weight gain for 5 months.,Salbutamol,1.73,99.5,2019-04-18,2025-03-12
+616,616,Cephalosporins,,O-,Patient reported fatigue for 12 months.,,1.65,116.4,2023-08-15,2025-02-09
+617,617,Ibuprofen,COPD,A+,Patient reported cough for 4 months.,,1.52,64.7,2022-01-18,2025-05-31
+618,618,Amoxicillin,Heart Failure,O+,Patient reported frequent urination for 6 months.,,1.85,74.5,2021-06-27,2023-10-29
+619,619,,,A+,Patient reported leg cramps for 6 months.,Atorvastatin,1.94,95.6,2022-08-09,2022-09-28
+620,620,Pollen,Epilepsy,O+,Patient reported muscle weakness for 30 months.,Omeprazole,1.85,108.5,2019-05-17,2023-04-14
+621,621,Peanuts,,B+,Patient reported headache for 6 months.,Metformin,1.94,96.1,2023-01-10,2024-04-05
+622,622,Morphine,Heart Failure,O+,Patient reported chest pain for 28 months.,Salbutamol,1.92,90.3,2023-05-16,2024-09-27
+623,623,,Glaucoma,A+,Patient reported abdominal pain for 20 months.,Atorvastatin,1.8,90.5,2019-10-13,2020-11-03
+624,624,,Rheumatoid Arthritis,B+,Patient reported shortness of breath for 7 months.,Aspirin,1.87,77.0,2023-02-11,2025-02-09
+625,625,Sulfa drugs,Epilepsy,A-,Patient reported loss of appetite for 9 months.,,1.68,62.7,2021-10-11,2024-06-17
+626,626,,Epilepsy,O+,Patient reported shortness of breath for 6 months.,Aspirin,1.9,103.7,2022-09-23,2024-09-24
+627,627,Codeine,Hypothyroidism,A+,Patient reported fever for 12 months.,Aspirin,1.69,78.3,2021-04-02,2022-03-20
+628,628,,Hypertension,O-,Patient reported rash for 29 months.,Aspirin,1.54,74.6,2022-03-13,2026-02-12
+629,629,Shellfish,Asthma,A+,Patient reported chest pain for 30 months.,Omeprazole,1.76,63.1,2020-01-19,2026-03-22
+630,630,Shellfish,Osteoporosis,O+,Patient reported joint pain for 21 months.,Amlodipine,1.78,81.0,2022-01-01,2022-08-06
+631,631,Latex,Rheumatoid Arthritis,O+,Patient reported dry mouth for 25 months.,Omeprazole,1.51,107.9,2020-10-22,2026-04-09
+632,632,,COPD,O+,Patient reported shortness of breath for 21 months.,Metformin,1.92,113.9,2023-02-28,2026-02-21
+633,633,Cephalosporins,Diabetes,O+,Patient reported vomiting for 25 months.,Amlodipine,1.72,88.7,2023-05-03,2025-10-21
+634,634,Ibuprofen,,A+,Patient reported loss of appetite for 23 months.,Lisinopril,1.74,78.1,2019-10-12,2023-09-24
+635,635,Sulfa drugs,,O+,Patient reported fatigue for 4 months.,Amlodipine,1.85,45.3,2020-09-23,2025-07-14
+636,636,Codeine,Glaucoma,B+,Patient reported anxiety for 29 months.,Salbutamol,1.66,79.7,2020-07-06,2022-07-17
+637,637,Aspirin,Heart Failure,O+,Patient reported back pain for 13 months.,Metformin,1.56,99.8,2020-04-22,2020-06-29
+638,638,Latex,COPD,O+,Patient reported headache for 33 months.,Aspirin,1.88,47.7,2022-07-21,2022-08-17
+639,639,Erythromycin,Asthma,O-,Patient reported loss of appetite for 23 months.,Atorvastatin,1.95,57.2,2022-03-16,2022-05-02
+640,640,Morphine,Rheumatoid Arthritis,A+,Patient reported abdominal pain for 36 months.,Metformin,1.67,111.5,2022-05-23,2023-07-28
+641,641,Penicillin,Liver Cirrhosis,B+,Patient reported rash for 2 months.,Atorvastatin,1.87,103.9,2021-10-17,2025-05-17
+642,642,Dust mites,Heart Failure,A+,Patient reported joint pain for 17 months.,Salbutamol,1.66,80.2,2022-12-26,2025-05-11
+643,643,Cephalosporins,Hypertension,O+,Patient reported dry mouth for 6 months.,Omeprazole,1.64,116.0,2022-11-29,2024-09-27
+644,644,Peanuts,,O+,Patient reported dry mouth for 17 months.,Metformin,1.82,85.7,2021-04-15,2025-02-02
+645,645,,Liver Cirrhosis,O-,Patient reported muscle weakness for 17 months.,Amlodipine,1.6,69.8,2020-03-02,2024-03-23
+646,646,Ibuprofen,Glaucoma,O-,Patient reported frequent urination for 36 months.,Aspirin,1.66,110.5,2021-02-18,2024-10-22
+647,647,Morphine,Heart Failure,A+,Patient reported leg cramps for 13 months.,Omeprazole,1.75,109.2,2023-03-11,2024-09-09
+648,648,Peanuts,Heart Failure,O+,Patient reported fever for 27 months.,Salbutamol,1.6,118.4,2022-01-25,2024-06-21
+649,649,Cephalosporins,Epilepsy,O+,Patient reported back pain for 2 months.,Salbutamol,1.71,84.3,2020-10-03,2022-02-07
+650,650,Penicillin,,B+,Patient reported difficulty breathing for 16 months.,Atorvastatin,1.85,93.8,2021-11-06,2025-04-06
+651,651,,Cancer,O+,Patient reported palpitations for 20 months.,,1.89,99.7,2022-09-07,2026-04-27
+652,652,Shellfish,,A+,Patient reported memory loss for 2 months.,Omeprazole,1.64,49.5,2022-01-01,2022-03-06
+653,653,Aspirin,Osteoporosis,A+,Patient reported blurred vision for 26 months.,Salbutamol,1.57,106.7,2019-12-25,2025-12-12
+654,654,Aspirin,Hypothyroidism,A-,Patient reported cough for 13 months.,Metformin,1.81,78.5,2020-02-08,2023-04-01
+655,655,,,O+,Patient reported blurred vision for 23 months.,Metformin,1.61,114.4,2019-10-18,2023-04-29
+656,656,Ibuprofen,Rheumatoid Arthritis,O+,Patient reported memory loss for 8 months.,Amlodipine,1.52,54.9,2019-10-10,2023-07-13
+657,657,Penicillin,Glaucoma,O+,Patient reported cough for 36 months.,Lisinopril,1.64,70.8,2020-12-04,2021-01-20
+658,658,Ibuprofen,Asthma,O+,Patient reported palpitations for 15 months.,,1.84,91.5,2021-08-08,2024-12-11
+659,659,Shellfish,Cancer,O+,Patient reported abdominal pain for 10 months.,,1.8,88.2,2019-06-11,2020-07-26
+660,660,Erythromycin,,O+,Patient reported memory loss for 12 months.,Salbutamol,1.87,56.2,2019-12-08,2024-06-06
+661,661,Pollen,,O-,Patient reported cough for 23 months.,Lisinopril,1.81,84.3,2022-10-15,2024-12-01
+662,662,,Cancer,B+,Patient reported memory loss for 23 months.,Omeprazole,1.65,51.0,2021-12-18,2023-01-16
+663,663,Pollen,Hypertension,O+,Patient reported weight loss for 21 months.,Lisinopril,1.54,94.9,2023-06-23,2023-12-05
+664,664,Cephalosporins,COPD,A+,Patient reported numbness for 15 months.,Salbutamol,1.81,114.3,2023-08-25,2024-08-25
+665,665,Pollen,Asthma,O+,Patient reported vomiting for 27 months.,Salbutamol,1.59,78.2,2021-08-28,2022-09-13
+666,666,Dust mites,Diabetes,A+,Patient reported nausea for 21 months.,Salbutamol,1.67,76.7,2023-09-24,2024-02-14
+667,667,Codeine,Liver Cirrhosis,B+,Patient reported vomiting for 12 months.,Aspirin,1.51,64.3,2021-05-21,2022-10-30
+668,668,Sulfa drugs,Epilepsy,O+,Patient reported loss of appetite for 11 months.,Metformin,1.77,115.0,2023-05-24,2025-11-14
+669,669,Pollen,Osteoporosis,O+,Patient reported frequent urination for 16 months.,Metformin,1.86,62.6,2020-04-24,2021-04-02
+670,670,Shellfish,Diabetes,O-,Patient reported dry mouth for 4 months.,Omeprazole,1.65,98.4,2021-06-11,2025-08-14
+671,671,,Asthma,O+,Patient reported excessive thirst for 29 months.,,1.8,52.5,2023-08-09,2023-12-15
+672,672,Codeine,Liver Cirrhosis,O+,Patient reported weight loss for 34 months.,Metformin,1.64,70.8,2020-03-16,2023-05-08
+673,673,Ibuprofen,Heart Failure,O-,Patient reported dizziness for 10 months.,Amlodipine,1.77,63.2,2020-08-20,2022-05-05
+674,674,Cephalosporins,COPD,A+,Patient reported cough for 16 months.,Lisinopril,1.61,54.9,2019-04-05,2020-11-17
+675,675,Peanuts,Liver Cirrhosis,O+,Patient reported insomnia for 30 months.,Atorvastatin,1.77,49.8,2021-01-29,2023-07-22
+676,676,Shellfish,Glaucoma,O+,Patient reported difficulty breathing for 17 months.,,1.9,84.1,2022-04-24,2022-06-12
+677,677,Morphine,Heart Failure,O-,Patient reported frequent urination for 24 months.,,1.91,51.3,2020-09-04,2023-06-19
+678,678,Aspirin,Heart Failure,A+,Patient reported hair loss for 31 months.,Lisinopril,1.81,53.0,2022-08-30,2023-07-17
+679,679,Penicillin,Rheumatoid Arthritis,O+,Patient reported skin itching for 9 months.,Aspirin,1.91,117.0,2019-10-29,2021-02-09
+680,680,Ibuprofen,,O+,Patient reported fever for 33 months.,Lisinopril,1.88,55.6,2021-07-14,2022-09-24
+681,681,Ibuprofen,Chronic Kidney Disease,A+,Patient reported dry mouth for 15 months.,Atorvastatin,1.57,89.5,2019-04-20,2024-12-11
+682,682,Amoxicillin,Rheumatoid Arthritis,A+,Patient reported numbness for 29 months.,,1.81,77.6,2022-03-07,2022-08-08
+683,683,,Diabetes,O-,Patient reported memory loss for 9 months.,Salbutamol,1.72,78.2,2023-05-02,2023-06-26
+684,684,Cephalosporins,COPD,O+,Patient reported nausea for 24 months.,,1.53,65.6,2023-10-08,2025-06-08
+685,685,Aspirin,Hypertension,O-,Patient reported chest pain for 9 months.,Aspirin,1.83,84.1,2023-07-15,2024-07-12
+686,686,,Hypothyroidism,B+,Patient reported fatigue for 14 months.,Omeprazole,1.79,111.0,2022-02-10,2025-07-19
+687,687,Codeine,Osteoporosis,A+,Patient reported loss of appetite for 29 months.,Aspirin,1.52,93.6,2020-10-09,2023-08-05
+688,688,Aspirin,Glaucoma,O+,Patient reported swelling for 18 months.,Aspirin,1.81,79.4,2019-01-18,2025-10-29
+689,689,Peanuts,Glaucoma,B+,Patient reported back pain for 16 months.,Aspirin,1.74,52.2,2022-07-04,2022-11-21
+690,690,Ibuprofen,,B+,Patient reported night sweats for 12 months.,Lisinopril,1.52,101.3,2020-05-13,2021-11-05
+691,691,Sulfa drugs,Cancer,O-,Patient reported insomnia for 4 months.,Lisinopril,1.75,57.0,2020-05-15,2023-07-09
+692,692,Penicillin,Diabetes,O+,Patient reported fever for 24 months.,,1.58,102.8,2020-04-26,2026-04-28
+693,693,Morphine,Heart Failure,O+,Patient reported insomnia for 34 months.,Lisinopril,1.83,92.8,2023-02-06,2023-07-13
+694,694,Amoxicillin,Rheumatoid Arthritis,A+,Patient reported weight gain for 35 months.,Lisinopril,1.79,97.6,2023-09-19,2023-09-28
+695,695,Amoxicillin,Chronic Kidney Disease,A+,Patient reported chest pain for 30 months.,Omeprazole,1.79,77.1,2021-02-18,2024-07-01
+696,696,Codeine,Hypertension,A+,Patient reported memory loss for 9 months.,Lisinopril,1.62,98.8,2019-03-29,2019-07-01
+697,697,Aspirin,Hypothyroidism,A+,Patient reported abdominal pain for 28 months.,,1.62,72.4,2019-01-19,2024-03-03
+698,698,Penicillin,Liver Cirrhosis,AB+,Patient reported numbness for 7 months.,Atorvastatin,1.6,45.5,2022-09-01,2025-08-27
+699,699,Peanuts,Diabetes,O+,Patient reported nausea for 17 months.,Omeprazole,1.66,115.1,2023-04-16,2023-11-27
+700,700,Pollen,Osteoporosis,B+,Patient reported loss of appetite for 23 months.,Amlodipine,1.68,53.6,2021-08-25,2022-06-11
+701,701,Codeine,Hypothyroidism,O-,Patient reported nausea for 16 months.,Salbutamol,1.7,96.3,2021-05-26,2024-03-11
+702,702,Sulfa drugs,Chronic Kidney Disease,A+,Patient reported leg cramps for 27 months.,Atorvastatin,1.88,63.0,2023-03-27,2026-01-16
+703,703,Peanuts,Rheumatoid Arthritis,A+,Patient reported loss of appetite for 25 months.,Salbutamol,1.74,115.5,2019-08-07,2021-02-07
+704,704,Peanuts,COPD,O-,Patient reported skin itching for 7 months.,,1.75,108.9,2021-10-09,2022-12-07
+705,705,,Chronic Kidney Disease,O+,Patient reported fever for 9 months.,,1.81,114.6,2020-08-09,2021-02-15
+706,706,Cephalosporins,Heart Failure,O+,Patient reported muscle weakness for 20 months.,Aspirin,1.9,58.2,2021-02-18,2021-07-08
+707,707,Pollen,Cancer,B+,Patient reported chest pain for 19 months.,Lisinopril,1.53,79.3,2023-01-29,2024-04-20
+708,708,Sulfa drugs,Heart Failure,O+,Patient reported vomiting for 24 months.,Atorvastatin,1.63,62.0,2020-09-02,2022-08-16
+709,709,Dust mites,Epilepsy,A+,Patient reported swelling for 27 months.,Omeprazole,1.72,108.1,2023-02-18,2025-06-30
+710,710,Dust mites,COPD,A-,Patient reported insomnia for 33 months.,Salbutamol,1.92,61.2,2021-02-11,2024-02-19
+711,711,,Epilepsy,B+,Patient reported chest pain for 2 months.,Omeprazole,1.74,81.5,2023-05-16,2024-08-31
+712,712,Amoxicillin,Rheumatoid Arthritis,O+,Patient reported nausea for 23 months.,Atorvastatin,1.84,55.9,2023-02-01,2024-05-10
+713,713,Sulfa drugs,Heart Failure,A+,Patient reported hair loss for 4 months.,Aspirin,1.65,61.7,2022-08-11,2023-07-20
+714,714,Ibuprofen,Hypertension,O-,Patient reported insomnia for 10 months.,Lisinopril,1.54,78.9,2020-06-25,2021-01-15
+715,715,Latex,Epilepsy,O+,Patient reported hair loss for 8 months.,,1.51,85.2,2019-11-18,2023-01-11
+716,716,,Chronic Kidney Disease,O+,Patient reported dizziness for 31 months.,Amlodipine,1.8,84.4,2022-04-09,2024-07-07
+717,717,,Heart Failure,A+,Patient reported difficulty breathing for 29 months.,Metformin,1.64,114.7,2020-05-31,2025-10-06
+718,718,Latex,Diabetes,A+,Patient reported abdominal pain for 18 months.,Aspirin,1.86,119.1,2021-10-01,2022-06-12
+719,719,Peanuts,Epilepsy,A-,Patient reported vomiting for 1 months.,Aspirin,1.53,60.8,2023-02-19,2023-09-01
+720,720,Shellfish,Rheumatoid Arthritis,B+,Patient reported vomiting for 27 months.,,1.87,57.6,2023-10-31,2024-07-06
+721,721,,COPD,A+,Patient reported night sweats for 12 months.,Aspirin,1.55,89.8,2023-09-02,2024-08-27
+722,722,Pollen,Cancer,AB-,Patient reported leg cramps for 5 months.,Lisinopril,1.76,111.9,2021-09-26,2024-11-17
+723,723,,,B+,Patient reported dizziness for 26 months.,Atorvastatin,1.81,53.5,2022-11-13,2026-03-05
+724,724,Morphine,Heart Failure,B-,Patient reported dry mouth for 5 months.,Aspirin,1.95,71.1,2023-08-14,2023-08-27
+725,725,Codeine,Diabetes,A-,Patient reported rash for 27 months.,Lisinopril,1.86,63.2,2021-03-07,2022-06-04
+726,726,,Osteoporosis,O+,Patient reported tingling sensation for 18 months.,Metformin,1.84,48.4,2023-10-30,2025-04-21
+727,727,Aspirin,Cancer,O+,Patient reported fever for 23 months.,Omeprazole,1.67,103.2,2021-09-02,2025-06-10
+728,728,,Cancer,B+,Patient reported excessive thirst for 16 months.,Lisinopril,1.57,108.8,2020-11-30,2024-10-23
+729,729,Morphine,Osteoporosis,O+,Patient reported back pain for 21 months.,Amlodipine,1.55,105.7,2022-07-18,2023-05-29
+730,730,Ibuprofen,,O+,Patient reported cough for 21 months.,Lisinopril,1.78,108.2,2022-05-14,2026-04-17
+731,731,Erythromycin,,A+,Patient reported cough for 7 months.,Atorvastatin,1.82,75.4,2021-10-07,2024-02-16
+732,732,Aspirin,Diabetes,O+,Patient reported loss of appetite for 15 months.,Omeprazole,1.66,52.3,2022-11-26,2025-12-10
+733,733,Morphine,Chronic Kidney Disease,A-,Patient reported numbness for 15 months.,Lisinopril,1.64,61.3,2023-05-02,2024-09-28
+734,734,Aspirin,Osteoporosis,O+,Patient reported hair loss for 26 months.,Amlodipine,1.85,91.6,2020-05-11,2020-06-15
+735,735,Pollen,Chronic Kidney Disease,A+,Patient reported confusion for 35 months.,Salbutamol,1.56,65.8,2022-09-16,2024-06-03
+736,736,Aspirin,Epilepsy,A-,Patient reported vomiting for 30 months.,Salbutamol,1.79,111.9,2023-03-15,2024-03-09
+737,737,Shellfish,Heart Failure,B-,Patient reported excessive thirst for 26 months.,Lisinopril,1.53,60.5,2023-04-07,2023-10-14
+738,738,,Cancer,O+,Patient reported shortness of breath for 31 months.,Atorvastatin,1.55,94.3,2021-05-28,2023-12-11
+739,739,Cephalosporins,Hypertension,A+,Patient reported muscle weakness for 9 months.,Atorvastatin,1.79,100.1,2022-12-17,2023-12-21
+740,740,Erythromycin,Diabetes,O+,Patient reported anxiety for 15 months.,Metformin,1.69,113.4,2022-11-10,2026-04-26
+741,741,Codeine,Chronic Kidney Disease,A+,Patient reported numbness for 20 months.,Metformin,1.54,85.8,2020-04-25,2025-03-07
+742,742,Cephalosporins,Glaucoma,A+,Patient reported difficulty breathing for 36 months.,Omeprazole,1.57,118.9,2020-07-03,2022-05-22
+743,743,Penicillin,Asthma,A+,Patient reported weight gain for 24 months.,Metformin,1.81,68.1,2022-11-20,2024-06-14
+744,744,Pollen,COPD,AB+,Patient reported abdominal pain for 33 months.,Aspirin,1.8,118.5,2022-12-07,2023-06-11
+745,745,Pollen,Glaucoma,O-,Patient reported difficulty breathing for 7 months.,Omeprazole,1.72,59.4,2019-01-17,2025-11-30
+746,746,,Osteoporosis,O+,Patient reported rash for 30 months.,Metformin,1.64,107.3,2022-12-18,2023-04-30
+747,747,Latex,Glaucoma,A+,Patient reported nausea for 4 months.,Atorvastatin,1.67,50.7,2023-09-14,2024-08-11
+748,748,Ibuprofen,Hypertension,O+,Patient reported numbness for 25 months.,Amlodipine,1.78,58.6,2022-08-09,2023-09-21
+749,749,Codeine,Hypertension,O+,Patient reported weight gain for 31 months.,Aspirin,1.82,77.5,2022-07-22,2023-07-14
+750,750,Pollen,Osteoporosis,A+,Patient reported memory loss for 15 months.,,1.74,52.0,2019-12-21,2021-11-07
+751,751,Erythromycin,Diabetes,A+,Patient reported rash for 2 months.,,1.85,67.9,2023-09-06,2023-11-11
+752,752,Erythromycin,Heart Failure,AB+,Patient reported difficulty breathing for 1 months.,Aspirin,1.69,58.3,2022-07-16,2023-05-16
+753,753,Morphine,Glaucoma,O+,Patient reported rash for 20 months.,,1.93,64.3,2021-04-19,2022-05-15
+754,754,,COPD,A-,Patient reported insomnia for 28 months.,Omeprazole,1.83,83.1,2019-07-29,2025-06-24
+755,755,Peanuts,Liver Cirrhosis,A+,Patient reported difficulty breathing for 16 months.,Atorvastatin,1.67,91.5,2020-08-12,2022-08-01
+756,756,Latex,Epilepsy,A-,Patient reported shortness of breath for 29 months.,Omeprazole,1.59,106.6,2020-11-06,2022-10-10
+757,757,Penicillin,Osteoporosis,O+,Patient reported fever for 36 months.,Amlodipine,1.77,110.9,2023-11-01,2024-10-21
+758,758,,,A+,Patient reported weight gain for 28 months.,Aspirin,1.63,60.7,2022-07-17,2022-08-02
+759,759,Sulfa drugs,,O-,Patient reported loss of appetite for 22 months.,Metformin,1.62,54.3,2023-11-01,2025-02-24
+760,760,,Epilepsy,O+,Patient reported fatigue for 22 months.,Omeprazole,1.56,83.1,2020-02-17,2020-03-06
+761,761,,Cancer,O+,Patient reported loss of appetite for 25 months.,Aspirin,1.69,89.2,2020-07-16,2023-09-25
+762,762,Erythromycin,Hypothyroidism,A+,Patient reported vomiting for 30 months.,Metformin,1.89,110.0,2019-02-03,2023-09-03
+763,763,Pollen,Osteoporosis,A+,Patient reported palpitations for 29 months.,Lisinopril,1.54,117.3,2019-04-16,2020-03-29
+764,764,Morphine,Liver Cirrhosis,O+,Patient reported night sweats for 7 months.,Amlodipine,1.68,107.2,2021-12-08,2023-05-25
+765,765,Pollen,Rheumatoid Arthritis,O+,Patient reported chest pain for 22 months.,Lisinopril,1.74,82.9,2023-01-30,2024-11-27
+766,766,Penicillin,Heart Failure,O+,Patient reported dry mouth for 19 months.,Omeprazole,1.75,99.2,2019-07-16,2023-11-06
+767,767,Codeine,Cancer,A+,Patient reported confusion for 28 months.,Amlodipine,1.51,118.2,2020-08-04,2022-12-01
+768,768,Erythromycin,COPD,A+,Patient reported tingling sensation for 27 months.,Aspirin,1.89,88.2,2023-04-05,2023-05-09
+769,769,Amoxicillin,Hypothyroidism,O+,Patient reported fatigue for 9 months.,Omeprazole,1.91,104.7,2020-12-03,2022-08-31
+770,770,Pollen,Diabetes,B+,Patient reported fever for 22 months.,Salbutamol,1.56,116.9,2021-08-23,2026-04-21
+771,771,Latex,COPD,O-,Patient reported numbness for 32 months.,Aspirin,1.84,101.7,2019-04-25,2022-01-04
+772,772,Cephalosporins,Epilepsy,B+,Patient reported excessive thirst for 16 months.,Omeprazole,1.76,101.9,2023-06-06,2023-10-30
+773,773,Pollen,,O+,Patient reported insomnia for 13 months.,Amlodipine,1.73,61.6,2022-02-19,2022-06-05
+774,774,Ibuprofen,Hypertension,A+,Patient reported back pain for 29 months.,Aspirin,1.77,51.3,2023-04-26,2023-10-05
+775,775,Morphine,Hypertension,O+,Patient reported leg cramps for 24 months.,Atorvastatin,1.91,112.8,2023-04-04,2024-11-26
+776,776,,Hypothyroidism,A+,Patient reported insomnia for 31 months.,Metformin,1.9,74.0,2020-12-18,2023-11-26
+777,777,Pollen,Asthma,A-,Patient reported frequent urination for 14 months.,Omeprazole,1.64,66.1,2019-04-16,2021-06-19
+778,778,Erythromycin,Rheumatoid Arthritis,A-,Patient reported insomnia for 16 months.,,1.55,50.4,2021-11-07,2026-03-25
+779,779,Latex,Cancer,B+,Patient reported night sweats for 27 months.,Lisinopril,1.71,108.2,2020-03-31,2024-05-27
+780,780,Aspirin,Hypothyroidism,O+,Patient reported abdominal pain for 29 months.,Omeprazole,1.63,71.8,2023-12-13,2024-07-25
+781,781,,,O+,Patient reported excessive thirst for 9 months.,Aspirin,1.61,74.4,2021-05-26,2022-05-15
+782,782,,COPD,A+,Patient reported leg cramps for 36 months.,Salbutamol,1.87,64.9,2022-11-27,2023-02-19
+783,783,,Liver Cirrhosis,O-,Patient reported blurred vision for 19 months.,,1.92,107.9,2023-10-25,2024-11-11
+784,784,Shellfish,Asthma,A+,Patient reported rash for 29 months.,Salbutamol,1.85,110.9,2022-04-18,2024-04-12
+785,785,Penicillin,Liver Cirrhosis,A+,Patient reported hair loss for 25 months.,Salbutamol,1.69,80.6,2023-05-25,2024-09-27
+786,786,Penicillin,Glaucoma,A+,Patient reported shortness of breath for 31 months.,Aspirin,1.71,51.0,2023-11-22,2024-04-23
+787,787,,COPD,O+,Patient reported nausea for 5 months.,Amlodipine,1.84,102.5,2020-02-14,2023-06-18
+788,788,Morphine,Hypertension,O+,Patient reported dizziness for 3 months.,Metformin,1.76,65.8,2022-06-27,2025-10-13
+789,789,Aspirin,Liver Cirrhosis,A+,Patient reported loss of appetite for 23 months.,Atorvastatin,1.61,66.8,2021-04-17,2023-05-20
+790,790,Erythromycin,COPD,A+,Patient reported tingling sensation for 28 months.,Amlodipine,1.61,116.5,2020-05-15,2026-04-05
+791,791,Morphine,,A-,Patient reported excessive thirst for 28 months.,Metformin,1.78,113.7,2022-10-18,2023-07-11
+792,792,Penicillin,,A+,Patient reported skin itching for 2 months.,Lisinopril,1.53,100.2,2019-03-17,2022-02-14
+793,793,Cephalosporins,Osteoporosis,O+,Patient reported excessive thirst for 5 months.,Lisinopril,1.77,102.4,2023-03-24,2025-04-02
+794,794,,Osteoporosis,A-,Patient reported numbness for 6 months.,Lisinopril,1.75,96.2,2022-04-26,2024-07-21
+795,795,Shellfish,Epilepsy,O+,Patient reported blurred vision for 26 months.,Aspirin,1.53,99.8,2020-03-16,2025-03-24
+796,796,,Hypothyroidism,A-,Patient reported leg cramps for 27 months.,Salbutamol,1.8,66.0,2021-05-20,2021-11-26
+797,797,,Chronic Kidney Disease,A+,Patient reported loss of appetite for 25 months.,Atorvastatin,1.82,46.2,2022-04-10,2024-07-30
+798,798,Peanuts,Chronic Kidney Disease,O+,Patient reported loss of appetite for 22 months.,Amlodipine,1.51,93.1,2019-09-30,2023-11-18
+799,799,Ibuprofen,Glaucoma,A-,Patient reported weight loss for 15 months.,Metformin,1.83,88.1,2023-01-11,2023-12-13
+800,800,Codeine,Hypothyroidism,O+,Patient reported shortness of breath for 21 months.,Omeprazole,1.88,96.0,2021-05-15,2022-12-21
+801,801,,Rheumatoid Arthritis,A+,Patient reported headache for 17 months.,Metformin,1.66,61.2,2019-12-24,2021-09-21
+802,802,Ibuprofen,Epilepsy,O+,Patient reported fatigue for 20 months.,Salbutamol,1.64,110.1,2021-03-06,2023-04-15
+803,803,Morphine,Epilepsy,O+,Patient reported palpitations for 30 months.,Amlodipine,1.58,79.1,2022-04-24,2022-10-25
+804,804,Cephalosporins,,O+,Patient reported rash for 21 months.,Omeprazole,1.63,46.3,2019-09-20,2019-09-30
+805,805,Codeine,,A+,Patient reported leg cramps for 31 months.,,1.88,119.4,2023-01-18,2024-04-24
+806,806,,,B-,Patient reported excessive thirst for 20 months.,Salbutamol,1.72,52.2,2023-03-12,2025-06-21
+807,807,Ibuprofen,Cancer,A+,Patient reported leg cramps for 13 months.,Metformin,1.56,83.6,2021-01-20,2021-06-25
+808,808,Morphine,Glaucoma,B+,Patient reported numbness for 35 months.,Lisinopril,1.66,116.3,2021-05-06,2025-09-03
+809,809,,Liver Cirrhosis,A+,Patient reported fever for 8 months.,Salbutamol,1.75,69.6,2022-01-06,2024-01-22
+810,810,Aspirin,Liver Cirrhosis,A-,Patient reported muscle weakness for 5 months.,Atorvastatin,1.94,86.6,2022-03-28,2025-03-02
+811,811,Dust mites,COPD,A+,Patient reported anxiety for 8 months.,Aspirin,1.71,101.8,2021-01-09,2025-07-21
+812,812,Codeine,Cancer,O+,Patient reported vomiting for 15 months.,Omeprazole,1.74,116.6,2022-01-06,2023-03-02
+813,813,Ibuprofen,Epilepsy,B+,Patient reported fatigue for 4 months.,,1.93,49.9,2023-12-31,2026-01-02
+814,814,Erythromycin,,O+,Patient reported palpitations for 9 months.,Atorvastatin,1.64,56.8,2021-02-27,2022-03-21
+815,815,Peanuts,Osteoporosis,O-,Patient reported weight gain for 4 months.,Lisinopril,1.58,83.6,2021-08-06,2025-10-08
+816,816,Latex,Hypothyroidism,AB+,Patient reported nausea for 6 months.,Omeprazole,1.83,51.6,2020-01-31,2023-05-24
+817,817,Amoxicillin,Diabetes,A+,Patient reported memory loss for 24 months.,,1.88,116.4,2020-11-11,2025-10-23
+818,818,Shellfish,Cancer,B+,Patient reported dizziness for 20 months.,Omeprazole,1.5,78.1,2019-03-21,2021-05-06
+819,819,Ibuprofen,Heart Failure,B+,Patient reported dizziness for 27 months.,Amlodipine,1.78,67.7,2022-12-29,2023-07-21
+820,820,Shellfish,COPD,O+,Patient reported frequent urination for 16 months.,Omeprazole,1.65,111.5,2021-07-24,2023-11-04
+821,821,Sulfa drugs,Liver Cirrhosis,O+,Patient reported cough for 7 months.,Atorvastatin,1.68,91.0,2022-02-17,2026-04-16
+822,822,Erythromycin,COPD,B+,Patient reported excessive thirst for 20 months.,Lisinopril,1.92,113.8,2019-11-09,2020-06-21
+823,823,Sulfa drugs,Hypertension,O+,Patient reported insomnia for 25 months.,Lisinopril,1.51,112.1,2021-05-08,2021-12-08
+824,824,,Heart Failure,A+,Patient reported palpitations for 9 months.,Lisinopril,1.68,55.6,2019-09-29,2021-07-15
+825,825,,,O+,Patient reported nausea for 32 months.,Amlodipine,1.92,75.2,2019-09-15,2021-05-29
+826,826,Dust mites,,A+,Patient reported insomnia for 10 months.,Metformin,1.74,92.4,2022-06-20,2025-08-27
+827,827,,Osteoporosis,O-,Patient reported chest pain for 1 months.,Amlodipine,1.76,55.4,2023-06-26,2023-12-19
+828,828,Peanuts,Hypothyroidism,O-,Patient reported skin itching for 4 months.,,1.57,47.3,2019-09-23,2021-03-19
+829,829,,,B+,Patient reported tingling sensation for 32 months.,Atorvastatin,1.61,59.4,2023-09-28,2024-06-27
+830,830,,Diabetes,O+,Patient reported nausea for 19 months.,Amlodipine,1.58,98.8,2019-10-24,2023-09-25
+831,831,Aspirin,COPD,A+,Patient reported shortness of breath for 10 months.,Aspirin,1.51,73.5,2022-10-18,2025-08-31
+832,832,Cephalosporins,Epilepsy,A+,Patient reported cough for 17 months.,Metformin,1.69,71.9,2019-02-28,2021-02-07
+833,833,Cephalosporins,,O+,Patient reported night sweats for 26 months.,Amlodipine,1.52,88.5,2021-09-04,2023-02-25
+834,834,Erythromycin,,A+,Patient reported leg cramps for 22 months.,Aspirin,1.68,96.6,2019-06-20,2025-02-06
+835,835,Morphine,Hypertension,O+,Patient reported tingling sensation for 23 months.,Aspirin,1.86,61.5,2019-07-12,2023-11-21
+836,836,,Hypothyroidism,O+,Patient reported leg cramps for 29 months.,Aspirin,1.66,97.3,2021-12-23,2024-10-29
+837,837,Amoxicillin,Diabetes,AB+,Patient reported dizziness for 27 months.,Atorvastatin,1.9,55.4,2020-02-26,2024-07-08
+838,838,Penicillin,,A+,Patient reported rash for 36 months.,Aspirin,1.5,66.0,2019-06-30,2020-08-03
+839,839,Erythromycin,Heart Failure,B+,Patient reported nausea for 1 months.,,1.73,60.5,2023-03-23,2025-09-23
+840,840,Sulfa drugs,Liver Cirrhosis,O+,Patient reported anxiety for 21 months.,,1.75,116.3,2023-01-16,2024-06-24
+841,841,Cephalosporins,Glaucoma,B+,Patient reported abdominal pain for 17 months.,Salbutamol,1.86,99.8,2019-05-31,2026-01-07
+842,842,Peanuts,Cancer,A+,Patient reported joint pain for 36 months.,,1.76,111.2,2020-09-22,2025-08-31
+843,843,Pollen,Hypothyroidism,O+,Patient reported tingling sensation for 15 months.,Atorvastatin,1.8,74.5,2020-03-16,2020-11-01
+844,844,Penicillin,Liver Cirrhosis,O+,Patient reported leg cramps for 34 months.,Aspirin,1.87,84.7,2022-02-13,2023-07-21
+845,845,Pollen,,O+,Patient reported insomnia for 10 months.,Atorvastatin,1.67,94.8,2023-06-26,2025-05-05
+846,846,,Heart Failure,O+,Patient reported anxiety for 11 months.,Metformin,1.84,53.3,2020-01-16,2021-10-27
+847,847,Morphine,Asthma,A+,Patient reported swelling for 3 months.,Aspirin,1.9,83.6,2020-05-17,2024-07-24
+848,848,Pollen,Epilepsy,O+,Patient reported frequent urination for 32 months.,Aspirin,1.79,82.7,2023-01-29,2024-09-30
+849,849,Dust mites,Glaucoma,O+,Patient reported weight loss for 31 months.,Omeprazole,1.83,88.1,2020-10-25,2025-04-23
+850,850,,COPD,O+,Patient reported weight loss for 23 months.,,1.54,80.8,2019-10-28,2020-09-17
+851,851,Peanuts,Heart Failure,O+,Patient reported fever for 33 months.,Salbutamol,1.62,98.1,2023-06-01,2025-04-06
+852,852,Erythromycin,Diabetes,A+,Patient reported difficulty breathing for 34 months.,Aspirin,1.81,118.7,2022-11-05,2023-03-16
+853,853,Codeine,Rheumatoid Arthritis,A+,Patient reported abdominal pain for 8 months.,Salbutamol,1.69,70.1,2021-06-27,2023-04-19
+854,854,Erythromycin,Osteoporosis,B+,Patient reported numbness for 5 months.,Amlodipine,1.85,77.7,2021-04-12,2023-04-10
+855,855,Sulfa drugs,Osteoporosis,AB-,Patient reported anxiety for 28 months.,,1.92,45.6,2021-04-05,2023-09-24
+856,856,Aspirin,Osteoporosis,A+,Patient reported leg cramps for 12 months.,Metformin,1.88,74.7,2020-02-28,2024-02-04
+857,857,Morphine,,B+,Patient reported numbness for 31 months.,Atorvastatin,1.58,66.1,2019-03-19,2020-03-04
+858,858,Latex,Epilepsy,O+,Patient reported muscle weakness for 11 months.,Salbutamol,1.67,86.5,2020-07-29,2022-12-26
+859,859,,Liver Cirrhosis,O+,Patient reported dizziness for 6 months.,Metformin,1.62,104.5,2020-06-04,2025-04-24
+860,860,Morphine,,O+,Patient reported headache for 22 months.,,1.7,63.2,2020-09-06,2020-09-26
+861,861,,Rheumatoid Arthritis,A+,Patient reported dry mouth for 7 months.,Amlodipine,1.65,65.4,2021-03-30,2025-06-06
+862,862,Penicillin,COPD,O+,Patient reported loss of appetite for 3 months.,Aspirin,1.72,65.0,2020-05-16,2022-02-06
+863,863,Dust mites,Heart Failure,O+,Patient reported dry mouth for 9 months.,Metformin,1.78,101.2,2022-12-05,2023-09-13
+864,864,Dust mites,,O+,Patient reported headache for 7 months.,Atorvastatin,1.82,106.6,2022-11-27,2024-07-31
+865,865,Peanuts,Rheumatoid Arthritis,AB+,Patient reported back pain for 33 months.,Amlodipine,1.83,57.8,2021-06-29,2025-08-20
+866,866,Ibuprofen,,B+,Patient reported numbness for 14 months.,,1.89,95.5,2023-12-10,2024-12-09
+867,867,,COPD,A+,Patient reported joint pain for 6 months.,Atorvastatin,1.67,76.3,2023-11-27,2024-10-19
+868,868,Morphine,Osteoporosis,A+,Patient reported hair loss for 33 months.,Omeprazole,1.63,74.7,2021-01-29,2023-04-23
+869,869,,Epilepsy,A+,Patient reported hair loss for 22 months.,Lisinopril,1.8,112.0,2022-06-02,2022-07-17
+870,870,Sulfa drugs,Osteoporosis,O+,Patient reported skin itching for 31 months.,Amlodipine,1.67,56.5,2021-10-30,2022-03-11
+871,871,Erythromycin,Glaucoma,O+,Patient reported fever for 22 months.,,1.8,77.2,2019-07-16,2022-12-23
+872,872,Erythromycin,Osteoporosis,B+,Patient reported anxiety for 16 months.,Amlodipine,1.8,80.7,2022-01-13,2023-01-12
+873,873,,Hypothyroidism,O+,Patient reported insomnia for 21 months.,Metformin,1.72,72.1,2021-06-08,2023-05-26
+874,874,Cephalosporins,Chronic Kidney Disease,O+,Patient reported swelling for 20 months.,,1.94,77.4,2022-06-08,2023-11-29
+875,875,,Heart Failure,O-,Patient reported tingling sensation for 27 months.,Atorvastatin,1.93,99.4,2021-10-05,2022-05-01
+876,876,Erythromycin,Liver Cirrhosis,A+,Patient reported dry mouth for 26 months.,,1.63,53.4,2022-06-08,2022-09-26
+877,877,Morphine,COPD,A+,Patient reported skin itching for 8 months.,Metformin,1.8,53.2,2022-04-30,2024-12-04
+878,878,Shellfish,Heart Failure,AB+,Patient reported skin itching for 15 months.,Omeprazole,1.78,64.7,2020-05-31,2025-08-06
+879,879,Ibuprofen,,A+,Patient reported hair loss for 9 months.,Atorvastatin,1.66,72.4,2022-09-12,2024-03-02
+880,880,,COPD,O-,Patient reported vomiting for 15 months.,Amlodipine,1.62,117.5,2021-04-01,2022-09-04
+881,881,,Glaucoma,O+,Patient reported tingling sensation for 24 months.,Salbutamol,1.6,94.9,2019-07-15,2023-12-12
+882,882,Latex,Cancer,A+,Patient reported confusion for 24 months.,Amlodipine,1.75,107.5,2023-10-29,2024-03-25
+883,883,Peanuts,Hypothyroidism,B+,Patient reported dry mouth for 24 months.,Lisinopril,1.79,75.2,2023-03-10,2024-11-16
+884,884,Latex,Liver Cirrhosis,B+,Patient reported palpitations for 8 months.,,1.68,62.9,2021-12-23,2026-04-24
+885,885,Cephalosporins,Hypothyroidism,AB+,Patient reported shortness of breath for 30 months.,Lisinopril,1.61,105.5,2019-01-04,2022-05-19
+886,886,,Heart Failure,A-,Patient reported palpitations for 32 months.,Salbutamol,1.82,105.5,2023-01-07,2023-07-22
+887,887,Amoxicillin,Glaucoma,O+,Patient reported memory loss for 21 months.,Amlodipine,1.95,83.9,2019-09-12,2025-12-06
+888,888,Morphine,Hypothyroidism,O+,Patient reported loss of appetite for 3 months.,Lisinopril,1.71,59.3,2020-08-03,2024-10-08
+889,889,Dust mites,Diabetes,O+,Patient reported skin itching for 23 months.,Metformin,1.8,47.9,2019-02-09,2019-12-24
+890,890,Sulfa drugs,Hypothyroidism,O+,Patient reported insomnia for 30 months.,Omeprazole,1.76,81.7,2023-03-16,2023-05-27
+891,891,Pollen,Chronic Kidney Disease,B+,Patient reported anxiety for 21 months.,Amlodipine,1.81,74.8,2022-05-08,2023-05-07
+892,892,Latex,Diabetes,A+,Patient reported weight gain for 36 months.,Aspirin,1.7,95.8,2023-03-15,2025-03-31
+893,893,Peanuts,Cancer,AB+,Patient reported dry mouth for 16 months.,Amlodipine,1.9,104.7,2023-06-08,2025-11-01
+894,894,,Osteoporosis,A+,Patient reported dry mouth for 4 months.,Salbutamol,1.56,85.0,2021-04-14,2021-07-16
+895,895,Morphine,Glaucoma,B+,Patient reported swelling for 15 months.,Amlodipine,1.87,101.5,2023-05-15,2023-11-05
+896,896,Penicillin,Diabetes,B+,Patient reported dizziness for 30 months.,Omeprazole,1.57,92.6,2020-07-11,2022-08-26
+897,897,Amoxicillin,Rheumatoid Arthritis,O+,Patient reported weight loss for 21 months.,Salbutamol,1.82,99.5,2021-04-09,2026-01-15
+898,898,Pollen,Hypothyroidism,O+,Patient reported blurred vision for 34 months.,Metformin,1.59,102.6,2023-04-24,2023-08-30
+899,899,Penicillin,Heart Failure,O+,Patient reported weight loss for 24 months.,Aspirin,1.88,87.1,2019-04-16,2024-05-27
+900,900,Latex,Rheumatoid Arthritis,A+,Patient reported leg cramps for 12 months.,Amlodipine,1.58,119.4,2023-08-16,2023-09-10
+901,901,Pollen,Cancer,A+,Patient reported palpitations for 5 months.,Atorvastatin,1.9,109.8,2023-02-02,2025-09-23
+902,902,,Rheumatoid Arthritis,O+,Patient reported vomiting for 6 months.,Atorvastatin,1.8,116.8,2021-05-28,2024-09-03
+903,903,Codeine,Diabetes,A+,Patient reported numbness for 11 months.,Aspirin,1.54,53.1,2020-06-24,2022-05-06
+904,904,,Liver Cirrhosis,O+,Patient reported back pain for 22 months.,Omeprazole,1.68,101.9,2022-08-07,2025-08-30
+905,905,Shellfish,Hypothyroidism,A-,Patient reported insomnia for 24 months.,,1.58,96.5,2020-06-24,2023-07-16
+906,906,Shellfish,Glaucoma,B+,Patient reported abdominal pain for 34 months.,Lisinopril,1.86,96.6,2020-08-09,2021-06-17
+907,907,Shellfish,Diabetes,A+,Patient reported night sweats for 13 months.,Metformin,1.81,55.8,2020-03-13,2024-06-24
+908,908,Morphine,Epilepsy,O+,Patient reported vomiting for 14 months.,Salbutamol,1.88,99.2,2023-08-18,2025-06-11
+909,909,,Glaucoma,AB+,Patient reported blurred vision for 32 months.,Lisinopril,1.62,95.3,2023-05-18,2023-12-08
+910,910,Codeine,Hypertension,B+,Patient reported anxiety for 16 months.,,1.61,65.0,2019-06-02,2022-05-06
+911,911,Aspirin,,O+,Patient reported cough for 29 months.,Atorvastatin,1.74,113.4,2019-07-19,2020-10-16
+912,912,Penicillin,Cancer,A+,Patient reported hair loss for 26 months.,Omeprazole,1.71,81.2,2019-01-04,2024-09-15
+913,913,Penicillin,Rheumatoid Arthritis,O+,Patient reported frequent urination for 7 months.,,1.85,73.3,2022-09-16,2025-06-01
+914,914,Peanuts,Hypertension,O+,Patient reported hair loss for 5 months.,Aspirin,1.58,52.0,2021-09-16,2024-01-26
+915,915,Latex,Hypertension,B-,Patient reported dizziness for 20 months.,Lisinopril,1.73,106.0,2020-07-31,2025-01-02
+916,916,Amoxicillin,Hypertension,O+,Patient reported insomnia for 20 months.,Amlodipine,1.86,64.3,2020-04-08,2022-01-30
+917,917,Pollen,Hypothyroidism,O+,Patient reported nausea for 26 months.,Metformin,1.65,113.0,2020-09-03,2021-11-24
+918,918,Amoxicillin,Osteoporosis,A+,Patient reported insomnia for 17 months.,Metformin,1.93,98.9,2022-10-28,2022-12-08
+919,919,,Heart Failure,A+,Patient reported muscle weakness for 9 months.,Amlodipine,1.87,119.9,2019-02-01,2021-08-28
+920,920,,Heart Failure,A+,Patient reported headache for 24 months.,Lisinopril,1.58,119.5,2019-04-19,2020-09-05
+921,921,Latex,Osteoporosis,A+,Patient reported chest pain for 30 months.,Omeprazole,1.58,117.1,2021-03-12,2023-10-19
+922,922,Amoxicillin,Diabetes,O+,Patient reported loss of appetite for 9 months.,Amlodipine,1.93,75.1,2022-05-10,2023-10-01
+923,923,Penicillin,Asthma,B+,Patient reported frequent urination for 2 months.,Salbutamol,1.67,65.7,2019-12-23,2021-03-30
+924,924,Penicillin,Asthma,O+,Patient reported weight loss for 13 months.,Amlodipine,1.75,101.7,2023-11-07,2026-03-19
+925,925,Cephalosporins,Cancer,A+,Patient reported nausea for 1 months.,Aspirin,1.66,62.9,2022-10-29,2026-04-23
+926,926,Shellfish,,A-,Patient reported muscle weakness for 22 months.,Omeprazole,1.67,61.3,2019-06-22,2024-11-08
+927,927,Peanuts,Diabetes,AB-,Patient reported nausea for 20 months.,Metformin,1.91,102.4,2019-02-23,2020-12-21
+928,928,Latex,,A+,Patient reported rash for 6 months.,Amlodipine,1.67,116.4,2022-01-17,2023-06-01
+929,929,,Osteoporosis,A+,Patient reported weight loss for 22 months.,Salbutamol,1.54,114.7,2022-03-30,2022-04-23
+930,930,Ibuprofen,,A+,Patient reported shortness of breath for 13 months.,Metformin,1.66,82.5,2021-09-22,2025-08-24
+931,931,Aspirin,,A+,Patient reported headache for 9 months.,Omeprazole,1.91,97.4,2022-03-19,2023-11-30
+932,932,Penicillin,COPD,AB+,Patient reported palpitations for 35 months.,,1.84,92.3,2019-07-10,2023-12-02
+933,933,Shellfish,Cancer,O+,Patient reported insomnia for 36 months.,Omeprazole,1.55,86.8,2020-05-04,2025-05-13
+934,934,Dust mites,Hypothyroidism,O-,Patient reported frequent urination for 4 months.,Metformin,1.67,61.8,2021-08-09,2025-05-06
+935,935,Shellfish,Heart Failure,O+,Patient reported skin itching for 15 months.,Lisinopril,1.79,80.4,2023-09-23,2025-09-23
+936,936,Amoxicillin,Hypertension,A+,Patient reported cough for 17 months.,Aspirin,1.84,99.2,2020-04-11,2022-10-22
+937,937,,COPD,A+,Patient reported palpitations for 22 months.,Lisinopril,1.85,67.7,2023-03-27,2026-01-13
+938,938,Erythromycin,,A+,Patient reported muscle weakness for 29 months.,,1.88,85.6,2021-12-28,2022-03-26
+939,939,Peanuts,Rheumatoid Arthritis,B+,Patient reported difficulty breathing for 11 months.,Salbutamol,1.52,89.6,2019-02-10,2022-12-07
+940,940,Peanuts,,O+,Patient reported muscle weakness for 31 months.,Aspirin,1.87,52.9,2022-04-02,2026-04-11
+941,941,Aspirin,Hypothyroidism,O-,Patient reported loss of appetite for 20 months.,Salbutamol,1.66,95.5,2022-03-25,2024-11-17
+942,942,Peanuts,Rheumatoid Arthritis,A+,Patient reported back pain for 33 months.,Salbutamol,1.57,74.1,2020-11-30,2023-07-02
+943,943,Morphine,Glaucoma,O+,Patient reported blurred vision for 2 months.,,1.76,90.7,2021-11-04,2023-09-26
+944,944,Erythromycin,Heart Failure,AB-,Patient reported memory loss for 27 months.,Metformin,1.88,73.4,2021-02-17,2024-02-04
+945,945,Codeine,,O+,Patient reported excessive thirst for 5 months.,,1.73,114.9,2023-11-08,2025-09-03
+946,946,,Hypothyroidism,O+,Patient reported night sweats for 29 months.,Salbutamol,1.7,73.1,2019-03-11,2026-03-13
+947,947,Aspirin,Liver Cirrhosis,O-,Patient reported excessive thirst for 10 months.,Aspirin,1.6,80.1,2022-09-01,2023-10-26
+948,948,Codeine,,O+,Patient reported headache for 6 months.,Metformin,1.93,101.9,2023-03-07,2025-09-01
+949,949,Peanuts,Diabetes,O+,Patient reported excessive thirst for 12 months.,Atorvastatin,1.8,47.4,2019-09-24,2025-12-09
+950,950,,,O-,Patient reported difficulty breathing for 13 months.,Atorvastatin,1.6,96.3,2022-08-30,2023-08-08
+951,951,Amoxicillin,Hypertension,O+,Patient reported swelling for 15 months.,Omeprazole,1.63,46.7,2023-06-02,2024-03-21
+952,952,Dust mites,,O+,Patient reported insomnia for 17 months.,,1.81,45.2,2022-12-21,2023-02-15
+953,953,Peanuts,Heart Failure,O+,Patient reported tingling sensation for 29 months.,Aspirin,1.65,55.5,2019-09-25,2021-11-14
+954,954,Cephalosporins,Diabetes,A+,Patient reported tingling sensation for 16 months.,Salbutamol,1.82,48.6,2019-10-07,2025-06-08
+955,955,Dust mites,,AB+,Patient reported anxiety for 36 months.,Amlodipine,1.63,80.9,2020-06-26,2023-05-01
+956,956,Shellfish,Cancer,A+,Patient reported anxiety for 1 months.,Omeprazole,1.58,71.3,2019-08-07,2020-11-25
+957,957,Cephalosporins,,O+,Patient reported chest pain for 21 months.,,1.94,75.8,2019-10-21,2025-09-27
+958,958,Cephalosporins,Asthma,A+,Patient reported shortness of breath for 31 months.,Aspirin,1.75,92.8,2021-01-17,2022-11-30
+959,959,,Epilepsy,O+,Patient reported cough for 3 months.,,1.82,116.3,2021-03-23,2021-05-18
+960,960,Codeine,Diabetes,O+,Patient reported hair loss for 3 months.,Lisinopril,1.78,98.8,2020-05-25,2021-03-28
+961,961,Shellfish,Epilepsy,A+,Patient reported swelling for 9 months.,Salbutamol,1.75,103.3,2021-04-01,2023-07-29
+962,962,Codeine,,O+,Patient reported dry mouth for 13 months.,Lisinopril,1.61,56.8,2023-12-19,2025-06-02
+963,963,Cephalosporins,Osteoporosis,A+,Patient reported excessive thirst for 12 months.,Lisinopril,1.71,95.0,2021-01-11,2025-07-01
+964,964,Dust mites,Glaucoma,O+,Patient reported frequent urination for 1 months.,,1.59,58.7,2020-09-07,2021-12-21
+965,965,,Epilepsy,A+,Patient reported chest pain for 2 months.,Amlodipine,1.54,48.1,2019-01-14,2024-04-26
+966,966,,Hypothyroidism,A+,Patient reported nausea for 10 months.,Metformin,1.57,56.9,2020-10-01,2024-07-18
+967,967,Penicillin,Diabetes,A+,Patient reported confusion for 20 months.,Amlodipine,1.93,50.0,2023-01-21,2025-10-18
+968,968,Erythromycin,Epilepsy,A+,Patient reported joint pain for 5 months.,Metformin,1.89,65.2,2021-10-17,2025-04-07
+969,969,Pollen,Asthma,B+,Patient reported numbness for 2 months.,Lisinopril,1.66,75.4,2023-11-26,2025-03-17
+970,970,,Glaucoma,B+,Patient reported dizziness for 15 months.,Aspirin,1.52,85.1,2020-07-18,2022-06-17
+971,971,Shellfish,Glaucoma,A+,Patient reported rash for 13 months.,Metformin,1.76,72.9,2023-02-14,2026-03-01
+972,972,,Asthma,O+,Patient reported loss of appetite for 35 months.,Metformin,1.69,104.7,2020-05-02,2022-10-04
+973,973,Erythromycin,COPD,B+,Patient reported back pain for 15 months.,Atorvastatin,1.68,50.7,2021-07-01,2024-10-30
+974,974,,COPD,O+,Patient reported vomiting for 30 months.,Metformin,1.54,48.3,2021-10-21,2025-10-01
+975,975,Sulfa drugs,Osteoporosis,A+,Patient reported hair loss for 9 months.,Metformin,1.78,71.3,2021-06-04,2024-03-16
+976,976,Latex,Hypertension,A+,Patient reported back pain for 36 months.,Amlodipine,1.56,62.0,2019-09-02,2025-12-22
+977,977,Latex,Osteoporosis,A+,Patient reported chest pain for 18 months.,,1.84,88.9,2021-07-10,2026-03-29
+978,978,,Asthma,A+,Patient reported tingling sensation for 35 months.,Amlodipine,1.91,105.8,2022-04-30,2022-11-27
+979,979,Ibuprofen,Rheumatoid Arthritis,O+,Patient reported night sweats for 6 months.,Omeprazole,1.77,118.0,2023-09-22,2024-04-25
+980,980,,COPD,A+,Patient reported skin itching for 20 months.,Lisinopril,1.95,117.2,2023-08-28,2026-04-12
+981,981,Codeine,Glaucoma,A+,Patient reported weight gain for 27 months.,Atorvastatin,1.67,70.9,2022-02-23,2024-10-07
+982,982,Ibuprofen,Epilepsy,A+,Patient reported headache for 12 months.,Omeprazole,1.79,116.4,2022-01-22,2023-05-23
+983,983,,Chronic Kidney Disease,B+,Patient reported frequent urination for 30 months.,Salbutamol,1.58,101.4,2021-07-09,2022-11-03
+984,984,Cephalosporins,Cancer,O+,Patient reported rash for 22 months.,Omeprazole,1.78,79.7,2022-07-25,2024-04-11
+985,985,,Asthma,O+,Patient reported confusion for 31 months.,Lisinopril,1.65,75.5,2022-05-21,2024-06-29
+986,986,Cephalosporins,Cancer,O+,Patient reported fatigue for 11 months.,Metformin,1.84,62.0,2021-11-27,2025-09-12
+987,987,,Heart Failure,O-,Patient reported difficulty breathing for 9 months.,Omeprazole,1.71,109.8,2019-02-08,2026-04-16
+988,988,Aspirin,Heart Failure,O+,Patient reported difficulty breathing for 1 months.,Lisinopril,1.69,71.6,2019-03-04,2019-09-24
+989,989,Amoxicillin,Hypothyroidism,A+,Patient reported difficulty breathing for 11 months.,Aspirin,1.67,103.4,2021-04-30,2022-01-16
+990,990,Latex,Asthma,B+,Patient reported back pain for 3 months.,,1.69,90.0,2021-01-19,2022-07-08
+991,991,Aspirin,Osteoporosis,O-,Patient reported blurred vision for 4 months.,Lisinopril,1.81,56.1,2023-04-07,2023-09-27
+992,992,Amoxicillin,Diabetes,A+,Patient reported skin itching for 12 months.,Atorvastatin,1.68,113.4,2022-12-26,2023-08-15
+993,993,Erythromycin,Hypothyroidism,A+,Patient reported excessive thirst for 1 months.,Metformin,1.79,84.1,2023-11-10,2024-10-11
+994,994,Latex,,A+,Patient reported swelling for 22 months.,Omeprazole,1.7,68.0,2022-06-04,2023-09-03
+995,995,Codeine,Osteoporosis,AB+,Patient reported weight gain for 21 months.,Aspirin,1.81,113.4,2022-01-08,2025-08-05
+996,996,,Liver Cirrhosis,A+,Patient reported nausea for 23 months.,,1.89,46.5,2021-09-03,2026-02-21
+997,997,Codeine,Asthma,O+,Patient reported fever for 20 months.,Salbutamol,1.83,62.7,2021-06-02,2025-09-24
+998,998,Shellfish,Hypertension,A+,Patient reported back pain for 2 months.,Metformin,1.82,92.7,2019-03-29,2021-07-06
+999,999,Pollen,Glaucoma,AB+,Patient reported excessive thirst for 5 months.,Omeprazole,1.64,78.9,2023-09-22,2024-12-29
+1000,1000,,Cancer,A+,Patient reported numbness for 21 months.,Omeprazole,1.8,48.9,2023-09-21,2025-10-15

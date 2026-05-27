@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Backend IA Médical — Test UI</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3e;
+      --accent: #4f8ef7;
+      --accent-dim: #1e3a6e;
+      --text: #e2e6f0;
+      --text-dim: #7a8099;
+      --green: #34d399;
+      --red: #f87171;
+      --yellow: #fbbf24;
+      --radius: 10px;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      padding: 16px 32px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 1.1rem; font-weight: 600; color: var(--accent); }
+    header span { font-size: 0.8rem; color: var(--text-dim); background: var(--accent-dim);
+      padding: 3px 10px; border-radius: 20px; }
+
+    #app { width: 100%; max-width: 900px; padding: 32px 16px; }
+
+    /* ── LOGIN ── */
+    #login-section {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px;
+      max-width: 420px;
+      margin: 80px auto;
+    }
+    #login-section h2 { margin-bottom: 8px; }
+    #login-section p  { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 28px; }
+
+    label { display: block; font-size: 0.82rem; color: var(--text-dim); margin-bottom: 6px; }
+    input[type=text], input[type=password] {
+      width: 100%; padding: 10px 14px;
+      background: var(--bg); border: 1px solid var(--border);
+      border-radius: 7px; color: var(--text); font-size: 0.95rem;
+      margin-bottom: 16px; outline: none; transition: border .2s;
+    }
+    input:focus { border-color: var(--accent); }
+
+    .users-hint {
+      background: var(--accent-dim); border-radius: 7px;
+      padding: 10px 14px; margin-bottom: 20px; font-size: 0.8rem;
+      color: var(--text-dim); line-height: 1.7;
+    }
+    .users-hint strong { color: var(--text); }
+
+    btn, button {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 10px 20px; border-radius: 7px; border: none;
+      cursor: pointer; font-size: 0.9rem; font-weight: 500; transition: opacity .2s;
+    }
+    button:hover { opacity: 0.85; }
+    .btn-primary  { background: var(--accent); color: #fff; width: 100%; justify-content: center; }
+    .btn-logout   { background: var(--border); color: var(--text-dim); padding: 6px 14px; font-size: 0.8rem; }
+    .btn-send     { background: var(--accent); color: #fff; padding: 10px 20px; white-space: nowrap; }
+    .btn-clear    { background: var(--border); color: var(--text-dim); padding: 10px 14px; }
+
+    /* ── STATUS BAR ── */
+    #status-bar {
+      display: none;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 12px 20px;
+      margin-bottom: 20px; font-size: 0.85rem;
+      display: none; align-items: center; gap: 12px;
+    }
+    #status-bar .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex-shrink: 0; }
+    #status-bar .info { color: var(--text-dim); }
+    #status-bar .role-badge {
+      margin-left: auto; padding: 2px 10px; border-radius: 20px;
+      font-size: 0.75rem; font-weight: 600; text-transform: uppercase;
+    }
+    .role-admin  { background: #7c3aed33; color: #a78bfa; }
+    .role-medecin { background: #0d9488;   color: #fff; }
+    .role-staff  { background: #92400e33; color: #fbbf24; }
+
+    /* ── CHAT ── */
+    #chat-section { display: none; }
+
+    #messages {
+      height: 420px; overflow-y: auto;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px;
+      margin-bottom: 12px; display: flex; flex-direction: column; gap: 16px;
+      scroll-behavior: smooth;
+    }
+
+    .msg { max-width: 80%; }
+    .msg.user  { align-self: flex-end; }
+    .msg.bot   { align-self: flex-start; }
+
+    .msg .bubble {
+      padding: 10px 16px; border-radius: 16px; font-size: 0.9rem; line-height: 1.5;
+    }
+    .msg.user  .bubble { background: var(--accent); color: #fff; border-bottom-right-radius: 4px; }
+    .msg.bot   .bubble { background: var(--border); color: var(--text); border-bottom-left-radius: 4px; }
+    .msg.error .bubble { background: #7f1d1d; color: #fca5a5; }
+
+    .msg .meta { font-size: 0.73rem; color: var(--text-dim); margin-top: 4px; }
+    .msg.user .meta { text-align: right; }
+
+    /* SQL pill */
+    .sql-block {
+      margin-top: 10px; background: #0d1117;
+      border: 1px solid var(--border); border-radius: 8px;
+      padding: 10px 14px; font-family: 'Consolas', monospace;
+      font-size: 0.8rem; color: #79c0ff; white-space: pre-wrap; word-break: break-all;
+    }
+    .sql-label { font-size: 0.72rem; color: var(--text-dim); margin-bottom: 4px; }
+
+    /* Result table */
+    .result-table-wrap {
+      margin-top: 10px; overflow-x: auto; border-radius: 8px;
+      border: 1px solid var(--border); max-height: 220px; overflow-y: auto;
+    }
+    .result-count { font-size: 0.75rem; color: var(--green); margin-bottom: 6px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    th { background: #222636; color: var(--text-dim); padding: 7px 12px;
+      text-align: left; font-weight: 500; position: sticky; top: 0; }
+    td { padding: 6px 12px; border-top: 1px solid var(--border); color: var(--text); }
+    tr:hover td { background: #1e2133; }
+
+    /* Input row */
+    #input-row { display: flex; gap: 8px; }
+    #input-row input {
+      flex: 1; padding: 12px 16px; font-size: 0.95rem;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); outline: none; margin-bottom: 0;
+    }
+    #input-row input:focus { border-color: var(--accent); }
+
+    /* Loader */
+    .loader {
+      display: inline-block; width: 14px; height: 14px;
+      border: 2px solid #ffffff44; border-top-color: #fff;
+      border-radius: 50%; animation: spin .7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Toast */
+    #toast {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      background: #1e293b; border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 20px;
+      font-size: 0.85rem; color: var(--text); opacity: 0;
+      transition: opacity .3s; pointer-events: none; z-index: 999;
+    }
+    #toast.show { opacity: 1; }
+
+    /* Error msg in status */
+    #login-error { color: var(--red); font-size: 0.82rem; margin-top: -8px; margin-bottom: 12px; display: none; }
+
+    /* Empty state */
+    .empty-state {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      color: var(--text-dim); gap: 8px; text-align: center;
+    }
+    .empty-state .icon { font-size: 2.5rem; }
+    .empty-state p { font-size: 0.85rem; max-width: 280px; }
+    .suggestions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 8px; }
+    .suggestion {
+      background: var(--border); border-radius: 20px; padding: 5px 14px;
+      font-size: 0.78rem; cursor: pointer; color: var(--text-dim); transition: background .2s;
+      border: none; color: var(--text-dim);
+    }
+    .suggestion:hover { background: var(--accent-dim); color: var(--accent); opacity: 1; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🏥 Backend IA Médical</h1>
+  <span id="header-tag">Test UI — PFA</span>
+</header>
+
+<div id="app">
+
+  <!-- LOGIN -->
+  <div id="login-section">
+    <h2>Connexion</h2>
+    <p>Interface de test temporaire pour le backend.</p>
+
+    <div class="users-hint">
+      Comptes de test :<br>
+      <strong>admin</strong> / admin123 &nbsp;·&nbsp;
+      <strong>docteur</strong> / doc123 &nbsp;·&nbsp;
+      <strong>staff</strong> / staff123
+    </div>
+
+    <label>Nom d'utilisateur</label>
+    <input type="text" id="username" placeholder="admin" value="admin" />
+
+    <label>Mot de passe</label>
+    <input type="password" id="password" placeholder="••••••••" value="admin123" />
+
+    <div id="login-error"></div>
+    <button class="btn-primary" onclick="login()" id="login-btn">Se connecter</button>
+  </div>
+
+  <!-- CHAT -->
+  <div id="chat-section">
+
+    <div id="status-bar">
+      <div class="dot"></div>
+      <span class="info">Connecté en tant que <strong id="s-user"></strong></span>
+      <span class="role-badge" id="s-role"></span>
+      <button class="btn-logout" onclick="logout()">Déconnexion</button>
+    </div>
+
+    <div id="messages">
+      <div class="empty-state" id="empty">
+        <div class="icon">💬</div>
+        <p>Pose une question en langage naturel. Le backend va détecter l'intention, générer du SQL et retourner les données.</p>
+        <div class="suggestions">
+          <button class="suggestion" onclick="fillAndSend('liste les patients')">liste les patients</button>
+          <button class="suggestion" onclick="fillAndSend('montre les consultations du jour')">consultations du jour</button>
+          <button class="suggestion" onclick="fillAndSend('donne-moi les rendez-vous en attente')">rendez-vous en attente</button>
+          <button class="suggestion" onclick="fillAndSend('affiche les membres du staff médical')">staff médical</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="input-row">
+      <input type="text" id="msg-input" placeholder="Ex : liste les patients, affiche les consultations..." onkeydown="if(event.key==='Enter') send()" />
+      <button class="btn-clear" onclick="clearChat()" title="Effacer">🗑</button>
+      <button class="btn-send" onclick="send()" id="send-btn">Envoyer</button>
+    </div>
+
+  </div>
+
+</div>
+
+<div id="toast"></div>
+
+<script>
+  const API = 'http://localhost:5000';
+  let token = null;
+  let username = null;
+  let role = null;
+
+  // ── LOGIN ──
+  async function login() {
+    const u = document.getElementById('username').value.trim();
+    const p = document.getElementById('password').value.trim();
+    const btn = document.getElementById('login-btn');
+    const err = document.getElementById('login-error');
+
+    if (!u || !p) { showErr('Remplis tous les champs.'); return; }
+
+    btn.innerHTML = '<span class="loader"></span> Connexion...';
+    btn.disabled = true;
+    err.style.display = 'none';
+
+    try {
+      const res = await fetch(`${API}/api/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: u, password: p })
+      });
+      const data = await res.json();
+
+      if (!res.ok) throw new Error(data.error || 'Identifiants incorrects');
+
+      token = data.token;
+      username = data.username;
+      role = data.role;
+
+      document.getElementById('login-section').style.display = 'none';
+      document.getElementById('chat-section').style.display = 'block';
+
+      const sb = document.getElementById('status-bar');
+      sb.style.display = 'flex';
+      document.getElementById('s-user').textContent = username;
+      const rb = document.getElementById('s-role');
+      rb.textContent = role;
+      rb.className = 'role-badge role-' + role;
+
+    } catch(e) {
+      showErr(e.message);
+      btn.innerHTML = 'Se connecter';
+      btn.disabled = false;
+    }
+  }
+
+  function showErr(msg) {
+    const err = document.getElementById('login-error');
+    err.textContent = msg;
+    err.style.display = 'block';
+  }
+
+  function logout() {
+    token = null; username = null; role = null;
+    document.getElementById('chat-section').style.display = 'none';
+    document.getElementById('login-section').style.display = 'block';
+    document.getElementById('login-btn').innerHTML = 'Se connecter';
+    document.getElementById('login-btn').disabled = false;
+    document.getElementById('messages').innerHTML = `<div class="empty-state" id="empty">
+      <div class="icon">💬</div>
+      <p>Pose une question en langage naturel.</p>
+      <div class="suggestions">
+        <button class="suggestion" onclick="fillAndSend('liste les patients')">liste les patients</button>
+        <button class="suggestion" onclick="fillAndSend('montre les consultations du jour')">consultations du jour</button>
+        <button class="suggestion" onclick="fillAndSend('donne-moi les rendez-vous en attente')">rendez-vous en attente</button>
+        <button class="suggestion" onclick="fillAndSend('affiche les membres du staff médical')">staff médical</button>
+      </div>
+    </div>`;
+  }
+
+  // ── CHAT ──
+  function fillAndSend(txt) {
+    document.getElementById('msg-input').value = txt;
+    send();
+  }
+
+  async function send() {
+    const input = document.getElementById('msg-input');
+    const msg = input.value.trim();
+    if (!msg || !token) return;
+
+    removeEmpty();
+    appendMsg('user', msg);
+    input.value = '';
+
+    const btn = document.getElementById('send-btn');
+    btn.innerHTML = '<span class="loader"></span>';
+    btn.disabled = true;
+
+    const thinking = appendMsg('bot', '...', null, null, null, true);
+
+    try {
+      const res = await fetch(`${API}/api/chat/message`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${token}` },
+        body: JSON.stringify({ message: msg })
+      });
+
+      const data = await res.json();
+      thinking.remove();
+
+      if (!res.ok) {
+        appendMsg('error', data.error || `Erreur ${res.status}`);
+      } else {
+        appendMsg('bot', data.response, data.sql, data.data, data.latency_ms);
+      }
+
+    } catch(e) {
+      thinking.remove();
+      appendMsg('error', 'Impossible de joindre le serveur. Vérifie que Flask tourne sur le port 5000.');
+    }
+
+    btn.innerHTML = 'Envoyer';
+    btn.disabled = false;
+    scrollBottom();
+  }
+
+  function appendMsg(type, text, sql, data, latency, isThinking=false) {
+    const wrap = document.createElement('div');
+    wrap.className = `msg ${type}`;
+
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.textContent = text;
+    wrap.appendChild(bubble);
+
+    if (sql && !isThinking) {
+      const sqlWrap = document.createElement('div');
+      sqlWrap.innerHTML = `<div class="sql-label">SQL généré</div><div class="sql-block">${escHtml(sql)}</div>`;
+      bubble.appendChild(sqlWrap);
+    }
+
+    if (data && data.length > 0 && !isThinking) {
+      const tWrap = document.createElement('div');
+      tWrap.className = 'result-table-wrap';
+      tWrap.innerHTML = `<div class="result-count" style="padding:6px 12px">${data.length} résultat(s)</div>` + buildTable(data);
+      bubble.appendChild(tWrap);
+    }
+
+    if (latency && !isThinking) {
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      meta.textContent = `⚡ ${latency} ms`;
+      wrap.appendChild(meta);
+    }
+
+    document.getElementById('messages').appendChild(wrap);
+    scrollBottom();
+    return wrap;
+  }
+
+  function buildTable(rows) {
+    if (!rows || rows.length === 0) return '';
+    const cols = Object.keys(rows[0]);
+    const head = cols.map(c => `<th>${escHtml(c)}</th>`).join('');
+    const body = rows.slice(0, 50).map(row =>
+      `<tr>${cols.map(c => `<td>${escHtml(String(row[c] ?? ''))}</td>`).join('')}</tr>`
+    ).join('');
+    const note = rows.length > 50 ? `<tr><td colspan="${cols.length}" style="color:var(--text-dim);text-align:center;padding:8px">... ${rows.length - 50} lignes de plus</td></tr>` : '';
+    return `<table><thead><tr>${head}</tr></thead><tbody>${body}${note}</tbody></table>`;
+  }
+
+  function removeEmpty() {
+    const e = document.getElementById('empty');
+    if (e) e.remove();
+  }
+
+  function clearChat() {
+    document.getElementById('messages').innerHTML = `<div class="empty-state" id="empty">
+      <div class="icon">💬</div>
+      <p>Pose une question en langage naturel.</p>
+      <div class="suggestions">
+        <button class="suggestion" onclick="fillAndSend('liste les patients')">liste les patients</button>
+        <button class="suggestion" onclick="fillAndSend('montre les consultations du jour')">consultations du jour</button>
+        <button class="suggestion" onclick="fillAndSend('donne-moi les rendez-vous en attente')">rendez-vous en attente</button>
+        <button class="suggestion" onclick="fillAndSend('affiche les membres du staff médical')">staff médical</button>
+      </div>
+    </div>`;
+    toast('Conversation effacée');
+  }
+
+  function scrollBottom() {
+    const m = document.getElementById('messages');
+    m.scrollTop = m.scrollHeight;
+  }
+
+  function escHtml(s) {
+    return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function toast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2500);
+  }
+
+  // Enter key on login
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter' && !token) login();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+id_service,service_name,description
+1,Oncology,Diagnosis and treatment of cancer
+2,Cardiovascular,Heart and vascular diseases
+3,Dermatology,"Skin, hair and nail disorders"
+4,Neurology,Disorders of the nervous system
+5,Pediatrics,Medical care for children
+6,Orthopedics,Musculoskeletal system disorders
+7,Ophthalmology,Eye disorders and surgery
+8,Endocrinology,Hormonal and metabolic disorders
+9,Pulmonology,Respiratory system disorders
+10,Emergency,Emergency and urgent care
+11,Radiology,Medical imaging and diagnostics
+12,General Medicine,Primary and general healthcare
