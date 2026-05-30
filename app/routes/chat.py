@@ -66,7 +66,7 @@ def send_message():
         return jsonify({'response':q, 'type':'question', 'missing':intent.get('missing_fields',[])})
 
     # ── 4. Générer SQL ──
-    sql_res = sql_generator.generate(intent, user_id)
+    sql_res = sql_generator.generate(intent, user_id, question=msg)
     gen_sql = sql_res['sql']; params = sql_res['params']
 
     # ── 5. Valider SQL ──

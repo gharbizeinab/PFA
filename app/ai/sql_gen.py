@@ -10,13 +10,20 @@ RÈGLES ABSOLUES :
 - Termine par un point-virgule
 
 TABLES PRINCIPALES :
-patients(id_patient, id_user, first_name, last_name, birthdate, gender, age, blood_group)
+patients(id_patient, id_user, first_name, last_name, birthdate, gender, age INTEGER, blood_group)
 consultations(id_consultation, id_staff, id_patient, consultation_date, status, diagnosis, symptoms)
 medical_records(id_record, id_patient, allergies, chronic_diseases, blood_group, height, weight)
 ai_diagnosis(id_ai_diagnosis, id_consultation, predicted_disease, confidence_score)
 appointments(id_appointment, id_patient, id_staff, appointment_date, reason, status)
 medical_staff(id_staff, id_user, id_service, name_staff, speciality)
 services(id_service, service_name)
+
+RÈGLES IMPORTANTES :
+- La colonne AGE existe directement dans patients (INTEGER). N'utilise JAMAIS birthdate pour calculer l'âge.
+- "count" / "number of" / "total" → toujours SELECT COUNT(*)
+- "show names" / "show X" → SELECT X (jamais SELECT *)
+- "sorted" / "order by" → toujours utiliser ORDER BY
+- "average" → AVG(colonne), "oldest" → MAX(age), "youngest" → MIN(age)
 
 EXEMPLES (apprends le pattern, pas la réponse) :
 
@@ -25,30 +32,38 @@ EXEMPLES (apprends le pattern, pas la réponse) :
 "show all consultations" → SELECT * FROM consultations;
 "list all medical staff" → SELECT * FROM medical_staff;
 
-# Afficher des colonnes spécifiques → SELECT col1, col2 (jamais WHERE)
+# Afficher des colonnes spécifiques → SELECT col1, col2 (jamais SELECT * ni WHERE)
 "show first and last names of patients" → SELECT first_name, last_name FROM patients;
 "show names of all staff" → SELECT name_staff FROM medical_staff;
 "show patient age and gender" → SELECT age, gender FROM patients;
 "show service names" → SELECT service_name FROM services;
+"show all service names" → SELECT service_name FROM services;
+"show staff specialties" → SELECT DISTINCT speciality FROM medical_staff;
 
-# Compter → SELECT COUNT(*)
+# Compter → SELECT COUNT(*) TOUJOURS
 "count total patients" → SELECT COUNT(*) FROM patients;
 "count total staff" → SELECT COUNT(*) FROM medical_staff;
 "count total consultations" → SELECT COUNT(*) FROM consultations;
+"find number of female patients" → SELECT COUNT(*) FROM patients WHERE gender = :gender;
+"find number of male patients" → SELECT COUNT(*) FROM patients WHERE gender = :gender;
 
 # Filtrer par valeur → WHERE colonne = :param
 "find female patients" → SELECT * FROM patients WHERE gender = :gender;
 "show patients older than 70" → SELECT first_name, last_name, age FROM patients WHERE age > 70;
 "find patients with hypertension" → SELECT p.first_name, p.last_name FROM patients p JOIN medical_records r ON p.id_patient = r.id_patient WHERE r.chronic_diseases ILIKE :disease;
 
-# Agrégation → AVG, MAX, MIN
+# Agrégation → AVG, MAX, MIN — utiliser la colonne age INTEGER directement
 "show average patient age" → SELECT AVG(age) FROM patients;
+"show average age by gender" → SELECT gender, AVG(age) FROM patients GROUP BY gender;
 "find oldest patient" → SELECT first_name, last_name, age FROM patients WHERE age = (SELECT MAX(age) FROM patients);
 "find youngest patient" → SELECT first_name, last_name, age FROM patients WHERE age = (SELECT MIN(age) FROM patients);
+"show patients older than 70" → SELECT first_name, last_name, age FROM patients WHERE age > 70;
+"show patients younger than 50" → SELECT first_name, last_name, age FROM patients WHERE age < 50;
 
-# Trier → ORDER BY
-"show patients sorted by age" → SELECT first_name, last_name, age FROM patients ORDER BY age DESC;
-"show staff alphabetically" → SELECT name_staff FROM medical_staff ORDER BY name_staff ASC;
+# Trier → ORDER BY — utiliser la colonne age directement
+"show patients sorted by age descending" → SELECT first_name, last_name, age FROM patients ORDER BY age DESC;
+"show patients sorted by age ascending" → SELECT first_name, last_name, age FROM patients ORDER BY age ASC;
+"show staff sorted alphabetically" → SELECT name_staff FROM medical_staff ORDER BY name_staff ASC;
 
 # Grouper → GROUP BY
 "count patients by blood group" → SELECT blood_group, COUNT(*) FROM patients GROUP BY blood_group;
@@ -67,21 +82,28 @@ EXEMPLES (apprends le pattern, pas la réponse) :
 "change diagnosis of consultation 1" → UPDATE consultations SET diagnosis = :diagnosis WHERE id_consultation = :id_consultation;"""
 
 class SQLGenerator:
-    def generate(self, intent, user_id):
+    def generate(self, intent, user_id, question=""):
         action = intent.get('intent', 'SELECT')
         table  = intent.get('table', 'patients')
         attrs  = intent.get('attributes') or {}
 
         # Séparer les colonnes à afficher (valeur null) des filtres (valeur non-null)
-        select_cols   = [k for k, v in attrs.items() if v is None]
-        filter_attrs  = {k: v for k, v in attrs.items() if v is not None}
+        select_cols  = [k for k, v in attrs.items() if v is None]
+        filter_attrs = {k: v for k, v in attrs.items() if v is not None}
+
+        # Alerte age uniquement pour les comparaisons/extremes (pas pour ORDER BY)
+        q_lower = question.lower()
+        age_hint = ""
+        if any(w in q_lower for w in ['older than', 'younger than', 'oldest', 'youngest']):
+            age_hint = "\n⚠️ Utilise UNIQUEMENT la colonne age (INTEGER) pour les conditions et le SELECT. N'utilise JAMAIS birthdate ni EXTRACT ni AGE()."
 
         user_context = f"\nUtilisateur courant (id_user) : {user_id}" if action == 'INSERT' else ""
 
-        prompt = f"""Action : {action}
+        prompt = f"""Question originale : {question}
+Action : {action}
 Table : {table}
 Colonnes à afficher : {select_cols if select_cols else 'toutes (*)'}
-Filtres WHERE : {filter_attrs if filter_attrs else 'aucun'}{user_context}
+Filtres WHERE : {filter_attrs if filter_attrs else 'aucun'}{age_hint}{user_context}
 
 SQL PostgreSQL uniquement :"""
 

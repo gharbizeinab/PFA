@@ -44,16 +44,24 @@ def login():
     return r.json()["token"]
 
 def test_question(token, question, expected_keyword):
-    r = requests.post(
-        f"{API}/api/chat/message",
-        headers={"Authorization": f"Bearer {token}",
-                 "Content-Type": "application/json"},
-        json={"message": question}
-    )
-    data = r.json()
-    sql = data.get("sql", "") or ""
-    ok  = expected_keyword.upper() in sql.upper()
-    return sql, ok
+    for attempt in range(3):  # 3 tentatives si Flask redémarre
+        try:
+            r = requests.post(
+                f"{API}/api/chat/message",
+                headers={"Authorization": f"Bearer {token}",
+                         "Content-Type": "application/json"},
+                json={"message": question},
+                timeout=120
+            )
+            data = r.json()
+            sql = data.get("sql", "") or ""
+            ok  = expected_keyword.upper() in sql.upper()
+            return sql, ok
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(3)  # attendre que Flask redémarre
+            else:
+                return f"ERREUR: {e}", False
 
 def main():
     print("🔐 Connexion...")
