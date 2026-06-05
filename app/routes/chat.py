@@ -1,6 +1,6 @@
 from flask import Blueprint, request, jsonify, current_app
 from flask_jwt_extended import jwt_required, get_jwt, get_jwt_identity
-from ..ai.intent import intent_detector
+from ..ai.pipeline import pipeline
 from ..ai.sql_gen import sql_generator
 from ..auth.rbac import check_permission, get_allowed_tables
 from ..memory.conversation import ConversationMemory
@@ -30,13 +30,9 @@ def send_message():
     # ── 1. Vérifier si intention en attente (multi-tour) ──
     pending = mem.get_pending(sid)
     if pending:
-        # Compléter l'intention précédente avec le nouveau message
-        new_info = intent_detector.detect(f"Contexte: {pending}\nNouveau: {msg}", history)
-        pending['attributes'] = {**pending.get('attributes',{}), **new_info.get('attributes',{})}
-        pending['needs_clarification'] = False
-        intent = pending
+        intent = pipeline.run(msg, history, pending_context=pending)
     else:
-        intent = intent_detector.detect(msg, history)
+        intent = pipeline.run(msg, history)
 
     # ── 2. Réponse directe si question conversationnelle ──
     table  = intent.get('table')
@@ -66,7 +62,7 @@ def send_message():
         return jsonify({'response':q, 'type':'question', 'missing':intent.get('missing_fields',[])})
 
     # ── 4. Générer SQL ──
-    sql_res = sql_generator.generate(intent, user_id, question=msg)
+    sql_res = sql_generator.generate(intent, user_id)
     gen_sql = sql_res['sql']; params = sql_res['params']
 
     # ── 5. Valider SQL ──
