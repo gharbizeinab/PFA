@@ -16,65 +16,54 @@ TABLE_SCHEMA = {
     "ai_chat_history": [],
 }
 
-# Appel 1 — colonnes et filtres uniquement
-SYSTEM_COLUMNS = """Tu es un extracteur d'informations médicales précis.
-Ta seule tâche : extraire les colonnes et filtres mentionnés dans la phrase.
+SYSTEM_COMBINED = """You are a precise medical SQL attribute extractor.
+Analyze the sentence and return ONLY this JSON structure, nothing else:
+{
+  "columns": {},
+  "aggregate": {},
+  "sort": {}
+}
 
-RÈGLES :
-- Réponds UNIQUEMENT en JSON valide, aucun texte autour
-- Pour SELECT avec filtre : {"colonne": "valeur_complete"}
-- Pour SELECT sans filtre sur une colonne spécifique : {"colonne": null}
-- Pour INSERT/UPDATE : {"colonne": "valeur extraite"}
-- Les dates au format ISO : YYYY-MM-DD
-- Si rien n'est extractible, réponds : {}
+RULES for "columns":
+- Column with filter: {"column": "value"}
+- Column requested without filter: {"column": null}
+- Dates in ISO format: YYYY-MM-DD
+- Only use columns from the available list
 
-EXEMPLES :
-Phrase: "Find all female patients"         → {"gender": "female"}
-Phrase: "Find all male patients"           → {"gender": "male"}
-Phrase: "Show patients older than 70"      → {"age": 70}
-Phrase: "Show patients younger than 50"    → {"age": 50}
-Phrase: "Show first and last names"        → {"first_name": null, "last_name": null}
-Phrase: "Find patient named John Doe"      → {"first_name": "John", "last_name": "Doe"}
-Phrase: "List all patients"                → {}"""
+RULES for "aggregate":
+- Count/quantity  → {"aggregate": "COUNT(*)"}
+- Average         → {"aggregate": "AVG(col)"}
+- Maximum         → {"aggregate": "MAX(col)"}
+- Minimum         → {"aggregate": "MIN(col)"}
+- No calc needed  → {}
 
-# Appel 2 — agrégat uniquement
-SYSTEM_AGGREGATE = """Tu es un détecteur d'agrégat SQL.
-Ta seule tâche : détecter si la phrase demande un calcul mathématique.
+RULES for "sort":
+- Sorting    → {"order_by": "col ASC|DESC"}
+- Grouping   → {"group_by": "col"}
+- Join       → {"join": "table_name"}
+- Nothing    → {}
 
-RÈGLES :
-- Réponds UNIQUEMENT en JSON valide, aucun texte autour
-- Si la question demande une quantité ou dénombrement → {"aggregate": "COUNT(*)"}
-- Si la question demande une moyenne                  → {"aggregate": "AVG(age)"}
-- Si la question demande la valeur maximale           → {"aggregate": "MAX(age)"}
-- Si la question demande la valeur minimale           → {"aggregate": "MIN(age)"}
-- Si aucun calcul demandé                             → {}
+EXAMPLES:
+"Patients with blood type A+"
+→ {"columns": {"blood_group": "A+"}, "aggregate": {}, "sort": {}}
 
-EXEMPLES :
-Phrase: "Count total number of patients"   → {"aggregate": "COUNT(*)"}
-Phrase: "How many patients are there"      → {"aggregate": "COUNT(*)"}
-Phrase: "Show average patient age"         → {"aggregate": "AVG(age)"}
-Phrase: "Find the oldest patient"          → {"aggregate": "MAX(age)"}
-Phrase: "Find the youngest patient"        → {"aggregate": "MIN(age)"}
-Phrase: "List all patients"                → {}"""
+"Show patient ID and birthdate"
+→ {"columns": {"id_patient": null, "birthdate": null}, "aggregate": {}, "sort": {}}
 
-# Appel 3 — tri, groupe, jointure uniquement
-SYSTEM_SORT = """Tu es un détecteur de tri et regroupement SQL.
-Ta seule tâche : détecter si la phrase demande un tri, regroupement ou jointure.
+"How many consultations exist"
+→ {"columns": {}, "aggregate": {"aggregate": "COUNT(*)"}, "sort": {}}
 
-RÈGLES :
-- Réponds UNIQUEMENT en JSON valide, aucun texte autour
-- Si la question demande un tri                  → {"order_by": "colonne ASC ou DESC"}
-- Si la question demande un regroupement         → {"group_by": "colonne"}
-- Si la question combine deux tables             → {"join": "nom_table"}
-- Si rien de tout ça                             → {}
+"Average weight per blood type"
+→ {"columns": {}, "aggregate": {"aggregate": "AVG(weight)"}, "sort": {"group_by": "blood_group"}}
 
-EXEMPLES :
-Phrase: "Show patients sorted by age descending"        → {"order_by": "age DESC"}
-Phrase: "Show staff sorted alphabetically"              → {"order_by": "name_staff ASC"}
-Phrase: "Show average age by gender"                    → {"group_by": "gender"}
-Phrase: "Count patients by blood group"                 → {"group_by": "blood_group"}
-Phrase: "Show all consultations with patient names"     → {"join": "patients"}
-Phrase: "List all patients"                             → {}"""
+"Sort appointments by date ascending"
+→ {"columns": {}, "aggregate": {}, "sort": {"order_by": "appointment_date ASC"}}
+
+"Show diagnoses with patient full name"
+→ {"columns": {}, "aggregate": {}, "sort": {"join": "patients"}}
+
+"List all records"
+→ {"columns": {}, "aggregate": {}, "sort": {}}"""
 
 
 def _parse(raw: str) -> dict:
@@ -95,25 +84,31 @@ class AttributeExtractor:
         if not columns:
             return {}
 
-        # Appel 1 — colonnes + filtres
-        raw1 = ollama.generate('llama3.2:3b',
-            f"Table: {table}\nColonnes disponibles: {', '.join(columns)}\nAction: {intent}\nPhrase: {query}\n\nJSON:",
-            system=SYSTEM_COLUMNS, temperature=0.1)
-        result1 = {k: v for k, v in _parse(raw1).items() if k in columns}
+        raw = ollama.chat(
+            'llama3.2:3b',
+            f"Table: {table}\nAvailable columns: {', '.join(columns)}\nAction: {intent}\nSentence: {query}\n\nJSON:",
+            system=SYSTEM_COMBINED,
+            temperature=0.1,
+            top_p=0.9,
+            num_predict=256,
+        )
+        parsed = _parse(raw)
 
-        # Appel 2 — agrégat
-        raw2 = ollama.generate('llama3.2:3b',
-            f"Colonnes disponibles: {', '.join(columns)}\nPhrase: {query}\n\nJSON:",
-            system=SYSTEM_AGGREGATE, temperature=0.1)
-        result2 = {k: v for k, v in _parse(raw2).items() if k == "aggregate"}
+        result = {}
 
-        # Appel 3 — tri / groupe / jointure
-        raw3 = ollama.generate('llama3.2:3b',
-            f"Table: {table}\nColonnes disponibles: {', '.join(columns)}\nPhrase: {query}\n\nJSON:",
-            system=SYSTEM_SORT, temperature=0.1)
-        result3 = {k: v for k, v in _parse(raw3).items() if k in {"order_by", "group_by", "join"}}
+        cols = parsed.get("columns", {})
+        if isinstance(cols, dict):
+            result.update({k: v for k, v in cols.items() if k in columns})
 
-        return {**result1, **result2, **result3}
+        agg = parsed.get("aggregate", {})
+        if isinstance(agg, dict) and "aggregate" in agg:
+            result["aggregate"] = agg["aggregate"]
+
+        srt = parsed.get("sort", {})
+        if isinstance(srt, dict):
+            result.update({k: v for k, v in srt.items() if k in {"order_by", "group_by", "join"}})
+
+        return result
 
 
 attribute_extractor = AttributeExtractor()

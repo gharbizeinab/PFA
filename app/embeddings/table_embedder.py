@@ -2,18 +2,18 @@ from sentence_transformers import SentenceTransformer
 import faiss, numpy as np, pickle, os
 
 TABLE_DESCRIPTIONS = {
-    "patients":         "patients malades hospitalisés identité âge genre groupe sanguin contact",
-    "consultations":    "consultations visites médicales actes cliniques diagnostic traitement symptômes",
-    "medical_records":  "dossier médical allergies maladies chroniques antécédents médicaments poids taille",
-    "ai_diagnosis":     "diagnostic IA maladie prédite score confiance recommandation analyse symptômes",
-    "appointments":     "rendez-vous planification agenda date horaire statut",
-    "medical_staff":    "médecins infirmiers personnel soignant spécialité licence",
-    "services":         "services hospitaliers cardiologie oncologie unités de soins",
-    "medical_documents":"fichiers radios ordonnances PDF documents médicaux attachments",
-    "users":            "comptes utilisateurs email rôle accès connexion système",
-    "notifications":    "alertes messages système rappels notifications",
-    "audit_logs":       "traçabilité historique actions qui a fait quoi sécurité",
-    "ai_chat_history":  "historique conversations IA questions posées réponses chatbot",
+    "patients":         "patients list all count total number find show select demographics age gender male female sex oldest youngest average older younger blood group first name last name identity hospitalized statistics",
+    "consultations":    "consultations list all count total doctor visits clinical encounters diagnosis treatment prescription symptoms date",
+    "medical_records":  "patient health background allergies chronic diseases blood type height weight body measurements BMI show list all records",
+    "ai_diagnosis":     "AI diagnosis predicted disease confidence score recommendation symptom analysis",
+    "appointments":     "appointments scheduling agenda date time slot status list all count",
+    "medical_staff":    "medical staff doctors nurses caregivers list all count total number members speciality sorted alphabetically",
+    "services":         "services list all show service names count total hospital departments units",
+    "medical_documents":"files x-rays prescriptions PDF medical documents attachments",
+    "users":            "user accounts email role access login system",
+    "notifications":    "alerts system messages reminders notifications",
+    "audit_logs":       "traceability history actions who did what security logs",
+    "ai_chat_history":  "conversation history AI questions asked answers chatbot",
 }
 
 INDEX_PATH = "app/embeddings/faiss_index.pkl"

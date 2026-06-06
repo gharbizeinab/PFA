@@ -3,7 +3,7 @@ from .. import db
 
 class SQLExecutor:
     def execute(self, sql, params={}):
-        """Exécute le SQL de façon sécurisée avec paramètres liés."""
+        """Execute SQL securely with bound parameters."""
         try:
             with db.engine.connect() as conn:
                 with conn.begin():
@@ -15,19 +15,19 @@ class SQLExecutor:
         except Exception as e:
             msg = str(e)
             if 'NotNullViolation' in msg or 'null value in column' in msg:
-                col = msg.split('column "')[1].split('"')[0] if 'column "' in msg else 'inconnu'
-                clean = f"Champ obligatoire manquant : '{col}'. Précise cette information dans ta demande."
+                col = msg.split('column "')[1].split('"')[0] if 'column "' in msg else 'unknown'
+                clean = f"Required field missing: '{col}'. Please provide this information."
             elif 'UniqueViolation' in msg or 'duplicate key' in msg:
-                clean = "Cette entrée existe déjà dans la base de données."
+                clean = "This entry already exists in the database."
             elif 'ForeignKeyViolation' in msg or 'foreign key' in msg:
-                clean = "Référence invalide : un identifiant lié n'existe pas."
+                clean = "Invalid reference: a linked identifier does not exist."
             elif 'UndefinedTable' in msg or 'relation' in msg and 'does not exist' in msg:
-                clean = "Table introuvable. Vérifie le nom de la table."
+                clean = "Table not found. Please check the table name."
             elif 'UndefinedColumn' in msg or 'column' in msg and 'does not exist' in msg:
-                col = msg.split('column "')[1].split('"')[0] if 'column "' in msg else 'inconnue'
-                clean = f"Colonne '{col}' introuvable dans cette table."
+                col = msg.split('column "')[1].split('"')[0] if 'column "' in msg else 'unknown'
+                clean = f"Column '{col}' not found in this table."
             else:
-                clean = "Erreur base de données. Reformule ta demande."
+                clean = "Database error. Please rephrase your request."
             return {"ok": False, "data": [], "error": clean}
 
 sql_executor = SQLExecutor()

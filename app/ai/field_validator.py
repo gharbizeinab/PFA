@@ -1,4 +1,4 @@
-# Champs obligatoires par table pour un INSERT
+# Required fields per table for INSERT
 REQUIRED_FIELDS = {
     "patients":        ["first_name", "last_name"],
     "consultations":   ["id_patient", "symptoms"],

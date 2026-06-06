@@ -8,38 +8,38 @@ from ..embeddings.table_embedder import table_matcher
 class MedicalPipeline:
     def run(self, query: str, history: list = [], pending_context: dict = None) -> dict:
         """
-        Cas multi-tour : si pending_context est fourni (intent + table déjà connus),
-        on saute les étapes 1 et 2 et on complète uniquement les attributs manquants.
+        Multi-turn: if pending_context is provided (intent + table already known),
+        skip steps 1 and 2 and only complete the missing attributes.
         """
         if pending_context:
             return self._refine(query, pending_context)
         return self._full_run(query, history)
 
     def _full_run(self, query: str, history: list) -> dict:
-        # Étape 1 — Intent (mots-clés Python, Llama en fallback)
+        # Step 1 — Intent (Python keywords, Llama as fallback)
         intent = intent_classifier.classify(query)
 
         if intent == 'QUESTION':
             return self._question_response()
 
-        # Étape 2 — Table (BioLORD + FAISS)
-        matches = table_matcher.find(query, k=1)
+        # Step 2 — Table (BioLORD + FAISS)
+        matches = table_matcher.find(query, k=3)
         if not matches:
             return {
                 "intent": intent, "table": None, "attributes": {},
                 "missing_fields": [], "needs_clarification": True,
-                "clarification_question": "Sur quelle table souhaitez-vous effectuer cette opération ?",
+                "clarification_question": "Which table would you like to operate on?",
                 "confidence": 0.0
             }
         table, score = matches[0]
 
-        # Étape 3 — Extraction attributs (Llama — un seul prompt focalisé)
+        # Step 3 — Attribute extraction (Llama — focused prompt)
         attributes = attribute_extractor.extract(query, table, intent)
 
-        # Étape 4 — Champs manquants (Python pur)
+        # Step 4 — Missing fields (pure Python)
         missing = field_validator.get_missing(table, attributes, intent)
 
-        # Étape 5 — Question de clarification (Llama — seulement si nécessaire)
+        # Step 5 — Clarification question (Llama — only if needed)
         clarification_question = clarifier.ask(table, missing, attributes) if missing else None
 
         return {
@@ -53,8 +53,8 @@ class MedicalPipeline:
         }
 
     def _refine(self, query: str, pending: dict) -> dict:
-        """Multi-tour : extrait les nouveaux attributs depuis la réponse de l'utilisateur
-        et les fusionne avec ceux déjà connus."""
+        """Multi-turn: extract new attributes from the user's response
+        and merge them with the already known ones."""
         table = pending.get('table')
         intent = pending.get('intent')
 
@@ -79,8 +79,8 @@ class MedicalPipeline:
             "intent": "QUESTION", "table": None, "attributes": {},
             "missing_fields": [], "needs_clarification": True,
             "clarification_question": (
-                "Je suis un assistant médical. "
-                "Posez-moi une question sur les patients, consultations ou rendez-vous."
+                "I am a medical assistant. "
+                "Ask me a question about patients, consultations or appointments."
             ),
             "confidence": 0.5
         }

@@ -1,23 +1,23 @@
 import json
 from .ollama_client import ollama
 
-SYSTEM = """Tu es un assistant IA médical. Analyse la requête et réponds UNIQUEMENT en JSON valide.
+SYSTEM = """You are a medical AI assistant. Analyze the request and reply ONLY with valid JSON.
 
-Tables : patients, consultations, medical_records, ai_diagnosis, appointments,
-         medical_staff, services, ai_chat_history, audit_logs, notifications
+Tables: patients, consultations, medical_records, ai_diagnosis, appointments,
+        medical_staff, services, ai_chat_history, audit_logs, notifications
 
-Format JSON obligatoire (rien d'autre, pas de texte) :
+Required JSON format (nothing else, no surrounding text):
 {
   "intent": "SELECT" | "INSERT" | "UPDATE" | "QUESTION",
-  "table": "nom_table" | null,
-  "attributes": {"colonne": "valeur"},
-  "missing_fields": ["champ1"],
+  "table": "table_name" | null,
+  "attributes": {"column": "value"},
+  "missing_fields": ["field1"],
   "needs_clarification": true | false,
-  "clarification_question": "Question à poser" | null,
+  "clarification_question": "Question to ask" | null,
   "confidence": 0.0..1.0
 }
 
-Champs obligatoires :
+Required fields per table:
 - patients: first_name, last_name, birthdate
 - consultations: id_patient, symptoms
 - appointments: id_patient, appointment_date"""
@@ -27,9 +27,9 @@ class IntentDetector:
         context = ""
         if history:
             for m in history[-4:]:
-                r = "Utilisateur" if m['role']=='user' else "Système"
+                r = "User" if m['role']=='user' else "System"
                 context += f"{r}: {m['content']}\n"
-        prompt = (f"Contexte:\n{context}\n" if context else "") + f"Requête: {query}"
+        prompt = (f"Context:\n{context}\n" if context else "") + f"Request: {query}"
 
         raw = ollama.generate('llama3.2:3b', prompt, system=SYSTEM, temperature=0.1)
 
@@ -42,7 +42,7 @@ class IntentDetector:
         except:
             return {"intent":"QUESTION","table":None,"attributes":{},
                     "missing_fields":[],"needs_clarification":True,
-                    "clarification_question":"Pouvez-vous reformuler votre demande ?",
+                    "clarification_question":"Could you please rephrase your request?",
                     "confidence":0.0}
 
 intent_detector = IntentDetector()
