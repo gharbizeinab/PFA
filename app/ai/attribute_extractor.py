@@ -3,7 +3,7 @@ from .ollama_client import ollama
 
 TABLE_SCHEMA = {
     "patients":        ["first_name", "last_name", "birthdate", "age", "gender", "blood_group"],
-    "consultations":   ["id_patient", "consultation_date", "status", "diagnosis", "symptoms"],
+    "consultations":   ["id_patient", "consultation_date", "status", "diagnosis", "symptoms", "name_staff"],
     "medical_records": ["id_patient", "allergies", "chronic_diseases", "blood_group", "height", "weight"],
     "ai_diagnosis":    ["id_consultation", "predicted_disease", "confidence_score"],
     "appointments":    ["id_patient", "id_staff", "appointment_date", "reason", "status"],
@@ -62,8 +62,50 @@ EXAMPLES:
 "Show diagnoses with patient full name"
 → {"columns": {}, "aggregate": {}, "sort": {"join": "patients"}}
 
+"Show consultations with patient names"
+→ {"columns": {}, "aggregate": {}, "sort": {"join": "patients"}}
+
 "List all records"
-→ {"columns": {}, "aggregate": {}, "sort": {}}"""
+→ {"columns": {}, "aggregate": {}, "sort": {}}
+
+"List all staff"
+→ {"columns": {}, "aggregate": {}, "sort": {}}
+
+"Show patients older than 70"
+→ {"columns": {"age": ">70"}, "aggregate": {}, "sort": {}}
+
+"Show patients younger than 50"
+→ {"columns": {"age": "<50"}, "aggregate": {}, "sort": {}}
+
+"Show patients above 60 years old"
+→ {"columns": {"age": ">60"}, "aggregate": {}, "sort": {}}
+
+"Find the oldest patient"
+→ {"columns": {}, "aggregate": {"aggregate": "MAX(age)"}, "sort": {}}
+
+"Find the youngest patient"
+→ {"columns": {}, "aggregate": {"aggregate": "MIN(age)"}, "sort": {}}
+
+"Show staff sorted alphabetically"
+→ {"columns": {}, "aggregate": {}, "sort": {"order_by": "name_staff ASC"}}
+
+"Count patients by blood group"
+→ {"columns": {}, "aggregate": {"aggregate": "COUNT(*)"}, "sort": {"group_by": "blood_group"}}
+
+"Count consultations by status"
+→ {"columns": {}, "aggregate": {"aggregate": "COUNT(*)"}, "sort": {"group_by": "status"}}
+
+"Show average age by gender"
+→ {"columns": {}, "aggregate": {"aggregate": "AVG(age)"}, "sort": {"group_by": "gender"}}
+
+"Show today's consultations for Dr. Ali"
+→ {"columns": {"name_staff": "Dr. Ali", "consultation_date": "today"}, "aggregate": {}, "sort": {}}
+
+"List consultations of Dr. Ines Hammami today"
+→ {"columns": {"name_staff": "Dr. Ines Hammami", "consultation_date": "today"}, "aggregate": {}, "sort": {}}
+
+"Show consultations of Dr. Khelifi"
+→ {"columns": {"name_staff": "Dr. Khelifi"}, "aggregate": {}, "sort": {}}"""
 
 
 def _parse(raw: str) -> dict:

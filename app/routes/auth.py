@@ -1,37 +1,73 @@
+import bcrypt
 from flask import Blueprint, request, jsonify
 from flask_jwt_extended import create_access_token, jwt_required, get_jwt
+from sqlalchemy import text
+from .. import db
 
 auth_bp = Blueprint('auth', __name__)
 
-# Utilisateurs de démo — dans un vrai projet : stockés en base avec bcrypt
-DEMO_USERS = {
-    'admin':   {'password': 'admin123',  'role': 'admin',   'id': 1},
-    'docteur': {'password': 'doc123',    'role': 'medecin', 'id': 2},
-    'staff':   {'password': 'staff123',  'role': 'staff',   'id': 3},
-}
 
 @auth_bp.route('/login', methods=['POST'])
 def login():
     data = request.get_json()
     if not data:
-        return jsonify({'error': 'JSON attendu'}), 400
+        return jsonify({'error': 'JSON body expected'}), 400
 
-    username = data.get('username', '')
-    password = data.get('password', '')
+    email    = (data.get('email') or '').strip().lower()
+    password = (data.get('password') or '')
 
-    user = DEMO_USERS.get(username)
-    if not user or user['password'] != password:
-        return jsonify({'error': 'Identifiants incorrects'}), 401
+    if not email or not password:
+        return jsonify({'error': 'Email and password are required'}), 400
+
+    row = db.session.execute(
+        text("""
+            SELECT id_user, first_name, last_name, email, role,
+                   password_hash, department, avatar_initials
+            FROM users
+            WHERE email = :email AND password_hash IS NOT NULL
+        """),
+        {'email': email}
+    ).fetchone()
+
+    if not row:
+        return jsonify({'error': 'Invalid credentials'}), 401
+
+    if not bcrypt.checkpw(password.encode(), row.password_hash.encode()):
+        return jsonify({'error': 'Invalid credentials'}), 401
+
+    full_name = f"{row.first_name} {row.last_name}"
 
     token = create_access_token(
-        identity=username,
-        additional_claims={'role': user['role'], 'user_id': user['id']}
+        identity=row.email,
+        additional_claims={
+            'role':             row.role,
+            'user_id':          row.id_user,
+            'full_name':        full_name,
+            'department':       row.department or '',
+            'avatar_initials':  row.avatar_initials or '',
+        }
     )
-    return jsonify({'token': token, 'username': username, 'role': user['role']})
+
+    return jsonify({
+        'token':            token,
+        'user_id':          row.id_user,
+        'email':            row.email,
+        'role':             row.role,
+        'full_name':        full_name,
+        'department':       row.department or '',
+        'avatar_initials':  row.avatar_initials or '',
+    })
+
 
 @auth_bp.route('/me', methods=['GET'])
 @jwt_required()
 def who_am_i():
-    # Route protégée : nécessite le header Authorization: Bearer TOKEN
     claims = get_jwt()
-    return jsonify({'username': claims.get('sub'), 'role': claims.get('role')})
+    return jsonify({
+        'email':           claims.get('sub'),
+        'role':            claims.get('role'),
+        'user_id':         claims.get('user_id'),
+        'full_name':       claims.get('full_name'),
+        'department':      claims.get('department'),
+        'avatar_initials': claims.get('avatar_initials'),
+    })

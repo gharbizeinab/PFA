@@ -18,11 +18,13 @@ def create_app(config_name='default'):
 
     app.redis_client = redis.from_url(app.config['REDIS_URL'])
 
-    # Enregistrer les routes (Blueprints)
+    # Register route blueprints
     from .routes.auth import auth_bp
     from .routes.chat import chat_bp
-    app.register_blueprint(auth_bp, url_prefix='/api/auth')
-    app.register_blueprint(chat_bp, url_prefix='/api/chat')
+    from .routes.dashboard import dashboard_bp
+    app.register_blueprint(auth_bp,       url_prefix='/api/auth')
+    app.register_blueprint(chat_bp,       url_prefix='/api/chat')
+    app.register_blueprint(dashboard_bp,  url_prefix='/api/dashboard')
 
     @app.route('/')
     def home():

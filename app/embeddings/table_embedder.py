@@ -2,21 +2,34 @@ from sentence_transformers import SentenceTransformer
 import faiss, numpy as np, pickle, os
 
 TABLE_DESCRIPTIONS = {
-    "patients":         "patients list all count total number find show select demographics age gender male female sex oldest youngest average older younger blood group first name last name identity hospitalized statistics",
-    "consultations":    "consultations list all count total doctor visits clinical encounters diagnosis treatment prescription symptoms date",
-    "medical_records":  "patient health background allergies chronic diseases blood type height weight body measurements BMI show list all records",
-    "ai_diagnosis":     "AI diagnosis predicted disease confidence score recommendation symptom analysis",
-    "appointments":     "appointments scheduling agenda date time slot status list all count",
-    "medical_staff":    "medical staff doctors nurses caregivers list all count total number members speciality sorted alphabetically",
-    "services":         "services list all show service names count total hospital departments units",
-    "medical_documents":"files x-rays prescriptions PDF medical documents attachments",
-    "users":            "user accounts email role access login system",
-    "notifications":    "alerts system messages reminders notifications",
-    "audit_logs":       "traceability history actions who did what security logs",
-    "ai_chat_history":  "conversation history AI questions asked answers chatbot",
+    "patients":         "patients count how many total number. Demographics: age gender male female blood group A+ B+ O+ AB+. List find filter show all patients. Oldest youngest average age older younger than. First name last name.",
+    "consultations":    "Medical consultations and clinical visits. Diagnosis, symptoms, treatment, prescription, date, status. List all consultations joined with patient names.",
+    "medical_records":  "Medical records: health background, allergies, chronic diseases, diabetes, hypertension. Blood type, height, weight, BMI.",
+    "ai_diagnosis":     "AI predicted diagnosis. Disease prediction confidence score recommendation symptom analysis.",
+    "appointments":     "Doctor-patient scheduled appointments and visits. Appointment date reason status: pending completed cancelled. Upcoming past appointments.",
+    "medical_staff":    "Medical team healthcare workers: doctors nurses caregivers. Name speciality department. List alphabetically.",
+    "services":         "Hospital departments and care units. Available service names offered by the hospital.",
+    "medical_documents":"Patient files: x-rays, prescriptions, PDF attachments and medical documents.",
+    "users":            "System user accounts. Show email, role, access level and login information.",
+    "notifications":    "System alerts, reminder messages and notifications sent to users.",
+    "audit_logs":       "Security audit trail. Who did what action, traceability and history of system operations.",
+    "ai_chat_history":  "History of AI chatbot conversations, questions asked and answers given.",
 }
 
 INDEX_PATH = "app/embeddings/faiss_index.pkl"
+
+# Keyword fallback: if query contains these words, force the table regardless of FAISS score
+KEYWORD_HINTS = {
+    "patients":        ["patient", "patients"],
+    "appointments":    ["appointment", "appointments"],
+    "consultations":   ["consultation", "consultations"],
+    "medical_records": ["medical record", "medical records"],
+    "medical_staff":   ["medical staff", "staff member", "staff members"],
+    "services":        ["service", "services"],
+    "ai_diagnosis":    ["ai diagnosis", "predicted disease"],
+    "audit_logs":      ["audit log", "audit trail"],
+}
+
 
 class TableMatcher:
     def __init__(self):
@@ -34,7 +47,7 @@ class TableMatcher:
         self.index.add(emb.astype(np.float32))
         with open(INDEX_PATH, 'wb') as f:
             pickle.dump({'idx': faiss.serialize_index(self.index), 'tbl': self.tables}, f)
-        print("✓ Index FAISS construit")
+        print("✓ FAISS index built")
 
     def _ensure_loaded(self):
         if self.index: return
@@ -44,10 +57,26 @@ class TableMatcher:
             self._load_model()
         else: self.build_index()
 
+    def _keyword_hint(self, query: str):
+        q = query.lower()
+        for table, keywords in KEYWORD_HINTS.items():
+            if any(kw in q for kw in keywords):
+                return table
+        return None
+
     def find(self, query, k=3):
         self._ensure_loaded()
+
+        hint = self._keyword_hint(query)
+
         v = self.model.encode([query], normalize_embeddings=True)
         scores, idxs = self.index.search(v.astype(np.float32), k)
-        return [(self.tables[i], round(float(s),3)) for s,i in zip(scores[0],idxs[0]) if i!=-1 and s>0.3]
+        results = [(self.tables[i], round(float(s), 3)) for s, i in zip(scores[0], idxs[0]) if i != -1 and s > 0.3]
+
+        # Keyword fallback only when FAISS finds nothing above threshold
+        if not results:
+            return [(hint, 0.5)] if hint else []
+
+        return results
 
 table_matcher = TableMatcher()

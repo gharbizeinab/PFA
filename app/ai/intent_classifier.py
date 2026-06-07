@@ -2,7 +2,7 @@ from .ollama_client import ollama
 
 INSERT_KW = ['ajoute', 'ajouter', 'crée', 'créer', 'enregistre', 'enregistrer',
              'nouveau', 'nouvelle', 'insère', 'insérer', 'nouvel', 'saisir', 'saisie',
-             'add', 'insert', 'create', 'register', 'new', 'record']
+             'add', 'insert', 'create', 'register', 'new']
 UPDATE_KW = ['modifie', 'modifier', 'change', 'changer', 'met à jour', 'mettre à jour',
              'mise à jour', 'corrige', 'corriger', 'mets à jour',
              'update', 'edit', 'modify', 'correct', 'set']

@@ -24,6 +24,6 @@ class Evaluator:
 
         total = len(ds)
         print(f"\n{'='*40}")
-        print(f"Exact Match : {ok}/{total} = {round(ok/total*100,1)}%")
-        print(f"Latence moy : {round(sum(latencies)/len(latencies))}ms")
-        print(f"Erreurs     : {errors}")
+        print(f"Exact Match  : {ok}/{total} = {round(ok/total*100,1)}%")
+        print(f"Avg Latency  : {round(sum(latencies)/len(latencies))}ms")
+        print(f"Errors       : {errors}")

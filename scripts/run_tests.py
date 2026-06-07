@@ -45,9 +45,9 @@ QUESTIONS = [
 ]
 
 CREDENTIALS = {
-    "admin":   {"username": "admin",   "password": "admin123"},
-    "docteur": {"username": "docteur", "password": "doc123"},
-    "staff":   {"username": "staff",   "password": "staff123"},
+    "admin":   {"email": "bassem_hamrouni10@email.tn",  "password": "admin123"},
+    "docteur": {"email": "ridha_saidi29@email.tn",      "password": "doc123"},    # intern role
+    "staff":   {"email": "ines_hammami@email.tn",       "password": "staff123"},
 }
 
 _token_cache = {}
@@ -55,7 +55,8 @@ _token_cache = {}
 def login(role="admin"):
     if role not in _token_cache:
         creds = CREDENTIALS[role]
-        r = requests.post(f"{API}/api/auth/login", json=creds)
+        r = requests.post(f"{API}/api/auth/login",
+                          json={"email": creds["email"], "password": creds["password"]})
         _token_cache[role] = r.json()["token"]
     return _token_cache[role]
 

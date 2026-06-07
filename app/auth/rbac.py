@@ -6,7 +6,7 @@ PERMISSIONS = {
         'audit_logs':    ['SELECT'],
         'notifications': ['SELECT'],
     },
-    'medecin': {
+    'intern': {
         'patients':        ['SELECT'],
         'consultations':   ['SELECT', 'INSERT', 'UPDATE'],
         'medical_records': ['SELECT', 'INSERT', 'UPDATE'],
@@ -20,6 +20,8 @@ PERMISSIONS = {
         'patients':      ['SELECT', 'INSERT', 'UPDATE'],
         'appointments':  ['SELECT', 'INSERT', 'UPDATE'],
         'consultations': ['SELECT'],
+        'medical_staff': ['SELECT'],
+        'users':         ['SELECT'],
         'services':      ['SELECT'],
         'notifications': ['SELECT'],
     },
@@ -32,8 +34,8 @@ def get_allowed_tables(role):
     return list(PERMISSIONS.get(role, {}).keys())
 
 def role_required(*roles):
-    """Décorateur : restreint une route aux rôles autorisés.
-    Usage: @role_required('admin', 'medecin')"""
+    """Decorator: restricts a route to the given roles.
+    Usage: @role_required('admin', 'intern')"""
     from functools import wraps
     from flask_jwt_extended import jwt_required, get_jwt
     from flask import jsonify
@@ -43,7 +45,7 @@ def role_required(*roles):
         def wrapper(*args, **kwargs):
             role = get_jwt().get('role')
             if role not in roles:
-                return jsonify({'error': 'Accès refusé', 'role': role, 'requis': list(roles)}), 403
+                return jsonify({'error': 'Access denied', 'role': role, 'required': list(roles)}), 403
             return fn(*args, **kwargs)
         return wrapper
     return decorator

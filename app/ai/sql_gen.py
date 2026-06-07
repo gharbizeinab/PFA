@@ -16,7 +16,7 @@ consultations(id_consultation, id_staff, id_patient, consultation_date, status, 
 medical_records(id_record, id_patient, allergies, chronic_diseases, blood_group, height, weight)
 ai_diagnosis(id_ai_diagnosis, id_consultation, predicted_disease, confidence_score)
 appointments(id_appointment, id_patient, id_staff, appointment_date, reason, status)
-medical_staff(id_staff, id_user, id_service, name_staff, speciality)
+medical_staffd(id_staff, id_user, id_service, name_staff, speciality)
 services(id_service, service_name)
 
 EXAMPLES:
@@ -63,9 +63,56 @@ Action: UPDATE | Table: patients | SET: {age: :age} | Filters: {first_name: :fir
 
 class SQLGenerator:
     def generate(self, intent, user_id):
-        action = intent.get('intent', 'SELECT')
-        table  = intent.get('table', 'patients')
-        attrs  = intent.get('attributes') or {}
+        action    = intent.get('intent', 'SELECT')
+        table     = intent.get('table', 'patients')
+        attrs     = intent.get('attributes') or {}
+        staff_ids = intent.get('_staff_ids', [])
+        today     = intent.get('_today')
+
+        # ── Consultations filtered by doctor name (JOIN medical_staff + users) ──
+        if table == 'consultations' and action == 'SELECT' and 'name_staff' in attrs:
+            name_val = attrs.get('name_staff') or ''
+            date_val = attrs.get('consultation_date', '')
+            from datetime import date as _date
+            import re as _re
+            if str(date_val).lower() in ('today', "aujourd'hui", str(_date.today())):
+                date_val = _date.today().isoformat()
+            # Strip honorific titles (Dr., Mr., Mrs.) for flexible matching
+            clean_name = _re.sub(r'^(Dr\.?|M\.?|Mr\.?|Mrs\.?|Ms\.?)\s+', '', name_val, flags=_re.I).strip()
+            # Match by professional name_staff OR user account name (first_name + last_name)
+            name_filter = (
+                "(ms.name_staff ILIKE :name_staff "
+                "OR u.first_name || ' ' || u.last_name ILIKE :name_staff)"
+            )
+            where = [name_filter]
+            params = {"name_staff": f"%{clean_name}%"}
+            if date_val:
+                where.append("c.consultation_date = :consultation_date")
+                params["consultation_date"] = date_val
+            sql = (
+                f"SELECT c.consultation_date, c.status, c.diagnosis, c.symptoms, "
+                f"p.first_name || ' ' || p.last_name AS patient_name, p.age, p.gender "
+                f"FROM consultations c "
+                f"JOIN medical_staff ms ON c.id_staff = ms.id_staff "
+                f"JOIN users u ON ms.id_user = u.id_user "
+                f"JOIN patients p ON c.id_patient = p.id_patient "
+                f"WHERE {' AND '.join(where)} "
+                f"ORDER BY c.consultation_date DESC;"
+            )
+            return {"sql": sql, "params": params}
+
+        # ── Contextual SQL for appointments filtered by connected doctor + today ──
+        if table == 'appointments' and staff_ids and action == 'SELECT':
+            ph        = ', '.join([f':sid{i}' for i in range(len(staff_ids))])
+            ph_params = {f'sid{i}': sid for i, sid in enumerate(staff_ids)}
+            sql = (
+                f"SELECT a.*, p.first_name || ' ' || p.last_name AS patient_name "
+                f"FROM appointments a "
+                f"JOIN patients p ON a.id_patient = p.id_patient "
+                f"WHERE a.id_staff IN ({ph}) AND a.appointment_date = :today "
+                f"ORDER BY a.appointment_time;"
+            )
+            return {"sql": sql, "params": {**ph_params, "today": today}}
 
         SPECIAL_KEYS = {"aggregate", "order_by", "group_by", "join"}
         select_cols  = [k for k, v in attrs.items() if v is None and k not in SPECIAL_KEYS]
